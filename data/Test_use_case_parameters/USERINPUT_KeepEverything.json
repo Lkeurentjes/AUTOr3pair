@@ -1,0 +1,6 @@
+{
+  "KeepEverything": true,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

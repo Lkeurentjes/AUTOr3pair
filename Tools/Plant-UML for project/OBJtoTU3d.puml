@@ -1,0 +1,80 @@
+@startuml
+'https://plantuml.com/deployment-diagram'
+
+collections OBJ #silver
+
+file Vertices #silver
+file Faces #silver
+
+
+'CO
+frame "<<CityObject>>"{
+agent type
+agent GeometryObjects
+}
+
+
+
+
+'GO
+collections Boundaries
+
+agent type as typeGO
+
+
+
+'Gtu3
+collections Geometry
+
+
+collections "TU3DJSON feature" #silver
+
+
+'LINES
+Vertices -[hidden]RI- Faces
+'Transform -le-> Vertices
+'
+OBJ -0- Vertices
+OBJ -0- Faces
+
+Faces -[hidden]do- type
+Faces -(0)- GeometryObjects
+
+
+'CityObject -0- Children
+'CityObject -0- Parents
+'CityObject <--> GeometryObject
+'CityObject -(0)- GeographicalExtent
+'CityObject -(0)- Attributes
+'Attributes <~do~ AUTOr3paired
+'
+'GeometryObject ~ri~ GeographicalExtent
+'GeometryObject -[hidden]le- type
+'type -[hidden]ri- Children
+'Children -[hidden]ri- Parents
+'Parents -[hidden]ri- GeometryObject
+''Parents -[hidden]ri- Attributes
+'
+GeometryObjects <--> Boundaries
+GeometryObjects --> typeGO : <<OBJ_Geomtype>>
+
+'GeometryObject <--> Semantics
+'GeometryObject <--> Material
+'GeometryObject <--> Texture
+'
+typeGO <--> Geometry
+Boundaries <--> Geometry
+Vertices <--> Geometry
+'
+'LOD <--> Properties
+'Semantics <--> Properties
+'Material <--> Properties
+'Texture <--> Properties
+'AUTOr3paired <-- Properties
+'
+Geometry <--> "TU3DJSON feature"
+'Properties <--> "TU3DJSON feature"'
+
+'Repair ~[#steelblue]~> Geometry
+'Repair ~[#steelblue]up~> AUTOr3paired
+@enduml

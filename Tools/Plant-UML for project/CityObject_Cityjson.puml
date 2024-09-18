@@ -1,0 +1,67 @@
+@startjson
+{
+    "type": "//string// CityObject Type (see list)",
+    "geometry": {
+     "[Array containing 0 or more Geometry Objects]" :{
+        "type" : ["**One of:**","MultiPoint","MultiLineString" ,"MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid","GeometryInstance"],
+        "lod" : "//string// LOD",
+        "boundaries" :{
+          "when type":            "**values looks like:**",
+          "**MultiPoint**" :      "[array with indexes of vertices]",
+          "**MultiLineString**":  "[array of [array with indexes of vertices]]",
+          "MultiSurface" :        "[array of [array(s) of [array with indexes of vertices]]]",
+          "CompositeSurface" :    "[array of [array(s) of [array with indexes of vertices]]]",
+          "Solid" :               "[array of [array(s) of [array(s) of [array with indexes of vertices]]]]",
+          "MultiSolid" :          "[array of[array(s) of [array(s) of [array(s) of [array with indexes of vertices]]]]]",
+          "CompositeSolid" :      "[array of[array(s) of [array(s) of [array(s) of [array with indexes of vertices]]]]]"
+        },
+        "semantics" : {
+            "surfaces" : "[array of Semantic Objects]",
+            "values" : {
+                 "when type":            "**values looks like:**",
+                 "**MultiPoint**" :      "[array with indexes of SemanticsType]",
+                 "**MultiLineString**":  "[array with indexes of SemanticsType]",
+                 "MultiSurface" :        "[array with indexes of SemanticsType]",
+                 "CompositeSurface" :    "[array with indexes of SemanticsType]",
+                 "Solid" :               "[array of [array with indexes of SemanticsType]]",
+                 "MultiSolid" :          "[array of [array(s) of [array with indexes of SemanticsType]]]",
+                 "CompositeSolid" :      "[array of [array(s) of [array with indexes of SemanticsType]]]"
+               }
+        },
+        "Material" : {
+            "json object(S) with theme as //key//" : {
+                "values": {
+                   "when type":            "**values looks like:**",
+                   "**MultiPoint**" :      "[array with indexes of MaterialType]",
+                   "**MultiLineString**":  "[array with indexes of MaterialType]",
+                   "MultiSurface" :        "[array with indexes of MaterialType]",
+                   "CompositeSurface" :    "[array with indexes of MaterialType]",
+                   "Solid" :               "[array of [array with indexes of MaterialType]]",
+                   "MultiSolid" :          "[array of [array(s) of [array with indexes of MaterialType]]]",
+                   "CompositeSolid" :      "[array of [array(s) of [array with indexes of MaterialType]]]"
+                 }
+            }
+        },
+        "Texture" : {
+            "json object(s) with theme as //key//" : {
+                "values": {
+                   "when type":            "**boundary looks like:**",
+                   "**MultiPoint**" :      "[array with indexes of TextureType]",
+                   "**MultiLineString**":  "[array with indexes of TextureType]",
+                   "MultiSurface" :        "[array with indexes of TextureType]",
+                   "CompositeSurface" :    "[array with indexes of TextureType]",
+                   "Solid" :               "[array of [array with indexes of TextureType]]",
+                   "MultiSolid" :          "[array of [array(s) of [array with indexes of TextureType]]]",
+                   "CompositeSolid" :      "[array of [array(s) of [array with indexes of TextureType]]]"
+                 }
+            }
+        }
+     }
+    },
+    "geographicalExtent": "[array with 6 values: minx, miny, minz, maxx, maxy, maxz]",
+    "attributes": ["**json** with properties","\tCan be anything","//**AUTOr3pair** adds 'AUTOr3paired' //"],
+    "children": "[array of id's]",
+    "parents": "[array of size 1 with id]"
+
+}
+@endjson

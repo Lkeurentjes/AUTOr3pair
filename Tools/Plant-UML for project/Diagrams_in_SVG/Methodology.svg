@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 933 915.8">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-6, .cls-7 {
+        font-size: 12px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+      }
+
+      .cls-2, .cls-5, .cls-7, .cls-9, .cls-10 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-11 {
+        fill: #c2f0ff;
+      }
+
+      .cls-11, .cls-12, .cls-13 {
+        stroke: #000;
+      }
+
+      .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15, .cls-16, .cls-3, .cls-4, .cls-17, .cls-18, .cls-6, .cls-19 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-size: 11px;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-12 {
+        fill: azure;
+      }
+
+      .cls-20 {
+        fill: #f1f1f1;
+      }
+
+      .cls-20, .cls-21, .cls-22, .cls-14, .cls-23, .cls-24 {
+        stroke: #181818;
+      }
+
+      .cls-20, .cls-22, .cls-23 {
+        stroke-width: .5px;
+      }
+
+      .cls-25 {
+        letter-spacing: 0em;
+      }
+
+      .cls-26 {
+        letter-spacing: 0em;
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-28 {
+        fill: #555;
+        stroke: #555;
+      }
+
+      .cls-29, .cls-13, .cls-14, .cls-23, .cls-24 {
+        fill: none;
+      }
+
+      .cls-21 {
+        fill: #181818;
+      }
+
+      .cls-30 {
+        letter-spacing: .1em;
+      }
+
+      .cls-31 {
+        letter-spacing: .4em;
+      }
+
+      .cls-32 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        fill: #d3d3d3;
+      }
+
+      .cls-33 {
+        letter-spacing: .1em;
+      }
+
+      .cls-34 {
+        letter-spacing: .2em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-35 {
+        letter-spacing: 0em;
+      }
+
+      .cls-36 {
+        letter-spacing: .1em;
+      }
+
+      .cls-14 {
+        stroke-dasharray: 7 7;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-38 {
+        letter-spacing: 0em;
+      }
+
+      .cls-39 {
+        letter-spacing: .2em;
+      }
+
+      .cls-40 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-41 {
+        letter-spacing: 0em;
+      }
+
+      .cls-42 {
+        fill: #f5f5f5;
+        stroke: #f5f5f5;
+      }
+
+      .cls-43 {
+        letter-spacing: 0em;
+      }
+
+      .cls-44 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <g>
+        <rect class="cls-29" x="15" y=".8" width="900.2" height="22.9"/>
+        <rect class="cls-42" x="15" y=".8" width="194.5" height="914.5"/>
+        <polygon class="cls-20" points="30 40.9 183 40.9 173 61 183 81.1 30 81.1 30 40.9"/>
+        <text class="cls-6" transform="translate(35.9 57)"><tspan x="0" y="0">3D</tspan><tspan class="cls-35" x="15.3" y="0"> </tspan><tspan x="19.4" y="0">city</tspan><tspan class="cls-25" x="37.4" y="0"> </tspan><tspan x="41.4" y="0">model </tspan></text>
+        <polygon class="cls-20" points="31.4 867.5 183.8 867.5 194.5 887.2 183.8 906.9 31.4 906.9 31.4 867.5"/>
+        <line class="cls-13" x1="15" y1=".8" x2="15" y2="915.3"/>
+        <rect class="cls-22" x="229.5" y="119.6" width="188" height="36"/>
+        <line class="cls-23" x1="234.5" y1="119.6" x2="234.5" y2="155.5"/>
+        <line class="cls-23" x1="412.5" y1="119.6" x2="412.5" y2="155.5"/>
+        <text class="cls-6" transform="translate(239.5 142.5)"><tspan x="0" y="0">Read</tspan><tspan class="cls-39" x="28.7" y="0"> </tspan><tspan x="33.9" y="0">the</tspan><tspan class="cls-39" x="50.6" y="0"> </tspan><tspan x="55.9" y="0">file</tspan></text>
+        <rect class="cls-22" x="473.5" y="119.6" width="182" height="36"/>
+        <line class="cls-23" x1="478.5" y1="119.6" x2="478.5" y2="155.5"/>
+        <line class="cls-23" x1="650.5" y1="119.6" x2="650.5" y2="155.5"/>
+        <text class="cls-6" transform="translate(483.5 142.5)"><tspan x="0" y="0">Set the UserRequirements</tspan></text>
+        <rect class="cls-28" x="215.5" y="175.5" width="460" height="6" rx="2.5" ry="2.5"/>
+        <path class="cls-20" d="M369.5,201.5l-5,18,5,18M521.5,201.5l5,18-5,18"/>
+        <text class="cls-6" transform="translate(377.5 224.5)"><tspan x="0" y="0">for</tspan><tspan class="cls-27" x="14" y="0"> </tspan><tspan x="18.1" y="0">each</tspan><tspan class="cls-8" x="44.1" y="0"> </tspan><tspan x="48.2" y="0">single</tspan><tspan class="cls-27" x="79.6" y="0"> </tspan><tspan x="83.7" y="0">CityObject</tspan></text>
+        <rect class="cls-22" x="377" y="257.5" width="137" height="36"/>
+        <line class="cls-23" x1="382" y1="257.5" x2="382" y2="293.4"/>
+        <line class="cls-23" x1="509" y1="257.5" x2="509" y2="293.4"/>
+        <text class="cls-6" transform="translate(387 280.4)"><tspan x="0" y="0">convert to</tspan></text>
+        <text class="cls-7" transform="translate(442 280.4)"><tspan x="0" y="0">tu3dJSON</tspan></text>
+        <rect class="cls-11" x="218.2" y="302.9" width="472.5" height="404.7"/>
+        <path class="cls-13" d="M297.2,302.4v11.6l-10,10h-69"/>
+        <text class="cls-4" transform="translate(221.2 318.5)"><tspan class="cls-44" x="0" y="0">Repairloo</tspan><tspan x="61.2" y="0">p</tspan></text>
+        <rect class="cls-28" x="228.2" y="361.1" width="434.5" height="6" rx="2.5" ry="2.5"/>
+        <rect class="cls-12" x="242.2" y="377.1" width="192.2" height="240.5"/>
+        <path class="cls-13" d="M310.8,377.1v30.2l-11.4,10h-57.1"/>
+        <text class="cls-4" transform="translate(245.2 393.2)"><tspan class="cls-26" x="0" y="0">geometri</tspan><tspan x="56.6" y="0">c</tspan></text>
+        <text class="cls-5" transform="translate(245.2 411.8)"><tspan class="cls-37" x="0" y="0">repair</tspan><tspan x="42.2" y="0">s</tspan></text>
+        <rect class="cls-20" x="277.2" y="434.3" width="115" height="36"/>
+        <line class="cls-23" x1="282.2" y1="434.3" x2="282.2" y2="470.3"/>
+        <line class="cls-23" x1="387.2" y1="434.3" x2="387.2" y2="470.3"/>
+        <text class="cls-6" transform="translate(287.2 457.2)"><tspan x="0" y="0">get val3dity report</tspan></text>
+        <rect class="cls-22" x="276.2" y="547.6" width="117" height="36"/>
+        <line class="cls-23" x1="281.2" y1="547.6" x2="281.2" y2="583.6"/>
+        <line class="cls-23" x1="388.2" y1="547.6" x2="388.2" y2="583.6"/>
+        <text class="cls-6" transform="translate(286.2 570.6)"><tspan x="0" y="0">Do</tspan><tspan class="cls-40" x="15.3" y="0"> </tspan><tspan x="19.5" y="0">validity</tspan><tspan class="cls-40" x="56.2" y="0"> </tspan><tspan x="60.3" y="0">repairs</tspan></text>
+        <polygon class="cls-20" points="320.8 490.3 348.8 490.3 360.8 502.3 348.8 514.3 320.8 514.3 308.8 502.3 320.8 490.3"/>
+        <text class="cls-3" transform="translate(338.8 526.1)"><tspan class="cls-32" x="0" y="0">fals</tspan><tspan x="17.9" y="0">e</tspan></text>
+        <text class="cls-3" transform="translate(320.8 506.8)"><tspan x="0" y="0">valid?</tspan></text>
+        <text class="cls-3" transform="translate(289.8 499.5)"><tspan x="0" y="0">true</tspan></text>
+        <rect class="cls-12" x="452.2" y="377.1" width="196.5" height="240.5"/>
+        <path class="cls-13" d="M523.2,377.1v30.2l-10,10h-61"/>
+        <text class="cls-4" transform="translate(455.2 393.2)"><tspan x="0" y="0">use</tspan><tspan class="cls-41" x="22.6" y="0"> </tspan><tspan x="27.4" y="0">case</tspan></text>
+        <text class="cls-5" transform="translate(455.2 411.8)"><tspan class="cls-37" x="0" y="0">repair</tspan><tspan x="42.2" y="0">s</tspan></text>
+        <rect class="cls-20" x="465.8" y="434.3" width="173" height="36"/>
+        <line class="cls-23" x1="470.8" y1="434.3" x2="470.8" y2="470.3"/>
+        <line class="cls-23" x1="633.8" y1="434.3" x2="633.8" y2="470.3"/>
+        <text class="cls-6" transform="translate(475.8 457.2)"><tspan x="0" y="0">get</tspan><tspan class="cls-34" x="16.7" y="0"> </tspan><tspan x="22.3" y="0">use</tspan><tspan class="cls-34" x="41.7" y="0"> </tspan><tspan x="47.3" y="0">case</tspan><tspan class="cls-34" x="72.7" y="0"> </tspan><tspan x="78.3" y="0">Requirements</tspan></text>
+        <rect class="cls-22" x="486.2" y="547.6" width="132" height="36"/>
+        <line class="cls-23" x1="491.2" y1="547.6" x2="491.2" y2="583.6"/>
+        <line class="cls-23" x1="613.2" y1="547.6" x2="613.2" y2="583.6"/>
+        <text class="cls-6" transform="translate(496.2 570.6)"><tspan x="0" y="0">Do</tspan><tspan class="cls-36" x="15.3" y="0"> </tspan><tspan x="20.4" y="0">use</tspan><tspan class="cls-33" x="39.8" y="0"> </tspan><tspan x="44.9" y="0">case</tspan><tspan class="cls-36" x="70.2" y="0"> </tspan><tspan x="75.3" y="0">repairs</tspan></text>
+        <polygon class="cls-20" points="517.2 490.3 587.2 490.3 599.2 502.3 587.2 514.3 517.2 514.3 505.2 502.3 517.2 490.3"/>
+        <text class="cls-3" transform="translate(556.2 526.1)"><tspan x="0" y="0">true</tspan></text>
+        <text class="cls-3" transform="translate(517.2 506.8)"><tspan x="0" y="0">Repair needed</tspan></text>
+        <text class="cls-3" transform="translate(481.2 499.5)"><tspan class="cls-32" x="0" y="0">fals</tspan><tspan x="17.9" y="0">e</tspan></text>
+        <rect class="cls-28" x="228.2" y="637.6" width="434.5" height="6" rx="2.5" ry="2.5"/>
+        <polygon class="cls-20" points="445.5 321.1 457.5 333.1 445.5 345.1 433.5 333.1 445.5 321.1"/>
+        <polygon class="cls-20" points="367 663.6 524 663.6 536 675.6 524 687.6 367 687.6 355 675.6 367 663.6"/>
+        <text class="cls-3" transform="translate(449.5 699.5)"><tspan x="0" y="0">true</tspan></text>
+        <text class="cls-3" transform="translate(367 680.1)"><tspan x="0" y="0">All (user) Requirements fulfilled?</tspan></text>
+        <text class="cls-3" transform="translate(536 672.8)"><tspan class="cls-32" x="0" y="0">fals</tspan><tspan x="17.9" y="0">e</tspan></text>
+        <rect class="cls-22" x="365.5" y="729.6" width="160" height="36"/>
+        <line class="cls-23" x1="370.5" y1="729.6" x2="370.5" y2="765.6"/>
+        <line class="cls-23" x1="520.5" y1="729.6" x2="520.5" y2="765.6"/>
+        <text class="cls-6" transform="translate(375.5 752.5)"><tspan x="0" y="0">convert Back to CityObject</tspan></text>
+        <rect class="cls-28" x="249.5" y="785.6" width="392" height="6" rx="2.5" ry="2.5"/>
+        <rect class="cls-20" x="277.5" y="811.6" width="115" height="36"/>
+        <line class="cls-23" x1="282.5" y1="811.6" x2="282.5" y2="847.5"/>
+        <line class="cls-23" x1="387.5" y1="811.6" x2="387.5" y2="847.5"/>
+        <text class="cls-6" transform="translate(287.5 834.5)"><tspan x="0" y="0">Write</tspan><tspan class="cls-31" x="28" y="0"> </tspan><tspan x="36.5" y="0">the</tspan><tspan class="cls-31" x="53.2" y="0"> </tspan><tspan x="61.6" y="0">output</tspan></text>
+        <rect class="cls-20" x="481" y="811.6" width="128" height="36"/>
+        <line class="cls-23" x1="486" y1="811.6" x2="486" y2="847.5"/>
+        <line class="cls-23" x1="604" y1="811.6" x2="604" y2="847.5"/>
+        <text class="cls-6" transform="translate(491 834.5)"><tspan x="0" y="0">Write</tspan><tspan class="cls-38" x="28" y="0"> </tspan><tspan x="32.3" y="0">Repair</tspan><tspan class="cls-38" x="67.7" y="0"> </tspan><tspan x="72" y="0">Report</tspan></text>
+        <line class="cls-13" x1="209.5" y1=".8" x2="209.5" y2="915.3"/>
+        <rect class="cls-42" x="694.8" y=".8" width="219" height="913.4"/>
+        <polygon class="cls-20" points="714.8 42.4 898.8 42.4 888.8 61.8 898.8 81.1 714.8 81.1 714.8 42.4"/>
+        <text class="cls-6" transform="translate(717.9 57.2)"><tspan class="cls-43" x="0" y="0">UserRequirement</tspan><tspan x="96.6" y="0">s</tspan></text>
+        <polygon class="cls-20" points="709.8 867.5 884.2 867.5 896.2 888.7 884.2 909.8 709.8 909.8 709.8 867.5"/>
+        <text class="cls-6" transform="translate(719.8 883.5)"><tspan x="0" y="0">Repair</tspan><tspan class="cls-30" x="35.3" y="0"> </tspan><tspan x="40" y="0">Report</tspan><tspan class="cls-30" x="76" y="0"> </tspan><tspan x="80.7" y="0">in</tspan></text>
+        <text class="cls-7" transform="translate(812.8 883.5)"><tspan x="0" y="0">JSON</tspan></text>
+        <line class="cls-13" x1="694.8" y1=".8" x2="694.8" y2="914.2"/>
+        <line class="cls-13" x1="913.8" y1=".8" x2="913.8" y2="914.2"/>
+        <line class="cls-24" x1="323.5" y1="155.5" x2="323.5" y2="175.5"/>
+        <polygon class="cls-21" points="319.5 165.5 323.5 175.5 327.5 165.5 323.5 169.5 319.5 165.5"/>
+        <line class="cls-14" x1="564.5" y1="155.5" x2="564.5" y2="175.5"/>
+        <polygon class="cls-21" points="560.5 165.5 564.5 175.5 568.5 165.5 564.5 169.5 560.5 165.5"/>
+        <line class="cls-24" x1="445.5" y1="181.5" x2="445.5" y2="201.5"/>
+        <polygon class="cls-21" points="441.5 191.5 445.5 201.5 449.5 191.5 445.5 195.5 441.5 191.5"/>
+        <line class="cls-24" x1="445.5" y1="237.5" x2="445.5" y2="257.5"/>
+        <polygon class="cls-21" points="441.5 247.5 445.5 257.5 449.5 247.5 445.5 251.5 441.5 247.5"/>
+        <line class="cls-24" x1="334.8" y1="514.3" x2="334.8" y2="547.6"/>
+        <polygon class="cls-21" points="330.8 537.6 334.8 547.6 338.8 537.6 334.8 541.6 330.8 537.6"/>
+        <line class="cls-24" x1="334.8" y1="583.6" x2="334.8" y2="593.6"/>
+        <line class="cls-24" x1="334.8" y1="593.6" x2="405.2" y2="593.6"/>
+        <polygon class="cls-21" points="401.2 556.3 405.2 546.3 409.2 556.3 405.2 552.3 401.2 556.3"/>
+        <line class="cls-24" x1="405.2" y1="502.3" x2="405.2" y2="593.6"/>
+        <line class="cls-24" x1="405.2" y1="502.3" x2="360.8" y2="502.3"/>
+        <polygon class="cls-21" points="370.8 498.3 360.8 502.3 370.8 506.3 366.8 502.3 370.8 498.3"/>
+        <line class="cls-24" x1="308.8" y1="502.3" x2="264.2" y2="502.3"/>
+        <polygon class="cls-21" points="260.2 542.3 264.2 552.3 268.2 542.3 264.2 546.3 260.2 542.3"/>
+        <line class="cls-24" x1="264.2" y1="502.3" x2="264.2" y2="605.6"/>
+        <line class="cls-24" x1="264.2" y1="605.6" x2="334.8" y2="605.6"/>
+        <line class="cls-24" x1="334.8" y1="605.6" x2="334.8" y2="637.6"/>
+        <polygon class="cls-21" points="330.8 627.6 334.8 637.6 338.8 627.6 334.8 631.6 330.8 627.6"/>
+        <line class="cls-24" x1="334.8" y1="470.3" x2="334.8" y2="490.3"/>
+        <polygon class="cls-21" points="330.8 480.3 334.8 490.3 338.8 480.3 334.8 484.3 330.8 480.3"/>
+        <line class="cls-24" x1="552.2" y1="514.3" x2="552.2" y2="547.6"/>
+        <polygon class="cls-21" points="548.2 537.6 552.2 547.6 556.2 537.6 552.2 541.6 548.2 537.6"/>
+        <line class="cls-24" x1="552.2" y1="583.6" x2="552.2" y2="593.6"/>
+        <line class="cls-24" x1="552.2" y1="593.6" x2="630.2" y2="593.6"/>
+        <polygon class="cls-21" points="626.2 556.3 630.2 546.3 634.2 556.3 630.2 552.3 626.2 556.3"/>
+        <line class="cls-24" x1="630.2" y1="502.3" x2="630.2" y2="593.6"/>
+        <line class="cls-24" x1="630.2" y1="502.3" x2="599.2" y2="502.3"/>
+        <polygon class="cls-21" points="609.2 498.3 599.2 502.3 609.2 506.3 605.2 502.3 609.2 498.3"/>
+        <line class="cls-24" x1="505.2" y1="502.3" x2="474.2" y2="502.3"/>
+        <polygon class="cls-21" points="470.2 542.3 474.2 552.3 478.2 542.3 474.2 546.3 470.2 542.3"/>
+        <line class="cls-24" x1="474.2" y1="502.3" x2="474.2" y2="605.6"/>
+        <line class="cls-24" x1="474.2" y1="605.6" x2="552.2" y2="605.6"/>
+        <line class="cls-24" x1="552.2" y1="605.6" x2="552.2" y2="637.6"/>
+        <polygon class="cls-21" points="548.2 627.6 552.2 637.6 556.2 627.6 552.2 631.6 548.2 627.6"/>
+        <line class="cls-24" x1="552.2" y1="470.3" x2="552.2" y2="490.3"/>
+        <polygon class="cls-21" points="548.2 480.3 552.2 490.3 556.2 480.3 552.2 484.3 548.2 480.3"/>
+        <line class="cls-24" x1="334.8" y1="367.1" x2="334.8" y2="434.3"/>
+        <polygon class="cls-21" points="330.8 424.3 334.8 434.3 338.8 424.3 334.8 428.3 330.8 424.3"/>
+        <line class="cls-24" x1="552.2" y1="367.1" x2="552.2" y2="434.3"/>
+        <polygon class="cls-21" points="548.2 424.3 552.2 434.3 556.2 424.3 552.2 428.3 548.2 424.3"/>
+        <line class="cls-24" x1="445.5" y1="344.4" x2="445.5" y2="361.1"/>
+        <polygon class="cls-21" points="441.5 351.1 445.5 361.1 449.5 351.1 445.5 355.1 441.5 351.1"/>
+        <line class="cls-24" x1="536" y1="675.6" x2="674.8" y2="675.6"/>
+        <polygon class="cls-21" points="670.8 532.5 674.8 522.5 678.8 532.5 674.8 528.5 670.8 532.5"/>
+        <line class="cls-24" x1="674.8" y1="333.1" x2="674.8" y2="675.8"/>
+        <line class="cls-24" x1="674.8" y1="333.1" x2="457.5" y2="333.1"/>
+        <polygon class="cls-21" points="467.5 329.1 457.5 333.1 467.5 337.1 463.5 333.1 467.5 329.1"/>
+        <line class="cls-24" x1="445.5" y1="643.6" x2="445.5" y2="663.6"/>
+        <polygon class="cls-21" points="441.5 653.6 445.5 663.6 449.5 653.6 445.5 657.6 441.5 653.6"/>
+        <line class="cls-24" x1="445.5" y1="293.1" x2="445.5" y2="315"/>
+        <polygon class="cls-21" points="441.5 311.8 445.5 321.8 449.5 311.8 445.5 315.8 441.5 311.8"/>
+        <line class="cls-24" x1="445.5" y1="687.6" x2="445.5" y2="727.6"/>
+        <polygon class="cls-21" points="441.5 719.6 445.5 729.6 449.5 719.6 445.5 723.6 441.5 719.6"/>
+        <line class="cls-24" x1="335" y1="791.6" x2="335" y2="811.6"/>
+        <polygon class="cls-21" points="331 801.6 335 811.6 339 801.6 335 805.6 331 801.6"/>
+        <line class="cls-24" x1="545" y1="791.6" x2="545" y2="811.6"/>
+        <polygon class="cls-21" points="541 801.6 545 811.6 549 801.6 545 805.6 541 801.6"/>
+        <line class="cls-24" x1="445.5" y1="765.6" x2="445.5" y2="785.6"/>
+        <polygon class="cls-21" points="441.5 775.6 445.5 785.6 449.5 775.6 445.5 779.6 441.5 775.6"/>
+        <line class="cls-24" x1="101.5" y1="81.1" x2="101.5" y2="104.6"/>
+        <line class="cls-24" x1="101.5" y1="104.6" x2="323.5" y2="104.6"/>
+        <line class="cls-24" x1="323.5" y1="104.6" x2="323.5" y2="119.6"/>
+        <polygon class="cls-21" points="319.5 109.6 323.5 119.6 327.5 109.6 323.5 113.6 319.5 109.6"/>
+        <text class="cls-3" transform="translate(105.5 98.1)"><tspan x="0" y="0">Mandatory</tspan></text>
+        <line class="cls-14" x1="801.8" y1="81.1" x2="801.8" y2="104.6"/>
+        <line class="cls-14" x1="801.8" y1="104.6" x2="564.5" y2="104.6"/>
+        <line class="cls-14" x1="564.5" y1="104.6" x2="564.5" y2="119.6"/>
+        <polygon class="cls-21" points="560.5 109.6 564.5 119.6 568.5 109.6 564.5 113.6 560.5 109.6"/>
+        <text class="cls-3" transform="translate(805.8 98.1)"><tspan x="0" y="0">Not mandatory</tspan></text>
+        <line class="cls-24" x1="335" y1="847.5" x2="335" y2="852.5"/>
+        <line class="cls-24" x1="335" y1="852.5" x2="113" y2="852.5"/>
+        <line class="cls-24" x1="113" y1="852.5" x2="113" y2="867.5"/>
+        <polygon class="cls-21" points="109 857.5 113 867.5 117 857.5 113 861.5 109 857.5"/>
+        <line class="cls-24" x1="545" y1="847.5" x2="545" y2="852.5"/>
+        <line class="cls-24" x1="545" y1="852.5" x2="782.2" y2="852.5"/>
+        <line class="cls-24" x1="782.2" y1="852.5" x2="782.2" y2="867.5"/>
+        <polygon class="cls-21" points="778.2 857.5 782.2 867.5 786.2 857.5 782.2 861.5 778.2 857.5"/>
+        <text class="cls-2" transform="translate(45.8 27.6)"><tspan x="0" y="0">3D city Model</tspan></text>
+        <text class="cls-2" transform="translate(419.6 27.6)"><tspan x="0" y="0">Process</tspan></text>
+        <text class="cls-2" transform="translate(745.8 27.6)"><tspan x="0" y="0">User In/out put</tspan></text>
+        <text class="cls-1" transform="translate(37 73.5)"><tspan class="cls-17" x="0" y="0">In</tspan><tspan class="cls-16" x="10" y="0"> </tspan><tspan class="cls-10" x="14.1" y="0">JSON</tspan><tspan class="cls-16" x="46.8" y="0"> </tspan><tspan class="cls-17" x="51" y="0">or</tspan><tspan class="cls-19" x="61.6" y="0"> </tspan><tspan class="cls-9" x="65.8" y="0">OBJ</tspan><tspan class="cls-17" x="87.7" y="0"> </tspan></text>
+        <text class="cls-1" transform="translate(719.2 74.2)"><tspan class="cls-17" x="0" y="0">As</tspan><tspan class="cls-15" x="14" y="0"> </tspan><tspan class="cls-17" x="16.8" y="0">UseCase</tspan><tspan class="cls-15" x="66.2" y="0"> </tspan><tspan class="cls-17" x="69" y="0">name</tspan><tspan class="cls-18" x="99.1" y="0"> </tspan><tspan class="cls-17" x="101.9" y="0">or</tspan><tspan class="cls-15" x="112.6" y="0"> </tspan><tspan class="cls-17" x="115.4" y="0">in</tspan><tspan class="cls-15" x="124.8" y="0"> </tspan><tspan class="cls-10" x="127.6" y="0">JSON</tspan></text>
+        <text class="cls-6" transform="translate(34.8 883.8)"><tspan x="0" y="0">3D</tspan><tspan class="cls-35" x="15.3" y="0"> </tspan><tspan x="19.4" y="0">city</tspan><tspan class="cls-25" x="37.4" y="0"> </tspan><tspan x="41.4" y="0">model </tspan></text>
+        <text class="cls-1" transform="translate(34.9 898.7)"><tspan class="cls-17" x="0" y="0">In</tspan><tspan class="cls-16" x="10" y="0"> </tspan><tspan class="cls-10" x="14.1" y="0">JSON</tspan><tspan class="cls-16" x="46.8" y="0"> </tspan><tspan class="cls-17" x="51" y="0">or</tspan><tspan class="cls-19" x="61.6" y="0"> </tspan><tspan class="cls-9" x="65.8" y="0">OBJ</tspan><tspan class="cls-17" x="87.7" y="0"> </tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

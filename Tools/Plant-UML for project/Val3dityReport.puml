@@ -1,0 +1,189 @@
+@startjson
+{
+  "all_errors": ["[array of all errors]"],
+  "dataset_errors": ["[array of all 900 errors]"],
+  "features": {"[array of features]":
+    {
+      "errors": ["[array of all 600 and 700 errors]"],
+      "id": "id of the feature",
+      "primitives": {"[array of primitives]" :
+        {
+          "errors": {"[array of errors]" :
+            {
+              "code": "Number of error",
+              "description": "name of error",
+              "id": "location of error",
+              "info": "extra info as string",
+              "type": "string: Error"
+            }
+          },
+          "id": "index of primitive",
+          "numberfaces": "number",
+          "numbervertices": "number",
+          "type": ["<B>One of:","MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+          "validity": "true or false"
+        }
+      },
+      "type": "<i>CityObject type",
+      "validity": "true or false"
+    }
+  },
+  "features_overview": {"[array of feature types]" :
+    {
+      "type": "<i>CityObject type",
+      "total": "Count of type",
+      "valid": "count valid of type"
+    }
+  },
+  "input_file": "input file as string",
+  "input_file_type": "<b>CityJSON",
+  "parameters": {
+    "overlap_tol": "parameter used, standard: -1.0",
+    "planarity_d2p_tol": "parameter used, standard: 0.01",
+    "planarity_n_tol": "parameter used, standard: 20.0",
+    "snap_tol": "parameter used, standard: 0.001"
+  },
+  "primitives_overview": {"[array of primitive types]" :
+    {
+      "type": ["<B>One of:","MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+      "total": "Count of type",
+      "valid": "count valid of type"
+    }
+  },
+  "time": "moment of repair",
+  "type": "val3dity_report",
+  "val3dity_version": "version used,now 2.4.0",
+  "validity": "true or false"
+}
+@endjson
+
+@startuml
+skinparam title{
+  Fontsize 50
+}
+Title Val3dity Report
+label B [
+{{json
+<style>
+  .h1 {
+    BackGroundColor cornflowerblue
+    FontColor white
+    FontStyle bold
+  }
+  .h2 {
+    BackGroundColor lightsteelblue
+    FontColor black
+  }
+</style>
+#highlight "features" <<h2>>
+
+{
+  "all_errors": ["[array of all errors]"],
+  "dataset_errors": ["[array of all 900 errors]"],
+  "features": ["array of feature types"],
+
+  "features_overview": {"[array of features]" :
+    {
+      "type": "<i>CityObject type",
+      "total": "Count of type",
+      "valid": "count valid of type"
+    }
+  },
+  "input_file": "input file as string",
+  "input_file_type": "<b>CityJSON",
+  "parameters": {
+    "overlap_tol": "parameter used, standard: -1.0",
+    "planarity_d2p_tol": "parameter used, standard: 0.01",
+    "planarity_n_tol": "parameter used, standard: 20.0",
+    "snap_tol": "parameter used, standard: 0.001"
+  },
+  "primitives_overview": {"[array of primitive types]" :
+    {
+      "type": ["<B>One of:","MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+      "total": "Count of type",
+      "valid": "count valid of type"
+    }
+  },
+  "time": "moment of repair",
+  "type": "val3dity_report",
+  "val3dity_version": "version used,now 2.4.0",
+  "validity": "true or false"
+}
+}}
+]
+
+label C [
+{{json
+<style>
+  .h1 {
+    BackGroundColor cornflowerblue
+    FontColor black
+    FontStyle bold
+  }
+  .h2 {
+    BackGroundColor lightsteelblue
+    FontColor black
+  }
+</style>
+#highlight "[array of features]" <<h2>>
+#highlight "[array of features]"/"primitives" <<h2>>
+#highlight "[array of features]"/"primitives"/"[array of primitives]" <<h2>>
+#highlight "[array of features]"/"primitives"/"[array of primitives]"/"error" <<h2>>
+{"[array of features]":
+          {
+            "errors": ["[array of all 600 and 700 errors]"],
+            "id": "id of the feature",
+            "primitives": {"[array of primitives]" :
+              {
+              "error": ["array of errors"],
+                "id": "index of primitive",
+                "numberfaces": "number",
+                "numbervertices": "number",
+                "type": ["<B>One of:","MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+                "validity": "true or false"
+              }
+            },
+            "type": "<i>CityObject type",
+            "validity": "true or false"
+          }
+        }
+}}
+]
+label D [
+{{json
+<style>
+  .h1 {
+    BackGroundColor indianred
+    FontColor black
+  }
+  .h2 {
+    BackGroundColor lightsteelblue
+    FontColor black
+
+  }
+</style>
+#highlight "[array of errors]" <<h2>>
+#highlight "[array of errors]"/"code" <<h1>>
+#highlight "[array of errors]"/"id" <<h1>>
+#highlight "[array of errors]"/"id"/"1"<<h1>>
+#highlight "[array of errors]"/"id"/"2"<<h1>>
+#highlight "[array of errors]"/"id"/"3"<<h1>>
+{"[array of errors]" :
+                  {
+                    "code": "Number of error",
+                    "description": "name of error",
+                    "id": ["<B>Based on geometry type and kind of error, one of:","face:{face index}", "shell:{shell index} -- face:{face index}", "solid:{Solid index} ------ shell:{shell index} -- face:{face index}"],
+                    "info": "extra info as string",
+                    "type": "string: Error"
+                  }
+                }
+}}
+]
+
+
+ B -[hidden]-  C
+ C -[hidden]-  D
+
+
+
+@enduml

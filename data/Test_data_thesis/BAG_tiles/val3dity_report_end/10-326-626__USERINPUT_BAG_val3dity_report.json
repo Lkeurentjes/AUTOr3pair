@@ -1,0 +1,2806 @@
+{
+  "all_errors": [
+    203
+  ],
+  "dataset_errors": [],
+  "features": [
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034018",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034019",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034020",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034021",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034022",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034023",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034027",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034028",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034030",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034031",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034032",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034033",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034034",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034036",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034037",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034039",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034040",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034041",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034042",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034043",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034044",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034057",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034058",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034059",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034060",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034061",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034062",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034063",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034064",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034065",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034066",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034067",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034110",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034111",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034112",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034113",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 203,
+          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
+          "id": "coid=NL.IMBAG.Pand.0546100000034115-0|geom=2|shell=0|face=8",
+          "info": "distance to fitted plane: 0.0353013 (tolerance=0.01)"
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000034115",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034116",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034117",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034118",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034119",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034120",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034121",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034122",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034123",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034124",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034125",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034126",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034127",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034128",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034129",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034130",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034131",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034132",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034133",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034136",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034137",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034138",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034142",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034143",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034144",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034145",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034146",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034147",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034171",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034172",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034173",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034174",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034175",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034176",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034177",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034178",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034179",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034180",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034181",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034182",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034183",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034184",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034185",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034186",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034187",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034188",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034191",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034192",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034193",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034194",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034195",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034196",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034197",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034198",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034199",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034200",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034202",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034203",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034204",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034205",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034206",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034207",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034208",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034209",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034210",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034211",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034212",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034213",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034214",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034215",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034216",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034217",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034218",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034219",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034220",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034221",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034222",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034223",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034224",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034225",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034226",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034227",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034228",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034229",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034230",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034231",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034232",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034233",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034234",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034235",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034236",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034237",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034238",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034239",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034240",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034241",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034242",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034243",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034244",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034245",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034246",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034247",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034248",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034249",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034250",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034251",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034252",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034253",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034254",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034255",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034256",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034257",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034258",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034259",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034260",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034261",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034262",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034263",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034264",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034265",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034266",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034267",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034268",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034269",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034270",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034271",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034272",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034273",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034274",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034275",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034276",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034277",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034278",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034279",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034280",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034281",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034282",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034283",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034284",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034285",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034286",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034287",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034288",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034289",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034290",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034291",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034292",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034293",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034294",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034295",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034296",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034297",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034298",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034299",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034300",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034301",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034302",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034303",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034304",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034305",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034306",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034307",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034308",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034309",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034310",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034311",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034312",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034313",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034314",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034315",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034316",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034317",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034318",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034319",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034320",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034321",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034322",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034323",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034324",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034325",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034326",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034327",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034328",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034329",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034330",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034331",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034332",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034333",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034334",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034335",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034336",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034337",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034338",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034339",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034340",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034341",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034342",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034343",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034344",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034345",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034346",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034347",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034348",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034349",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034350",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034351",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034352",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034353",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034354",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034355",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034356",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034357",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034358",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034359",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034360",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034361",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034362",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034363",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034364",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034365",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034489",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034490",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034491",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034492",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034493",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034494",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034495",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034496",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034497",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034498",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034979",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000034999",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035002",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035007",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035008",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035009",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035010",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035011",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035012",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035013",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035014",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035015",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035016",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035017",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035018",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035019",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035020",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035021",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035023",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035024",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035028",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035029",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035030",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035033",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035040",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035043",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000035045",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038930",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038932",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038934",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038936",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038937",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038938",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038939",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038940",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038941",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038942",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038943",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038944",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038945",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038946",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038947",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038948",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038949",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038950",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038951",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038952",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038953",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038954",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038955",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038956",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038957",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038958",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038959",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038960",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038961",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038962",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038963",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038964",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038965",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038966",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038967",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038968",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038969",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038970",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038971",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038972",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038973",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038974",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038975",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038976",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038977",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038978",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038979",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038980",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038981",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038982",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038983",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038984",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038985",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038986",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038987",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038988",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038989",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038990",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038991",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038992",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038993",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038994",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038995",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038996",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038997",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038998",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000038999",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039226",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039404",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039405",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039409",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039410",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039411",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039412",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039413",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039414",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039415",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039416",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039417",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039418",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039419",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039420",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000039421",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047261",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047269",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047270",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047273",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047274",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047317",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047329",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047343",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047344",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047345",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047346",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047347",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047348",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047349",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000047350",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000051343",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000055999",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056000",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056001",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000057402",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000057403",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000057404",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000057405",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000057406",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059148",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059587",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059612",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059621",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059622",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059674",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000059953",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000062087",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000062088",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000062208",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000063064",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000282973",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000283336",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000284704",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000284705",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000284707",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000284708",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000285164",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000285165",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000285166",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000285168",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000285169",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000286465",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000286466",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000288345",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000288348",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000288349",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000289561",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000291166",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000291735",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000293164",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000293165",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000293542",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000293785",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294623",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294668",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294671",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294859",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294860",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294861",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294862",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294863",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294867",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294868",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294869",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294870",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294871",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294872",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294876",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000294878",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000295234",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327914",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327919",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327920",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327921",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327922",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327929",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327931",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327932",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0547100000327933",
+      "type": "Building",
+      "validity": true
+    }
+  ],
+  "features_overview": [
+    {
+      "total": 460,
+      "type": "Building",
+      "valid": 459
+    }
+  ],
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-326-626__USERINPUT_BAG__REPAIRED.json",
+  "input_file_type": "CityJSON",
+  "parameters": {
+    "overlap_tol": -1.0,
+    "planarity_d2p_tol": 0.01,
+    "planarity_n_tol": 20.0,
+    "snap_tol": 0.001
+  },
+  "primitives_overview": [
+    {
+      "total": 1380,
+      "type": "Solid",
+      "valid": 1379
+    },
+    {
+      "total": 460,
+      "type": "MultiSurface",
+      "valid": 460
+    }
+  ],
+  "time": "2024-09-17T12:39:27 (CEST)",
+  "type": "val3dity_report",
+  "val3dity_version": "2.5.0b2",
+  "validity": false
+}

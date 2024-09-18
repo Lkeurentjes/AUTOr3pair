@@ -1,0 +1,6 @@
+{
+  "SemanticsValidate": true,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

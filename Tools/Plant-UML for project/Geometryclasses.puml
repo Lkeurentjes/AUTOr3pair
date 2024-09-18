@@ -1,0 +1,83 @@
+@startuml
+skinparam title{
+  Fontsize 20
+}
+'Title Inheritance of geometry type Classes
+
+class Geometry {
+    #string id;
+    # json tu3djson
+    # bool semantics
+    # bool material
+    # json::array_t Iso_Repairs
+    # string type
+    # bool valid
+    + json RepairsNeeded
+    + unordered_map SMTfaces
+    == Constructor ==
+    + Geometry()
+    -- helper functions --
+    # emptyRepairsNeeded()
+    # rr_done()
+    -- Repair functions --
+    + val3dityReport()
+    + AssignSMT()
+    .. output ..
+    + getCityjsonObject()
+    + get_ISO_remaining()
+    + get_type()
+    + isvalid()
+
+}
+
+
+class MultiSurface {
+    startSMTfaces()
+    writeSMT()
+    -- Repair functions --
+    RepairRingErrors()
+    RepairPolyErrors()
+}
+
+class CompositeSurface {
+    -- Repair functions --
+    RepairShellErrors()
+}
+
+class Solid {
+    startSMTfaces()
+    writeSMT()
+    -- Repair functions --
+    RepairRingErrors()
+    RepairPolyErrors()
+    RepairShellErrors()
+    RepairSolidErrors()
+
+}
+
+class MultiSolid {
+    startSMTfaces()
+    writeSMT()
+    -- Repair functions --
+    RepairRingErrors()
+    RepairPolyErrors()
+    RepairShellErrors()
+    RepairSolidErrors()
+
+}
+
+class CompositeSolid {
+    -- Repair functions --
+    RepairSolidIErrors()
+}
+
+Geometry --> MultiSurface
+Geometry --> Solid
+Geometry --> MultiSolid
+MultiSolid --> CompositeSolid
+MultiSurface --> CompositeSurface
+
+
+
+
+@enduml

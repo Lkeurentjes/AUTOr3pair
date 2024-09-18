@@ -1,0 +1,100 @@
+@startjson
+{
+    "Parameters": {
+            "GeometryRepair": {
+                "<B>One of": {"SolveAll": "parameter used, standard: true",
+                                "ErrorsToRepair": "parameter used, standard: [] else [array of val3dity error codes]"}
+            },
+            "InputParameters": {
+                "ExtendScope": "parameter used, standard: [] else [array of types]",
+                "OBJgeomtype": ["<B> parameter used, one of:","MultiSurface", "CompositeSurface", "Solid (standard)", "MultiSolid", "CompositeSolid"]
+            },
+            "RepairDepths": {
+                "MaxRepairDepth": "parameter used, standard: 50",
+                "TotalRepairDepth": "parameter used, standard: 500"
+            },
+            "Tollerances": {
+                "overlap_tol": "parameter used, standard: -1.0",
+                "planarity_d2p_tol": "parameter used, standard: 0.01",
+                "planarity_n_tol": "parameter used, standard: 20.0",
+                "snap_tol": "parameter used, standard: 0.001"
+            },
+            "UseCase": {
+                "Name": ["<B> parameter used, one of::","Default (standard)", "VISUALIZATION", "CFD", "ENERGY DEMAND", "SOLAR POWER", "Based on input file"],
+                "StandardsUsed": {
+                    "KeepEverything": "parameter used, standard: false",
+                    "SkipLowRepairs": "parameter used, standard: false",
+                    "Watertight": "parameter used, standard: false",
+                    "MergeTol": "parameter used, standard: 0.1",
+                    "Overlap": "parameter used, standard: true",
+                    "Semantics": "parameter used, standard: true",
+                    "Triangulation": "parameter used, standard: false",
+                    "Simplification": "parameter used, standard: false",
+                    "RemeshSlivers": "parameter used, standard: false"
+
+                }
+            }
+        },
+    "data_errors": ["[array of all 900 errors]"],
+    "features": {"[array of features]":
+        {
+          "id": "id of the feature",
+          "primitives": {"[array of primitives]" :
+            {
+              "ISOerrorsremaining": "[array of remaining error(s)]",
+              "id": "index of primitive",
+              "numberfaces": "number",
+              "numbervertices": "number",
+              "repaired": "true or false",
+              "type": ["<B>One of:","MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+              "repairs": {"[array of repairs]" :
+                {
+                  "kind_of_repair": ["<B>One of:","RingRepairs", "PolyRepairs",
+                                                   "ShellRepairs",
+                                                   "SolidRepairs",
+                                                   "SolidIRepairs","SubPartRepairs", "UseCaseRepairs"],
+                  "repairs_done": {"[array of repairs]" :{
+                         "boundary_before": "original boundary",
+                         "boundary_now": "new boundary",
+                         "code": "error code or name",
+                         "description": "description of error/repair",
+                         "id": "id of feature with primitive number"
+                     }},
+                  "round": "Number of repair round"
+                }
+              }
+            }
+          },
+          "type": "<i>CityObject type",
+          "repaired": "true or false",
+          "all_Geomr3pairs": "[array of geometric repairs(s)]",
+          "all_UseCaser3pairs": "[array of use case repairs(s)]"
+        }
+      },
+
+    "features_overview": {"[array of feature types]" :
+        {
+              "type": "<i>CityObject type",
+              "total": "Count of type",
+              "repaired": "count valid of repaired"
+            }
+    },
+    "features_repaired": "[array of ids of repaired features types]",
+    "input_file": "../name/and/location/of/input.file",
+    "input_file_type": "json or OBJ",
+    "output_file": "../name/and/location/of/output.file",
+    "output_file_type": "json or OBJ",
+    "primitives_overview": {"[array of primitive types]" :
+        {
+              "type": ["<B>One of:","MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+              "total": "Count of type",
+              "repaired": "count repaired of type"
+            }
+    },
+    "repaired": "true or false",
+    "time": "moment of repair",
+    "type": "AUTOr3pairReport",
+    "version": "1.0"
+}
+
+@endjson

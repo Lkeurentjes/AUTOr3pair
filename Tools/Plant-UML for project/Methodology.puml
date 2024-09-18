@@ -1,0 +1,75 @@
+@startuml
+|#WhiteSmoke|CityJSON Model|
+|Process|
+|#WhiteSmoke|User In/out put|
+
+|Process|
+start
+fork
+|CityJSON Model|
+-[hidden]->
+:3D model in <b>CityJSON<
+-> Mandatory;
+|Process|
+#lightgray:Read the Cityjson\t\t\t|
+fork again
+fork again
+|User In/out put|
+-[hidden]->
+:UserRequirements in <b>JSON<
+-[dashed]-> Not mandatory;
+'note right #white:Not mandatory\nif not given\nStandards will\nbe used
+|Process|
+#lightgray:Read the UserRequirements |
+-[dashed]->
+end fork
+|Process|
+
+: for each single CityObject}
+#lightgray:convert to <B>TU3DJSON|
+
+group #Application Repairloop
+repeat
+    fork
+    group #azure validity \n**repairs**
+    :get val3dity report|
+    while (valid?) is (false)
+        #lightgray:Do validity repairs|
+    endwhile(true)
+    end group
+    fork again
+    group #azure use case \n**repairs**
+    :get use case Requirements|
+    while (Repair needed) is (true)
+            #lightgray:Do use case repairs|
+        endwhile(false)
+    end group
+    end fork
+    repeat while (All (user) Requirements fulfilled?) is (false) not (true)
+
+end group
+
+#lightgray:convert Back to CityObject|
+
+
+fork
+|Process|
+:Write the Cityjson|
+|CityJSON Model|
+:3D model in <b>CityJSON>
+detach
+fork again
+fork again
+
+|Process|
+:Write Repair Report|
+|User In/out put|
+:Repair Report in <b>JSON>
+|Process|
+detach
+end fork
+stop
+
+@enduml
+
+

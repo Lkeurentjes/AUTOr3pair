@@ -1,0 +1,84 @@
+@startjson
+{
+   "Bridge":["BridgePart","BridgeInstallation",
+   "BridgeConstructiveElement","BridgeRoom","BridgeFurniture"],
+   "Building": ["BuildingPart", "Buildinglnstallation", "BuildingConstructiveElement",
+    "BuildingFurniture" ,"BuildingStorey", "BuildingRoom", "BuildingUnit"],
+   "CityFurniture":"",
+   "CityObjectGroup":"",
+   "GenericCityObject":"",
+   "LandUse":"",
+   "OtherConstruction":"",
+   "Plant Cover":"",
+   "SolitaryVegetationObject":"",
+   "TINRelief":"",
+   "TransportationSquare":"",
+   "Railway":"",
+   "Road":"",
+   "Tunnel":["TunnelPart","TunnelInstalations",
+               "TunnelConstructiveElement","TunnelHollowSpace","TunnelFurniture"],
+   "Waterbody":"",
+   "Waterway":"",
+   "+Extension":""}
+@endjson
+
+@startuml
+json JSON{
+
+            "Bridge":["BridgePart","BridgeInstallation",
+            "BridgeConstructiveElement","BridgeRoom","BridgeFurniture"],
+            "Building": ["BuildingPart", "Buildinglnstallation", "BuildingConstructiveElement",
+             "BuildingFurniture" ,"BuildingStorey", "BuildingRoom", "BuildingUnit"],
+            "CityFurniture":"",
+            "CityObjectGroup":"",
+            "GenericCityObject":"",
+            "LandUse":"",
+            "OtherConstruction":"",
+            "Plant Cover":"",
+            "SolitaryVegetationObject":"",
+            "TINRelief":"",
+            "TransportationSquare":"",
+            "Railway":"",
+            "Road":"",
+            "Tunnel":["TunnelPart","TunnelInstalations",
+                        "TunnelConstructiveElement","TunnelHollowSpace","TunnelFurniture"],
+            "Waterbody":"",
+            "Waterway":"",
+            "+Extension":""
+         }
+@enduml
+
+@startuml
+skinparam wrapWidth 800
+Title <i>1st-level City Objects\t\t\t2nd- level City Objects
+label B [
+{{json
+{
+            "Bridge":["BridgePart","BridgeInstallation",
+            "BridgeConstructiveElement","BridgeRoom","BridgeFurniture"],
+            "Building": ["BuildingPart", "Buildinglnstallation", "BuildingConstructiveElement",
+             "BuildingFurniture" ,"BuildingStorey", "BuildingRoom", "BuildingUnit"],
+            "CityFurniture":"",
+            "CityObjectGroup":"",
+            "GenericCityObject":"",
+            "LandUse":"",
+            "OtherConstruction":"",
+            "Plant Cover":"",
+            "SolitaryVegetationObject":"",
+            "TINRelief":"",
+            "TransportationSquare":"",
+            "Railway":"",
+            "Road":"",
+            "Tunnel":["TunnelPart","TunnelInstalations",
+                        "TunnelConstructiveElement","TunnelHollowSpace","TunnelFurniture"],
+            "Waterbody":"",
+            "Waterway":"",
+            "+Extension":""
+         }
+}}
+]
+@enduml
+
+
+
+

@@ -1,0 +1,23 @@
+@startjson
+{
+	"AUTOr3pair": {
+	        "Date_of_repair" : "Date",
+            "features_repaired": {"[array of feature types]" :
+                    {
+                      "type": "<i>CityObject type",
+                      "total": "Count of type",
+                      "Repaired": "count repaired of type"
+                    }
+              },
+                    "more_information": {
+                          "How": "this file is repaired by AUTOr3pair, more info about the repair can be found in the report",
+                          "Report_name": "Location of the repair report",
+                          "Want_to_know_more": "More information can be found on how the repair is done can be found on github",
+                          "Web:Github": "https://github.com/Lkeurentjes/AUTOr3pair",
+                          "Written by": "Lisa Keurentjes"
+                    }
+
+                }
+}
+
+@endjson

@@ -1,0 +1,21 @@
+@startjson
+{
+  "errors": [
+    {
+      "code": 302,
+      "description": "SHELL_NOT_CLOSED",
+      "id": "coid=NL.IMBAG.Pand.0546100000031864-0|geom=2|shell=0|face=",
+      "info": "Location hole: (94943.1, 464406, -0.114501)"
+    },
+    {
+      "code": 302,
+      "description": "SHELL_NOT_CLOSED",
+      "id": "coid=NL.IMBAG.Pand.0546100000031864-0|geom=2|shell=0|face=",
+      "info": "Location hole: (94943.7, 464410, -0.114501)"
+    }
+  ],
+  "id": "NL.IMBAG.Pand.0546100000031864",
+  "type": "Building",
+  "validity": false
+}
+@endjson

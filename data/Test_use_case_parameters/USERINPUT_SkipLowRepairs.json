@@ -1,0 +1,6 @@
+{
+  "SkipLowRepairs": true,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "SemanticsAdd": true,
+  "SemanticsValidate": false,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

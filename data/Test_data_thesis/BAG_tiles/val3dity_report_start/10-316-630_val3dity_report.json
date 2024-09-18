@@ -1,0 +1,688 @@
+{
+  "all_errors": [
+    102,
+    104,
+    203,
+    302,
+    303
+  ],
+  "dataset_errors": [],
+  "features": [
+    {
+      "errors": [
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000000031-0|geom=2|shell=0|face=336",
+          "info": "ring self-intersects or is collapsed to a line"
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000000031",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000000032-0|geom=2|shell=0|face=1517",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000000032-0|geom=2|shell=0|face=1518",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000000032-0|geom=2|shell=0|face=1949",
+          "info": ""
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000000032",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=2|shell=0|face=138",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=2|shell=0|face=460",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=2|shell=0|face=502",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=2|shell=0|face=560",
+          "info": ""
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000000033",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000338",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000339",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000340",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000341",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000342",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000343",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000344",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000345",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000346",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000538",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000542",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000543",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000677",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000679",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000000682-0|geom=2|shell=0|face=35",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000000682-0|geom=2|shell=0|face=36",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000000682-0|geom=2|shell=0|face=38",
+          "info": ""
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000000682",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000687",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000000688",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=0|shell=0|face=0",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=1|shell=0|face=",
+          "info": "Location hole: (93088.6, 464762, 0.202502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=1|shell=0|face=",
+          "info": "Location hole: (93088.5, 464762, 52.2525)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=2|shell=0|face=",
+          "info": "Location hole: (93088.6, 464762, 0.202502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=2|shell=0|face=",
+          "info": "Location hole: (93088.5, 464762, 0.202502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=0|shell=0|face=",
+          "info": "Location hole: (93088.6, 464762, 0.202502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=0|shell=0|face=",
+          "info": "Location hole: (93088.5, 464762, 0.202502)"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=1|shell=0|face=0",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=1|shell=0|face=110",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=1|shell=0|face=117",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=2|shell=0|face=0",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=2|shell=0|face=161",
+          "info": "ring self-intersects or is collapsed to a line"
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000001040",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000001581",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000001590",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000008971",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000010061",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0546100000011568-0|geom=2|shell=0|face=52",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0546100000011568-0|geom=2|shell=0|face=90",
+          "info": ""
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000011568",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011587",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011589",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000011590-0|geom=2|shell=0|face=72",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000011590-0|geom=2|shell=0|face=76",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=NL.IMBAG.Pand.0546100000011590-0|geom=2|shell=0|face=173",
+          "info": ""
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000011590",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011591",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011592",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011594",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011608",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011609",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011697",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011701",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011705",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000011708",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000012030",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000043768",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000051330",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=0|shell=0|face=",
+          "info": "Location hole: (93003.3, 464605, 0.427502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=0|shell=0|face=",
+          "info": "Location hole: (93003, 464605, 0.427502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=1|shell=0|face=",
+          "info": "Location hole: (93003, 464605, 50.5135)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=1|shell=0|face=",
+          "info": "Location hole: (93003, 464605, 0.427502)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=2|shell=0|face=",
+          "info": "Location hole: (93003, 464605, 50.5945)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=2|shell=0|face=",
+          "info": "Location hole: (93003, 464605, 0.427502)"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-0|geom=0|shell=0|face=0",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-0|geom=1|shell=0|face=0",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-0|geom=1|shell=0|face=278",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-0|geom=2|shell=0|face=0",
+          "info": "ring self-intersects or is collapsed to a line"
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000051346",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000051656",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000051657",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000051660",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000054747",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-1|geom=0|shell=0|face=62",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=1|shell=0|face=203",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 203,
+          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=1|shell=0|face=193",
+          "info": "distance to fitted plane: 0.0204287 (tolerance=0.01)"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=2|shell=0|face=496",
+          "info": "ring self-intersects or is collapsed to a line"
+        }
+      ],
+      "id": "NL.IMBAG.Pand.0546100000055022",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056052",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056053",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056287",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056349",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056350",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000056351",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000057221",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058154",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058155",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058161",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058162",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058171",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058172",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000058174",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000060586",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000060587",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "NL.IMBAG.Pand.0546100000060590",
+      "type": "Building",
+      "validity": true
+    }
+  ],
+  "features_overview": [
+    {
+      "total": 64,
+      "type": "Building",
+      "valid": 55
+    }
+  ],
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-316-630.city.json",
+  "input_file_type": "CityJSON",
+  "parameters": {
+    "overlap_tol": -1.0,
+    "planarity_d2p_tol": 0.01,
+    "planarity_n_tol": 20.0,
+    "snap_tol": 0.001
+  },
+  "primitives_overview": [
+    {
+      "total": 207,
+      "type": "Solid",
+      "valid": 186
+    },
+    {
+      "total": 64,
+      "type": "MultiSurface",
+      "valid": 64
+    }
+  ],
+  "time": "2024-09-11T17:34:30 (CEST)",
+  "type": "val3dity_report",
+  "val3dity_version": "2.5.0b2",
+  "validity": false
+}

@@ -1,0 +1,1143 @@
+{
+  "type": "CityJSON",
+  "version": "2.0",
+  "metadata": {
+    "geographicalExtent": [
+      78588.723,
+      457897.86,
+      6.422,
+      78601.886,
+      457910.752,
+      15.993
+    ],
+    "presentLoDs": {
+      "2": 6
+    }
+  },
+  "CityObjects": {
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_1": {
+      "type": "BuildingPart",
+      "attributes": {
+        "roofType": "1030",
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}",
+        "RelativeEavesHeight": 6.197,
+        "RelativeRidgeHeight": 9.514,
+        "AbsoluteEavesHeight": 12.675,
+        "AbsoluteRidgeHeight": 15.993
+      },
+      "parents": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0"
+      ],
+      "geometry": [
+        {
+          "type": "Solid",
+          "boundaries": [
+            [
+              [
+                [
+                  0,
+                  1,
+                  2,
+                  3
+                ]
+              ],
+              [
+                [
+                  1,
+                  4,
+                  5,
+                  2
+                ]
+              ],
+              [
+                [
+                  4,
+                  6,
+                  7,
+                  5
+                ]
+              ],
+              [
+                [
+                  6,
+                  0,
+                  3,
+                  7
+                ]
+              ],
+              [
+                [
+                  4,
+                  1,
+                  8
+                ]
+              ],
+              [
+                [
+                  0,
+                  6,
+                  9
+                ]
+              ],
+              [
+                [
+                  1,
+                  0,
+                  9,
+                  8
+                ]
+              ],
+              [
+                [
+                  6,
+                  4,
+                  8,
+                  9
+                ]
+              ],
+              [
+                [
+                  3,
+                  2,
+                  5,
+                  7
+                ]
+              ]
+            ]
+          ],
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                1,
+                0,
+                2,
+                0,
+                0,
+                null,
+                3,
+                0,
+                0
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  2,
+                  null,
+                  2,
+                  2,
+                  null,
+                  1,
+                  null,
+                  0,
+                  1
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  null,
+                  0,
+                  0,
+                  null,
+                  2,
+                  2,
+                  null,
+                  1,
+                  1
+                ]
+              ]
+            }
+          },
+          "lod": "2"
+        }
+      ]
+    },
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_2": {
+      "type": "BuildingPart",
+      "attributes": {
+        "roofType": "1000",
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}",
+        "RelativeEavesHeight": 3.962,
+        "RelativeRidgeHeight": 3.962,
+        "AbsoluteEavesHeight": 10.682,
+        "AbsoluteRidgeHeight": 10.682
+      },
+      "parents": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0"
+      ],
+      "geometry": [
+        {
+          "type": "Solid",
+          "boundaries": [
+            [
+              [
+                [
+                  10,
+                  11,
+                  12,
+                  13
+                ]
+              ],
+              [
+                [
+                  11,
+                  14,
+                  15,
+                  12
+                ]
+              ],
+              [
+                [
+                  14,
+                  16,
+                  17,
+                  15
+                ]
+              ],
+              [
+                [
+                  16,
+                  10,
+                  13,
+                  17
+                ]
+              ],
+              [
+                [
+                  16,
+                  14,
+                  11,
+                  10
+                ]
+              ],
+              [
+                [
+                  13,
+                  12,
+                  15,
+                  17
+                ]
+              ]
+            ]
+          ],
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                2,
+                null,
+                null,
+                1,
+                2,
+                0
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  0,
+                  2,
+                  0,
+                  null,
+                  1,
+                  1
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  1,
+                  0,
+                  2,
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            }
+          },
+          "lod": "2"
+        }
+      ]
+    },
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_3": {
+      "type": "BuildingPart",
+      "attributes": {
+        "roofType": "1000",
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}",
+        "RelativeEavesHeight": 2.47,
+        "RelativeRidgeHeight": 2.47,
+        "AbsoluteEavesHeight": 8.982,
+        "AbsoluteRidgeHeight": 8.982
+      },
+      "parents": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0"
+      ],
+      "geometry": [
+        {
+          "type": "Solid",
+          "boundaries": [
+            [
+              [
+                [
+                  18,
+                  19,
+                  20,
+                  21
+                ]
+              ],
+              [
+                [
+                  19,
+                  22,
+                  23,
+                  20
+                ]
+              ],
+              [
+                [
+                  22,
+                  24,
+                  25,
+                  23
+                ]
+              ],
+              [
+                [
+                  24,
+                  18,
+                  21,
+                  25
+                ]
+              ],
+              [
+                [
+                  24,
+                  22,
+                  19,
+                  18
+                ]
+              ],
+              [
+                [
+                  21,
+                  20,
+                  23,
+                  25
+                ]
+              ]
+            ]
+          ],
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                3,
+                null,
+                0,
+                0,
+                3,
+                1
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  0,
+                  2,
+                  0,
+                  1,
+                  1,
+                  2
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  1,
+                  null,
+                  1,
+                  0,
+                  1,
+                  2
+                ]
+              ]
+            }
+          },
+          "lod": "2"
+        }
+      ]
+    },
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_4": {
+      "type": "BuildingPart",
+      "attributes": {
+        "roofType": "1000",
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}",
+        "RelativeEavesHeight": 3.049,
+        "RelativeRidgeHeight": 3.049,
+        "AbsoluteEavesHeight": 9.582,
+        "AbsoluteRidgeHeight": 9.582
+      },
+      "parents": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0"
+      ],
+      "geometry": [
+        {
+          "type": "Solid",
+          "boundaries": [
+            [
+              [
+                [
+                  26,
+                  27,
+                  28,
+                  29
+                ]
+              ],
+              [
+                [
+                  27,
+                  30,
+                  31,
+                  28
+                ]
+              ],
+              [
+                [
+                  30,
+                  32,
+                  33,
+                  31
+                ]
+              ],
+              [
+                [
+                  32,
+                  26,
+                  29,
+                  33
+                ]
+              ],
+              [
+                [
+                  32,
+                  30,
+                  27,
+                  26
+                ]
+              ],
+              [
+                [
+                  29,
+                  28,
+                  31,
+                  33
+                ]
+              ]
+            ]
+          ],
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                2,
+                3,
+                1,
+                3,
+                1,
+                2
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  2,
+                  2,
+                  2,
+                  0,
+                  1,
+                  null
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  2,
+                  1,
+                  0,
+                  1,
+                  1,
+                  2
+                ]
+              ]
+            }
+          },
+          "lod": "2"
+        }
+      ]
+    },
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_5": {
+      "type": "BuildingPart",
+      "attributes": {
+        "roofType": "1000",
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}",
+        "RelativeEavesHeight": 2.545,
+        "RelativeRidgeHeight": 2.545,
+        "AbsoluteEavesHeight": 8.966,
+        "AbsoluteRidgeHeight": 8.966
+      },
+      "parents": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0"
+      ],
+      "geometry": [
+        {
+          "type": "Solid",
+          "boundaries": [
+            [
+              [
+                [
+                  34,
+                  35,
+                  36,
+                  37
+                ]
+              ],
+              [
+                [
+                  35,
+                  38,
+                  39,
+                  36
+                ]
+              ],
+              [
+                [
+                  38,
+                  40,
+                  41,
+                  39
+                ]
+              ],
+              [
+                [
+                  40,
+                  34,
+                  37,
+                  41
+                ]
+              ],
+              [
+                [
+                  40,
+                  38,
+                  35,
+                  34
+                ]
+              ],
+              [
+                [
+                  37,
+                  36,
+                  39,
+                  41
+                ]
+              ]
+            ]
+          ],
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                1,
+                2,
+                3,
+                1,
+                0,
+                2
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  1,
+                  1,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  0,
+                  0,
+                  2,
+                  1,
+                  1,
+                  null
+                ]
+              ]
+            }
+          },
+          "lod": "2"
+        }
+      ]
+    },
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_6": {
+      "type": "BuildingPart",
+      "attributes": {
+        "roofType": "1000",
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}",
+        "RelativeEavesHeight": 4.597,
+        "RelativeRidgeHeight": 4.597,
+        "AbsoluteEavesHeight": 11.11,
+        "AbsoluteRidgeHeight": 11.11
+      },
+      "parents": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0"
+      ],
+      "geometry": [
+        {
+          "type": "Solid",
+          "boundaries": [
+            [
+              [
+                [
+                  42,
+                  43,
+                  44,
+                  45
+                ]
+              ],
+              [
+                [
+                  43,
+                  46,
+                  47,
+                  44
+                ]
+              ],
+              [
+                [
+                  46,
+                  48,
+                  49,
+                  47
+                ]
+              ],
+              [
+                [
+                  48,
+                  42,
+                  45,
+                  49
+                ]
+              ],
+              [
+                [
+                  48,
+                  46,
+                  43,
+                  42
+                ]
+              ],
+              [
+                [
+                  45,
+                  44,
+                  47,
+                  49
+                ]
+              ]
+            ]
+          ],
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                0,
+                2,
+                2,
+                3,
+                1,
+                1
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  2,
+                  2,
+                  1,
+                  2,
+                  1,
+                  1
+                ]
+              ]
+            }
+          },
+          "lod": "2"
+        }
+      ]
+    },
+    "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0": {
+      "type": "Building",
+      "attributes": {
+        "name": "{7F91F413-F839-48F6-A36A-E0F2F090C6B0}"
+      },
+      "children": [
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_1",
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_3",
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_2",
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_5",
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_4",
+        "GUID_7F91F413-F839-48F6-A36A-E0F2F090C6B0_6"
+      ],
+      "geometry": []
+    }
+  },
+  "vertices": [
+    [
+      78592.771,
+      457904.714,
+      12.675
+    ],
+    [
+      78596.599,
+      457907.77,
+      12.675
+    ],
+    [
+      78596.599,
+      457907.77,
+      6.478
+    ],
+    [
+      78592.771,
+      457904.714,
+      6.478
+    ],
+    [
+      78601.886,
+      457900.833,
+      12.675
+    ],
+    [
+      78601.886,
+      457900.833,
+      6.478
+    ],
+    [
+      78598.223,
+      457897.86,
+      12.675
+    ],
+    [
+      78598.223,
+      457897.86,
+      6.478
+    ],
+    [
+      78599.242,
+      457904.301,
+      15.993
+    ],
+    [
+      78595.497,
+      457901.287,
+      15.993
+    ],
+    [
+      78592.771,
+      457904.714,
+      10.682
+    ],
+    [
+      78591.96,
+      457905.733,
+      10.682
+    ],
+    [
+      78591.96,
+      457905.733,
+      6.72
+    ],
+    [
+      78592.771,
+      457904.714,
+      6.72
+    ],
+    [
+      78593.445,
+      457907.022,
+      10.682
+    ],
+    [
+      78593.445,
+      457907.022,
+      6.72
+    ],
+    [
+      78594.285,
+      457905.922,
+      10.682
+    ],
+    [
+      78594.285,
+      457905.922,
+      6.72
+    ],
+    [
+      78593.445,
+      457907.022,
+      8.982
+    ],
+    [
+      78595.686,
+      457908.967,
+      8.982
+    ],
+    [
+      78595.686,
+      457908.967,
+      6.512
+    ],
+    [
+      78593.445,
+      457907.022,
+      6.512
+    ],
+    [
+      78596.599,
+      457907.77,
+      8.982
+    ],
+    [
+      78596.599,
+      457907.77,
+      6.512
+    ],
+    [
+      78594.285,
+      457905.922,
+      8.982
+    ],
+    [
+      78594.285,
+      457905.922,
+      6.512
+    ],
+    [
+      78591.96,
+      457905.733,
+      9.582
+    ],
+    [
+      78590.25,
+      457907.883,
+      9.582
+    ],
+    [
+      78590.25,
+      457907.883,
+      6.533
+    ],
+    [
+      78591.96,
+      457905.733,
+      6.533
+    ],
+    [
+      78592.228,
+      457909.38,
+      9.582
+    ],
+    [
+      78592.228,
+      457909.38,
+      6.533
+    ],
+    [
+      78593.937,
+      457907.449,
+      9.582
+    ],
+    [
+      78593.937,
+      457907.449,
+      6.533
+    ],
+    [
+      78590.25,
+      457907.883,
+      8.966
+    ],
+    [
+      78588.723,
+      457909.803,
+      8.966
+    ],
+    [
+      78588.723,
+      457909.803,
+      6.422
+    ],
+    [
+      78590.25,
+      457907.883,
+      6.422
+    ],
+    [
+      78589.83,
+      457910.752,
+      8.966
+    ],
+    [
+      78589.83,
+      457910.752,
+      6.422
+    ],
+    [
+      78591.472,
+      457908.808,
+      8.966
+    ],
+    [
+      78591.472,
+      457908.808,
+      6.422
+    ],
+    [
+      78601.311,
+      457900.362,
+      11.11
+    ],
+    [
+      78601.669,
+      457899.886,
+      11.11
+    ],
+    [
+      78601.669,
+      457899.886,
+      6.512
+    ],
+    [
+      78601.311,
+      457900.362,
+      6.512
+    ],
+    [
+      78599.493,
+      457898.135,
+      11.11
+    ],
+    [
+      78599.493,
+      457898.135,
+      6.512
+    ],
+    [
+      78599.123,
+      457898.595,
+      11.11
+    ],
+    [
+      78599.123,
+      457898.595,
+      6.512
+    ]
+  ],
+  "appearance": {
+    "materials": [
+      {
+        "name": "roofandground",
+        "ambientIntensity": 0.2,
+        "diffuseColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "emissiveColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "specularColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "shininess": 0.2,
+        "transparency": 0.5,
+        "isSmooth": false
+      },
+      {
+        "name": "wall",
+        "ambientIntensity": 0.4,
+        "diffuseColor": [
+          0.1,
+          0.1,
+          0.9
+        ],
+        "emissiveColor": [
+          0.1,
+          0.1,
+          0.9
+        ],
+        "specularColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "shininess": 0.0,
+        "transparency": 0.5,
+        "isSmooth": true
+      },
+      {
+        "name": "floor",
+        "ambientIntensity": 0.4,
+        "diffuseColor": [
+          0.5,
+          0.1,
+          0.9
+        ],
+        "emissiveColor": [
+          0.1,
+          0.5,
+          0.9
+        ],
+        "specularColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "shininess": 0.0,
+        "transparency": 0.5,
+        "isSmooth": true
+      }
+    ]
+  }, "transform": {"scale": [0.1, 0.1, 0.1], "translate": [0, 0, 0]}
+}

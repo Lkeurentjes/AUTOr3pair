@@ -1,0 +1,125 @@
+@startjson
+
+<style>
+    .notneeded {
+        backgroundcolor #f1f1f1
+        FontColor grey
+    }
+    .explain{
+        backgroundcolor #f1f1f1
+        FontStyle bold
+    }
+</style>
+#highlight "crs" <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties" <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"0"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"geometry"/"boundaries"/"when type"  <<explain>>
+#highlight "features"/"array containing Feature Objects"/"geometry"/"type"/"0"  <<explain>>
+{
+  "type": "tu3djson",
+  "crs": "string url to crs",
+  "features": {
+  "array containing Feature Objects" : {
+    "type": "string type",
+    "geometry": {
+        "type": ["One of:","MultiPoint","MultiLineString" ,"MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+        "boundaries" : {
+            "when type":            "boundary looks like:",
+            "MultiPoint" :          "[array with indexes of vertices]",
+            "MultiLineString":      "[array of [array with indexes of vertices]]",
+            "MultiSurface" :        "[array of [array(s) of [array with indexes of vertice]]]",
+            "CompositeSurface" :    "[array of [array(s) of [array with indexes of vertice]]]",
+            "Solid" :               "[array of [array(s) of [array(s) of [array with indexes of vertice]]]]",
+            "MultiSolid" :          "[array of[array(s) of [array(s) of [array(s) of [array with indexes of vertice]]]]]",
+            "CompositeSolid" :      "[array of[array(s) of [array(s) of [array(s) of [array with indexes of vertice]]]]]"
+        },
+        "vertices": "[array of [size 3 array containing X, Y, Z]]"
+    },
+    "properties": ["json with properties"]
+    }
+  }
+}
+@endjson
+
+
+
+@startuml
+label D [
+{{json
+<style>
+    .notneeded {
+        backgroundcolor #f1f1f1
+        FontColor grey
+    }
+    .explain{
+        backgroundcolor #f1f1f1
+        FontStyle bold
+    }
+</style>
+#highlight "crs" <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties" <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"0"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"1"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"2"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"3"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"4"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"5"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"6"  <<notneeded>>
+#highlight "features"/"array containing Feature Objects"/"properties"/"7"  <<notneeded>>
+{
+  "type": "tu3djson",
+  "crs": "URL formatted according to the OGC Name Type Specification",
+  "features": {
+  "array containing Feature Objects" : {
+    "type": "string type, may be 'feature' ",
+    "properties": ["**json** with properties","\tCan be anything","//**AUTOr3pair** uses it for://",
+                    "//\tThe LOD//","//\tSemantics//","//\tMaterials//","//\tTextures//","//\tAttributes//"
+    ],
+    "geometry": {}
+
+    }
+  }
+}
+}}
+]
+
+label E [
+{{json
+<style>
+    .notused {
+        backgroundcolor #f1f1f1
+        FontColor #617A9A
+        FontStyle italic
+    }
+    .explain{
+        backgroundcolor #f1f1f1
+        FontStyle bold
+    }
+</style>
+#highlight "boundaries"/"when type"  <<explain>>
+#highlight "type"/"0"  <<explain>>
+#highlight "type"/"1"  <<notused>>
+#highlight "type"/"2"  <<notused>>
+#highlight "boundaries"/"**MultiPoint**" <<notused>>
+#highlight "boundaries"/"**MultiLineString**" <<notused>>
+{
+        "type": ["One of:","MultiPoint","MultiLineString" ,"MultiSurface", "CompositeSurface", "Solid", "MultiSolid", "CompositeSolid"],
+        "boundaries" : {
+            "when type":            "boundary looks like:",
+            "**MultiPoint**" :          "[array with indexes of vertices]",
+            "**MultiLineString**":      "[array of [array with indexes of vertices]]",
+            "MultiSurface" :        "[array of [array(s) of [array with indexes of vertice]]]",
+            "CompositeSurface" :    "[array of [array(s) of [array with indexes of vertice]]]",
+            "Solid" :               "[array of [array(s) of [array(s) of [array with indexes of vertice]]]]",
+            "MultiSolid" :          "[array of[array(s) of [array(s) of [array(s) of [array with indexes of vertice]]]]]",
+            "CompositeSolid" :      "[array of[array(s) of [array(s) of [array(s) of [array with indexes of vertice]]]]]"
+        },
+        "vertices": "[array of [size 3 array containing X, Y, Z]]"
+    }
+}}
+]
+
+ D -[hidden]-  E
+
+
+@enduml

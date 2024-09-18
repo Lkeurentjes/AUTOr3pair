@@ -1,0 +1,84 @@
+@startuml
+'https://plantuml.com/deployment-diagram'
+
+collections CityObject #silver
+file Vertices #silver
+file Transform #silver
+
+
+'control Test_repairs #lightsteelblue;line.bold;line:steelblue
+
+'CO
+agent type
+collections GeometryObject
+file GeographicalExtent #line:grey;text:grey
+file Children #line:grey;text:grey
+file Parents #line:grey;text:grey
+collections Attributes #line:grey;text:grey
+
+'GO
+agent type as typeGO
+agent LOD
+collections Boundaries
+collections Semantics #line:grey;text:grey
+collections Material #line:grey;text:grey
+collections Texture #line:grey;text:grey
+collections AUTOr3paired #lightsteelblue;line:steelblue
+
+'Gtu3
+collections Geometry
+collections Properties
+
+
+collections "TU3DJSON feature" #silver
+
+
+'LINES
+CityObject -[hidden]le- Transform
+Transform -le-> Vertices
+
+CityObject -0- type
+CityObject -0- Children
+CityObject -0- Parents
+CityObject <--> GeometryObject
+CityObject -(0)- GeographicalExtent
+CityObject -(0)- Attributes
+Attributes <~do~ AUTOr3paired
+
+GeometryObject ~ri~ GeographicalExtent
+GeometryObject -[hidden]le- type
+type -[hidden]ri- Children
+Children -[hidden]ri- Parents
+Parents -[hidden]ri- GeometryObject
+'Parents -[hidden]ri- Attributes
+
+GeometryObject <--> typeGO
+GeometryObject <--> LOD
+GeometryObject <--> Boundaries
+GeometryObject <--> Semantics
+GeometryObject <--> Material
+GeometryObject <--> Texture
+
+typeGO <--> Geometry
+Boundaries <--> Geometry
+Vertices <--> Geometry
+
+LOD <--> Properties
+Semantics <--> Properties
+Material <--> Properties
+Texture <--> Properties
+AUTOr3paired <-- Properties
+
+Geometry <--> "TU3DJSON feature"
+Properties <--> "TU3DJSON feature"
+
+<<<<<<< Updated upstream
+'Test_repairs ~[#steelblue]~> Geometry
+'Test_repairs ~[#steelblue]up~> AUTOr3paired
+=======
+'Repair ~[#steelblue]~> Geometry
+'Repair ~[#steelblue]up~> AUTOr3paired
+@enduml
+>>>>>>> Stashed changes
+
+

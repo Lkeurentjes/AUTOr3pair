@@ -1,0 +1,10 @@
+{
+  "ErrorsToRepair": [
+    101,
+    102,
+    104
+  ],
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

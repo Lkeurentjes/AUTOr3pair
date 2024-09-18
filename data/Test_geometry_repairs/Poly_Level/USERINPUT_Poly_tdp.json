@@ -1,0 +1,19 @@
+{
+  "ErrorsToRepair": [
+    101,
+    102,
+    104,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "ExtendScope": [
+    "GenericCityObject"
+  ],
+  "planarity_d2p_tol": 0.001
+}

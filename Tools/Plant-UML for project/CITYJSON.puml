@@ -1,0 +1,129 @@
+@startjson
+<style>
+    .notneeded {
+        backgroundcolor #f1f1f1
+        FontColor grey
+    }
+    .explain{
+        backgroundcolor #f1f1f1
+        FontStyle bold
+    }
+</style>
+#highlight "metadata" <<notneeded>>
+#highlight "metadata"/"0" <<notneeded>>
+#highlight "metadata"/"1" <<notneeded>>
+#highlight "metadata"/"2" <<notneeded>>
+#highlight "metadata"/"3" <<notneeded>>
+#highlight "metadata"/"4" <<notneeded>>
+#highlight "metadata"/"5" <<notneeded>>
+#highlight "metadata"/"6" <<notneeded>>
+#highlight "metadata"/"0" <<notneeded>>
+#highlight "extensions" <<notneeded>>
+#highlight "extensions"/0 <<notneeded>>
+#highlight "extensions"/1 <<notneeded>>
+#highlight "appearance" <<notneeded>>
+#highlight "appearance"/"materials" <<notneeded>>
+#highlight "appearance"/"textures" <<notneeded>>
+#highlight "appearance"/"vertices-texture" <<notneeded>>
+#highlight "appearance"/"default-theme-material" <<notneeded>>
+#highlight "appearance"/"default-theme-texture" <<notneeded>>
+#highlight "geometry-templates" <<notneeded>>
+#highlight "geometry-templates"/"0" <<notneeded>>
+#highlight "geometry-templates"/"1" <<notneeded>>
+#highlight "geometry-templates"/"2" <<notneeded>>
+#highlight "other non prescribed keys" <<notneeded>>
+
+{
+	"type": "CityJSON",
+    "version": "2.0",
+	"CityObjects": ["Json With id-name as **key**","and a CityObject as **value**"],
+	"vertices": "[array of [size 3 array containing X, Y, Z as //int//]]",
+	"transform": {
+    		"scale": "[arrays with 3 values]",
+    		"translate": "[arrays with 3 values]"
+    },
+	"metadata": ["Json With the following **keys**:","geographicalExtent","identifier","pointOfContact","referenceDate","referenceSystem","title"],
+
+	"extensions": ["Json With extension name as **key**","and a json with keys 'url' & 'version' as **value**"],
+	"appearance":{
+	    "materials": "[array of Material Objects]",
+        "textures":"[array of Texture Objects]",
+        "vertices-texture": "[array of coordinates of each so-called UV vertex of the city model]",
+        "default-theme-texture": "//string// name of default theme",
+        "default-theme-material": "//string// name of default theme"
+	},
+	"geometry-templates" : ["Json With the following **keys**:","template","vertices-template"],
+	"other non prescribed keys" : "//can be anything//"
+}
+@endjson
+
+
+@startjson
+<style>
+    .notneeded {
+        backgroundcolor #f1f1f1
+        FontColor grey
+    }
+    .explain{
+        backgroundcolor #f1f1f1
+        FontStyle bold
+    }
+</style>
+#highlight "metadata" <<notneeded>>
+#highlight "metadata"/"geographicalExtent" <<notneeded>>
+#highlight "metadata"/"identifier" <<notneeded>>
+#highlight "metadata"/"pointOfContact" <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"contactType" <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"contactType"/0 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"contactType"/1 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"contactType"/2 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role" <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/0 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/1 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/2 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/3 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/4 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/5 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/6 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/7 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/8 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/9 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/10 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/11 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/12 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/13 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/14 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/15 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/16 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/17 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/18 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/19 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"role"/20 <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"phone" <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"website" <<notneeded>>
+#highlight "metadata"/"pointOfContact"/"address" <<notneeded>>
+#highlight "metadata"/"pointOfContact" <<notneeded>>
+#highlight "metadata"/"referenceDate" <<notneeded>>
+#highlight "metadata"/"referenceSystem" <<notneeded>>
+#highlight "metadata"/"title" <<notneeded>>
+
+{
+	"metadata": {
+                  "geographicalExtent": "[array with 6 values: minx, miny, minz, maxx, maxy, maxz]",
+                  "identifier": "//string// A unique identifier for the dataset",
+                  "pointOfContact": {
+                    "contactName": "//string// name of the contact.",
+                    "emailAddress": "string with the email",
+                    "contactType": ["**one of**","organization","individual"],
+                    "role": ["**one of**","resourceProvider", "custodian", "owner", "user", "distributor", "originator", "pointOfContact", "principalInvestigator", "processor", "publisher", "author", "sponsor", "co-author", "collaborator", "editor", "mediator", "rightsHolder", "contributor", "funder", "stakeholder"],
+                    "phone": "//string// with the phone number",
+
+                    "website": "URL of point of contact",
+                    "address": "JSON object structured as wanted"
+                  },
+                  "referenceDate": "full date",
+                  "referenceSystem": "URL formatted according to the OGC Name Type Specification",
+                  "title": "//string// descirbing the dataset"
+                }
+}
+@endjson

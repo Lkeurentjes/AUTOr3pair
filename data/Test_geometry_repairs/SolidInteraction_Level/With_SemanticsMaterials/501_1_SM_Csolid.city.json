@@ -1,0 +1,403 @@
+{
+  "type": "CityJSON",
+  "version": "2.0",
+  "metadata": {
+    "geographicalExtent": [
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  "CityObjects": {
+    "UUID_74fb149b-c496-488b-abe4-e52b73bd36d0": {
+      "type": "GenericCityObject",
+      "geometry": [
+        {
+          "type": "CompositeSolid",
+          "boundaries": [
+            [
+              [
+                [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                [
+                  [
+                    4,
+                    5,
+                    6,
+                    7
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    3,
+                    5,
+                    4
+                  ]
+                ],
+                [
+                  [
+                    3,
+                    2,
+                    6,
+                    5
+                  ]
+                ],
+                [
+                  [
+                    2,
+                    1,
+                    7,
+                    6
+                  ]
+                ],
+                [
+                  [
+                    1,
+                    0,
+                    4,
+                    7
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    8,
+                    9,
+                    10
+                  ]
+                ],
+                [
+                  [
+                    8,
+                    11,
+                    9
+                  ]
+                ],
+                [
+                  [
+                    9,
+                    11,
+                    10
+                  ]
+                ],
+                [
+                  [
+                    8,
+                    10,
+                    11
+                  ]
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  [
+                    12,
+                    10,
+                    9
+                  ]
+                ],
+                [
+                  [
+                    12,
+                    9,
+                    11
+                  ]
+                ],
+                [
+                  [
+                    9,
+                    10,
+                    11
+                  ]
+                ],
+                [
+                  [
+                    12,
+                    11,
+                    10
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "lod": "2",
+          "semantics": {
+            "surfaces": [
+              {
+                "type": "GroundSurface"
+              },
+              {
+                "type": "RoofSurface"
+              },
+              {
+                "on_footprint_edge": true,
+                "type": "WallSurface"
+              },
+              {
+                "on_footprint_edge": false,
+                "type": "WallSurface"
+              }
+            ],
+            "values": [
+              [
+                [
+                  3,
+                  1,
+                  null,
+                  0,
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1,
+                  1
+                ]
+              ],
+              [
+                [
+                  2,
+                  1,
+                  1,
+                  null
+                ]
+              ]
+            ]
+          },
+          "material": {
+            "irradiation": {
+              "values": [
+                [
+                  [
+                    null,
+                    1,
+                    2,
+                    2,
+                    1,
+                    0
+                  ],
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    1,
+                    2,
+                    2
+                  ]
+                ]
+              ]
+            },
+            "irradiation-2": {
+              "values": [
+                [
+                  [
+                    2,
+                    2,
+                    2,
+                    2,
+                    0,
+                    2
+                  ],
+                  [
+                    2,
+                    0,
+                    2,
+                    0
+                  ]
+                ],
+                [
+                  [
+                    0,
+                    2,
+                    2,
+                    1
+                  ]
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "vertices": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      100000,
+      0
+    ],
+    [
+      100000,
+      100000,
+      0
+    ],
+    [
+      100000,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      100000
+    ],
+    [
+      100000,
+      0,
+      100000
+    ],
+    [
+      100000,
+      100000,
+      100000
+    ],
+    [
+      0,
+      100000,
+      100000
+    ],
+    [
+      20000,
+      20000,
+      20000
+    ],
+    [
+      80000,
+      20000,
+      20000
+    ],
+    [
+      50000,
+      50000,
+      20000
+    ],
+    [
+      50000,
+      50000,
+      90000
+    ],
+    [
+      10000,
+      10000,
+      10000
+    ]
+  ],
+  "appearance": {
+    "materials": [
+      {
+        "name": "roofandground",
+        "ambientIntensity": 0.2,
+        "diffuseColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "emissiveColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "specularColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "shininess": 0.2,
+        "transparency": 0.5,
+        "isSmooth": false
+      },
+      {
+        "name": "wall",
+        "ambientIntensity": 0.4,
+        "diffuseColor": [
+          0.1,
+          0.1,
+          0.9
+        ],
+        "emissiveColor": [
+          0.1,
+          0.1,
+          0.9
+        ],
+        "specularColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "shininess": 0.0,
+        "transparency": 0.5,
+        "isSmooth": true
+      },
+      {
+        "name": "floor",
+        "ambientIntensity": 0.4,
+        "diffuseColor": [
+          0.5,
+          0.1,
+          0.9
+        ],
+        "emissiveColor": [
+          0.1,
+          0.5,
+          0.9
+        ],
+        "specularColor": [
+          0.9,
+          0.1,
+          0.75
+        ],
+        "shininess": 0.0,
+        "transparency": 0.5,
+        "isSmooth": true
+      }
+    ]
+  },
+  "transform": {
+    "scale": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "translate": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "+metadata-extended": {
+    "presentLoDs": {
+      "2": 1
+    }
+  },
+  "extensions": {
+    "MetadataExtended": {
+      "url": "https://raw.githubusercontent.com/cityjson/metadata-extended/0.6/metadata-extended.ext.json",
+      "version": "0.6"
+    }
+  }
+}

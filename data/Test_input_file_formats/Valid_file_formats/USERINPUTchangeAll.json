@@ -1,0 +1,28 @@
+{
+  "ExtendScope": [
+    "GenericCityObject",
+    "test"
+  ],
+  "overlap_tol": 0.1,
+  "planarity_d2p_tol": 0.0001,
+  "planarity_n_tol": 2000,
+  "snap_tol": 0.00001,
+  "OBJgeomtype": "MultiSolid",
+  "MaxRepairDepth": 5000,
+  "TotalRepairDepth": 500000,
+  "SolveAll": false,
+  "ErrorsToRepair": [301],
+  "KeepEverything": true,
+  "SkipLowRepairs": true,
+  "Watertight": true,
+  "Orientation": true,
+  "MergeTol": 0.9,
+  "Overlap": false,
+  "Semantics": false,
+  "Simplification": true,
+  "Triangulation": true,
+  "RemeshSlivers": true,
+  "ShowProgress": false,
+  "AddAttribute": false,
+  "Debugging": true
+}

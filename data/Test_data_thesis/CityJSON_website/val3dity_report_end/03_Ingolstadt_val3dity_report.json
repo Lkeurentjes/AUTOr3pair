@@ -1,0 +1,2776 @@
+{
+  "all_errors": [
+    102,
+    204
+  ],
+  "dataset_errors": [],
+  "features": [
+    {
+      "errors": [],
+      "id": "0000000",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018106",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018106_BP.cDE2EWIiKpjCz5PoS5O6",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018106_BP.vaTC1d8GxA5iZnJavLPU",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018106_BP.xEZrRyC5LeEz2DvT9CtQ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018115_BP.ezoneXcyW5j6bA8MFkkI|geom=0|face=39",
+          "info": "deviation normals: 33.2823 (tolerance=20)"
+        }
+      ],
+      "id": "4018115",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.3IruZnnIGy13ATGWhYZm",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.3fWhN0E928fa9myerppR",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.4Gvs78qgy3IubANxDRFq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.4raHNBOcf3Mm7AXj3aVX",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.FtJEqJIj9vltVjHog1Vl",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.LqYBcVDIkpJBDMupNIUC",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.Or7sYKNB2ZLixMVd97MA",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.VCkimJQU8d9wwhxb3IP9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018115_BP.ezoneXcyW5j6bA8MFkkI|geom=0|face=39",
+          "info": "deviation normals: 33.2823 (tolerance=20)"
+        }
+      ],
+      "id": "4018115_BP.ezoneXcyW5j6bA8MFkkI",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.jHzRH0xTiVzO4Um4ZlH5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.l3Vz0H1ddvrukHqGGnLk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.n2cVoTydqPTSv2yGRYl5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.t5u68aU5dRWfSjR2iAHW",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018115_BP.zDile1KpBEX6TX3oigXh",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018128|geom=0|face=441",
+          "info": "deviation normals: 20.5927 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018128|geom=0|face=464",
+          "info": "deviation normals: 20.6323 (tolerance=20)"
+        }
+      ],
+      "id": "4018128",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.8knuND3uotmJWRObS1NY",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.EcJFRbr84G5tDD91ICFg",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.Hwgt0mUudTm7SBXKNVKl",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.Pn001D6julxSzgyy9Daj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.WsOx12FpFALhtSMefYRS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.YN6op78hrcO1nDzEJF2O",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.ac1sgkCNGMmW9kyqLL0N",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.mMNv6I1LWufoizD8aSzM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018128_BP.tJnFM3WFkXUQOJgyziuh",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.73ufiN1To1fSJfEWDy2Z",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.APUiN7giE9Zr7KBMNHdi",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.NdCiJl2TeNLBldAmIKzh",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.RhouDlhjW23kxJVhwjlD",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.WpJuYEaxYJPtHhxs1flC",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.gAxc2A676EGeSDZqOr2M",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018133_BP.xnflh0MpFqerKbVZJf19",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018142",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018148|geom=0|face=111",
+          "info": "deviation normals: 20.7967 (tolerance=20)"
+        }
+      ],
+      "id": "4018148",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018148_BP.MkUPnB5uDZ55GxUsTRal",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018148_BP.NvrWWrL1dpaPh8Dc4lYH",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018148_BP.XTwAQgQbWXV5siHpL2MG",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018148_BP.uk3spYckGKFreObUP7Xz",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018148_BP.wLulrYBpJhdc9Wd0D6Dw",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149a",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149a_BP.VkYibJIz9tbuIlZ1r5Ix",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149a_BP.a8vyESALQIiAz67jHjr2",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149a_BP.loedJLb7dJbcyf08EM2O",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149b",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149b_BP.AECHiMpB073mfo8rboLX",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149b_BP.LN08NnZ25rimfAAJtVIF",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149b_BP.WbnXoa8nYuoBi3tjFGsz",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018149b_BP.z63uKkYJERMEvd4L9r2V",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018150a",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018150a_BP.PnQbQhKw2EEKQczSWwN3",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152a",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152a_BP.2vxbjUbwNH3Zhb8DLZs5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152a_BP.IYa68QuCyLKCVUXtSvak",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152a_BP.MXRjU3L8kTOC2ky9Et4i",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152a_BP.Y1H0qv5SbPLq46ICb7oY",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152a_BP.gl88Mig53strbeaXxSKq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b_BP.6tyn7NDk4XpSBIFF0pRO",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b_BP.RNWCZH2gy6CSud40cgtX",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b_BP.bZ7DVFz6vdgqtUKW07NC",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b_BP.fqGKHEguHj8I6eyfqwfi",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b_BP.msf0uBdUAxP7fPeMwqkq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018152b_BP.soz5sh7VS4i0gxR82LLo",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018153|geom=0|face=11",
+          "info": "deviation normals: 22.9559 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018153_BP.7tPN4siztbY6lyrvcUS8|geom=0|face=2",
+          "info": "deviation normals: 33.9249 (tolerance=20)"
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.eKcjjYSLfx1Mm4Y88EPd|geom=0|face=765",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.pGVIAnP4hoNDRMILsdEP|geom=0|face=765",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.V75OxFtpoKPjhbxDIULg|geom=0|face=765",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.nQaS07mJxKPnlgRzTbXs|geom=0|face=1126",
+          "info": ""
+        }
+      ],
+      "id": "4018153",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.5zl8xRmYnuaPLR8fN2zy",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018153_BP.7tPN4siztbY6lyrvcUS8|geom=0|face=2",
+          "info": "deviation normals: 33.9249 (tolerance=20)"
+        }
+      ],
+      "id": "4018153_BP.7tPN4siztbY6lyrvcUS8",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.HxU5BQBC84ICtewrUv4r",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.U5AhmuPKYV99a7WIyor5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.V75OxFtpoKPjhbxDIULg|geom=0|face=765",
+          "info": ""
+        }
+      ],
+      "id": "4018153_BP.V75OxFtpoKPjhbxDIULg",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.YNWpdFNHmnf7uEdyW0ZP",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.ZbUgwejZ9KNOBmb7DipF",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.d5CEd7MlDNj8SaUEVaJ8",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.eKcjjYSLfx1Mm4Y88EPd|geom=0|face=765",
+          "info": ""
+        }
+      ],
+      "id": "4018153_BP.eKcjjYSLfx1Mm4Y88EPd",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.kBVt3ZH5cLHH6adwYShm",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.nQaS07mJxKPnlgRzTbXs|geom=0|face=1126",
+          "info": ""
+        }
+      ],
+      "id": "4018153_BP.nQaS07mJxKPnlgRzTbXs",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.oYL2KWgv4f421oPnTmAk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=4018153_BP.pGVIAnP4hoNDRMILsdEP|geom=0|face=765",
+          "info": ""
+        }
+      ],
+      "id": "4018153_BP.pGVIAnP4hoNDRMILsdEP",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018153_BP.xIprnd4yutBOkosDI4He",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018154",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018154_BP.0c4eNgVC7TuPr3v9gLe4",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018154_BP.9bxeweKlkyEBX964jm7d",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018154_BP.zgQ2ncIaw0DBZy9Awn2k",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.5dc2flazTqzAae1vmcxB",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.FFcQeUt5JbGvffuD9FVE",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.HIHip7TBKyvNmJdTxhuq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.Sn4Itt0vMF1b6cBVWSO7",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.fH57YvSzlIutDxlqiZ4t",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.kC5rOt14udLnKHeal1nx",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018155_BP.sD4lMg2VBP2FQKmrJH3X",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=15",
+          "info": "deviation normals: 31.2729 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=23",
+          "info": "deviation normals: 21.0831 (tolerance=20)"
+        }
+      ],
+      "id": "4018156",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018156_BP.2qXZ8A8PejEfgred2bny",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018156_BP.GAggex1nmnB8zjSD4a4q",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018156_BP.NxHlyTAhl5oBvQsqwr3N",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018156_BP.ZeKrbcEwWl7oIWSugtAA",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=15",
+          "info": "deviation normals: 31.2729 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=23",
+          "info": "deviation normals: 21.0831 (tolerance=20)"
+        }
+      ],
+      "id": "4018156_BP.ryrctxX7SlNwv9gVsKKA",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018193",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018193_BP.bBiDnCjkfk9w5rWJzrog",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018193_BP.hsf9pcu3IwuYO8qWLZLH",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018193_BP.lrt2w7oL57hQBgwCwJ2a",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018193_BP.tryRCGB7MtGrMdO4e1Q7",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018194",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018194_BP.3HC8i36L8JL0aNPctDeU",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018197_BP.2ExcsNwu9mK9xbvpRI8H|geom=0|face=203",
+          "info": "deviation normals: 74.3818 (tolerance=20)"
+        }
+      ],
+      "id": "4018197",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018197_BP.2ExcsNwu9mK9xbvpRI8H|geom=0|face=203",
+          "info": "deviation normals: 74.3818 (tolerance=20)"
+        }
+      ],
+      "id": "4018197_BP.2ExcsNwu9mK9xbvpRI8H",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204a",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.AvetAyOriiiS9scyOh1Z",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.ERxYKlAzodITNRE8ogfM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.IZMHAChF0FYay8pC2bCp",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.X2gkPhh7nUHVHld2Lcfl",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.cQjn1ESINh6oKTuYK6tw",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.dpsLDoCTfxoBF5HP22eq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.g5QKxV0b5yTqID30FbrZ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204a_BP.wsJWrfks7Dx1SLgtfu3c",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204b_BP.hPhuQ8NHmTFmoW8VoGtb|geom=0|face=24",
+          "info": "deviation normals: 35.8003 (tolerance=20)"
+        }
+      ],
+      "id": "4018204b",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204b_BP.9kkeEAexU6SuwWKTPjHR",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204b_BP.hPhuQ8NHmTFmoW8VoGtb|geom=0|face=24",
+          "info": "deviation normals: 35.8003 (tolerance=20)"
+        }
+      ],
+      "id": "4018204b_BP.hPhuQ8NHmTFmoW8VoGtb",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204b_BP.uzoandOu8OlMYzsdTuRS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=63",
+          "info": "deviation normals: 35.4166 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=65",
+          "info": "deviation normals: 46.2128 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=181",
+          "info": "deviation normals: 28.6675 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=219",
+          "info": "deviation normals: 28.2797 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=301",
+          "info": "deviation normals: 74.6635 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=302",
+          "info": "deviation normals: 76.9664 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=311",
+          "info": "deviation normals: 76.9664 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=316",
+          "info": "deviation normals: 31.1105 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c|geom=0|face=317",
+          "info": "deviation normals: 77.7095 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c_BP.Zn0bjICbeBdXAzdOozoq|geom=0|face=2",
+          "info": "deviation normals: 34.0218 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c_BP.NvwHLWWjBmEklxZcaU7h|geom=0|face=2",
+          "info": "deviation normals: 34.1513 (tolerance=20)"
+        }
+      ],
+      "id": "4018204c",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204c_BP.9zjkJwwzubhey1ZLm17r",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204c_BP.DPsZsfxZqO7cPrYLl0bM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204c_BP.DtrL9VoorYB8487Zqc2Q",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c_BP.NvwHLWWjBmEklxZcaU7h|geom=0|face=2",
+          "info": "deviation normals: 34.1513 (tolerance=20)"
+        }
+      ],
+      "id": "4018204c_BP.NvwHLWWjBmEklxZcaU7h",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204c_BP.Zn0bjICbeBdXAzdOozoq|geom=0|face=2",
+          "info": "deviation normals: 34.0218 (tolerance=20)"
+        }
+      ],
+      "id": "4018204c_BP.Zn0bjICbeBdXAzdOozoq",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204c_BP.tDgYNSbegpavIeCx7I4B",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204d_BP.ljmIzOqucCNAMjbpKd5L|geom=0|face=47",
+          "info": "deviation normals: 34.325 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204d_BP.yz0GRrr3I7ebfCQgBvvw|geom=0|face=47",
+          "info": "deviation normals: 34.2743 (tolerance=20)"
+        }
+      ],
+      "id": "4018204d",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204d_BP.6GjmRQbVQxk6JvA3qJWY",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018204d_BP.Z29sYAGbD7iKRmRZbQTA",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204d_BP.ljmIzOqucCNAMjbpKd5L|geom=0|face=47",
+          "info": "deviation normals: 34.325 (tolerance=20)"
+        }
+      ],
+      "id": "4018204d_BP.ljmIzOqucCNAMjbpKd5L",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018204d_BP.sn9jRD42THl6GfjHglxI",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018204d_BP.yz0GRrr3I7ebfCQgBvvw|geom=0|face=47",
+          "info": "deviation normals: 34.2743 (tolerance=20)"
+        }
+      ],
+      "id": "4018204d_BP.yz0GRrr3I7ebfCQgBvvw",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018205",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018205_BP.RIAwwaeQ35YZHCmAUJq3",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018205_BP.YTvM6rYOwN4ztE9zHjjk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018205_BP.Zu0zlN48J8w5YmGnE2V9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018205_BP.iRQvc8BGKxCewhqRL0XQ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018205_BP.yqh24paW0Qpbir2y1ucm",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018206",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018206_BP.FkrTXeATr4Thn7Y0RVP7",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018206_BP.Yw6CGxbLlTMdOrNmjr6u",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018206_BP.Z3SVufrGFXnPjY38sWix",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018206_BP.nUZ3Q5BXbPAcFE3VjHqL",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=130",
+          "info": "deviation normals: 22.4104 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=144",
+          "info": "deviation normals: 33.9179 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=186",
+          "info": "deviation normals: 22.4104 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=200",
+          "info": "deviation normals: 33.9179 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=259",
+          "info": "deviation normals: 22.4104 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=273",
+          "info": "deviation normals: 33.9179 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=315",
+          "info": "deviation normals: 24.6451 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=329",
+          "info": "deviation normals: 32.4194 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=372",
+          "info": "deviation normals: 24.6451 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=386",
+          "info": "deviation normals: 32.4194 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=577",
+          "info": "deviation normals: 24.6451 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018207|geom=0|face=591",
+          "info": "deviation normals: 32.4194 (tolerance=20)"
+        }
+      ],
+      "id": "4018207",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018207_BP.N0Vhq7VufIolawWt7Tqg",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208_BP.4DrGEdelwDPzqyw1hrxR",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208_BP.EugX6ibtkPhUfVx8c1FZ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208_BP.VH5tGsO3Xb1zxvu8UxuI",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208_BP.YhNNdoCCeNr81CPkTLKk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208_BP.u2QR7X87Y8U4PmGvatkF",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018208_BP.zXujYdiZCWwNoxfF9y3Z",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018209a",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018209a_BP.8WwNrpMGlMRjzT5Oc5MX",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018209b",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018210_BP.F7TC11jOLjVmdm8wJGfg|geom=0|face=40",
+          "info": "deviation normals: 22.2801 (tolerance=20)"
+        }
+      ],
+      "id": "4018210",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.5vRUVGxEcchXAR90BC8d",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.60IYQvmfs3nPXuyYzW9i",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018210_BP.F7TC11jOLjVmdm8wJGfg|geom=0|face=40",
+          "info": "deviation normals: 22.2801 (tolerance=20)"
+        }
+      ],
+      "id": "4018210_BP.F7TC11jOLjVmdm8wJGfg",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.JJ6LvXfXaDQASmxQsLUk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.UjLJKnWtWgfzgsVW98ez",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.ZEgVcyLlbBnelBCC65EQ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.ZrdWjMZpdWS9ukyDzV3I",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.vfW4xq4OFD16DDdBPn1V",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.wW7HX6Y74KJXFqwaqS1h",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018210_BP.yuV9OnoHSiN8Ls6oiSAg",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018211",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018211_BP.C1qqiW2kHyeOsTMrJgAf",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018211_BP.Dh65ydDCNK4KZvfdT33c",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018211_BP.TfjWc1QHz6hvRnCDADo9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018211_BP.pglvsas3qo8r4UX1xtju",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018212|geom=0|face=63",
+          "info": "deviation normals: 24.6192 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018212|geom=0|face=119",
+          "info": "deviation normals: 28.5162 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018212|geom=0|face=292",
+          "info": "deviation normals: 28.6822 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018212|geom=0|face=348",
+          "info": "deviation normals: 24.6192 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018212|geom=0|face=404",
+          "info": "deviation normals: 28.6822 (tolerance=20)"
+        }
+      ],
+      "id": "4018212",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018212_BP.94DXy78Vx66RKXWZwCuG",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018212_BP.Gj1snSixr5WmuT9pLC9I",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018212_BP.aafsjWqBcq1onTlfItbL",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018212_BP.hXJZ6zOXuq2M2VWhrKJV",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018213",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018215",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018215_BP.kOV4HhzZwMWnHttWi8vj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018216",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018216_BP.ma7xdeGnMrbFmQqj69hE",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018258",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018258_BP.C41afRSx8YMmKAenBYWE",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018258_BP.GQTBu6f2BEz3bc0GwROD",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018258_BP.OvIUGQGc3jdlqPy5E9rj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018258_BP.pK4qNcg2UJbsBAqcpOd9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018258_BP.xMfyJsgPDO6iyS8zyW0p",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018259",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018259_BP.CQcIQAzwKtb3Pvn4ulSp",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018259_BP.H5AOOba5uX2SCdkSZJJM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018260|geom=0|face=16",
+          "info": "deviation normals: 28.7954 (tolerance=20)"
+        }
+      ],
+      "id": "4018260",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.QiaS7deAC4XACsuGBX01",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.ZZPLNMPnEY8G7WRlA6WJ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.dmbGcWyCGUFNlwA2bIQj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.gK8U7OF5HiKGh8Cn5dVo",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.q0hOL8lZiUaGJyCS7mIX",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.sPsJeiljcgrfuCakch8b",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018260_BP.te5a7BwzV4Q0YvfYhGY1",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018261b_BP.JFhHuDLELbyq52KySAQk|geom=0|face=24",
+          "info": "deviation normals: 28.4901 (tolerance=20)"
+        }
+      ],
+      "id": "4018261b",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018261b_BP.JFhHuDLELbyq52KySAQk|geom=0|face=24",
+          "info": "deviation normals: 28.4901 (tolerance=20)"
+        }
+      ],
+      "id": "4018261b_BP.JFhHuDLELbyq52KySAQk",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018261b_BP.auWRWW8ahGY6Sqma2V2e",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018261b_BP.lVy63a3ylfdXI2QasGOb",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018261b_BP.tZVlLfMCRWo7XE9OwzW4",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018261b_BP.vOEwM1gRqwI3mPIeyVVB",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018262_BP.7cj5KpX8mOElJR5DT6xR|geom=0|face=30",
+          "info": "deviation normals: 20.1663 (tolerance=20)"
+        }
+      ],
+      "id": "4018262",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018262_BP.0DB0nAjw2PpRvOXVRGx5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018262_BP.7cj5KpX8mOElJR5DT6xR|geom=0|face=30",
+          "info": "deviation normals: 20.1663 (tolerance=20)"
+        }
+      ],
+      "id": "4018262_BP.7cj5KpX8mOElJR5DT6xR",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018262_BP.9g0g5SwNmY0OR2GoWyN7",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018262_BP.O8QkIn57KEUdW6Y8ffQh",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018262_BP.YKB9c9KOvyvtYqbrCEDn",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018262_BP.nAhuuG9CWEQ8ZtA0cht1",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018262_BP.woRtIDkGsOIv82yhEAVV",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263_BP.6yryEBkHvTtBzifd52WE",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263_BP.Bcv8DmPRld05NX4ll1Sh",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263_BP.Dl8iw02cU0Vps9KEpF6r",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263_BP.K1qJuW7xvQbssISomOQS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263_BP.NM183BndFadleHqX3oZi",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018263_BP.pUxkprJqWkR4fwBIuRmq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018264",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018264_BP.JPnc5m3CjRQ1w0l5yg3l",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018264_BP.OjImvKwJZYZRD8wiy2EK",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018264_BP.ehIjoh0SzxYJ8LSvRCp3",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018265",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018265_BP.8oHg5RHMQ2RBDBVyu1Bf",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018265_BP.WVkbQYb5jesdnsQdod6x",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018265_BP.Wy0BDkn2amALM06QA3bk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018265_BP.ijmLiqifG1yMA0oh7HFV",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018266",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.0PAcAwOfq7bk4g6k9eDt",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.10xl0ksiLPbNORJ1MJsj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.163SLrML5lsaK5vtTg5i",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.2z3sIzn2AgMvYRBCj37F",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.4OiC8uYW5E8mHBSTNKr3",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.4rXJIOALadz4AKuYTR6l",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.4unRnztPPdBOcXYVDctI",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.5SyoTbiIYmwpKNHNk6gU",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.6VBQaDq8vMIvtinxMPAn",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.6kFTUEggy7xswbliLBRe",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.6zUr0S8x4rMnvRPHguJ0",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.71sV5RYRjqy6q6Aux87y",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.90nx8eiYbnOoeqwYCgoj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.9GsL4OTgkjmtDr1HPUBF",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.9VLhzCAZYbZTgfxJkyEC",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.AKNPfONV4DHazWErLpu5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.AzQTQlSwne6V62vu8jlS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.BNVGArmj6VykI8UhJhb9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.C14pwq72fQPiw4mDYpwb",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.D6euRZnfxVlUDkTU6PTS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.Dj81ogklEjtSU20cz7M2",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.E9H00bgYbkshoNSDRrbm",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.EcIZVNKasMXWGCIobHzl",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.ExwsxiSxKaI64L8WiR8n",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.GA77XK24OC4PlAC9YfLe",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.GXD15mHb3mEhHXHg3Xxu",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.IYTFznvHP0cIv2A5SXvi",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.K4jp0OvgDNYnpFt4PObD",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.Kelapk9ZACHyX5M8bJUW",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.MWEIzINIKPfvnGOjcdtk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.PempjW2PE48uSV64QuHk",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.PjyloYLhqAikXlajGI7E",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.QxEhGakCcV9trBAxC0n1",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.R4CWg0Wr8Pm5UkkVMssL",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.ST2SwRGysHKvDzmqY8pG",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.TgJJob19pW40CLkV9MaC",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.Vnn0zjoOVYcCebG4RnLN",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.X1jwRmJi8Rj7KnZlhOrH",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.XQh3R0JJfL46pWKUOZVL",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.XUgNpi1Pd9BNgCQRVO39",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.Y1Xj9wZ19NW9bFnvIrEA",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.YTMMbBETGhV7QYcE5aLz",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.Zde8QtrdtkP0ISRIgFjy",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.c7b9DqHhToObmPTSy9g7",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.cAXVWF7ozXqjCufK6Xk4",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.d2BWoSlh9eitM4kYZ275",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.dpN4UYGcHTHxzHAaBWYU",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.eA1mUCHkO2VoRY8KQ3kW",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.gsA3HcYhUwnDVBJitbAW",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.hHdLMAww11gdpKMNCB2U",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.hoIYPGSKIjOU5GmW9nqt",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.kqnKNl07JBz4F5l3urwu",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.lQSuEVi8Vy962419vYgB",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.lRj1d9zFbNnci6gyoxcG",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.lrDhZY3aD2FRu0BmRrGv",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.mWLeQxFy3vizNWTfaC4Z",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.mY9HQ8FNn2esLo1mkB6c",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.noi9nb9XBzQD4bWKCFfq",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.oAWoHQYZ3Sq0ipXgAxbM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.oaY5PIuOXr0YBkOVmVaS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.olhSCrKIqtV7iQnYNwuo",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.p1GqIiWU45adfhM7lTiA",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.p1OcEXmaGmGkVXeHf6Ji",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.p8kmljdkHRGTpSP5vrIV",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.qxvpBIG185UwGriNUSCf",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.rCexEAuBa2WzlheEerDy",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.s6Qad6YP2JZPaLAQcivv",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.uOf0YTfZCILERUl99Szd",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.vMSxhcOn9gCoxz8rWuud",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.vhLbXontkIl2zwEeaIg2",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.vmD5I5HjbKBttDmxXdeu",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.wXdalh52ervtyUd6gVb9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.wpk3B6hY1fxwogaxkC9g",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.wrWf4hJt0iwTLeHKnUHT",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.z48GEVJ8JbkqCuUNk1YM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.zroZd0DkrW453tXMXCgS",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018267_BP.zsDapzwgt8f9pehVkaik",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018270",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271_BP.IFBqlfY3ExM19vrYvmZP",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271_BP.L410tiQZter9dNer1fTI",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271_BP.MX8eHrfulmbTCGLtFvcY",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271_BP.ZvDXn0vA9l08ZkUTYrMh",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271_BP.azPZcmR2LIu4F3FtJV2G",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018271_BP.zUnAT4xKhhznA5JW9SU6",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018273",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018273_BP.5U4VJoCaA6VKwibhCdmJ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018273_BP.JJMeXg9RlnkEhPlChOAa",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018273_BP.cvVvKZhwaWNPM9vzYR6V",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018279_BP.UlkO1znH4By5Xfc6WCw9|geom=0|face=19",
+          "info": "deviation normals: 30.9344 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018279_BP.HFNhguF8ZeoneDK65EpT|geom=0|face=19",
+          "info": "deviation normals: 22.2086 (tolerance=20)"
+        }
+      ],
+      "id": "4018279",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.0SphpEVrJjwcQjleqF1R",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.3cG8JyZ7qH3dzGmsTvl2",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.41HkLHIHboHikaZOrW2e",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.4C8OVnf7Thdei92kWgVb",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.6QN9Ui4MPui1xCPYuvSj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.7v1spjTpJzhMxvWt4ZXx",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.FM321wnTyrBHcK0qWcPZ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018279_BP.HFNhguF8ZeoneDK65EpT|geom=0|face=19",
+          "info": "deviation normals: 22.2086 (tolerance=20)"
+        }
+      ],
+      "id": "4018279_BP.HFNhguF8ZeoneDK65EpT",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.K7heFeeC84dP9Ik1vst2",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.OJ87Zvy2lVqxGb68DsGl",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.PBBEaxbmqYySYc8qHhkm",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.SIiqrUY1Zp2vkevLXU7f",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=4018279_BP.UlkO1znH4By5Xfc6WCw9|geom=0|face=19",
+          "info": "deviation normals: 30.9344 (tolerance=20)"
+        }
+      ],
+      "id": "4018279_BP.UlkO1znH4By5Xfc6WCw9",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.XGyF6lMxqmrdUWsCZbor",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.bDRQav6xgNAjvnyNLFMc",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.je3Z6knre1P1rRS7DSNQ",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.oMGxShS6jEA2K6lOM4om",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018279_BP.ze6K30qZOHJObu2KUDaT",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018302",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "4018302_BP.J9EvrrUwc5Zw6DDrR7ob",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.2ST3AlSQEtsKRNihlS6k",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.8ucehjWfGz5TXw5HLB9b",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.J0pzVKsOTbNpZveis81X",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.QYgwNTbnsQgxcZTPeDMj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.aZdYq834FUwpPe0b7rSe",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.d7g1RGzQrDdNvHwaLPw7",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.qYGoJrcGJQaY3fueE0cF",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_1432b984-e0fb-4ddf-8cf3-29c1907d0383_BP.uCE28WTfZ73qbpuvReM8",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_8cd2381f-a1da-4a4a-b15a-75250bb1f2cc",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_8cd2381f-a1da-4a4a-b15a-75250bb1f2cc_BP.KhOSBLAE2UozIWgWe508",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.39vimUIRij9vwYhCopRW",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.3qeO5NVNcKiRq7qge16O",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.4IZR3qdsX63rtKSNGoqM",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.B80eYl9EOmMXiIHwjeBj",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.EzpSDdavZfP8AUSMaMGa",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.J253gouqdyFRFgUqEgzo",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.e7IE6Lu7DsfABZ1OC74W",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_9ec08f55-b504-4dab-a8c7-78d4388a818b_BP.eNyZxfkNq1223fV7xonz",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.0LmVMkX8sF3JKjtfUPQ9",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.7mhpZf7uRrtLafVYTczv",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.LXRueUbKd0P6mO8BOPi5",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.YIqIHEEuzVTRehUFxFU4",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.byK9NldHkNEN9zk5zVs0",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.iKhQK9gbBGplyPuEIfbs",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b7042412-f37d-48a0-b9bc-478f2dbba01c_BP.otsmKRUlQd4nCi2MCb1T",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919|geom=0|face=3",
+          "info": "deviation normals: 26.6812 (tolerance=20)"
+        },
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.uDrjVwwooM3Zgf4Y6e6E|geom=0|face=43",
+          "info": "deviation normals: 72.6562 (tolerance=20)"
+        }
+      ],
+      "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.2KhwTXgK5xmAIkKDOFta",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.9waYjk2Ul8eUJDva6HXX",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.PpyIiIXFPPEjX6uPI0to",
+      "type": "BuildingInstallation",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 204,
+          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
+          "id": "coid=UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.uDrjVwwooM3Zgf4Y6e6E|geom=0|face=43",
+          "info": "deviation normals: 72.6562 (tolerance=20)"
+        }
+      ],
+      "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.uDrjVwwooM3Zgf4Y6e6E",
+      "type": "BuildingInstallation",
+      "validity": false
+    }
+  ],
+  "features_overview": [
+    {
+      "total": 55,
+      "type": "Building",
+      "valid": 38
+    },
+    {
+      "total": 323,
+      "type": "BuildingInstallation",
+      "valid": 304
+    }
+  ],
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/03_Ingolstadt__REPAIRED.json",
+  "input_file_type": "CityJSON",
+  "parameters": {
+    "overlap_tol": -1.0,
+    "planarity_d2p_tol": 0.01,
+    "planarity_n_tol": 20.0,
+    "snap_tol": 0.001
+  },
+  "primitives_overview": [
+    {
+      "total": 702,
+      "type": "MultiSurface",
+      "valid": 656
+    }
+  ],
+  "time": "2024-09-18T08:11:35 (CEST)",
+  "type": "val3dity_report",
+  "val3dity_version": "2.5.0b2",
+  "validity": false
+}

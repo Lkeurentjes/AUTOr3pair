@@ -1,0 +1,6 @@
+{
+  "RemeshSlivers": true,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

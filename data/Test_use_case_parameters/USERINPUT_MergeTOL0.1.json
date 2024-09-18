@@ -1,0 +1,6 @@
+{
+  "MergeTol": 0.1,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

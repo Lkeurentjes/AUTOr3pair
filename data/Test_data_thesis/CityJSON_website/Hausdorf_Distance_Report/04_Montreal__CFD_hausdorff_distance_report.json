@@ -1,0 +1,1355 @@
+{
+    "per LOD": {
+        "2": {
+            "per object": {
+                "B-201391182746-80FE6BE00A9C": {
+                    "distance": 15.8068,
+                    "size": 55.9352,
+                    "percentage": 0.2826
+                },
+                "B-201391182646-3B58C3D11C14": {
+                    "distance": 27.1763,
+                    "size": 55.9702,
+                    "percentage": 0.4855
+                },
+                "B-201391184319-10016AAA7767": {
+                    "distance": 22.9427,
+                    "size": 75.2321,
+                    "percentage": 0.305
+                },
+                "B-201391183015-38EA1483F42A": {
+                    "distance": 13.4963,
+                    "size": 28.5361,
+                    "percentage": 0.473
+                },
+                "B-20139118362-3B2F05EE4C5D": {
+                    "distance": 11.8227,
+                    "size": 32.4284,
+                    "percentage": 0.3646
+                },
+                "B-201391183515-0AB36D7A0FD1": {
+                    "distance": 33.3328,
+                    "size": 34.8498,
+                    "percentage": 0.9565
+                },
+                "B-201391182735-437860D46338": {
+                    "distance": 10.0161,
+                    "size": 13.8899,
+                    "percentage": 0.7211
+                },
+                "B-201391183321-7AD0ADA3D23D": {
+                    "distance": 19.4784,
+                    "size": 22.9264,
+                    "percentage": 0.8496
+                },
+                "B-201391183618-9B6B148DA961": {
+                    "distance": 7.0914,
+                    "size": 26.8846,
+                    "percentage": 0.2638
+                },
+                "B-201391183627-E23F7E0CF9B8": {
+                    "distance": 16.6501,
+                    "size": 17.4583,
+                    "percentage": 0.9537
+                },
+                "B-201391183852-86ECDF9CCBEB": {
+                    "distance": 18.0617,
+                    "size": 75.5723,
+                    "percentage": 0.239
+                },
+                "B-201391183054-74E5BC303181": null,
+                "B-201391182654-63DE13DF530F": {
+                    "distance": 12.5778,
+                    "size": 43.8844,
+                    "percentage": 0.2866
+                },
+                "B-201391183341-09E641B29056": {
+                    "distance": 27.5593,
+                    "size": 25.9612,
+                    "percentage": 1.0616
+                },
+                "B-201391182847-46C061A36215": {
+                    "distance": 19.4852,
+                    "size": 23.672,
+                    "percentage": 0.8231
+                },
+                "B-201391182815-BFE8DBDF044E": {
+                    "distance": 14.0467,
+                    "size": 50.2945,
+                    "percentage": 0.2793
+                },
+                "B-201391183043-DA6ACBC047E7": {
+                    "distance": 29.7535,
+                    "size": 25.6146,
+                    "percentage": 1.1616
+                },
+                "B-201391183621-8B61B8DDF4D9": null,
+                "B-20139118424-D1224DCD2D9A": {
+                    "distance": 8.2293,
+                    "size": 55.2678,
+                    "percentage": 0.1489
+                },
+                "B-201391184414-C63FB37C0C74": null,
+                "B-201391184612-297A99D80ED4": {
+                    "distance": 25.0351,
+                    "size": 23.9764,
+                    "percentage": 1.0442
+                },
+                "B-201391183556-5C804CA34ABE": {
+                    "distance": 13.3976,
+                    "size": 21.9139,
+                    "percentage": 0.6114
+                },
+                "B-20139118288-AFA543F1E745": {
+                    "distance": 12.4179,
+                    "size": 50.2695,
+                    "percentage": 0.247
+                },
+                "B-201391183316-F93018CCDF14": {
+                    "distance": 20.3472,
+                    "size": 22.9623,
+                    "percentage": 0.8861
+                },
+                "B-201391184355-18781E6D879F": {
+                    "distance": 9.1231,
+                    "size": 22.5733,
+                    "percentage": 0.4042
+                },
+                "B-201391184252-75B09D623219": {
+                    "distance": 1.6941,
+                    "size": 6.6589,
+                    "percentage": 0.2544
+                },
+                "B-201391183034-13B018705009": {
+                    "distance": 17.929,
+                    "size": 27.3249,
+                    "percentage": 0.6561
+                },
+                "B-20139118341-1532D3B91D7F": {
+                    "distance": 26.5518,
+                    "size": 31.2512,
+                    "percentage": 0.8496
+                },
+                "B-201391183326-125907732D98": null,
+                "B-201391184210-64C8F019CADB": {
+                    "distance": 32.2632,
+                    "size": 162.1621,
+                    "percentage": 0.199
+                },
+                "B-201391184543-2EF4BCC9973B": {
+                    "distance": 48.8397,
+                    "size": 47.1226,
+                    "percentage": 1.0364
+                },
+                "B-201391182732-4EC441B9F5AD": null,
+                "B-201391183247-CBAFA61E6378": {
+                    "distance": 1.6153,
+                    "size": 5.648,
+                    "percentage": 0.286
+                },
+                "B-201391183029-B9142328D21D": {
+                    "distance": 17.5626,
+                    "size": 22.587,
+                    "percentage": 0.7776
+                },
+                "B-20139118391-7D980DE0E41D": {
+                    "distance": 22.8499,
+                    "size": 25.8116,
+                    "percentage": 0.8853
+                },
+                "B-201391183458-5E49A9C32225": {
+                    "distance": 7.5369,
+                    "size": 27.4501,
+                    "percentage": 0.2746
+                },
+                "B-201391184013-5C05227F5F4C": {
+                    "distance": 19.2729,
+                    "size": 31.5285,
+                    "percentage": 0.6113
+                },
+                "B-201391183546-BCE4A7A6DA07": {
+                    "distance": 18.7744,
+                    "size": 31.1785,
+                    "percentage": 0.6022
+                },
+                "B-201391183817-C628AC150565": {
+                    "distance": 20.2406,
+                    "size": 35.0163,
+                    "percentage": 0.578
+                },
+                "B-201391184152-F5A48ED6E8C9": {
+                    "distance": 9.9518,
+                    "size": 25.7648,
+                    "percentage": 0.3863
+                },
+                "B-20139118384-54149D0858B5": {
+                    "distance": 17.9139,
+                    "size": 84.2863,
+                    "percentage": 0.2125
+                },
+                "B-201391184418-203CCF9202C8": {
+                    "distance": 27.7946,
+                    "size": 78.6877,
+                    "percentage": 0.3532
+                },
+                "B-201391184447-F237C0B2D849": {
+                    "distance": 20.5568,
+                    "size": 29.2503,
+                    "percentage": 0.7028
+                },
+                "B-201391183336-0CB8D7D4C255": {
+                    "distance": 22.1002,
+                    "size": 21.48,
+                    "percentage": 1.0289
+                },
+                "B-20139118400-95DC7A2E0FC0": null,
+                "B-201391183026-346D18B721CE": {
+                    "distance": 23.0114,
+                    "size": 63.5181,
+                    "percentage": 0.3623
+                },
+                "B-201391184426-66486958F7C2": null,
+                "B-201391184455-00E4CD135812": {
+                    "distance": 18.0048,
+                    "size": 50.6102,
+                    "percentage": 0.3558
+                },
+                "B-201391182932-664B1DD38ED2": null,
+                "B-201391183529-E606B725B483": {
+                    "distance": 16.9539,
+                    "size": 18.893,
+                    "percentage": 0.8974
+                },
+                "B-201391184525-70EF2B862917": {
+                    "distance": 33.5559,
+                    "size": 41.6194,
+                    "percentage": 0.8063
+                },
+                "B-201391184157-5960AA53B032": {
+                    "distance": 12.4522,
+                    "size": 101.7758,
+                    "percentage": 0.1223
+                },
+                "B-201391184547-326DE40791B5": {
+                    "distance": 34.544,
+                    "size": 30.8322,
+                    "percentage": 1.1204
+                },
+                "B-201391184440-31996891CA4B": {
+                    "distance": 17.5799,
+                    "size": 31.8532,
+                    "percentage": 0.5519
+                },
+                "B-201391184249-61F7C334DE90": {
+                    "distance": 4.8432,
+                    "size": 10.0619,
+                    "percentage": 0.4813
+                },
+                "B-201391183445-2EDA48EF7FFE": {
+                    "distance": 3.3217,
+                    "size": 6.2484,
+                    "percentage": 0.5316
+                },
+                "B-201391183343-CA0A95142050": {
+                    "distance": 20.283,
+                    "size": 43.2425,
+                    "percentage": 0.4691
+                },
+                "B-201391182841-93465B024E95": {
+                    "distance": 19.0769,
+                    "size": 23.3481,
+                    "percentage": 0.8171
+                },
+                "B-201391183532-08FFCEAE185F": {
+                    "distance": 20.516,
+                    "size": 18.7887,
+                    "percentage": 1.0919
+                },
+                "B-201391184429-5CC8BA5E751A": null,
+                "B-201391184555-C279F80D1B8E": {
+                    "distance": 36.2227,
+                    "size": 29.7599,
+                    "percentage": 1.2172
+                },
+                "B-201391184342-E93BA8C06B76": null,
+                "B-20131218142914-9F6E26613784": {
+                    "distance": 16.4757,
+                    "size": 68.7411,
+                    "percentage": 0.2397
+                },
+                "B-201391183334-3F05B20AEFDD": {
+                    "distance": 18.7057,
+                    "size": 50.317,
+                    "percentage": 0.3718
+                },
+                "B-201391184339-730713B5F671": {
+                    "distance": 16.1108,
+                    "size": 39.17,
+                    "percentage": 0.4113
+                },
+                "B-201391183543-12E1364DCE54": {
+                    "distance": 27.5276,
+                    "size": 24.1776,
+                    "percentage": 1.1386
+                },
+                "B-201391183811-770E26F08FDD": {
+                    "distance": 17.903,
+                    "size": 42.7763,
+                    "percentage": 0.4185
+                },
+                "B-201391183833-B05809576342": null,
+                "B-20139118282-5874E2479365": {
+                    "distance": 22.0055,
+                    "size": 50.5284,
+                    "percentage": 0.4355
+                },
+                "B-201391183727-1F5E0D83BBB1": null,
+                "B-201391184233-B61681C801E1": {
+                    "distance": 10.1087,
+                    "size": 9.8173,
+                    "percentage": 1.0297
+                },
+                "B-201391184255-70437F5AEC9D": {
+                    "distance": 8.1999,
+                    "size": 9.9815,
+                    "percentage": 0.8215
+                },
+                "B-201391183011-1E88025FD8AA": {
+                    "distance": 27.5432,
+                    "size": 24.9815,
+                    "percentage": 1.1025
+                },
+                "B-20131218142818-8A731AB41F22": {
+                    "distance": 8.7616,
+                    "size": 36.7878,
+                    "percentage": 0.2382
+                },
+                "B-201391183424-FF33B52D696B": {
+                    "distance": 19.7421,
+                    "size": 111.313,
+                    "percentage": 0.1774
+                },
+                "B-201391183350-1BCEFA4B9CE1": {
+                    "distance": 27.7127,
+                    "size": 33.8929,
+                    "percentage": 0.8177
+                },
+                "B-201391184312-35DD58D13B04": {
+                    "distance": 15.0676,
+                    "size": 24.801,
+                    "percentage": 0.6075
+                },
+                "B-20139118343-D3CF479F8D08": {
+                    "distance": 13.6967,
+                    "size": 14.9584,
+                    "percentage": 0.9157
+                },
+                "B-201391183018-1E3443AD90EC": {
+                    "distance": 24.9796,
+                    "size": 53.2864,
+                    "percentage": 0.4688
+                },
+                "B-201391182953-E310BF1727B6": {
+                    "distance": 15.0459,
+                    "size": 53.0052,
+                    "percentage": 0.2839
+                },
+                "B-20131218142547-4D5F612E3305": {
+                    "distance": 17.9746,
+                    "size": 22.0932,
+                    "percentage": 0.8136
+                },
+                "B-2013121814246-5B3ACED63679": {
+                    "distance": 12.3394,
+                    "size": 35.2222,
+                    "percentage": 0.3503
+                },
+                "B-201391184615-58D39AEA8111": {
+                    "distance": 18.6412,
+                    "size": 30.1675,
+                    "percentage": 0.6179
+                },
+                "B-201391182648-3BCB72E4994C": {
+                    "distance": 4.4881,
+                    "size": 6.9312,
+                    "percentage": 0.6475
+                },
+                "B-201391182652-DA559CA335F7": {
+                    "distance": 54.5658,
+                    "size": 44.8113,
+                    "percentage": 1.2177
+                },
+                "B-20139118369-885B2621CFF7": {
+                    "distance": 26.5613,
+                    "size": 48.9224,
+                    "percentage": 0.5429
+                },
+                "B-201391183455-CFFFF388415F": {
+                    "distance": 9.8377,
+                    "size": 28.5282,
+                    "percentage": 0.3448
+                },
+                "B-20139118395-3F7BEFAAE468": {
+                    "distance": 11.6285,
+                    "size": 52.342,
+                    "percentage": 0.2222
+                },
+                "B-201391182925-47CCCD33A6F4": {
+                    "distance": 10.2288,
+                    "size": 23.4676,
+                    "percentage": 0.4359
+                },
+                "B-201391183736-FC45B27CCAFD": {
+                    "distance": 14.1112,
+                    "size": 52.7934,
+                    "percentage": 0.2673
+                },
+                "B-201391183549-94241085DD11": {
+                    "distance": 11.2889,
+                    "size": 22.8235,
+                    "percentage": 0.4946
+                },
+                "B-201391183443-D949E5966C58": {
+                    "distance": 5.3232,
+                    "size": 6.7397,
+                    "percentage": 0.7898
+                },
+                "B-20139118298-24EE85D76A49": {
+                    "distance": 17.7028,
+                    "size": 20.9898,
+                    "percentage": 0.8434
+                },
+                "B-201391182957-F9000113E8C0": {
+                    "distance": 13.4413,
+                    "size": 73.2517,
+                    "percentage": 0.1835
+                },
+                "B-201391184551-8C37C51A0CFD": null,
+                "B-201391183524-32A15A89EE11": {
+                    "distance": 17.3662,
+                    "size": 18.9693,
+                    "percentage": 0.9155
+                },
+                "B-201391182650-46BD94CB84AE": {
+                    "distance": 4.5342,
+                    "size": 6.6119,
+                    "percentage": 0.6858
+                },
+                "B-201391183411-E46A39307661": {
+                    "distance": 17.6707,
+                    "size": 47.0354,
+                    "percentage": 0.3757
+                },
+                "B-201391184225-1EFB2BEBCBB3": {
+                    "distance": 6.564,
+                    "size": 16.7826,
+                    "percentage": 0.3911
+                },
+                "B-201391182859-E3C8B6342FFC": {
+                    "distance": 13.7453,
+                    "size": 26.8566,
+                    "percentage": 0.5118
+                },
+                "B-201391182923-A01D93B53631": {
+                    "distance": 11.3408,
+                    "size": 31.404,
+                    "percentage": 0.3611
+                },
+                "B-20139118333-D6CB9660CF2E": {
+                    "distance": 17.1962,
+                    "size": 18.05,
+                    "percentage": 0.9527
+                },
+                "B-201391182813-12A8E09B3F7C": {
+                    "distance": 19.6246,
+                    "size": 50.058,
+                    "percentage": 0.392
+                },
+                "B-201391183358-373865F79612": {
+                    "distance": 12.5063,
+                    "size": 51.2132,
+                    "percentage": 0.2442
+                },
+                "B-201391183440-AED02D24CECE": {
+                    "distance": 29.3796,
+                    "size": 24.1968,
+                    "percentage": 1.2142
+                },
+                "B-201391183633-B9780D6F6349": {
+                    "distance": 21.2566,
+                    "size": 37.7762,
+                    "percentage": 0.5627
+                },
+                "B-20139118284-2A54BB5F932E": {
+                    "distance": 10.4271,
+                    "size": 46.2535,
+                    "percentage": 0.2254
+                },
+                "B-201391183353-C3A1DF5EF6A9": null,
+                "B-201391184259-88FD548B62FC": {
+                    "distance": 16.0555,
+                    "size": 80.4465,
+                    "percentage": 0.1996
+                },
+                "B-201391183845-394C73CC36D9": {
+                    "distance": 17.0072,
+                    "size": 45.4363,
+                    "percentage": 0.3743
+                },
+                "B-201391183251-197FA22A61AF": {
+                    "distance": 14.4804,
+                    "size": 21.4815,
+                    "percentage": 0.6741
+                },
+                "B-20139118447-91BF660254F2": null,
+                "B-201391183657-7D3CF407DE1F": {
+                    "distance": 22.931,
+                    "size": 48.0963,
+                    "percentage": 0.4768
+                },
+                "B-201391183324-C8C75741374A": {
+                    "distance": 4.4912,
+                    "size": 9.9689,
+                    "percentage": 0.4505
+                },
+                "B-201391182912-CCF763D75D8F": {
+                    "distance": 25.5549,
+                    "size": 20.8471,
+                    "percentage": 1.2258
+                },
+                "B-201391183646-62638C177BF1": {
+                    "distance": 12.3062,
+                    "size": 46.9577,
+                    "percentage": 0.2621
+                },
+                "B-201391183254-73796F2FCD70": {
+                    "distance": 11.9656,
+                    "size": 25.8656,
+                    "percentage": 0.4626
+                },
+                "B-201391183837-077521831B08": {
+                    "distance": 13.5978,
+                    "size": 33.0395,
+                    "percentage": 0.4116
+                },
+                "B-201391183338-3B8D5AA98119": {
+                    "distance": 21.9748,
+                    "size": 22.4029,
+                    "percentage": 0.9809
+                },
+                "B-201391183653-2DD4AB9D17F2": null,
+                "B-20139118462-E4C75C4B826B": {
+                    "distance": 26.5992,
+                    "size": 29.6287,
+                    "percentage": 0.8978
+                },
+                "B-201391183329-07931B64900E": {
+                    "distance": 22.7708,
+                    "size": 23.0747,
+                    "percentage": 0.9868
+                },
+                "B-201391183527-80AE3EC7948F": {
+                    "distance": 15.2004,
+                    "size": 18.8807,
+                    "percentage": 0.8051
+                },
+                "B-201391183420-343A97831368": {
+                    "distance": 7.3252,
+                    "size": 25.9242,
+                    "percentage": 0.2826
+                },
+                "B-201391184230-6ADDD915E5AD": {
+                    "distance": 13.4012,
+                    "size": 12.0585,
+                    "percentage": 1.1113
+                },
+                "B-20139118466-AF0C9E5B85A7": {
+                    "distance": 22.1692,
+                    "size": 31.3986,
+                    "percentage": 0.7061
+                },
+                "B-201391183823-F21CED44AAA6": null,
+                "B-201391182823-5533FC360C75": {
+                    "distance": 14.2986,
+                    "size": 49.7422,
+                    "percentage": 0.2875
+                },
+                "B-201391182748-760C56E8E481": {
+                    "distance": 3.6859,
+                    "size": 7.8385,
+                    "percentage": 0.4702
+                },
+                "B-201391184346-5A79244F6253": null,
+                "B-201391184423-4B1DB61A0C55": {
+                    "distance": 19.7035,
+                    "size": 34.3151,
+                    "percentage": 0.5742
+                },
+                "B-201391182857-35F675D374C5": {
+                    "distance": 13.7374,
+                    "size": 12.2667,
+                    "percentage": 1.1199
+                },
+                "B-201391183257-7BB8DDB32812": null,
+                "B-20139118338-5AFA41A99E82": {
+                    "distance": 24.808,
+                    "size": 23.9298,
+                    "percentage": 1.0367
+                },
+                "B-201391182937-899A95C96427": {
+                    "distance": 26.0964,
+                    "size": 21.6206,
+                    "percentage": 1.207
+                },
+                "B-201391182918-DAE2CBF87D8C": {
+                    "distance": 16.2651,
+                    "size": 20.9008,
+                    "percentage": 0.7782
+                },
+                "B-20139118304-8CC54EBE9E3D": {
+                    "distance": 30.3875,
+                    "size": 26.1407,
+                    "percentage": 1.1625
+                },
+                "B-20139118354-678B16FD40DD": {
+                    "distance": 5.6579,
+                    "size": 26.1817,
+                    "percentage": 0.2161
+                },
+                "B-201391184540-9DDE4CBF1302": {
+                    "distance": 25.4328,
+                    "size": 67.7645,
+                    "percentage": 0.3753
+                },
+                "B-201391182945-910503552E65": {
+                    "distance": 14.4403,
+                    "size": 14.1179,
+                    "percentage": 1.0228
+                },
+                "B-201391183520-0D8AB4CDECC0": {
+                    "distance": 16.912,
+                    "size": 18.8812,
+                    "percentage": 0.8957
+                },
+                "B-201391182910-67C9DEE27823": {
+                    "distance": 22.986,
+                    "size": 21.1689,
+                    "percentage": 1.0858
+                },
+                "B-20139118451-19B52C5A0645": null,
+                "B-201391183752-3DE567C6CA9D": {
+                    "distance": 29.5134,
+                    "size": 35.0495,
+                    "percentage": 0.842
+                },
+                "B-201391183746-1B4DBF2EA48D": {
+                    "distance": 20.7176,
+                    "size": 26.6576,
+                    "percentage": 0.7772
+                },
+                "B-201391184331-4DC4FC8FC7EA": {
+                    "distance": 36.6903,
+                    "size": 52.7815,
+                    "percentage": 0.6951
+                },
+                "B-201391182852-8C264A99DC18": {
+                    "distance": 18.2191,
+                    "size": 21.5747,
+                    "percentage": 0.8445
+                },
+                "B-201391183630-42F622DA6C37": {
+                    "distance": 15.1186,
+                    "size": 17.0115,
+                    "percentage": 0.8887
+                },
+                "B-201391183517-1BA6B02DEDB0": {
+                    "distance": 17.3487,
+                    "size": 18.8812,
+                    "percentage": 0.9188
+                },
+                "B-201391183244-3F99487DBEEE": {
+                    "distance": 30.241,
+                    "size": 31.182,
+                    "percentage": 0.9698
+                },
+                "B-201391183522-241A773BF4B9": {
+                    "distance": 17.2735,
+                    "size": 18.8864,
+                    "percentage": 0.9146
+                },
+                "B-201391183346-1C8C22DC8F7C": {
+                    "distance": 17.8778,
+                    "size": 75.4266,
+                    "percentage": 0.237
+                },
+                "B-20131218142635-5A79CD833C7B": {
+                    "distance": 24.3264,
+                    "size": 148.9037,
+                    "percentage": 0.1634
+                },
+                "B-201391184532-CB8CFEB60B17": {
+                    "distance": 24.0427,
+                    "size": 66.7641,
+                    "percentage": 0.3601
+                },
+                "B-201391183721-7F7FA927A24F": {
+                    "distance": 20.6967,
+                    "size": 60.604,
+                    "percentage": 0.3415
+                },
+                "B-201391183313-9C3174BF694D": {
+                    "distance": 15.5261,
+                    "size": 22.9401,
+                    "percentage": 0.6768
+                },
+                "B-201391182743-FAEE4AC36B75": {
+                    "distance": 25.736,
+                    "size": 80.66,
+                    "percentage": 0.3191
+                },
+                "B-201391184517-A9BDAEC1B6F3": null,
+                "B-20139118346-ACDD1D2E486F": {
+                    "distance": 13.7571,
+                    "size": 17.2714,
+                    "percentage": 0.7965
+                },
+                "B-201391182854-0456E25FCFA0": {
+                    "distance": 23.3309,
+                    "size": 21.344,
+                    "percentage": 1.0931
+                },
+                "B-201391182810-48222D416756": {
+                    "distance": 18.7987,
+                    "size": 48.0975,
+                    "percentage": 0.3908
+                },
+                "B-201391183614-E8E64E86E428": {
+                    "distance": 6.194,
+                    "size": 26.029,
+                    "percentage": 0.238
+                },
+                "B-201391182644-1AF3B39B38DB": {
+                    "distance": 5.5957,
+                    "size": 7.6523,
+                    "percentage": 0.7312
+                },
+                "B-201391184349-54EB5C5BB287": null,
+                "B-201391184326-CEC6AFE3D791": {
+                    "distance": 26.9901,
+                    "size": 97.0886,
+                    "percentage": 0.278
+                },
+                "B-20139118376-8B13B0C0EC64": {
+                    "distance": 10.2048,
+                    "size": 9.6243,
+                    "percentage": 1.0603
+                },
+                "B-201391183935-6B8EA1920647": {
+                    "distance": 14.9802,
+                    "size": 143.316,
+                    "percentage": 0.1045
+                },
+                "B-201391183512-C5358C9907FA": {
+                    "distance": 8.5693,
+                    "size": 27.5304,
+                    "percentage": 0.3113
+                },
+                "B-201391184222-F5CA629EB985": {
+                    "distance": 9.9334,
+                    "size": 18.8327,
+                    "percentage": 0.5275
+                },
+                "B-201391183417-A0FED33618DA": {
+                    "distance": 13.9783,
+                    "size": 24.5871,
+                    "percentage": 0.5685
+                },
+                "B-201391184635-0E5245A883E0": {
+                    "distance": 17.631,
+                    "size": 23.0286,
+                    "percentage": 0.7656
+                },
+                "B-201391183742-AF94D0A3E6E7": {
+                    "distance": 11.9666,
+                    "size": 34.5209,
+                    "percentage": 0.3466
+                },
+                "B-201391184625-236B0C558137": {
+                    "distance": 33.5631,
+                    "size": 32.3267,
+                    "percentage": 1.0382
+                },
+                "B-201391182755-920E6386B01F": {
+                    "distance": 5.765,
+                    "size": 7.451,
+                    "percentage": 0.7737
+                },
+                "B-20139118459-33B43B17650A": {
+                    "distance": 23.6755,
+                    "size": 58.5343,
+                    "percentage": 0.4045
+                },
+                "B-201391184436-19128D6E9933": {
+                    "distance": 28.042,
+                    "size": 33.7209,
+                    "percentage": 0.8316
+                },
+                "B-201391183540-C8B97FD6366C": {
+                    "distance": 15.5383,
+                    "size": 27.9841,
+                    "percentage": 0.5553
+                },
+                "B-201391183331-F3F2F95086F3": {
+                    "distance": 12.8574,
+                    "size": 26.9902,
+                    "percentage": 0.4764
+                },
+                "B-201391184359-51543C50DA44": {
+                    "distance": 7.4695,
+                    "size": 22.8423,
+                    "percentage": 0.327
+                },
+                "B-20139118374-949D359133E5": {
+                    "distance": 9.4684,
+                    "size": 25.5722,
+                    "percentage": 0.3703
+                },
+                "B-20139118273-A4A5469505DC": {
+                    "distance": 22.5744,
+                    "size": 296.616,
+                    "percentage": 0.0761
+                },
+                "B-201391182639-BA8A278ECC36": {
+                    "distance": 22.1344,
+                    "size": 97.7573,
+                    "percentage": 0.2264
+                },
+                "B-20139118387-751AF1F26DA5": {
+                    "distance": 14.255,
+                    "size": 31.3802,
+                    "percentage": 0.4543
+                },
+                "B-201391182843-F501FE10086B": {
+                    "distance": 19.0023,
+                    "size": 23.2168,
+                    "percentage": 0.8185
+                },
+                "B-201391184010-C3D28C7E7716": {
+                    "distance": 6.3047,
+                    "size": 27.3649,
+                    "percentage": 0.2304
+                },
+                "B-201391183433-2198331460F1": {
+                    "distance": 8.2643,
+                    "size": 79.0065,
+                    "percentage": 0.1046
+                },
+                "B-20139118366-08F14B12E2A3": {
+                    "distance": 10.6774,
+                    "size": 30.5558,
+                    "percentage": 0.3494
+                },
+                "B-20139118469-C33D5067AB74": {
+                    "distance": 16.1029,
+                    "size": 23.828,
+                    "percentage": 0.6758
+                },
+                "B-201391184410-E0148570819D": null,
+                "B-20139118357-90DC44FF4763": {
+                    "distance": 9.975,
+                    "size": 27.4186,
+                    "percentage": 0.3638
+                },
+                "B-201391184522-288E7900C8EB": {
+                    "distance": 26.2333,
+                    "size": 30.066,
+                    "percentage": 0.8725
+                },
+                "B-201391183041-E6196BBD01EC": {
+                    "distance": 14.6824,
+                    "size": 21.3451,
+                    "percentage": 0.6879
+                },
+                "B-201391183310-8BE40D5B556D": {
+                    "distance": 24.1251,
+                    "size": 32.0123,
+                    "percentage": 0.7536
+                },
+                "B-201391182940-27E486958EB0": {
+                    "distance": 19.945,
+                    "size": 34.4286,
+                    "percentage": 0.5793
+                },
+                "B-201391183713-E3190B20D2B9": {
+                    "distance": 15.4427,
+                    "size": 30.0372,
+                    "percentage": 0.5141
+                },
+                "B-20131218143029-7F5A60AB7911": {
+                    "distance": 15.8733,
+                    "size": 50.4656,
+                    "percentage": 0.3145
+                },
+                "B-201391183242-3BE3A2D227AB": {
+                    "distance": 25.3531,
+                    "size": 60.9326,
+                    "percentage": 0.4161
+                },
+                "B-201391183636-C1E386E575E1": {
+                    "distance": 34.8725,
+                    "size": 26.8422,
+                    "percentage": 1.2992
+                },
+                "B-201391182833-69022997F0C9": {
+                    "distance": 12.9753,
+                    "size": 48.6792,
+                    "percentage": 0.2665
+                },
+                "B-201391183716-E7AF85DD5CA4": {
+                    "distance": 17.5384,
+                    "size": 36.4045,
+                    "percentage": 0.4818
+                },
+                "B-201391182631-FF36E169B680": {
+                    "distance": 20.3463,
+                    "size": 133.2929,
+                    "percentage": 0.1526
+                },
+                "B-201391183249-205B03BF052E": {
+                    "distance": 23.6581,
+                    "size": 55.0975,
+                    "percentage": 0.4294
+                },
+                "B-201391182942-1AA821883D63": {
+                    "distance": 19.321,
+                    "size": 45.8136,
+                    "percentage": 0.4217
+                },
+                "B-201391182849-CA5578CF3BDC": {
+                    "distance": 12.9076,
+                    "size": 37.4718,
+                    "percentage": 0.3445
+                },
+                "B-20131218142410-23B22495FF7A": {
+                    "distance": 9.7476,
+                    "size": 18.1504,
+                    "percentage": 0.537
+                },
+                "B-201391184443-391F136E8FC3": null,
+                "B-20139118406-437E42C22B35": {
+                    "distance": 7.3509,
+                    "size": 25.5859,
+                    "percentage": 0.2873
+                },
+                "B-201391182845-E545413401AF": {
+                    "distance": 24.06,
+                    "size": 23.8176,
+                    "percentage": 1.0102
+                },
+                "B-201391183119-968D063DB96C": {
+                    "distance": 13.13,
+                    "size": 58.4008,
+                    "percentage": 0.2248
+                },
+                "B-201391183820-8BCBC52D9B27": null,
+                "B-20139118435-EF2813F1D424": {
+                    "distance": 51.683,
+                    "size": 53.1374,
+                    "percentage": 0.9726
+                },
+                "B-201391183552-2BBB948B425F": {
+                    "distance": 28.0882,
+                    "size": 21.9139,
+                    "percentage": 1.2818
+                },
+                "B-20139118379-498BCBEA2ABF": {
+                    "distance": 28.4703,
+                    "size": 25.3917,
+                    "percentage": 1.1212
+                },
+                "B-201391182914-7DA2722B6E08": {
+                    "distance": 26.0176,
+                    "size": 20.9298,
+                    "percentage": 1.2431
+                },
+                "B-20139118336-354478F7D9BB": {
+                    "distance": 24.6531,
+                    "size": 20.2347,
+                    "percentage": 1.2184
+                },
+                "B-201391184335-A149AE66E746": {
+                    "distance": 47.2969,
+                    "size": 37.7497,
+                    "percentage": 1.2529
+                },
+                "B-20139118352-8A6C5FB10268": {
+                    "distance": 5.641,
+                    "size": 26.6228,
+                    "percentage": 0.2119
+                },
+                "B-201391183013-16BB3FF28E90": {
+                    "distance": 11.6933,
+                    "size": 23.2653,
+                    "percentage": 0.5026
+                },
+                "B-20139118308-7DC1FF5485F7": {
+                    "distance": 15.5013,
+                    "size": 25.0046,
+                    "percentage": 0.6199
+                },
+                "B-201391182740-62422CAC9BC0": {
+                    "distance": 17.3999,
+                    "size": 68.2196,
+                    "percentage": 0.2551
+                },
+                "B-201391184529-F516287C1D22": {
+                    "distance": 5.6499,
+                    "size": 7.9859,
+                    "percentage": 0.7075
+                },
+                "B-201391183117-F97B2E3DDD1D": {
+                    "distance": 10.2392,
+                    "size": 26.8355,
+                    "percentage": 0.3816
+                },
+                "B-201391183624-B523ACBF9E59": {
+                    "distance": 13.5252,
+                    "size": 14.0818,
+                    "percentage": 0.9605
+                },
+                "B-20139118439-F2316D29EE24": {
+                    "distance": 22.0144,
+                    "size": 28.4872,
+                    "percentage": 0.7728
+                },
+                "B-201391182928-34815A56D004": {
+                    "distance": 21.7932,
+                    "size": 24.1031,
+                    "percentage": 0.9042
+                },
+                "B-201391183021-E12BF228B91F": null,
+                "B-20139118349-787D4E2FB02E": {
+                    "distance": 19.4459,
+                    "size": 19.8076,
+                    "percentage": 0.9817
+                },
+                "B-201391184315-A397225964D3": {
+                    "distance": 8.2895,
+                    "size": 10.4094,
+                    "percentage": 0.7963
+                },
+                "B-201391184228-030C416FB43D": {
+                    "distance": 4.1902,
+                    "size": 15.5311,
+                    "percentage": 0.2698
+                },
+                "B-201391183840-702287C9516F": {
+                    "distance": 10.3563,
+                    "size": 32.6812,
+                    "percentage": 0.3169
+                },
+                "B-201391182826-5BF07AEF4B3A": {
+                    "distance": 18.8343,
+                    "size": 47.9813,
+                    "percentage": 0.3925
+                },
+                "B-201391183749-32370961C24E": {
+                    "distance": 12.5713,
+                    "size": 16.2129,
+                    "percentage": 0.7754
+                },
+                "B-201391183640-817D4CF66DA2": {
+                    "distance": 21.1961,
+                    "size": 38.5556,
+                    "percentage": 0.5498
+                },
+                "B-20139118331-1863A8C2471A": {
+                    "distance": 27.1422,
+                    "size": 31.8874,
+                    "percentage": 0.8512
+                },
+                "B-20139118306-E9902D00D4AF": {
+                    "distance": 22.8853,
+                    "size": 22.195,
+                    "percentage": 1.0311
+                },
+                "B-201391183755-A37D6D4E9651": {
+                    "distance": 34.5928,
+                    "size": 34.5126,
+                    "percentage": 1.0023
+                },
+                "B-201391182921-78FFEB8F2470": {
+                    "distance": 21.6846,
+                    "size": 24.8545,
+                    "percentage": 0.8725
+                },
+                "B-201391183038-3010E765D20F": {
+                    "distance": 33.868,
+                    "size": 29.0871,
+                    "percentage": 1.1644
+                },
+                "B-201391183537-CB43E64C2394": {
+                    "distance": 21.3372,
+                    "size": 28.1484,
+                    "percentage": 0.758
+                },
+                "B-201391184514-926457018702": {
+                    "distance": 24.3185,
+                    "size": 36.3652,
+                    "percentage": 0.6687
+                },
+                "B-20131218142550-D8859B0F37FA": null,
+                "B-201391183912-9BE8B9BBEBF2": null,
+                "B-201391183929-A24AD1C2C5E9": {
+                    "distance": 16.4246,
+                    "size": 98.3586,
+                    "percentage": 0.167
+                },
+                "B-201391184242-4158F7B23F07": {
+                    "distance": 19.3846,
+                    "size": 90.071,
+                    "percentage": 0.2152
+                },
+                "B-201391184629-7B6024059A31": {
+                    "distance": 27.659,
+                    "size": 35.4225,
+                    "percentage": 0.7808
+                },
+                "B-201391182729-2AACCCC482C0": {
+                    "distance": 28.9788,
+                    "size": 26.9936,
+                    "percentage": 1.0735
+                },
+                "B-201391183452-DEB028566D32": {
+                    "distance": 8.5603,
+                    "size": 32.3913,
+                    "percentage": 0.2643
+                },
+                "B-20139118380-DE0E135E44FB": {
+                    "distance": 31.7231,
+                    "size": 27.819,
+                    "percentage": 1.1403
+                },
+                "B-201391184352-CE3F5D7B3BD0": null,
+                "B-201391183952-0B0102F9E63A": {
+                    "distance": 10.1418,
+                    "size": 93.1712,
+                    "percentage": 0.1089
+                },
+                "B-201391183414-D37FABD74FFE": {
+                    "distance": 7.9068,
+                    "size": 26.8898,
+                    "percentage": 0.294
+                },
+                "B-201391184640-79B8A95C2001": {
+                    "distance": 8.9875,
+                    "size": 90.6658,
+                    "percentage": 0.0991
+                },
+                "B-20139118371-0B7D633627FE": {
+                    "distance": 17.523,
+                    "size": 24.8065,
+                    "percentage": 0.7064
+                },
+                "B-201391183611-34CD2B2AB684": {
+                    "distance": 11.2028,
+                    "size": 27.1095,
+                    "percentage": 0.4132
+                },
+                "B-201391183826-7A3CE052B040": {
+                    "distance": 14.6398,
+                    "size": 33.5007,
+                    "percentage": 0.437
+                },
+                "B-201391184323-12FEDE450429": {
+                    "distance": 23.7978,
+                    "size": 59.1086,
+                    "percentage": 0.4026
+                },
+                "B-20139118456-9D9908E1CCF6": {
+                    "distance": 9.7764,
+                    "size": 14.1533,
+                    "percentage": 0.6908
+                },
+                "B-201391183429-A78BAA8CC000": {
+                    "distance": 33.305,
+                    "size": 108.2372,
+                    "percentage": 0.3077
+                },
+                "B-201391183830-18E2001E57D4": null,
+                "B-201391184219-942EB067627A": {
+                    "distance": 8.2933,
+                    "size": 6.8783,
+                    "percentage": 1.2057
+                },
+                "B-201391183758-703F8E29F3FE": {
+                    "distance": 39.3555,
+                    "size": 34.943,
+                    "percentage": 1.1263
+                },
+                "B-201391183510-B55DBF955DE1": {
+                    "distance": 12.373,
+                    "size": 29.6658,
+                    "percentage": 0.4171
+                },
+                "B-201391184239-BF595F842AAF": {
+                    "distance": 29.0776,
+                    "size": 39.3106,
+                    "percentage": 0.7397
+                },
+                "B-20139118442-9CF8A5F670BD": {
+                    "distance": 6.4969,
+                    "size": 23.0943,
+                    "percentage": 0.2813
+                },
+                "B-201391183650-562149ECFA72": null,
+                "B-201391184558-8A185D304843": {
+                    "distance": 13.9696,
+                    "size": 42.3203,
+                    "percentage": 0.3301
+                },
+                "B-201391183045-15E3BAA63898": {
+                    "distance": 18.5003,
+                    "size": 49.3956,
+                    "percentage": 0.3745
+                },
+                "B-201391182829-819BF43F0675": {
+                    "distance": 33.5326,
+                    "size": 37.2456,
+                    "percentage": 0.9003
+                },
+                "B-201391183848-BC14C789E445": {
+                    "distance": 20.323,
+                    "size": 53.2293,
+                    "percentage": 0.3818
+                },
+                "B-201391182737-2C50845709CE": {
+                    "distance": 32.0739,
+                    "size": 55.751,
+                    "percentage": 0.5753
+                },
+                "B-201391184450-CC5D473557B9": {
+                    "distance": 14.5616,
+                    "size": 34.8813,
+                    "percentage": 0.4175
+                },
+                "B-20131218142949-84025417ED6C": {
+                    "distance": 14.1433,
+                    "size": 54.1192,
+                    "percentage": 0.2613
+                },
+                "B-201391182831-87DCB2B9B03A": {
+                    "distance": 18.119,
+                    "size": 36.7993,
+                    "percentage": 0.4924
+                },
+                "B-20139118295-D75DB48128E4": {
+                    "distance": 7.7989,
+                    "size": 19.5147,
+                    "percentage": 0.3996
+                },
+                "B-201391183559-C390EDA88EBD": {
+                    "distance": 11.8301,
+                    "size": 29.2369,
+                    "percentage": 0.4046
+                },
+                "B-201391183036-212F9F697CC3": {
+                    "distance": 12.9048,
+                    "size": 32.2848,
+                    "percentage": 0.3997
+                },
+                "B-201391184236-9EC8FB0ABD59": {
+                    "distance": 10.9064,
+                    "size": 11.1843,
+                    "percentage": 0.9752
+                },
+                "B-201391183049-018824D5967A": {
+                    "distance": 15.6494,
+                    "size": 62.151,
+                    "percentage": 0.2518
+                },
+                "B-201391183814-3B4F2199F4AB": {
+                    "distance": 7.8918,
+                    "size": 28.4413,
+                    "percentage": 0.2775
+                },
+                "B-201391183318-6A19BC856435": {
+                    "distance": 20.3505,
+                    "size": 22.8075,
+                    "percentage": 0.8923
+                },
+                "B-201391182820-8C7D2AD653F9": {
+                    "distance": 9.3523,
+                    "size": 50.7888,
+                    "percentage": 0.1841
+                },
+                "B-201391182818-D8AFDF15FCFB": {
+                    "distance": 13.5478,
+                    "size": 25.9937,
+                    "percentage": 0.5212
+                },
+                "B-201391183031-37910D71DFE3": {
+                    "distance": 30.508,
+                    "size": 30.1781,
+                    "percentage": 1.0109
+                },
+                "B-201391182916-F5CE611BA8AE": {
+                    "distance": 23.1762,
+                    "size": 20.8074,
+                    "percentage": 1.1138
+                },
+                "B-201391182838-45F577C2E21C": {
+                    "distance": 22.797,
+                    "size": 22.2523,
+                    "percentage": 1.0245
+                },
+                "B-201391184433-C5CFBAB9AF61": {
+                    "distance": 13.9187,
+                    "size": 32.6915,
+                    "percentage": 0.4258
+                },
+                "B-201391182935-A5101C04E16C": {
+                    "distance": 18.4658,
+                    "size": 21.5103,
+                    "percentage": 0.8585
+                },
+                "B-201391182930-6BC5ED9C0195": {
+                    "distance": 14.5017,
+                    "size": 22.1176,
+                    "percentage": 0.6557
+                },
+                "B-201391183856-5E4B22C6B0E2": null,
+                "B-20139118292-BCEA338E0A03": {
+                    "distance": 7.7242,
+                    "size": 18.0148,
+                    "percentage": 0.4288
+                },
+                "B-201391183643-0F3D96C9627B": {
+                    "distance": 22.5996,
+                    "size": 22.301,
+                    "percentage": 1.0134
+                },
+                "B-201391184619-EEE21AB2EE98": {
+                    "distance": 51.5437,
+                    "size": 42.805,
+                    "percentage": 1.2042
+                },
+                "B-201391182836-C465E6117D09": {
+                    "distance": 21.9028,
+                    "size": 49.5456,
+                    "percentage": 0.4421
+                },
+                "B-201391183534-F0C7B7504904": {
+                    "distance": 21.06,
+                    "size": 28.2901,
+                    "percentage": 0.7444
+                }
+            },
+            "maxDifference": 54.5658,
+            "missingCount": 32,
+            "highestPercentage": 1.2992
+        }
+    },
+    "Maxdifferencewholefile": 54.5658,
+    "HighestPercentageWholeFile": 1.2992
+}

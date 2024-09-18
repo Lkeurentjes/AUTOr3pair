@@ -1,0 +1,4637 @@
+{
+  "all_errors": [
+    102,
+    104
+  ],
+  "dataset_errors": [],
+  "features": [
+    {
+      "errors": [],
+      "id": "B-20131218142410-23B22495FF7A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-2013121814246-5B3ACED63679",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20131218142547-4D5F612E3305",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142550-D8859B0F37FA|geom=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142550-D8859B0F37FA|geom=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142550-D8859B0F37FA|geom=0|face=48",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142550-D8859B0F37FA|geom=0|face=87",
+          "info": ""
+        }
+      ],
+      "id": "B-20131218142550-D8859B0F37FA",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=587",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=590",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=591",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=592",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=596",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=597",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=598",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|face=599",
+          "info": ""
+        }
+      ],
+      "id": "B-20131218142635-5A79CD833C7B",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20131218142818-8A731AB41F22",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20131218142914-9F6E26613784",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20131218142949-84025417ED6C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20131218143029-7F5A60AB7911",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182631-FF36E169B680",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182639-BA8A278ECC36",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182644-1AF3B39B38DB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182646-3B58C3D11C14",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182648-3BCB72E4994C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182650-46BD94CB84AE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182652-DA559CA335F7",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182654-63DE13DF530F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182729-2AACCCC482C0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118273-A4A5469505DC",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182732-4EC441B9F5AD|geom=0|face=38",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182732-4EC441B9F5AD|geom=0|face=219",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182732-4EC441B9F5AD|geom=0|face=220",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391182732-4EC441B9F5AD|geom=0|face=36",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391182732-4EC441B9F5AD",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391182735-437860D46338",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182737-2C50845709CE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182740-62422CAC9BC0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182743-FAEE4AC36B75",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182746-80FE6BE00A9C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182748-760C56E8E481",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182755-920E6386B01F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182810-48222D416756",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182813-12A8E09B3F7C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182815-BFE8DBDF044E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182818-D8AFDF15FCFB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118282-5874E2479365",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182820-8C7D2AD653F9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182823-5533FC360C75",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182826-5BF07AEF4B3A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182829-819BF43F0675",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182831-87DCB2B9B03A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182833-69022997F0C9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182836-C465E6117D09",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182838-45F577C2E21C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118284-2A54BB5F932E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182841-93465B024E95",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182843-F501FE10086B",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182845-E545413401AF",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182847-46C061A36215",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182849-CA5578CF3BDC",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182852-8C264A99DC18",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182854-0456E25FCFA0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182857-35F675D374C5",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182859-E3C8B6342FFC",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118288-AFA543F1E745",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182910-67C9DEE27823",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182912-CCF763D75D8F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182914-7DA2722B6E08",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182916-F5CE611BA8AE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182918-DAE2CBF87D8C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118292-BCEA338E0A03",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182921-78FFEB8F2470",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182923-A01D93B53631",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182925-47CCCD33A6F4",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182928-34815A56D004",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182930-6BC5ED9C0195",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182932-664B1DD38ED2|geom=0|face=39",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182932-664B1DD38ED2|geom=0|face=51",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182932-664B1DD38ED2|geom=0|face=53",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182932-664B1DD38ED2|geom=0|face=57",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182932-664B1DD38ED2|geom=0|face=66",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182932-664B1DD38ED2|geom=0|face=223",
+          "info": ""
+        }
+      ],
+      "id": "B-201391182932-664B1DD38ED2",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391182935-A5101C04E16C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182937-899A95C96427",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182940-27E486958EB0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182942-1AA821883D63",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182945-910503552E65",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118295-D75DB48128E4",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391182953-E310BF1727B6",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182957-F9000113E8C0|geom=0|face=286",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391182957-F9000113E8C0|geom=0|face=884",
+          "info": ""
+        }
+      ],
+      "id": "B-201391182957-F9000113E8C0",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118298-24EE85D76A49",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183011-1E88025FD8AA",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183013-16BB3FF28E90",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183015-38EA1483F42A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183018-1E3443AD90EC",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=26",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=33",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=45",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=249",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=250",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=29",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183021-E12BF228B91F|geom=0|face=32",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183021-E12BF228B91F",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183026-346D18B721CE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183029-B9142328D21D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183031-37910D71DFE3",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183034-13B018705009",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183036-212F9F697CC3",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183038-3010E765D20F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118304-8CC54EBE9E3D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183041-E6196BBD01EC",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183043-DA6ACBC047E7",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183045-15E3BAA63898",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183049-018824D5967A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=154",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=162",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=163",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=169",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=178",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=182",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=186",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=191",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=227",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=254",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=651",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=664",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=974",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1071",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1093",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1133",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1732",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1733",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1734",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1738",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1744",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1814",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1817",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2002",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2004",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2158",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2177",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2216",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2323",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2520",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2521",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2523",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2578",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2580",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2595",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2596",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2597",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2624",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2659",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2863",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2864",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2865",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2866",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2867",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2868",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2869",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2870",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2976",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2977",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2978",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2979",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2981",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=2982",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3026",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3030",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3123",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3124",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3125",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3126",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3244",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3245",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3275",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3276",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3306",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3308",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3309",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=3310",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=173",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=176",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=190",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=228",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=253",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=470",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=650",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183054-74E5BC303181|geom=0|face=1745",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183054-74E5BC303181",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118306-E9902D00D4AF",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118308-7DC1FF5485F7",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183117-F97B2E3DDD1D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183119-968D063DB96C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183242-3BE3A2D227AB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183244-3F99487DBEEE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183247-CBAFA61E6378",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183249-205B03BF052E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183251-197FA22A61AF",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183254-73796F2FCD70",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183257-7BB8DDB32812|geom=0|face=226",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183257-7BB8DDB32812|geom=0|face=229",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183257-7BB8DDB32812",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118331-1863A8C2471A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183310-8BE40D5B556D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183313-9C3174BF694D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183316-F93018CCDF14",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183318-6A19BC856435",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183321-7AD0ADA3D23D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183324-C8C75741374A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183326-125907732D98|geom=0|face=50",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183326-125907732D98|geom=0|face=86",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183326-125907732D98|geom=0|face=133",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183326-125907732D98|geom=0|face=154",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183326-125907732D98|geom=0|face=183",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183326-125907732D98|geom=0|face=84",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183326-125907732D98",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183329-07931B64900E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118333-D6CB9660CF2E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183331-F3F2F95086F3",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183334-3F05B20AEFDD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183336-0CB8D7D4C255",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183338-3B8D5AA98119",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183341-09E641B29056",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183343-CA0A95142050",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183346-1C8C22DC8F7C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183350-1BCEFA4B9CE1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=81",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=84",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=85",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=89",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=95",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=106",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=107",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=112",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=113",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=115",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=116",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=117",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=118",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=120",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=125",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=219",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=223",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183353-C3A1DF5EF6A9|geom=0|face=82",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183353-C3A1DF5EF6A9",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183358-373865F79612",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118336-354478F7D9BB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118338-5AFA41A99E82",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118341-1532D3B91D7F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183411-E46A39307661",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183414-D37FABD74FFE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183417-A0FED33618DA",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183420-343A97831368|geom=0|face=40",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183420-343A97831368",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183424-FF33B52D696B",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183429-A78BAA8CC000",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118343-D3CF479F8D08",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183433-2198331460F1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183440-AED02D24CECE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183443-D949E5966C58",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183445-2EDA48EF7FFE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183452-DEB028566D32",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183455-CFFFF388415F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183458-5E49A9C32225",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118346-ACDD1D2E486F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118349-787D4E2FB02E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183510-B55DBF955DE1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183512-C5358C9907FA",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183515-0AB36D7A0FD1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183517-1BA6B02DEDB0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118352-8A6C5FB10268",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183520-0D8AB4CDECC0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183522-241A773BF4B9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183524-32A15A89EE11",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183527-80AE3EC7948F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183529-E606B725B483",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183532-08FFCEAE185F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183534-F0C7B7504904",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183537-CB43E64C2394",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118354-678B16FD40DD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183540-C8B97FD6366C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183543-12E1364DCE54",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183546-BCE4A7A6DA07",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183549-94241085DD11",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183552-2BBB948B425F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183556-5C804CA34ABE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183559-C390EDA88EBD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118357-90DC44FF4763",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183611-34CD2B2AB684",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183614-E8E64E86E428|geom=0|face=43",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183614-E8E64E86E428|geom=0|face=48",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183614-E8E64E86E428",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183618-9B6B148DA961",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118362-3B2F05EE4C5D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183621-8B61B8DDF4D9|geom=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183621-8B61B8DDF4D9|geom=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183621-8B61B8DDF4D9|geom=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183621-8B61B8DDF4D9|geom=0|face=78",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183621-8B61B8DDF4D9|geom=0|face=107",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183621-8B61B8DDF4D9|geom=0|face=121",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183621-8B61B8DDF4D9",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183624-B523ACBF9E59",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183627-E23F7E0CF9B8",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183630-42F622DA6C37",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183633-B9780D6F6349",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183636-C1E386E575E1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183640-817D4CF66DA2",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183643-0F3D96C9627B",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183646-62638C177BF1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183650-562149ECFA72|geom=0|face=17",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183650-562149ECFA72|geom=0|face=114",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183650-562149ECFA72|geom=0|face=130",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183650-562149ECFA72|geom=0|face=156",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183650-562149ECFA72|geom=0|face=18",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183650-562149ECFA72",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=16",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=25",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=27",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=33",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=35",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=37",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=38",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=162",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=216",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=249",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=32",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0|face=39",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183653-2DD4AB9D17F2",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183657-7D3CF407DE1F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118366-08F14B12E2A3",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118369-885B2621CFF7",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118371-0B7D633627FE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183713-E3190B20D2B9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183716-E7AF85DD5CA4",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183721-7F7FA927A24F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=62",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=65",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=67",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=71",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=85",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=86",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=87",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=90",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=110",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=119",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=176",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=526",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=528",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=529",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=552",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=593",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=630",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=644",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=646",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=925",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=956",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183727-1F5E0D83BBB1|geom=0|face=109",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183727-1F5E0D83BBB1",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183736-FC45B27CCAFD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118374-949D359133E5",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183742-AF94D0A3E6E7",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183746-1B4DBF2EA48D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183749-32370961C24E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183752-3DE567C6CA9D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183755-A37D6D4E9651",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183758-703F8E29F3FE",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118376-8B13B0C0EC64",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118379-498BCBEA2ABF",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118380-DE0E135E44FB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183811-770E26F08FDD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183814-3B4F2199F4AB|geom=0|face=80",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183814-3B4F2199F4AB|geom=0|face=113",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183814-3B4F2199F4AB",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183817-C628AC150565",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=1",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=14",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=33",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=34",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=65",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=68",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=111",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=120",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=124",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=128",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=154",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=63",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183820-8BCBC52D9B27|geom=0|face=66",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183820-8BCBC52D9B27",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=14",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=18",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=20",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=37",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=40",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=41",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=81",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=102",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=34",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183823-F21CED44AAA6|geom=0|face=80",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183823-F21CED44AAA6",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183826-7A3CE052B040",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183830-18E2001E57D4|geom=0|face=169",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183830-18E2001E57D4",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183833-B05809576342|geom=0|face=15",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183833-B05809576342|geom=0|face=44",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183833-B05809576342|geom=0|face=56",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183833-B05809576342|geom=0|face=193",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183833-B05809576342",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183837-077521831B08",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118384-54149D0858B5",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183840-702287C9516F",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183845-394C73CC36D9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183848-BC14C789E445",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391183852-86ECDF9CCBEB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=24",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=67",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=200",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=201",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=216",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=285",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=287",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=303",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=304",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=320",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=363",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=375",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=377",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=379",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183856-5E4B22C6B0E2|geom=0|face=380",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183856-5E4B22C6B0E2",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118387-751AF1F26DA5",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118391-7D980DE0E41D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=12",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=15",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=17",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=18",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=24",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=26",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=62",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=101",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=154",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=156",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=171",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=173",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183912-9BE8B9BBEBF2|geom=0|face=64",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391183912-9BE8B9BBEBF2",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183929-A24AD1C2C5E9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=146",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=443",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=444",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=447",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=484",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=487",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=613",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=626",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=627",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=737",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=744",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=780",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=781",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=782",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=785",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=787",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=788",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=811",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=816",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=894",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=994",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1041",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1042",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1043",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1044",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1048",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1049",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1062",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1064",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1065",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1066",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1281",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1284",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1287",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=1293",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2288",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2351",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2390",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2454",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2455",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2472",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2473",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2476",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2493",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2558",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2570",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2572",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2615",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2616",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2619",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2626",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2628",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183935-6B8EA1920647|geom=0|face=2639",
+          "info": ""
+        }
+      ],
+      "id": "B-201391183935-6B8EA1920647",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|face=49",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|face=55",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|face=56",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|face=231",
+          "info": ""
+        }
+      ],
+      "id": "B-20139118395-3F7BEFAAE468",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391183952-0B0102F9E63A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=24",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=30",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=73",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=186",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=196",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=199",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=253",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=324",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=325",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118400-95DC7A2E0FC0|geom=0|face=327",
+          "info": ""
+        }
+      ],
+      "id": "B-20139118400-95DC7A2E0FC0",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184010-C3D28C7E7716",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184013-5C05227F5F4C",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118406-437E42C22B35",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184152-F5A48ED6E8C9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184157-5960AA53B032",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184210-64C8F019CADB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184219-942EB067627A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184222-F5CA629EB985",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184225-1EFB2BEBCBB3",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184228-030C416FB43D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184230-6ADDD915E5AD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184233-B61681C801E1",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184236-9EC8FB0ABD59",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184239-BF595F842AAF",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118424-D1224DCD2D9A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184242-4158F7B23F07",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184249-61F7C334DE90",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184252-75B09D623219",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184255-70437F5AEC9D",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184259-88FD548B62FC",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184312-35DD58D13B04",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184315-A397225964D3",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184319-10016AAA7767",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184323-12FEDE450429",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184326-CEC6AFE3D791",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184331-4DC4FC8FC7EA",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184335-A149AE66E746",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184339-730713B5F671",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184342-E93BA8C06B76|geom=0|face=28",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184342-E93BA8C06B76|geom=0|face=30",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184342-E93BA8C06B76|geom=0|face=127",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184342-E93BA8C06B76|geom=0|face=74",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184342-E93BA8C06B76|geom=0|face=75",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184342-E93BA8C06B76",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=60",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=77",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=78",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=80",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=87",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=88",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=92",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=120",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=130",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=132",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=150",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=151",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=22",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=24",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184346-5A79244F6253|geom=0|face=90",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184346-5A79244F6253",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184349-54EB5C5BB287|geom=0|face=18",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184349-54EB5C5BB287|geom=0|face=110",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184349-54EB5C5BB287|geom=0|face=14",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184349-54EB5C5BB287|geom=0|face=15",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184349-54EB5C5BB287|geom=0|face=16",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184349-54EB5C5BB287",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118435-EF2813F1D424",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=15",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=16",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=18",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=33",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=35",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=38",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=58",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=59",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=60",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=63",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=64",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=65",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=98",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=103",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=107",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=109",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=110",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=120",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=123",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=126",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=17",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=19",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=68",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184352-CE3F5D7B3BD0|geom=0|face=84",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184352-CE3F5D7B3BD0",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=4",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=33",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=35",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=37",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=38",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=65",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=67",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=68",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=75",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=76",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=80",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=88",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=90",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=91",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=96",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=103",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=105",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=123",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=124",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=62",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=64",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184355-18781E6D879F|geom=0|face=66",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184355-18781E6D879F",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|face=46",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|face=47",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|face=48",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|face=49",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|face=52",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|face=94",
+          "info": ""
+        }
+      ],
+      "id": "B-201391184359-51543C50DA44",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118439-F2316D29EE24",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184410-E0148570819D|geom=0|face=87",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184410-E0148570819D|geom=0|face=88",
+          "info": ""
+        }
+      ],
+      "id": "B-201391184410-E0148570819D",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184414-C63FB37C0C74|geom=0|face=85",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184414-C63FB37C0C74|geom=0|face=107",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184414-C63FB37C0C74|geom=0|face=108",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184414-C63FB37C0C74|geom=0|face=109",
+          "info": ""
+        }
+      ],
+      "id": "B-201391184414-C63FB37C0C74",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184418-203CCF9202C8",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118442-9CF8A5F670BD",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184423-4B1DB61A0C55",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=2",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=60",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=75",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=33",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=36",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184426-66486958F7C2|geom=0|face=77",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184426-66486958F7C2",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=0",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=16",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=17",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=32",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=35",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=58",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=66",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=92",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=167",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=189",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=196",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=199",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=211",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=227",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=252",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=304",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=306",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=309",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=310",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=37",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=64",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|face=67",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184429-5CC8BA5E751A",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184433-C5CFBAB9AF61",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184436-19128D6E9933",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184440-31996891CA4B",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=17",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=73",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=91",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=94",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=97",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=110",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184443-391F136E8FC3|geom=0|face=111",
+          "info": ""
+        }
+      ],
+      "id": "B-201391184443-391F136E8FC3",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184447-F237C0B2D849",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184450-CC5D473557B9",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184455-00E4CD135812",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=4",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=50",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=53",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=60",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=67",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=77",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=80",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=81",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=87",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=90",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118447-91BF660254F2|geom=0|face=91",
+          "info": ""
+        }
+      ],
+      "id": "B-20139118447-91BF660254F2",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118451-19B52C5A0645|geom=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-20139118451-19B52C5A0645|geom=0|face=14",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-20139118451-19B52C5A0645",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184514-926457018702",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184517-A9BDAEC1B6F3|geom=0|face=23",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184517-A9BDAEC1B6F3|geom=0|face=149",
+          "info": ""
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391184517-A9BDAEC1B6F3|geom=0|face=24",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        }
+      ],
+      "id": "B-201391184517-A9BDAEC1B6F3",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184522-288E7900C8EB",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184525-70EF2B862917",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184529-F516287C1D22",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184532-CB8CFEB60B17",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184540-9DDE4CBF1302",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184543-2EF4BCC9973B",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184547-326DE40791B5",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184551-8C37C51A0CFD|geom=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184551-8C37C51A0CFD|geom=0|face=13",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184551-8C37C51A0CFD|geom=0|face=23",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184551-8C37C51A0CFD|geom=0|face=26",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184551-8C37C51A0CFD|geom=0|face=34",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184551-8C37C51A0CFD|geom=0|face=137",
+          "info": ""
+        }
+      ],
+      "id": "B-201391184551-8C37C51A0CFD",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-201391184555-C279F80D1B8E",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184558-8A185D304843",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118456-9D9908E1CCF6",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118459-33B43B17650A",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184612-297A99D80ED4",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184615-58D39AEA8111",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184619-EEE21AB2EE98",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118462-E4C75C4B826B",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184625-236B0C558137",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184629-7B6024059A31",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-201391184635-0E5245A883E0",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1225",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1353",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1359",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1362",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1508",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1512",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1598",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1600",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1602",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1614",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1636",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1640",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=1735",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184640-79B8A95C2001|geom=0|face=2011",
+          "info": ""
+        }
+      ],
+      "id": "B-201391184640-79B8A95C2001",
+      "type": "Building",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "B-20139118466-AF0C9E5B85A7",
+      "type": "Building",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "B-20139118469-C33D5067AB74",
+      "type": "Building",
+      "validity": true
+    }
+  ],
+  "features_overview": [
+    {
+      "total": 294,
+      "type": "Building",
+      "valid": 252
+    }
+  ],
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/04_Montreal.city.json",
+  "input_file_type": "CityJSON",
+  "parameters": {
+    "overlap_tol": -1.0,
+    "planarity_d2p_tol": 0.01,
+    "planarity_n_tol": 20.0,
+    "snap_tol": 0.001
+  },
+  "primitives_overview": [
+    {
+      "total": 294,
+      "type": "MultiSurface",
+      "valid": 252
+    }
+  ],
+  "time": "2024-09-11T17:16:00 (CEST)",
+  "type": "val3dity_report",
+  "val3dity_version": "2.5.0b2",
+  "validity": false
+}
