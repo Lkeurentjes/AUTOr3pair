@@ -497,9 +497,9 @@ namespace AUTOr3pair {
       return newshells;
     }
 
-    vector<vector<vector<vector<int>>>> Shellr3pair306(vector<vector<vector<int>>> &shell) {
+    vector<vector<vector<int>>> Shellr3pair306(vector<vector<vector<int>>> &shell) {
       // Function to handle self-intersections
-      vector<vector<vector<vector<int>>>> newshells;
+      vector<vector<vector<int>>> newshell;
       Mesh mesh;
       map<Point3, int> indexes;
       make_shell(shell, mesh, indexes);
@@ -528,65 +528,9 @@ namespace AUTOr3pair {
 
       vector<vector<vector<Point3>>> outshell = get_faces(mesh);
       vector<vector<vector<Point3>>> goodshell = delete_triangle_lines(outshell);
-
-      if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
-        // detriangulate
-        vector<vector<vector<Point3>>> detrishell = detriangulate(goodshell);
-        newshells.push_back(get_shell(detrishell, indexes));
-      } else {
-        newshells.push_back(get_shell(goodshell, indexes));
-      }
-
-
-//      bool fix = handle_self_intersections(MeshShell);
-//      if (fix) {
-//        // write code
-//        return newshells;
-//      } else {
-//
-//        vector<Point3> vertices;
-//        vector<Point3> verticesP3 = VERTICES.get_verticesPoint3();
-//        map<Point3, int> indexes;
-//        for (auto &face: shell) {
-//          for (auto &ring: face) {
-//            for (auto &v: ring) {
-//              vertices.push_back(verticesP3[v]);
-//              indexes[verticesP3[v]] = v;
-//            }
-//          }
-//        }
-//        // test if not sameplane
-//        set<Point3> all_v;
-//        all_v.insert(vertices.begin(), vertices.end());
-//        if (all_points_on_same_plane(all_v)) {
-//          return {shell};
-//        }
-//
-//        std::cout << "I start here" << endl;
-//        // TODO add intersection points
-//        Mesh wrappedMesh;
-//        // Perform wrapping on points
-//        CGAL::alpha_wrap_3(vertices, 1.3, 0.3, wrappedMesh);
-//        std::cout << "and I am able to do alpha wrap" << endl;
-////        CGAL::draw(wrappedMesh);
-//        std::cout << "Getting faces" << endl;
-//        vector<vector<vector<Point3>>> outshell = get_faces(wrappedMesh);
-//        vector<vector<vector<Point3>>> goodshell = delete_triangle_lines(outshell);
-//        vector<vector<vector<int>>> newshell;
-//        std::cout << "and I start detri" << endl;
-//        if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
-//          // detriangulate
-//          vector<vector<vector<Point3>>> detrishell = detriangulate(goodshell);
-//          newshell = get_shell(detrishell, indexes);
-//        } else {
-//          newshell = get_shell(goodshell, indexes);
-//        }
-//        std::cout << "and I am able to do detri" << endl;
-//        newshells.push_back(newshell);
-
-
-//      }
-      return newshells;
+      vector<vector<vector<int>>> holeshell = get_shell(goodshell, indexes);
+      newshell = Shellr3pair302(holeshell);
+      return newshell;
     }
 
     vector<vector<vector<int>>> Shellr3pair307(vector<vector<vector<int>>> &shell, int index) {

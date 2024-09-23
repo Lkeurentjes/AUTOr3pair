@@ -14,7 +14,7 @@ namespace AUTOr3pair {
 	vector<vector<vector<int>>> Shellr3pair302(vector<vector<vector<int>>>& shell);
 	vector<vector<vector<vector<int>>>> Shellr3pair303(vector<vector<vector<int>>>& shell, vector<bool>& vol);
 	vector<vector<vector<vector<int>>>> Shellr3pair305(vector<vector<vector<int>>>& shell, vector<bool>& vol);
-  vector<vector<vector<vector<int>>>>  Shellr3pair306(vector<vector<vector<int>>>& shell);
+  vector<vector<vector<int>>>  Shellr3pair306(vector<vector<vector<int>>>& shell);
 	vector<vector<vector<int>>> Shellr3pair307(vector<vector<vector<int>>>& shell, int index);
 
 } // AUTOr3pair
