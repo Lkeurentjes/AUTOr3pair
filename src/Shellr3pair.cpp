@@ -89,24 +89,37 @@ namespace AUTOr3pair {
       make_shell(shell, MeshShell, indexes);
 
       Halfedge_descriptorE border_hedge;
-      bool found_hole = false;
-      for (auto h: halfedges(MeshShell)) {
-        if (is_border(h, MeshShell)) {
-          border_hedge = h;
-          found_hole = true;
-          break;
+      bool filled = false;
+      bool hole = true;
+      int count = 0;
+      while (hole && (count < 100)){
+        bool found_hole = false;
+        for (auto h: halfedges(MeshShell)) {
+          if (is_border(h, MeshShell)) {
+            border_hedge = h;
+            found_hole = true;
+            break;
+          }
         }
+        if (found_hole) {
+          filled = true;
+          std::vector<Halfedge_descriptorE> patch;
+          CGAL::Polygon_mesh_processing::triangulate_hole(
+                  MeshShell,
+                  border_hedge,
+                  CGAL::Polygon_mesh_processing::parameters::use_delaunay_triangulation(true)
+          );
+        }else{
+          hole = false;
+        }
+        count++;
       }
-      if (found_hole) {
-        std::vector<Halfedge_descriptorE> patch;
-        CGAL::Polygon_mesh_processing::triangulate_hole(
-                MeshShell,
-                border_hedge,
-                CGAL::Polygon_mesh_processing::parameters::use_delaunay_triangulation(true)
-        );
+
+      // if at least one of the holes is filled
+      if (filled) {
+        // get the shell
         vector<vector<vector<Point3E>>> outshell = get_faces(MeshShell);
         vector<vector<vector<Point3E>>> goodshell = delete_triangle_lines(outshell);
-
         if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
           // detriangulate
           vector<vector<vector<Point3E>>> detrishell = detriangulate(goodshell);
@@ -114,7 +127,6 @@ namespace AUTOr3pair {
         } else {
           newshell = get_shell(goodshell, indexes);
         }
-
       }
       return newshell;
     }
