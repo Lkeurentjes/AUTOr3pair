@@ -70,6 +70,7 @@
 #include <CGAL/Kd_tree_rectangle.h>
 #include <CGAL/Search_traits_3.h>
 #include <CGAL/Orthogonal_k_neighbor_search.h>
+#include <CGAL/optimal_bounding_box.h>
 
 // Draws for CGAL --> use with debugging
 #include <CGAL/draw_nef_3.h>
