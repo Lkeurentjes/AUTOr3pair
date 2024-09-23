@@ -459,33 +459,10 @@ namespace AUTOr3pair {
               } else if (code == 306) {
                 // SHELL SELF INTERSECTION
                 stop = true;
-                vector<vector<vector<vector<int>>>> replace306 = AUTOr3pair::Shellr3pair306(boundary);
+                vector<vector<vector<int>>> replace306 = AUTOr3pair::Shellr3pair306(boundary);
                 SMTassigner(replace306);
-                if (replace306.size() == 1) {
-                  newsolids.push_back(replace306[0]);
-                  done["boundary_now"] = replace306[0];
-                } else {
-                  newsolids.push_back(replace306[0]);
-                  done["boundary_now"] = replace306;
-                  for (int g = 1; g < replace306.size(); ++g) {
-                    if (i == 0) {
-                      if (STANDARDS["UseCaseRepair"]["Watertight"]) {
-                        // split into 2 solids
-                        json feature;
-                        feature["type"] = "feature";
-                        feature["geometry"]["type"] = "Solid";
-                        feature["geometry"]["boundaries"] = {replace306[g]};
-                        feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
-                        tu3djson["features"].push_back(feature);
-                      } else {
-                        // make it extra (Multi)Solid
-                        newboundaries.push_back({replace306[g]});
-                      }
-                    } else {
-                      newsolids.push_back(replace306[g]);
-                    }
-                  }
-                }
+                newsolids.push_back(replace306);
+                done["boundary_now"] = replace306;
                 stop = true;
               } else if (code == 307) {
                 // POLYGON WRONG ORIENTATION
