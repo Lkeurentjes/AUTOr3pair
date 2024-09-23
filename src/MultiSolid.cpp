@@ -9,6 +9,7 @@
 #include "Shellr3pair.h"
 #include "Solidr3pair.h"
 #include "Globalr3pair.h"
+#include "Geometrytools.h"
 #include "Defenitions.h"
 #include "DefenitionsVal3dity.h"
 #include "DefenitionsCGAL.h"
@@ -629,6 +630,7 @@ namespace AUTOr3pair {
         for (int j = 0; j < OGtu3djson["features"][0]["geometry"]["boundaries"][i].size(); ++j) {
           vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i][j];
           vector<vector<vector<int>>> replaceAF = AUTOr3pair::Globalr3pairAlphaFaces(shell);
+          if (j!=0) {replaceAF  = flip_shell(replaceAF);}
           resultS.push_back(replaceAF);
         }
         result.push_back(resultS);
@@ -661,6 +663,7 @@ namespace AUTOr3pair {
         for (int j = 0; j < OGtu3djson["features"][0]["geometry"]["boundaries"][i].size(); ++j) {
           vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i][j];
           vector<vector<vector<int>>> replaceAP = AUTOr3pair::Globalr3pairAlphaPoints(shell);
+          if (j!=0) {replaceAP  = flip_shell(replaceAP);}
           resultS.push_back(replaceAP);
         }
         result2.push_back(resultS);
@@ -696,6 +699,7 @@ namespace AUTOr3pair {
           set<int> indexesshell;
           recursive_all_indexes(OGtu3djson["features"][0]["geometry"]["boundaries"][i][j], indexesshell);
           vector<vector<vector<int>>> replaceBB = AUTOr3pair::Globalr3pairBoundingBox(indexesshell, surface);
+          if (j!=0) {replaceBB  = flip_shell(replaceBB);}
           SMTassigner(replaceBB);
           if (surface) {
             if (j == 0) { break; }

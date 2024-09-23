@@ -9,6 +9,7 @@
 #include "Shellr3pair.h"
 #include "Solidr3pair.h"
 #include "Globalr3pair.h"
+#include "Geometrytools.h"
 #include "Defenitions.h"
 #include "DefenitionsVal3dity.h"
 #include "DefenitionsCGAL.h"
@@ -645,6 +646,7 @@ namespace AUTOr3pair {
       for (int i = 0; i < OGtu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
         vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
         vector<vector<vector<int>>> replaceAF = AUTOr3pair::Globalr3pairAlphaFaces(shell);
+        if (i!=0) {replaceAF  = flip_shell(replaceAF);}
         result.push_back(replaceAF);
       }
       update_vertices();
@@ -672,6 +674,7 @@ namespace AUTOr3pair {
       for (int i = 0; i < OGtu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
         vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
         vector<vector<vector<int>>> replaceAP = AUTOr3pair::Globalr3pairAlphaPoints(shell);
+        if (i!=0) {replaceAP  = flip_shell(replaceAP);}
         result2.push_back(replaceAP);
       }
       update_vertices();
@@ -712,6 +715,7 @@ namespace AUTOr3pair {
           if (i == 0) {
             tu3djson["properties"]["lod"] = "1.0";
           }
+          if (i!=0) {replaceBB  = flip_shell(replaceBB);}
           result3.push_back(replaceBB);
         }
       }
