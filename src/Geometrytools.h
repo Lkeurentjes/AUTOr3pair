@@ -40,8 +40,6 @@ namespace AUTOr3pair {
     vector<vector<int>> flip_face(vector<vector<int>>& face);
     vector<vector<vector<int>>> flip_shell(vector<vector<vector<int>>>& shell);
 
-    bool handle_self_intersections(Mesh& mesh);
-
     //detriangulation helpers
     void dfs(int node, const vector<vector<int>>& adjacency_list, vector<bool>& visited, set<int>& component);
     vector<set<int>> find_connected_components(const vector<vector<int>>& adjacency_list);
