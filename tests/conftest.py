@@ -59,7 +59,7 @@ def pytest_collection_modifyitems(config, items):
 # --------------------------------------------------------------------------------------------------running the process
 @pytest.fixture(scope="session", autouse=True)
 def cmake_make(dir_src, dir_buildtest):
-    options = "-DLIBRARY=true"
+    options = "-DLIBRARY=true -DCMAKE_BUILD_TYPE=Release"
 
     make = subprocess.run(["cmake", "-S", dir_src, "-B", dir_buildtest, options], capture_output=True)
     return make.returncode

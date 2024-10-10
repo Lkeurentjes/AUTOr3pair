@@ -3,12 +3,14 @@
 
 #include <iostream>
 #include <string>
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 #include "Defenitions.h"
 #include "InputOutput.h"
 #include "CityObject.h"
 #include "BuildingPartr3pair.h"
-
 
 #include "nlohmann-json/json.hpp"
 #include "val3dity.h"
@@ -18,6 +20,7 @@ using json = nlohmann::json;
 using namespace std;
 
 int main(int argc, const char *argv[]) {
+  clock_t start = clock();
   if (argc == 1) {
     std::cerr << "No inputs are given, input a (city)JSON or OBJ file" << std::endl;
     return 1;
@@ -361,5 +364,9 @@ int main(int argc, const char *argv[]) {
   }
 
   InOutPutHandler.write_output(j);
+
+  clock_t stop = clock();
+  double elapsed = (double) (stop - start) / CLOCKS_PER_SEC;
+  printf("\nTime elapsed: %.5f\n", elapsed);
   return 0;
 }

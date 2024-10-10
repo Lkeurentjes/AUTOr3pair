@@ -3,6 +3,7 @@ project(AUTOr3pair)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_BUILD_TYPE "Release")
+set( CMAKE_CXX_FLAGS "-O2" )
 set(CGAL_DATA_DIR ".")
 
 # CGAL 6.0
