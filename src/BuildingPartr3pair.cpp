@@ -169,6 +169,7 @@ namespace AUTOr3pair {
             }
             vector<vector<vector<Point3E>>> outShell = get_faces_exterior(OuterShell2[i][0]);
             vector<vector<vector<int>>> intshell = get_shell(outShell, indexes);
+            geom2[i]["boundaries"][0] = intshell;
           }
         }
         if (geomtype == "MultiSolid" || geomtype == "CompositeSolid") {
@@ -200,7 +201,6 @@ namespace AUTOr3pair {
       if (part2["geometry"].empty()){
         part2.erase("geometry");
       }
-
       return Repairs;
     }
 

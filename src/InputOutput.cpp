@@ -45,8 +45,6 @@ namespace AUTOr3pair {
         outputCombi += "__" + LOD;
       }
 
-      std::cout << outputCombi << endl;
-
       if (pos != 0 and FILENAME.find("/") != pos) {
         ReportNAME = (outputCombi + "__RepairReport.json");
         OutNAME = (outputCombi + "__REPAIRED." + extension);
@@ -111,9 +109,17 @@ namespace AUTOr3pair {
                   "ExtendScope")) { STANDARDS["InputParameters"]["ExtendScope"] = input["InputParameters"]["ExtendScope"]; }
 
           // for (auto it = test.begin(); it != test.end(); ++it) { STANDARDS[it.key()] = it.value(); }
+          // Change Solve All
           if (STANDARDS["GeometryRepair"]["ErrorsToRepair"].size() != 0) {
             STANDARDS["GeometryRepair"]["SolveAll"] = false;
           }
+
+          // Check snap_tol vs overlap_tol
+          if (STANDARDS["Tollerances"]["overlap_tol"] < STANDARDS["Tollerances"]["snap_tol"] ){
+            std::cerr << "Overlap tol is smaller than snap_tol, so overlap_tol is set to snap_tol" << endl;
+            STANDARDS["Tollerances"]["overlap_tol"] = STANDARDS["Tollerances"]["snap_tol"];
+          }
+
           UseCase = "Based on input file";
         }
         catch (nlohmann::detail::parse_error &e) {

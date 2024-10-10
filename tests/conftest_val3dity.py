@@ -46,25 +46,25 @@ def dir_src_val3dity():
 @pytest.fixture(scope="session")
 def solid():
     """val3dity options for validating a Solid"""
-    return (["--unittests", "-p Solid"])
+    return (["--unittests", "-p Solid",  "--overlap_tol 0.001"])
 
 
 @pytest.fixture(scope="session")
 def compositesurface():
     """val3dity options for validating a CompositeSurface"""
-    return (["--unittests", "-p CompositeSurface"])
+    return (["--unittests", "-p CompositeSurface",  "--overlap_tol 0.001"])
 
 
 @pytest.fixture(scope="session")
 def multisurface():
     """val3dity options for validating a MultiSurface"""
-    return (["--unittests", "-p MultiSurface"])
+    return (["--unittests", "-p MultiSurface",  "--overlap_tol 0.001"])
 
 
 @pytest.fixture(scope="session")
 def unittests():
     """val3dity options for validating a file"""
-    return (["--unittests"])
+    return (["--unittests",  "--overlap_tol 0.001"])
 
 
 # -------------------------------------------------------- validation functions

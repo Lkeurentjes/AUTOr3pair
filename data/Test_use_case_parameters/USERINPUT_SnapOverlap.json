@@ -1,0 +1,6 @@
+{
+  "overlap_tol": -1,
+  "ExtendScope": [
+    "GenericCityObject"
+  ]
+}

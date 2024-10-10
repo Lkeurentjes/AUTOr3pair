@@ -17,41 +17,41 @@ using namespace std;
 inline string VERSION = "1.0";
 inline json STANDARDS = json::parse(R"({
         "Tollerances":{
-			"overlap_tol": -1,
-			"planarity_d2p_tol": 0.01,
-			"planarity_n_tol": 20,
-			"snap_tol": 0.001
-			},
-    "InputParameters":{
-      "OBJgeomtype": "Solid"
-    },
-		"RepairDepths":{
-			"MaxRepairDepth": 50,
-			"TotalRepairDepth": 500
-			},
-		"GeometryRepair":{
-			"SolveAll":true,
-			"ErrorsToRepair":[]
-			},
-		"UseCaseRepair":{
-			"KeepEverything": false,
-			"SkipLowRepairs": false,
-			"Watertight" : false,
-      "Orientation": false,
-			"MergeTol": 0.1,
-			"Overlap": true,
-			"SemanticsValidate": true,
-      "SemanticsAdd": true,
-			"Simplification": false,
-			"Triangulation": false,
-			"RemeshSlivers" : false
-			},
-		"OutputParameters":{
-			"ShowProgress":true,
-			"AddAttribute" : true,
-			"Debugging":false
-			}
-		}
+          "overlap_tol": 0.001,
+          "planarity_d2p_tol": 0.01,
+          "planarity_n_tol": 20,
+          "snap_tol": 0.001
+          },
+        "InputParameters":{
+          "OBJgeomtype": "Solid"
+        },
+        "RepairDepths":{
+          "MaxRepairDepth": 50,
+          "TotalRepairDepth": 500
+          },
+        "GeometryRepair":{
+          "SolveAll":true,
+          "ErrorsToRepair":[]
+          },
+        "UseCaseRepair":{
+          "KeepEverything": false,
+          "SkipLowRepairs": false,
+          "Watertight" : false,
+          "Orientation": false,
+          "MergeTol": 0.1,
+          "Overlap": true,
+          "SemanticsValidate": true,
+          "SemanticsAdd": true,
+          "Simplification": false,
+          "Triangulation": false,
+          "RemeshSlivers" : false
+          },
+        "OutputParameters":{
+          "ShowProgress":true,
+          "AddAttribute" : true,
+          "Debugging":false
+          }
+        }
         )");
 
 inline string FILENAME;

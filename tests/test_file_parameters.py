@@ -103,6 +103,11 @@ def data_userinput_watertight(request, dir_UseCaseParameters):
     path = dir_UseCaseParameters + "/" + request.param
     return path
 
+@pytest.fixture(scope="module",
+                params=["USERINPUT_SnapOverlap.json"])
+def data_userinput_snapoverlap(request, dir_UseCaseParameters):
+    path = dir_UseCaseParameters + "/" + request.param
+    return path
 
 # --------------------------------------------------------------------------------------------------------------- Test
 
@@ -247,6 +252,18 @@ def test_parameter_watertight_LOD0(repair_return_test, validate, outputnames, da
     repaired, report = outputnames(data_valid_cubes_LOD0, data_userinput_watertight)
     with open(report) as f:
         rr = json.load(f)
+
+def test_parameter_snapoverlap(repair_return_test, validate, outputnames, data_valid_cubes_LOD0,
+                                   data_userinput_snapoverlap, unittests):
+    # Does the code retrun error
+    code, error = repair_return_test([data_valid_cubes_LOD0, data_userinput_snapoverlap])
+    assert ("Overlap tol is smaller than snap_tol, so overlap_tol is set to snap_tol" in error)
+
+    # Is overlap same as snap_tol now
+    repaired, report = outputnames(data_valid_cubes_LOD0, data_userinput_snapoverlap)
+    with open(report) as f:
+        rr = json.load(f)
+        assert rr["Parameters"]["Tollerances"]["overlap_tol"] == rr["Parameters"]["Tollerances"]["snap_tol"]
 @pytest.mark.keep
 def test_clean_up_Valid_directory(cleanup, dir_Valid):
     done = cleanup(dir_Valid)
