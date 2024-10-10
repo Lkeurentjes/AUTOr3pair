@@ -1,5 +1,5 @@
 # Automatic repair of 3D (city) models: AUTOr3pair
-_Version 1.0 of proof of concept for thesis Lisa Keurentjes_ 
+_Version 0.0 of proof of concept for thesis Lisa Keurentjes: 1 November release of 1.0_ 
 
 <p align="center">
   <img src="docs/_images/logo_black.png" alt="logo AUTOr3pair"/>
