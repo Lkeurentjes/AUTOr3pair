@@ -36,13 +36,9 @@ namespace AUTOr3pair {
       if (all_points_on_same_plane(all_v)) {
         return shell;
       }
-      std::cout << "I come back here" << endl;
-
       vector<Point3> PolygonSoupPoints;
       vector<vector<int>> PolygonSoupFaces;
       PMP::polygon_mesh_to_polygon_soup	(MeshShell,PolygonSoupPoints,PolygonSoupFaces);
-      std::cout << "SIZE of faces is " << PolygonSoupFaces.size() << endl;
-      std::cout << "SIZE of points is " << PolygonSoupPoints.size() << endl;
       if (PolygonSoupFaces.size() == 0 || PolygonSoupPoints.size() == 0){
         return shell;
       }
@@ -51,7 +47,6 @@ namespace AUTOr3pair {
       CGAL::alpha_wrap_3(PolygonSoupPoints,PolygonSoupFaces, 1.3, 0.3, AlphwrappedShell); //-- values of Ivan
       vector<vector<vector<Point3>>> outshell = get_faces(MeshShell);
       vector<vector<vector<Point3>>> goodshell = delete_triangle_lines(outshell);
-      // TODO do I want detriangulation here or is triangulated okay for global repair
       newshell = get_shell(goodshell, indexes);
       return newshell;
     }
@@ -83,7 +78,6 @@ namespace AUTOr3pair {
       CGAL::alpha_wrap_3(vertices, 1.3, 0.3, wrappedMesh);
       vector<vector<vector<Point3>>> outshell = get_faces(wrappedMesh);
       vector<vector<vector<Point3>>> goodshell = delete_triangle_lines(outshell);
-      // TODO do I want detriangulation here or is triangulated okay for global repair
       newshell = get_shell(goodshell, indexes);
       return newshell;
     }

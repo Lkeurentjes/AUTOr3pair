@@ -122,7 +122,7 @@ namespace AUTOr3pair {
 
     bool is_point_on_plane(const PlaneE &plane, const Point3E &point) {
       // The point-plane equation gives a value close to zero if the point is on the plane.
-      const double EPSILON = 1e-1;
+      const double EPSILON = 1e-6;
 
       // Compute the signed distance using the plane equation
       KE::FT a = plane.a();
@@ -143,7 +143,7 @@ namespace AUTOr3pair {
     }
 
     bool points_almost_equal(const Point3E &p1, const Point3E &p2) {
-      const double EPSILON = 1e-1;
+      const double EPSILON = 1e-3;
       return (fabs(CGAL::to_double(p1.x()) - CGAL::to_double(p2.x())) < EPSILON &&
               fabs(CGAL::to_double(p1.y()) - CGAL::to_double(p2.y())) < EPSILON &&
               fabs(CGAL::to_double(p1.z()) - CGAL::to_double(p2.z())) < EPSILON);

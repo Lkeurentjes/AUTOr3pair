@@ -113,7 +113,7 @@ namespace AUTOr3pair {
 
     bool is_point_on_plane(const Plane &plane, const Point3 &point) {
       // The point-plane equation gives a value close to zero if the point is on the plane.
-      const double EPSILON = 1e-1;
+      const double EPSILON = 1e-6;
       // Compute the signed distance using the plane equation
       double signed_distance = (plane.a() * point.x() +
                                 plane.b() * point.y() +
@@ -127,7 +127,7 @@ namespace AUTOr3pair {
     }
 
     bool points_almost_equal(const Point3 &p1, const Point3 &p2) {
-      const double EPSILON = 1e-1;
+      const double EPSILON = 1e-3;
       return (fabs(p1.x() - p2.x()) < EPSILON &&
               fabs(p1.y() - p2.y()) < EPSILON &&
               fabs(p1.z() - p2.z()) < EPSILON);
