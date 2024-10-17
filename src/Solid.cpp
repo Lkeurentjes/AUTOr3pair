@@ -161,6 +161,7 @@ namespace AUTOr3pair {
     vector<json> Solid::RepairPolyErrors() {
       vector<json> repairs_done;
       vector<vector<vector<vector<int>>>> newboundaries;
+      bool stop = false;
       for (int i = 0; i < tu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
         vector<vector<vector<int>>> newshell;
         for (int j = 0; j < tu3djson["features"][0]["geometry"]["boundaries"][i].size(); ++j) {
@@ -168,6 +169,7 @@ namespace AUTOr3pair {
           vector<vector<int>> boundary = tu3djson["features"][0]["geometry"]["boundaries"][i][j];
 
           for (int error = 0; error < RepairsNeeded["PolyErrors"].size(); ++error) {
+            if (stop) { break; }
             string test = RepairsNeeded["PolyErrors"][error][1];
             test += "|";
             if (test.find(("shell=" + to_string(i) + "|face=" + to_string(j) +"|")) != string::npos) {
@@ -197,6 +199,7 @@ namespace AUTOr3pair {
                   newshell.push_back(replace203[face]);
                   FacesSMT[replace203[face][0]] = FacesSMT[boundary[0]];
                 }
+                stop = true; // Seeing possible projection of vertices
                 done["boundary_now"] = replace203;
               } else if (code == 204) {
                 // NON PLANAR POLYGON NORMALS DEVIATION
@@ -204,6 +207,7 @@ namespace AUTOr3pair {
                 newshell.push_back(replace204);
                 FacesSMT[replace204[0]] = FacesSMT[boundary[0]];
                 done["boundary_now"] = replace204;
+                stop = true; // Seeing projection of vertices
               } else if (code == 205) {
                 // POLYGON INTERIOR DISCONNECTED
                 vector<vector<vector<int>>> replace205 = AUTOr3pair::Polyr3pair205(boundary);
