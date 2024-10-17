@@ -291,9 +291,9 @@ namespace AUTOr3pair {
 
 
       done["code"] = "AlphaWrapFaces";
-      done["description"] = "Global alpha wrap on faces";
+      done["description"] = "Global alpha wrap on point";
       done["id"] = id;
-      done["boundary_now"] = replaceAF;
+      done["boundary_now"] = replaceAP;
 
 
       val3dityReport();
@@ -302,6 +302,32 @@ namespace AUTOr3pair {
           std::cout << "\t\t\tMade alpha wrap on points" << endl;
         }
         SMTassigner(replaceAP);
+        repairs_done.push_back(done);
+        return repairs_done;
+      }
+
+      // Do convex hull
+      if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+        std::cout << "\t\t\tTrying convex hull on points" << endl;
+      }
+      vector<vector<vector<int>>> replaceCH = AUTOr3pair::Globalr3pairConvexHull(shell);
+
+      update_vertices();
+      tu3djson["features"][0]["geometry"]["boundaries"] = replaceCH;
+
+
+      done["code"] = "Convex hull";
+      done["description"] = "Global alpha wrap on faces";
+      done["id"] = id;
+      done["boundary_now"] = replaceCH;
+
+
+      val3dityReport();
+      if (isvalid()){
+        if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+          std::cout << "\t\t\tMade Convex hull" << endl;
+        }
+        SMTassigner(replaceCH);
         repairs_done.push_back(done);
         return repairs_done;
       }

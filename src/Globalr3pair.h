@@ -13,6 +13,7 @@ using namespace std;
 namespace AUTOr3pair {
     vector<vector<vector<int>>> Globalr3pairAlphaFaces(vector<vector<vector<int>>>& shell);
     vector<vector<vector<int>>> Globalr3pairAlphaPoints(vector<vector<vector<int>>> &shell);
+    vector<vector<vector<int>>> Globalr3pairConvexHull(vector<vector<vector<int>>> &shell);
     vector<vector<vector<int>>> Globalr3pairBoundingBox(set<int>& points, bool& plane);
 
 

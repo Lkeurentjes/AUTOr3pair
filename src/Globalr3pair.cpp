@@ -82,6 +82,37 @@ namespace AUTOr3pair {
       return newshell;
     }
 
+    vector<vector<vector<int>>> Globalr3pairConvexHull(vector<vector<vector<int>>> &shell) {
+      vector<vector<vector<int>>> newshell;
+      vector<Point3> vertices;
+      vector<Point3> verticesP3 = VERTICES.get_verticesPoint3();
+      map<Point3, int> indexes;
+      for (auto &face: shell) {
+        for (auto &ring: face) {
+          for (auto &v: ring) {
+            vertices.push_back(verticesP3[v]);
+            indexes[verticesP3[v]] = v;
+          }
+        }
+      }
+
+      // test if not sameplane
+      set<Point3> all_v;
+      for (const auto& entry : indexes) {
+        all_v.insert(entry.first); // Add the key (Point3) to the set
+      }
+      if (all_points_on_same_plane(all_v)) {
+        return shell;
+      }
+
+      Mesh ConvexMesh;
+      CGAL::convex_hull_3(vertices.begin(), vertices.end(), ConvexMesh);
+      vector<vector<vector<Point3>>> outshell = get_faces(ConvexMesh);
+      vector<vector<vector<Point3>>> goodshell = delete_triangle_lines(outshell);
+      newshell = get_shell(goodshell, indexes);
+      return newshell;
+    }
+
     vector<vector<vector<int>>> Globalr3pairBoundingBox(set<int> &points, bool& plane) {
       vector<Point3> allPts;
       vector<Point3> Vp3 = VERTICES.get_verticesPoint3();
@@ -114,4 +145,5 @@ namespace AUTOr3pair {
       vector<vector<vector<int>>> newshell = get_shell(outshell, indexes);
       return newshell;
     }
+
 }

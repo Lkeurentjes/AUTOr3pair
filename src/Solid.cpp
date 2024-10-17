@@ -671,6 +671,38 @@ namespace AUTOr3pair {
         repairs_done.push_back(done);
         return repairs_done;
       }
+
+      // Do convex hull
+      if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+        std::cout << "\t\t\tTrying convex hull on points" << endl;
+      }
+      vector<vector<vector<vector<int>>>> resultCH;
+      for (int i = 0; i < OGtu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
+        vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
+        vector<vector<vector<int>>> replaceCH = AUTOr3pair::Globalr3pairConvexHull(shell);
+        if (i!=0) {replaceCH  = flip_shell(replaceCH);}
+        resultCH.push_back(replaceCH);
+      }
+      update_vertices();
+      tu3djson["features"][0]["geometry"]["boundaries"] = resultCH;
+
+      done["code"] = "Convex hull";
+      done["description"] = "Global alpha wrap on faces";
+      done["id"] = id;
+      done["boundary_now"] = resultCH;
+
+
+      val3dityReport();
+      if (isvalid()) {
+        if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+          std::cout << "\t\t\tMade Convex hull" << endl;
+        }
+        SMTassigner(resultCH);
+        repairs_done.push_back(done);
+        return repairs_done;
+      }
+
+
       // otherwise do bounding box
       if (STANDARDS["OutputParameters"]["ShowProgress"]) {
         std::cout << "\t\t\tMade Boundingbox" << endl;
