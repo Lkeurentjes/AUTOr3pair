@@ -476,9 +476,11 @@ namespace AUTOr3pair {
                           RepairsNeeded["ShellErrors"][error][1] << endl;
               }
             }
-            if (stop) { break; }
+            if (stop || to_surface || to_multi) { break; }
           }
+          if (to_surface || to_multi) {break;}
         }
+        if (to_surface|| to_multi) {break;}
       }
       if (to_surface) {
         vector<vector<vector<int>>> newCompositeSurface;
@@ -564,7 +566,6 @@ namespace AUTOr3pair {
           SMTassigner(replace403);
           if (replace403.size() == 1) {
             tu3djson["features"][0]["geometry"]["boundaries"] = replace403[0];
-            done["boundary_now"] = replace403;
           } else {
             if (STANDARDS["UseCaseRepair"]["Watertight"]) {
               // split into 2 solids

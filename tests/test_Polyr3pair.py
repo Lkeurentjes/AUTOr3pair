@@ -283,10 +283,10 @@ def test_201(repair_return_test, outputnames, validate, data_201):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert (len(d["boundary_now"]) < len(d["boundary_before"]))
 
 def test_201_SkipLowRepair(repair_return_test,outputnames, validate, data_201_skip):
     data, option, user = data_201_skip
@@ -315,12 +315,13 @@ def test_201_SkipLowRepair(repair_return_test,outputnames, validate, data_201_sk
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
-
-# no 202, cause error does not exsist anymore
+                                if "MSurf" in report:
+                                    assert (len(d["boundary_now"]) < len(d["boundary_before"]))
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 def test_203(repair_return_test, outputnames, validate, data_203):
     data, option, user = data_203
@@ -348,10 +349,11 @@ def test_203(repair_return_test, outputnames, validate, data_203):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert (d["boundary_now"][0] == d["boundary_before"] or
+                                        all(len(face[0]) == 3 for face in d["boundary_now"]))
 
 def test_203_SkipLowRepair(repair_return_test, outputnames, validate, data_203_skip):
     data, option, user = data_203_skip
@@ -380,10 +382,14 @@ def test_203_SkipLowRepair(repair_return_test, outputnames, validate, data_203_s
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if "MSurf" in report:
+                                    assert (d["boundary_now"][0] == d["boundary_before"] or
+                                            all(len(face[0]) == 3 for face in d["boundary_now"]))
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 def test_203_Toldp(repair_return_test, outputnames, validate, data_203_tdp):
     data, option, user = data_203_tdp
@@ -435,10 +441,10 @@ def test_204(repair_return_test, outputnames, validate, data_204):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert (d["boundary_now"] == d["boundary_before"])
 
 def test_204_SkipLowRepair(repair_return_test, outputnames, validate, data_204_skip):
     data, option, user = data_204_skip
@@ -467,10 +473,14 @@ def test_204_SkipLowRepair(repair_return_test, outputnames, validate, data_204_s
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if d["code"] == repair:
+                                    if "MSurf" in report:
+                                        assert (d["boundary_now"] == d["boundary_before"])
+                                    else:
+                                        assert (d["boundary_now"] == [])
 
 def test_205(repair_return_test, outputnames, validate, data_205):
     data, option, user = data_205
@@ -498,10 +508,10 @@ def test_205(repair_return_test, outputnames, validate, data_205):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert (len(d["boundary_now"]) > 1)
 
 def test_205_SkipLowRepair(repair_return_test, outputnames, validate, data_205_skip):
     data, option, user = data_205_skip
@@ -530,10 +540,13 @@ def test_205_SkipLowRepair(repair_return_test, outputnames, validate, data_205_s
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if "MSurf" in report:
+                                    assert (len(d["boundary_now"]) > 1)
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 def test_206(repair_return_test, outputnames, validate, data_206):
     data, option, user = data_206
@@ -561,10 +574,10 @@ def test_206(repair_return_test, outputnames, validate, data_206):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert (len(d["boundary_now"]) < len(d["boundary_before"]))
 
 def test_206_SkipLowRepair(repair_return_test, outputnames, validate, data_206_skip):
     data, option, user = data_206_skip
@@ -593,10 +606,13 @@ def test_206_SkipLowRepair(repair_return_test, outputnames, validate, data_206_s
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if "MSurf" in report:
+                                    assert (len(d["boundary_now"]) < len(d["boundary_before"]))
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 def test_206_keepEverything(repair_return_test, outputnames, validate, data_206_keep_all):
     data, option, user = data_206_keep_all
@@ -624,10 +640,10 @@ def test_206_keepEverything(repair_return_test, outputnames, validate, data_206_
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (len(d["boundary_now"]) > len(d["boundary_before"]))
+                                assert (len(d["boundary_now"]) > 1)
 
 
 def test_207(repair_return_test, outputnames, validate, data_207):
@@ -656,10 +672,10 @@ def test_207(repair_return_test, outputnames, validate, data_207):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert (len(d["boundary_now"]) < len(d["boundary_before"]))
 
 def test_207_SkipLowRepair(repair_return_test, outputnames, validate, data_207_skip):
     data, option, user = data_207_skip
@@ -688,10 +704,13 @@ def test_207_SkipLowRepair(repair_return_test, outputnames, validate, data_207_s
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if "MSurf" in report:
+                                    assert (len(d["boundary_now"]) < len(d["boundary_before"]))
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 def test_207_keepEverything(repair_return_test, outputnames, validate, data_207_keep_all):
     data, option, user = data_207_keep_all
@@ -719,10 +738,10 @@ def test_207_keepEverything(repair_return_test, outputnames, validate, data_207_
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (len(d["boundary_now"]) > len(d["boundary_before"]))
+                                assert (len(d["boundary_now"]) > 1)
 
 def test_208(repair_return_test, outputnames, validate, data_208):
     data, option, user = data_208
@@ -750,10 +769,11 @@ def test_208(repair_return_test, outputnames, validate, data_208):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] != [])
+                                assert all(now == before or now == before[::-1] for now, before in zip(d["boundary_now"], d["boundary_before"]))
+
 
 def test_208_SkipLowRepair(repair_return_test, outputnames, validate, data_208_skip):
     data, option, user = data_208_skip
@@ -782,10 +802,13 @@ def test_208_SkipLowRepair(repair_return_test, outputnames, validate, data_208_s
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "PolyErrors":
+                    if r["kind_of_repair"] == "PolyRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if "MSurf" in report:
+                                    assert all(now == before or now == before[::-1] for now, before in zip(d["boundary_now"], d["boundary_before"]))
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 
 def test_Poly_all(repair_return_test, outputnames, validate, data_PolyALL):
@@ -798,6 +821,7 @@ def test_Poly_all(repair_return_test, outputnames, validate, data_PolyALL):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)

@@ -106,7 +106,7 @@ def test_101(repair_return_test, outputnames , validate, data_101):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "RingErrors":
+                    if r["kind_of_repair"] == "RingRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
                                 assert (len(d["boundary_now"]) < len(d["boundary_before"]))
@@ -138,7 +138,7 @@ def test_102(repair_return_test,outputnames, validate, data_102):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "RingErrors":
+                    if r["kind_of_repair"] == "RingRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
                                 for i in range(len(d["boundary_now"])):
@@ -170,7 +170,7 @@ def test_104(repair_return_test,outputnames, validate, data_104):
             for p in f["Primitives"]:
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "RingErrors":
+                    if r["kind_of_repair"] == "RingRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
                                 assert (d["boundary_now"] != [])
@@ -203,10 +203,13 @@ def test_104_SkipLowRepairs(repair_return_test,outputnames, validate, data_104_s
                     continue
                 assert (error not in p["ISOerrorsremaining"])
                 for r in p["repairs"]:
-                    if r["kind_of_repair"] == "RingErrors":
+                    if r["kind_of_repair"] == "RingRepairs":
                         for d in r["repairs_done"]:
                             if d["code"] == repair:
-                                assert (d["boundary_now"] == [])
+                                if "MSurf" in report:
+                                    assert (d["boundary_now"] != [])
+                                else:
+                                    assert (d["boundary_now"] == [])
 
 
 def test_Ring_all(repair_return_test, outputnames, validate, data_101_102_104):
@@ -219,6 +222,7 @@ def test_Ring_all(repair_return_test, outputnames, validate, data_101_102_104):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)

@@ -3,7 +3,7 @@ import os
 import pytest
 import json
 
-from tests.conftest import data_from_dir
+from tests.conftest import data_from_dir, check_watertight
 
 
 # ---------------------------------------------------------------------------------------------------------------- Data
@@ -142,6 +142,7 @@ def test_401(repair_return_test, outputnames, validate, data_401):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -151,6 +152,16 @@ def test_401(repair_return_test, outputnames, validate, data_401):
 
     with open(report) as f:
         rr = json.load(f)
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"][0]) < len(d["boundary_before"]))
 
 def test_403(repair_return_test, outputnames, validate, data_403):
     data, option, user = data_403
@@ -162,6 +173,7 @@ def test_403(repair_return_test, outputnames, validate, data_403):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -171,6 +183,16 @@ def test_403(repair_return_test, outputnames, validate, data_403):
 
     with open(report) as f:
         rr = json.load(f)
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"][0]) < len(d["boundary_before"]))
 
 def test_403_keep(repair_return_test, outputnames, validate, data_403_keep):
     data, option, user = data_403_keep
@@ -182,6 +204,7 @@ def test_403_keep(repair_return_test, outputnames, validate, data_403_keep):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -192,7 +215,17 @@ def test_403_keep(repair_return_test, outputnames, validate, data_403_keep):
     with open(report) as f:
         rr = json.load(f)
 
-def test_403_keep_watertight(repair_return_test, outputnames, validate, data_403_keep_watertight):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1)
+
+def test_403_keep_watertight(repair_return_test, check_watertight, outputnames, validate, data_403_keep_watertight):
     data, option, user = data_403_keep_watertight
     repair = 403
     # are the error(s) there
@@ -202,6 +235,7 @@ def test_403_keep_watertight(repair_return_test, outputnames, validate, data_403
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -209,8 +243,9 @@ def test_403_keep_watertight(repair_return_test, outputnames, validate, data_403
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    with open(repaired) as f:
+        cj = json.load(f)
+        assert check_watertight(cj)
 
 def test_404(repair_return_test, outputnames, validate, data_404):
     data, option, user = data_404
@@ -222,6 +257,7 @@ def test_404(repair_return_test, outputnames, validate, data_404):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -232,7 +268,17 @@ def test_404(repair_return_test, outputnames, validate, data_404):
     with open(report) as f:
         rr = json.load(f)
 
-def test_404_watertight(repair_return_test, outputnames, validate, data_404_watertight):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1)
+
+def test_404_watertight(repair_return_test,check_watertight, outputnames, validate, data_404_watertight):
     data, option, user = data_404_watertight
     repair = 404
     # are the error(s) there
@@ -242,6 +288,7 @@ def test_404_watertight(repair_return_test, outputnames, validate, data_404_wate
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -249,8 +296,9 @@ def test_404_watertight(repair_return_test, outputnames, validate, data_404_wate
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    with open(repaired) as f:
+        cj = json.load(f)
+        assert check_watertight(cj)
 
 def test_405(repair_return_test, outputnames, validate, data_405):
     data, option, user = data_405
@@ -262,6 +310,7 @@ def test_405(repair_return_test, outputnames, validate, data_405):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -272,6 +321,20 @@ def test_405(repair_return_test, outputnames, validate, data_405):
     with open(report) as f:
         rr = json.load(f)
 
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert all(
+                                    now == before or now == before[::-1]
+                                    for now_list, before_list in zip(d["boundary_now"], d["boundary_before"])
+                                    for now_sublist, before_sublist in zip(now_list, before_list)
+                                    for now, before in zip(now_sublist, before_sublist)
+                                )
 
 def test_cityJSON_Schema_valid_SolidR3pair(Valid_CityJSON, dir_Solid):
     done = Valid_CityJSON(dir_Solid)

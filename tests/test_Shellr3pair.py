@@ -261,45 +261,6 @@ def data_306_orientation(request, dir_Shell, unittests, solid, data_SHELL_orient
     return (path, option, data_SHELL_orientation_UserInput)
 
 # ---------------------------------------------------------------------------------------------------------------- Tests
-def test_300(repair_return_test, outputnames, validate, data_300):
-    data, option, user = data_300
-    repair = 300
-    # are the error(s) there
-    Verror_start = validate(data, options=option)
-    assert (repair in Verror_start)
-
-    # Does the code run
-    code, error = repair_return_test([data, user])
-    assert code == 0
-
-    # does the repaired object not have the error(s)
-    repaired, report = outputnames(data, user)
-    assert os.path.exists(repaired)
-    Verror_end = validate(repaired, options=option)
-    assert (repair not in Verror_end)
-
-    with open(report) as f:
-        rr = json.load(f)
-
-def test_300_triangulation(repair_return_test, outputnames, validate, data_300_triangulation):
-    data, option, user = data_300_triangulation
-    repair = 300
-    # are the error(s) there
-    Verror_start = validate(data, options=option)
-    assert (repair in Verror_start)
-
-    # Does the code run
-    code, error = repair_return_test([data, user])
-    assert code == 0
-
-    # does the repaired object not have the error(s)
-    repaired, report = outputnames(data, user)
-    assert os.path.exists(repaired)
-    Verror_end = validate(repaired, options=option)
-    assert (repair not in Verror_end)
-
-    with open(report) as f:
-        rr = json.load(f)
 
 def test_301(repair_return_test, outputnames, validate, data_301):
     data, option, user = data_301
@@ -311,6 +272,7 @@ def test_301(repair_return_test, outputnames, validate, data_301):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -331,6 +293,7 @@ def test_301_triangulation(repair_return_test, outputnames, validate, data_301_t
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -351,6 +314,7 @@ def test_302(repair_return_test, outputnames, validate, data_302):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -371,6 +335,7 @@ def test_302_triangulation(repair_return_test, outputnames, validate, data_302_t
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -391,6 +356,7 @@ def test_303(repair_return_test, outputnames, validate, data_303):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -411,6 +377,7 @@ def test_303_triangulation(repair_return_test, outputnames, validate, data_303_t
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -431,6 +398,7 @@ def test_303_keep(repair_return_test, outputnames, validate, data_303_keep):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -451,6 +419,7 @@ def test_303_watertight(repair_return_test, outputnames, validate, data_303_wate
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -471,6 +440,7 @@ def test_303_orientation(repair_return_test, outputnames, validate, data_303_ori
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -491,6 +461,7 @@ def test_305(repair_return_test, outputnames, validate, data_305):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -511,6 +482,7 @@ def test_305_triangulation(repair_return_test, outputnames, validate, data_305_t
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -531,6 +503,7 @@ def test_305_keep(repair_return_test, outputnames, validate, data_305_keep):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -551,6 +524,7 @@ def test_305_watertight(repair_return_test, outputnames, validate, data_305_wate
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -571,6 +545,7 @@ def test_305_orientation(repair_return_test, outputnames, validate, data_305_ori
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -591,6 +566,7 @@ def test_306(repair_return_test, outputnames, validate, data_306):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -611,6 +587,7 @@ def test_306_triangulation(repair_return_test, outputnames, validate, data_306_t
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -631,6 +608,7 @@ def test_306_watertight(repair_return_test, outputnames, validate, data_306_wate
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -651,6 +629,7 @@ def test_306_orientation(repair_return_test, outputnames, validate, data_306_ori
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -670,6 +649,7 @@ def test_307(repair_return_test, outputnames, validate, data_307):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)

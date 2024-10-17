@@ -234,7 +234,7 @@ namespace AUTOr3pair {
       }
 
       tu3djson["properties"]["semantics"] = geom["semantics"];
-      done["boundary_after"] = geom["semantics"]["values"];
+      done["boundary_now"] = geom["semantics"]["values"];
 
       // show progress
       if (STANDARDS["OutputParameters"]["ShowProgress"]) {
@@ -280,7 +280,7 @@ namespace AUTOr3pair {
 
       done["boundary_before"] = tu3djson["features"][0]["geometry"]["boundaries"];
       triangulate(tu3djson["features"][0]["geometry"]);
-      done["boundary_after"] = tu3djson["features"][0]["geometry"]["boundaries"];
+      done["boundary_now"] = tu3djson["features"][0]["geometry"]["boundaries"];
       //TODO add SMT face
 
 

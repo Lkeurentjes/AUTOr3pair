@@ -24,7 +24,7 @@ OBJ files are made when error is possible.
 
 User input:
 * **Ring**: extend scope with GenericCityObject and focus only on ring repairs
-* **Ring_skip**: like ring, but "SkipLowRepairs" is set to true
+* **Ring_skip**: like Ring, but "SkipLowRepairs" is set to true
 
 #### Polygon level
 3D city models:
@@ -45,13 +45,14 @@ User input:
 
 User input:
 * **Poly**: extend scope with GenericCityObject and focus only on poly repairs and lower order repairs
-* **Poly_skip**: like ring, but "SkipLowRepairs" is set to true
-* **Poly_keep**: like ring, but "KeepEverything" is set to true
-* **Poly_tollerance_distance_plane**: like ring, but "planarity_d2p_tol" is set to 0.001
+* **Poly_skip**: like Poly, but "SkipLowRepairs" is set to true
+* **Poly_keep**: like Poly, but "KeepEverything" is set to true
+* **Poly_tollerance_distance_plane**: like Poly, but "planarity_d2p_tol" is set to 0.001
 
 #### Shell level
 * **301**: Flat cube, ie with volume of 0, only 2 surfaces
 * **301_1**: Cube with only 3 surfaces
+* **301_2**: tri triangles on the same plane
 * **302**: Unit cube with one face missing (bottom one)
 * **302_1**: Unit cube with a hole (inner ring) in the top face
 * **302_2**: A vertex in the top surface does not close the shell (0.01 discrepancy), GML cube
@@ -68,6 +69,12 @@ User input:
 * **307**: Unit cube with one face (face 0) with opposite orientation
 * **307_1**: Unit cube with a top surface composed of 2 polygons with opposite orientation
 
+User input:
+* **Shell**: extend scope with GenericCityObject and focus only on shell repairs and lower order repairs
+* **Shell_keep**: like Shell, but "KeepEverything" is set to true
+* **Shell_watertight**: like Shell, but "Watertight" is set to true
+* **Shell_orientation**: like Shell, but "Orientation" is set to true
+* **Shell_triangulation**: like Shell, but "Triangulated" is set to true
 
 #### Solid level
 
@@ -86,17 +93,31 @@ User input:
 * **405**: Pyramid with the normals pointing inwards
 * **405_1**: basecube with inner Pyramid with the normals pointing outwards
 
-user input:
-
+User input:
+* **Solid**: extend scope with GenericCityObject and focus only on solid repairs and lower order repairs
+* **Solid_keep**: like Solid, but "KeepEverything" is set to true
+* **Solid_watertight**: like Solid, but "Watertight" is set to true
+* **Solid_keep_watertight**: like Solid, but "KeepEverything" and "Watertight" is set to true
 
 #### Solid interaction level
-* **501**:    CompositeSolid with 3 cubes adjacent, where cube 1-2 overlap by 1cm
-* **501_1**:  CompositeSolid with (1) basecube + inner_shell (2) inner_shell filling the void
-* **502**:    CompositeSolid with 3 cubes, where cube 1-2 are identical
-* **503**:    CompositeSolid with 3 cubes, where cube 1 is not connected to other
+* **501**: CompositeSolid with 3 cubes adjacent, where cube 1-2 overlap by 1cm
+* **501_1**: CompositeSolid with (1) basecube + inner_shell (2) inner_shell filling the void
+* **502**: CompositeSolid with 3 cubes, where cube 1-2 are identical
+* **503**: CompositeSolid with 3 cubes, where cube 1 is not connected to other
+
+User input:
+* **SolidI**: extend scope with GenericCityObject and focus only on solid interaction repairs and lower order repairs
+* **Solid_watertight**: like SolidI, but "Watertight" is set to true
+* **Solid_Merge0**: like SolidI, but "MergeTol" is set to 0
+* **Solid_Merge1**: like SolidI, but "MergeTol" is set to 1
+
 #### Sub Part level
 * **601**:    A Building with 2 BuildingParts that overlap by 50 units
 * **601_1**:  A Building with 6 BuildingParts, part of open dataset Den Haag. Parts overlap by <1cm, with overlap_tol 0.01 it's valid
 
+User input:
+* **SubPart**: extend scope with GenericCityObject and focus only on subpart repairs and lower order repairs
+* **SubPart_Merge0**: like SubPart, but "MergeTol" is set to 0
+* **SubPart_Merge1**: like SubPart, but "MergeTol" is set to 1
 
 ### Other data

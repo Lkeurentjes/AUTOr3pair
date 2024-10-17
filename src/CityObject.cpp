@@ -229,6 +229,7 @@ namespace AUTOr3pair {
             rgeom = GeometryRepair(geom, idp);
             outputGEOMS.insert(outputGEOMS.end(), rgeom.begin(), rgeom.end());
           }
+          RepairReport["Primitives"].push_back(primitive);
           return outputGEOMS; //other type so stop this repairloop
         }
 

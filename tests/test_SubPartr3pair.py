@@ -74,6 +74,7 @@ def test_601(repair_return_test, outputnames, validate, data_601):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -94,6 +95,7 @@ def test_601_Merge0(repair_return_test, outputnames, validate, data_601_merge0):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -114,6 +116,7 @@ def test_601_Merge1(repair_return_test, outputnames, validate, data_601_merge1):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)

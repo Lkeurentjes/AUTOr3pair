@@ -337,6 +337,59 @@ def outputnames(AUTOr3pair):
         return out_name, report_name
     return (_outputnames)
 
+# ------------------------------------------------------------------------------------------- Get faces from geometries
+@pytest.fixture(scope="session")
+def extract_faces_from_geometry():
+    def _extract(geometry):
+        faces = []
+        geometry_type = geometry.get("type")
+
+        if geometry_type in ["MultiSurface", "CompositeSurface"]:
+            for surface in geometry["boundaries"]:
+                faces.append(surface)
+
+        elif geometry_type == "Solid":
+            for shell in geometry["boundaries"]:
+                for surface in shell:
+                    faces.append(surface)
+
+        elif geometry_type in ["MultiSolid", "CompositeSolid"]:
+            for solid in geometry["boundaries"]:
+                for shell in solid:
+                    for surface in shell:
+                        faces.append(surface)
+
+        return faces
+    return _extract
+
+@pytest.fixture(scope="session")
+def extract_faces_from_cityjson(extract_faces_from_geometry):
+    def _extract_faces(cityjson_data):
+        faces_per_object = {}
+
+        for obj_id, city_object in cityjson_data["CityObjects"].items():
+            if "geometry" in city_object:
+                faces_per_object[obj_id] = []
+                for geometry in city_object["geometry"]:
+                    faces = extract_faces_from_geometry(geometry)
+                    faces_per_object[obj_id].extend(faces)
+
+        return faces_per_object
+    return _extract_faces
+
+# -------------------------------------------------------------------------------------------------- check watertight
+@pytest.fixture(scope="session")
+def check_watertight(AUTOr3pair):
+    def _check(cityjson):
+        for obj_id, obj_data in cityjson.get('CityObjects', {}).items():
+            for geometry in obj_data.get('geometry', []):
+                geom_type = geometry.get('type')
+                # Ensure that the geometry type is not MultiSurface or CompositeSurface
+                if geom_type in ['MultiSurface', 'CompositeSurface', "MultiSolid"]:
+                    return False;
+        return True
+    return _check
+
 
 # -------------------------------------------------------------------------------------------------- clean up afterward
 @pytest.fixture(scope="session")

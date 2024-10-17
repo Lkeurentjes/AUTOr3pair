@@ -110,6 +110,7 @@ def test_501(repair_return_test, outputnames, validate, data_501):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -119,6 +120,16 @@ def test_501(repair_return_test, outputnames, validate, data_501):
 
     with open(report) as f:
         rr = json.load(f)
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) <= len(d["boundary_before"]))
 
 def test_501_Merge0(repair_return_test, outputnames, validate, data_501_merge0):
     data, option, user = data_501_merge0
@@ -130,6 +141,7 @@ def test_501_Merge0(repair_return_test, outputnames, validate, data_501_merge0):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -139,6 +151,16 @@ def test_501_Merge0(repair_return_test, outputnames, validate, data_501_merge0):
 
     with open(report) as f:
         rr = json.load(f)
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) < len(d["boundary_before"]))
 
 def test_501_Merge1(repair_return_test, outputnames, validate, data_501_merge1):
     data, option, user = data_501_merge1
@@ -150,6 +172,7 @@ def test_501_Merge1(repair_return_test, outputnames, validate, data_501_merge1):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -159,6 +182,16 @@ def test_501_Merge1(repair_return_test, outputnames, validate, data_501_merge1):
 
     with open(report) as f:
         rr = json.load(f)
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) <= len(d["boundary_before"]))
 
 def test_502(repair_return_test, outputnames, validate, data_502):
     data, option, user = data_502
@@ -170,6 +203,7 @@ def test_502(repair_return_test, outputnames, validate, data_502):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -179,6 +213,16 @@ def test_502(repair_return_test, outputnames, validate, data_502):
 
     with open(report) as f:
         rr = json.load(f)
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) < len(d["boundary_before"]))
 
 def test_503(repair_return_test, outputnames, validate, data_503):
     data, option, user = data_503
@@ -190,6 +234,7 @@ def test_503(repair_return_test, outputnames, validate, data_503):
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -200,7 +245,17 @@ def test_503(repair_return_test, outputnames, validate, data_503):
     with open(report) as f:
         rr = json.load(f)
 
-def test_503_watertight(repair_return_test, outputnames, validate, data_503_watertight):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "SolidRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1)
+
+def test_503_watertight(repair_return_test,check_watertight, outputnames, validate, data_503_watertight):
     data, option, user = data_503_watertight
     repair = 503
     # are the error(s) there
@@ -210,6 +265,7 @@ def test_503_watertight(repair_return_test, outputnames, validate, data_503_wate
     # Does the code run
     code, error = repair_return_test([data, user])
     assert code == 0
+    assert error == ""
 
     # does the repaired object not have the error(s)
     repaired, report = outputnames(data, user)
@@ -217,8 +273,11 @@ def test_503_watertight(repair_return_test, outputnames, validate, data_503_wate
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    with open(repaired) as f:
+        cj = json.load(f)
+        assert check_watertight(cj)
+
+
 def test_cityJSON_Schema_valid_SolidInteractionR3pair(Valid_CityJSON, dir_SolidInteraction):
     done = Valid_CityJSON(dir_SolidInteraction)
     assert done == 1

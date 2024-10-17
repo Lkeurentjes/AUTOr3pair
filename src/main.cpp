@@ -45,8 +45,6 @@ int main(int argc, const char *argv[]) {
     if (argc > 4) { std::cerr << "To much inputs are given, will only use the first 2" << std::endl; }
   }
 
-//  FILENAME = "../data/Test_pre_post_processing/CITYJSON_cube_duplicateSNAP.json";
-//  USERINPUTFILENAME = "../data/Test_use_case_parameters/USERINPUT_watertight.json";
   AUTOr3pair::filehandler InOutPutHandler;
 
   // ---   PARSE USER FILE     ---
