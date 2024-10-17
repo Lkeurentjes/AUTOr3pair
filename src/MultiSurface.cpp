@@ -156,10 +156,13 @@ namespace AUTOr3pair {
             int code = RepairsNeeded["PolyErrors"][error][0];
             if (code == 201) {
               // INTERSECTION RINGS
-              vector<vector<int>> replace201 = AUTOr3pair::Polyr3pair201(boundary);
-              if (!replace201.empty()){
-                newboundaries.push_back(replace201);
-                FacesSMT[replace201[0]] = FacesSMT[boundary[0]];
+              vector<vector<vector<int>>> replace201 = AUTOr3pair::Polyr3pair201(boundary);
+              done["boundary_now"] = replace201;
+              if (!replace201.empty()) {
+                for (int face = 0; face < replace201.size(); face++) {
+                  newboundaries.push_back(replace201[face]);
+                  FacesSMT[replace201[face][0]] = FacesSMT[boundary[0]];
+                }
               }
               done["boundary_now"] = replace201;
             } else if (code == 202) {

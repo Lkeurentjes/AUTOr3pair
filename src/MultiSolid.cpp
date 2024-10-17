@@ -199,10 +199,12 @@ namespace AUTOr3pair {
                   done["boundary_now"] = json::array();
                 } else if (code == 201) {
                   // INTERSECTION RINGS
-                  vector<vector<int>> replace201 = AUTOr3pair::Polyr3pair201(boundary);
+                  vector<vector<vector<int>>> replace201 = AUTOr3pair::Polyr3pair201(boundary);
                   if (!replace201.empty()) {
-                    newshell.push_back(replace201);
-                    FacesSMT[replace201[0]] = FacesSMT[boundary[0]];
+                    for (int face = 0; face < replace201.size(); face++) {
+                      newshell.push_back(replace201[face]);
+                      FacesSMT[replace201[face][0]] = FacesSMT[boundary[0]];
+                    }
                   }
                   done["boundary_now"] = replace201;
                 } else if (code == 202) {
@@ -530,10 +532,10 @@ namespace AUTOr3pair {
             std::cout << code << endl;
             if (code == 401) {
               // INTERSECTION SHELLS
-              vector<vector<vector<vector<int>>>> replace401 = AUTOr3pair::Solidr3pair401(boundary);
+              vector<vector<vector<vector<vector<int>>>>> replace401 = AUTOr3pair::Solidr3pair401(boundary);
               SMTassigner(replace401);
               if (!replace401.empty()) {
-                newboundaries.push_back(replace401);
+                newboundaries.insert(newboundaries.end(), replace401.begin(), replace401.end());
               }
               done["boundary_now"] = replace401;
             }

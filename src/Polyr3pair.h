@@ -10,7 +10,7 @@ using namespace std;
 
 namespace AUTOr3pair {
 
-    vector<vector<int>> Polyr3pair201(vector<vector<int>>& surface);
+    vector<vector<vector<int>>> Polyr3pair201(vector<vector<int>>& surface);
     vector<vector<int>> Polyr3pair202(vector<vector<int>>& surface); // DOESNT EXSIST RIGHT NOW
     vector<vector<vector<int>>> Polyr3pair203(vector<vector<int>>& surface, string& info);
     vector<vector<int>> Polyr3pair204(vector<vector<int>>& surface);

@@ -180,10 +180,12 @@ namespace AUTOr3pair {
                 done["boundary_now"] = json::array();
               } else if (code == 201) {
                 // INTERSECTION RINGS
-                vector<vector<int>> replace201 = AUTOr3pair::Polyr3pair201(boundary);
+                vector<vector<vector<int>>> replace201 = AUTOr3pair::Polyr3pair201(boundary);
                 if (!replace201.empty()) {
-                  newshell.push_back(replace201);
-                  FacesSMT[replace201[0]] = FacesSMT[boundary[0]];
+                  for (int face = 0; face < replace201.size(); face++) {
+                    newshell.push_back(replace201[face]);
+                    FacesSMT[replace201[face][0]] = FacesSMT[boundary[0]];
+                  }
                 }
                 done["boundary_now"] = replace201;
               } else if (code == 202) {
@@ -519,9 +521,30 @@ namespace AUTOr3pair {
         int code = RepairsNeeded["SolidErrors"][error][0];
         if (code == 401) {
           // INTERSECTION SHELLS
-          vector<vector<vector<vector<int>>>> replace401 = AUTOr3pair::Solidr3pair401(boundary);
+          vector<vector<vector<vector<vector<int>>>>> replace401 = AUTOr3pair::Solidr3pair401(boundary);
           SMTassigner(replace401);
-          tu3djson["features"][0]["geometry"]["boundaries"] = replace401;
+          if (replace401.size() < 2) {
+            tu3djson["features"][0]["geometry"]["boundaries"] = replace401[0];
+          } else{
+            if (STANDARDS["UseCaseRepair"]["Watertight"]) {
+              // split into 2 solids
+              tu3djson["features"] = json::array();
+              for (int i = 0; i < replace401.size(); ++i) {
+                json feature;
+                feature["type"] = "feature";
+                feature["geometry"]["type"] = "Solid";
+                feature["geometry"]["boundaries"] = replace401[i];
+                feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
+                tu3djson["features"].push_back(feature);
+              }
+            } else {
+              // make it MultiSolid
+              tu3djson["features"][0]["geometry"]["boundaries"] = replace401;
+              tu3djson["features"][0]["geometry"]["type"] = "MultiSolid";
+            }
+          }
+
+          stop = true; // stop the repair process after this
           done["boundary_now"] = replace401;
         }
         if (code == 402) {
