@@ -67,7 +67,11 @@ User input:
 * **306_1**: House with tip touching the bottom faces
 * **307**: Unit cube with one face (face 0) with opposite orientation
 * **307_1**: Unit cube with a top surface composed of 2 polygons with opposite orientation
+
+
 #### Solid level
+
+3D city models:
 * **401**: An inner-pyramid that pierces through the top of basecube (by 0.00001). Oracle agrees: oracle=54512
 * **401_1**: basecube = An inner-pyramid that is outside of the shell of basecube, but pierces inside it (by 0.00001)
 * **401_2**: Two cavities in basecube that share a face
@@ -81,6 +85,10 @@ User input:
 * **404**: 404 is a blocker that divides the cube into two parts
 * **405**: Pyramid with the normals pointing inwards
 * **405_1**: basecube with inner Pyramid with the normals pointing outwards
+
+user input:
+
+
 #### Solid interaction level
 * **501**:    CompositeSolid with 3 cubes adjacent, where cube 1-2 overlap by 1cm
 * **501_1**:  CompositeSolid with (1) basecube + inner_shell (2) inner_shell filling the void

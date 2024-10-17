@@ -523,7 +523,10 @@ namespace AUTOr3pair {
           // INTERSECTION SHELLS
           vector<vector<vector<vector<vector<int>>>>> replace401 = AUTOr3pair::Solidr3pair401(boundary);
           SMTassigner(replace401);
-          if (replace401.size() < 2) {
+          if (replace401.size() == 0) {
+            tu3djson["features"][0]["geometry"]["boundaries"] = {};
+          }
+          if (replace401.size() == 1) {
             tu3djson["features"][0]["geometry"]["boundaries"] = replace401[0];
           } else{
             if (STANDARDS["UseCaseRepair"]["Watertight"]) {
