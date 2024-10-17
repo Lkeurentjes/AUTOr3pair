@@ -128,7 +128,7 @@ namespace AUTOr3pair {
 
       vector<vector<vector<Point3>>> outshell;
       // check if it is single planes:
-      if (CGAL::coplanar(obb_points[0], obb_points[6], obb_points[2], obb_points[4])) {
+      if (CGAL::abs(CGAL::volume(obb_points[0], obb_points[6], obb_points[2], obb_points[4])) < 1e-6) {
         plane = true;
         outshell = {{{obb_points[0], obb_points[6], obb_points[2], obb_points[4]}}};
 
