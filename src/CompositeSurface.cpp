@@ -49,7 +49,7 @@ namespace AUTOr3pair {
           vector<bool> vol;
           vector<vector<vector<vector<int>>>> replace303 = AUTOr3pair::Shellr3pair303(boundary, vol);
           SMTassigner(replace303);
-          if (replace303.empty()){
+          if (replace303.empty()) {
 
           } else if (replace303.size() == 1) {
             newboundary = replace303[0];
@@ -80,35 +80,30 @@ namespace AUTOr3pair {
         } else if (code == 305) {
           // MULTIPLE CONNECTED COMPONENTS
           stop = true;
-          vector<bool> vol;
-          vector<vector<vector<vector<int>>>> replace305 = AUTOr3pair::Shellr3pair305(boundary, vol);
-          SMTassigner(replace305);
-          newboundary = replace305[0];
-          if (replace305.size() == 1) {
-            done["boundary_now"] = replace305[0];
+          if (!STANDARDS["UseCaseRepair"]["Orientation"]) {
+            // change to Multi Surface
+            newboundary = boundary;
+            tu3djson["features"][0]["geometry"]["type"] = "MultiSurface";
           } else {
-            done["boundary_now"] = replace305;
-            for (int g = 1; g < replace305.size(); ++g) {
-              if (STANDARDS["UseCaseRepair"]["Orientation"]) {
-                // split into 2 composite surfaces
+            vector<bool> vol;
+            vector<vector<vector<vector<int>>>> replace305 = AUTOr3pair::Shellr3pair305(boundary, vol);
+            SMTassigner(replace305);
+            newboundary = replace305[0];
+            if (replace305.size() == 1) {
+              done["boundary_now"] = replace305[0];
+            } else {
+              done["boundary_now"] = replace305;
+              for (int g = 1; g < replace305.size(); ++g) {
+                // split into multiple composite surfaces
                 json feature;
                 feature["type"] = "feature";
                 feature["geometry"]["type"] = "CompositeSurface";
                 feature["geometry"]["boundaries"] = replace305[g];
                 feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
                 tu3djson["features"].push_back(feature);
-              } else {
-                // split into 1 composite and 1 MultiSurface
-                json feature;
-                feature["type"] = "feature";
-                feature["geometry"]["type"] = "MultiSurface";
-                feature["geometry"]["boundaries"] = replace305[g];
-                feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
-                tu3djson["features"].push_back(feature);
               }
             }
           }
-
         } else if (code == 306) {
           // SHELL SELF INTERSECTION
           stop = true;
@@ -139,7 +134,7 @@ namespace AUTOr3pair {
                       RepairsNeeded["ShellErrors"][error][1] << endl;
           }
         }
-        if(stop){break;}
+        if (stop) { break; }
       }
 
       tu3djson["features"][0]["geometry"]["boundaries"] = newboundary;
