@@ -242,6 +242,7 @@ namespace AUTOr3pair {
         if (counterCat == STANDARDS["RepairDepths"]["MaxRepairDepth"] || totalCounter == STANDARDS["RepairDepths"]["TotalRepairDepth"]){
           if (!geometry.isvalid()){
             // report and repair
+            std::cerr << "\t\tGeometry needs a global repair" << endl;
             json repairs = {
                     {"round",          totalCounter},
                     {"kind_of_repair", "GlobalRepair"},
