@@ -303,9 +303,10 @@ namespace AUTOr3pair{
 		return newboundaries;
 	};
 
-	vector<vector<int>> Polyr3pair208(vector<vector<int>>& surface) {
+	vector<vector<int>> Polyr3pair208(vector<vector<int>>& surfaceOG) {
 		// ORIENTATION RINGS SAME
 		vector<vector<int>> boundary;
+    vector<vector<int>> surface = surfaceOG;
 		boundary.push_back(surface[0]);
 		vector<Point3E> verticesP3 = VERTICES.get_verticesPoint3E();
 		vector<vector<Point3E>> poly;
