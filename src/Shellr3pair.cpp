@@ -48,8 +48,8 @@ namespace AUTOr3pair {
     }
 
     vector<vector<vector<int>>> Shellr3pair301(vector<vector<vector<int>>> &shell, bool &sameplane) {
-      vector<vector<vector<int>>> newshell;
       // TOO FEW POLYGONS
+      vector<vector<vector<int>>> newshell;
       vector<Point3> verticesP3 = VERTICES.get_verticesPoint3();
 
       map<Point3, int> indexes;
@@ -135,6 +135,39 @@ namespace AUTOr3pair {
       // NON MANIFOLD CASE
       vector<vector<vector<vector<int>>>> newshells;
       vector<vector<vector<vector<int>>>> no_vol_shells;
+
+      // check if faces are on top of eachother
+      set<int> duplicates;
+      for (int i = 0; i < shell.size(); ++i) {
+        for (int j = i + 1; j < shell.size(); ++j) {
+          vector<int>& outer1 = shell[i][0];
+          vector<int>& outer2 = shell[j][0];
+          if (outer1.size() == outer2.size()) {
+            std::sort(outer1.begin(), outer1.end());
+            std::sort(outer2.begin(), outer2.end());
+            if (outer1 == outer2){
+              duplicates.insert(j);
+            }
+          }
+        }
+      }
+      if (!duplicates.empty()){
+        std::cout << "\t\tDouble face problem!" << endl;
+        vector<vector<vector<int>>> newshell;
+        vector<vector<vector<vector<int>>>> dupes;
+        vol.push_back(true);
+        for (int i = 0; i < shell.size(); ++i) {
+          if (!duplicates.contains(i)){
+            newshell.push_back(shell[i]);
+          }else{
+            vol.push_back(false);
+            dupes.push_back({shell[i]});
+          }
+        }
+        newshells.push_back(newshell);
+        newshells.insert(newshells.end(), dupes.begin(), dupes.end());
+        return newshells;
+      }
 
       // Map to store half-edges. Key is the half-edge; value is a vector of face indices.
       map<pair<int, int>, vector<int>> halfEdgesMap;
