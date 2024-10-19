@@ -37,8 +37,8 @@ namespace AUTOr3pair {
             FacesSMT[(tu3djson["features"][0]["geometry"]["boundaries"][i][j][0])] = SMT;
             Nef_polyhedron facepoly;
             vector<int> face = tu3djson["features"][0]["geometry"]["boundaries"][i][j][0];
-            bool makeNef = make_2D_polySMT(face,facepoly);
-            if (makeNef){
+            bool makeNef = make_2D_polySMT(face, facepoly);
+            if (makeNef) {
               SMTnefs.push_back({facepoly, face});
             }
           }
@@ -172,7 +172,7 @@ namespace AUTOr3pair {
             if (stop) { break; }
             string test = RepairsNeeded["PolyErrors"][error][1];
             test += "|";
-            if (test.find(("shell=" + to_string(i) + "|face=" + to_string(j) +"|")) != string::npos) {
+            if (test.find(("shell=" + to_string(i) + "|face=" + to_string(j) + "|")) != string::npos) {
               repaired = true;
               json done;
               int code = RepairsNeeded["PolyErrors"][error][0];
@@ -299,13 +299,13 @@ namespace AUTOr3pair {
             if (code == 300) {
               // NOT VALID 2 MANIFOLD
               stop = true;
-              if (i<=OGtu3djson["features"][0]["geometry"]["boundaries"].size()){
+              if (i <= OGtu3djson["features"][0]["geometry"]["boundaries"].size()) {
                 vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
                 vector<vector<vector<int>>> replace300 = AUTOr3pair::Shellr3pair300(OGboundary);
                 SMTassigner(replace300);
                 newboundaries.push_back(replace300);
                 done["boundary_now"] = replace300;
-              }else{
+              } else {
                 done["boundary_now"] = {};
               }
               vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
@@ -331,7 +331,7 @@ namespace AUTOr3pair {
                 }
               } else {
                 if (replace301.empty()) {
-                  if (i<=OGtu3djson["features"][0]["geometry"]["boundaries"].size()){
+                  if (i <= OGtu3djson["features"][0]["geometry"]["boundaries"].size()) {
                     vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
                     replace301 = AUTOr3pair::Shellr3pair300(OGboundary);
                     SMTassigner(replace301);
@@ -339,7 +339,7 @@ namespace AUTOr3pair {
                   }
                   vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
                   replace301 = AUTOr3pair::Shellr3pair300(OGboundary);
-                }else{
+                } else {
                   newboundaries.push_back(replace301);
                 }
                 done["boundary_now"] = replace301;
@@ -350,12 +350,12 @@ namespace AUTOr3pair {
               stop = true;
               vector<vector<vector<int>>> replace302 = AUTOr3pair::Shellr3pair302(boundary);
               if (replace302.empty()) {
-                if (i<=OGtu3djson["features"][0]["geometry"]["boundaries"].size()){
+                if (i <= OGtu3djson["features"][0]["geometry"]["boundaries"].size()) {
                   vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
                   replace302 = AUTOr3pair::Shellr3pair300(OGboundary);
                   newboundaries.push_back(replace302);
                 }
-              }else{
+              } else {
                 newboundaries.push_back(replace302);
               }
               SMTassigner(replace302);
@@ -369,40 +369,42 @@ namespace AUTOr3pair {
               done["boundary_now"] = replace303;
 
               auto firsttrue = find(vol.begin(), vol.end(), true);
+              int voladded = 0; // if None are volume keep first
               if (firsttrue != vol.end()) {
-                newboundaries.push_back(replace303[distance(vol.begin(), firsttrue)]);
+                voladded = distance(vol.begin(), firsttrue);// If first is not volume
               }
-
+              newboundaries.push_back(replace303[voladded]);
               for (int g = 0; g < replace303.size(); ++g) {
-                if (g == distance(vol.begin(), firsttrue)) {
-                  continue;
-                }
-                if (vol[g] && i == 0) {
-                  if (STANDARDS["UseCaseRepair"]["Watertight"]) {
-                    // pushback as Solid features
+                if ((vol[g] || STANDARDS["UseCaseRepair"]["KeepEverything"]) && g != voladded) {
+                  if (i == 0 && vol[g]) {
+                    if (STANDARDS["UseCaseRepair"]["Watertight"]) {
+                      // pushback as Solid features
+                      json feature;
+                      feature["type"] = "feature";
+                      feature["geometry"]["type"] = "Solid";
+                      feature["geometry"]["boundaries"] = {replace303[g]};
+                      feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
+                      tu3djson["features"].push_back(feature);
+                    } else {
+                      // make it MultiSolid
+                      to_multi = true;
+                      add_shells.push_back(replace303[g]);
+                    }
+                  } else if (STANDARDS["UseCaseRepair"]["Watertight"]) {
+                    if (replace303[g].size()>2){ // otherwise it can never be closed
+                      newboundaries.push_back(replace303[g]);
+                    }
+                  } else {
+                    // pushback as Surface features
                     json feature;
                     feature["type"] = "feature";
-                    feature["geometry"]["type"] = "Solid";
-                    feature["geometry"]["boundaries"] = {replace303[g]};
+                    feature["geometry"]["type"] = STANDARDS["UseCaseRepair"]["Orientation"].get<bool>()
+                                                  ? "CompositeSurface" : "MultiSurface";
+                    feature["geometry"]["boundaries"] = replace303[g];
                     feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
                     tu3djson["features"].push_back(feature);
-                  } else {
-                    // make it MultiSolid
-                    to_multi = true;
-                    add_shells.push_back(replace303[g]);
                   }
-                } else if (vol[g]) {
-                  newboundaries.push_back(replace303[g]);
-                } else {
-                  // pushback as Msurf features
-                  json feature;
-                  feature["type"] = "feature";
-                  feature["geometry"]["type"] = "MultiSurface";
-                  feature["geometry"]["boundaries"] = replace303[g];
-                  feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
-                  tu3djson["features"].push_back(feature);
                 }
-
               }
             } else if (code == 305) {
               // MULTIPLE CONNECTED COMPONENTS
@@ -478,9 +480,9 @@ namespace AUTOr3pair {
             }
             if (stop || to_surface || to_multi) { break; }
           }
-          if (to_surface || to_multi) {break;}
+          if (to_surface || to_multi) { break; }
         }
-        if (to_surface|| to_multi) {break;}
+        if (to_surface || to_multi) { break; }
       }
       if (to_surface) {
         vector<vector<vector<int>>> newCompositeSurface;
@@ -530,7 +532,7 @@ namespace AUTOr3pair {
           }
           if (replace401.size() == 1) {
             tu3djson["features"][0]["geometry"]["boundaries"] = replace401[0];
-          } else{
+          } else {
             if (STANDARDS["UseCaseRepair"]["Watertight"]) {
               // split into 2 solids
               tu3djson["features"] = json::array();
@@ -653,7 +655,7 @@ namespace AUTOr3pair {
       for (int i = 0; i < OGtu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
         vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
         vector<vector<vector<int>>> replaceAF = AUTOr3pair::Globalr3pairAlphaFaces(shell);
-        if (i!=0) {replaceAF  = flip_shell(replaceAF);}
+        if (i != 0) { replaceAF = flip_shell(replaceAF); }
         result.push_back(replaceAF);
       }
       update_vertices();
@@ -681,7 +683,7 @@ namespace AUTOr3pair {
       for (int i = 0; i < OGtu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
         vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
         vector<vector<vector<int>>> replaceAP = AUTOr3pair::Globalr3pairAlphaPoints(shell);
-        if (i!=0) {replaceAP  = flip_shell(replaceAP);}
+        if (i != 0) { replaceAP = flip_shell(replaceAP); }
         result2.push_back(replaceAP);
       }
       update_vertices();
@@ -711,7 +713,7 @@ namespace AUTOr3pair {
       for (int i = 0; i < OGtu3djson["features"][0]["geometry"]["boundaries"].size(); ++i) {
         vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i];
         vector<vector<vector<int>>> replaceCH = AUTOr3pair::Globalr3pairConvexHull(shell);
-        if (i!=0) {replaceCH  = flip_shell(replaceCH);}
+        if (i != 0) { replaceCH = flip_shell(replaceCH); }
         resultCH.push_back(replaceCH);
       }
       update_vertices();
@@ -754,7 +756,7 @@ namespace AUTOr3pair {
           if (i == 0) {
             tu3djson["properties"]["lod"] = "1.0";
           }
-          if (i!=0) {replaceBB  = flip_shell(replaceBB);}
+          if (i != 0) { replaceBB = flip_shell(replaceBB); }
           result3.push_back(replaceBB);
         }
       }

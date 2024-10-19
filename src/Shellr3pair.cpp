@@ -18,7 +18,7 @@ namespace AUTOr3pair {
 
       // test if not sameplane
       set<Point3> all_v;
-      for (const auto& entry : indexes) {
+      for (const auto &entry: indexes) {
         all_v.insert(entry.first); // Add the key (Point3) to the set
       }
       if (all_points_on_same_plane(all_v)) {
@@ -26,13 +26,13 @@ namespace AUTOr3pair {
       }
       vector<Point3> PolygonSoupPoints;
       vector<vector<int>> PolygonSoupFaces;
-      PMP::polygon_mesh_to_polygon_soup	(MeshShell,PolygonSoupPoints,PolygonSoupFaces);
-      if (PolygonSoupFaces.size() == 0 || PolygonSoupPoints.size() == 0){
+      PMP::polygon_mesh_to_polygon_soup(MeshShell, PolygonSoupPoints, PolygonSoupFaces);
+      if (PolygonSoupFaces.size() == 0 || PolygonSoupPoints.size() == 0) {
         return shell;
       }
 
       Mesh AlphwrappedShell;
-      CGAL::alpha_wrap_3(PolygonSoupPoints,PolygonSoupFaces, 1.3, 0.3, AlphwrappedShell);  //-- values of Ivan
+      CGAL::alpha_wrap_3(PolygonSoupPoints, PolygonSoupFaces, 1.3, 0.3, AlphwrappedShell);  //-- values of Ivan
       vector<vector<vector<Point3>>> outshell = get_faces(MeshShell);
       vector<vector<vector<Point3>>> goodshell = delete_triangle_lines(outshell);
 
@@ -92,7 +92,7 @@ namespace AUTOr3pair {
       bool filled = false;
       bool hole = true;
       int count = 0;
-      while (hole && (count < 100)){
+      while (hole && (count < 100)) {
         bool found_hole = false;
         for (auto h: halfedges(MeshShell)) {
           if (is_border(h, MeshShell)) {
@@ -109,7 +109,7 @@ namespace AUTOr3pair {
                   border_hedge,
                   CGAL::Polygon_mesh_processing::parameters::use_delaunay_triangulation(true)
           );
-        }else{
+        } else {
           hole = false;
         }
         count++;
@@ -140,26 +140,26 @@ namespace AUTOr3pair {
       set<int> duplicates;
       for (int i = 0; i < shell.size(); ++i) {
         for (int j = i + 1; j < shell.size(); ++j) {
-          vector<int>& outer1 = shell[i][0];
-          vector<int>& outer2 = shell[j][0];
+          vector<int> outer1 = shell[i][0];
+          vector<int> outer2 = shell[j][0];
           if (outer1.size() == outer2.size()) {
             std::sort(outer1.begin(), outer1.end());
             std::sort(outer2.begin(), outer2.end());
-            if (outer1 == outer2){
+            if (outer1 == outer2) {
               duplicates.insert(j);
             }
           }
         }
       }
-      if (!duplicates.empty()){
+      if (!duplicates.empty()) {
         std::cout << "\t\tDouble face problem!" << endl;
         vector<vector<vector<int>>> newshell;
         vector<vector<vector<vector<int>>>> dupes;
         vol.push_back(true);
         for (int i = 0; i < shell.size(); ++i) {
-          if (!duplicates.contains(i)){
+          if (!duplicates.contains(i)) {
             newshell.push_back(shell[i]);
-          }else{
+          } else {
             vol.push_back(false);
             dupes.push_back({shell[i]});
           }
@@ -190,6 +190,7 @@ namespace AUTOr3pair {
           overused_edges.insert(halfEdge);
         }
       }
+      
 
       if (Umbrella_Problem) {
         std::cout << "\t\tUmbrella problem!" << endl;
@@ -257,11 +258,8 @@ namespace AUTOr3pair {
               vol.push_back(true);
               newshells.push_back(current_shell);
             } else {
-              no_vol_shells.push_back(current_shell);
-              if (STANDARDS["UseCaseRepair"]["KeepEverything"]) {
-                vol.push_back(false);
-                newshells.push_back(current_shell);
-              }
+              vol.push_back(false);
+              newshells.push_back(current_shell);
             }
 
             current_shell.clear();
@@ -280,18 +278,16 @@ namespace AUTOr3pair {
           }
         }
         // add remaining face if needed
-        if (Open_edges_current_shell.size() == 0) {
+        if (Open_edges_current_shell.empty()) {
           vol.push_back(true);
           newshells.push_back(current_shell);
         } else {
-          no_vol_shells.push_back(current_shell);
-          if (STANDARDS["UseCaseRepair"]["KeepEverything"]) {
-            vol.push_back(false);
-            newshells.push_back(current_shell);
-          }
+          vol.push_back(false);
+          newshells.push_back(current_shell);
         }
       } else {
         std::cout << "\t\tEdge or flip problem!" << endl;
+
         vector<vector<vector<vector<int>>>> temp_Shells;
         vector<set<pair<int, int>>> temp_openEdge;
 
@@ -378,7 +374,7 @@ namespace AUTOr3pair {
           }
         }
         // add remaining face if needed
-        if (Open_edges_current_shell.size() == 0 && current_shell.size()>2) {
+        if (Open_edges_current_shell.size() == 0 && current_shell.size() > 2) {
           vol.push_back(true);
           newshells.push_back(current_shell);
         } else {
@@ -434,15 +430,12 @@ namespace AUTOr3pair {
 
             } else {
               // does it volume
-              if (Open_edges_current_shell.size() == 0 && current_shell.size()>2) {
+              if (Open_edges_current_shell.size() == 0 && current_shell.size() > 2) {
                 vol.push_back(true);
                 newshells.push_back(current_shell);
               } else {
-                no_vol_shells.push_back(current_shell);
-                if (STANDARDS["UseCaseRepair"]["KeepEverything"]) {
                   vol.push_back(false);
                   newshells.push_back(current_shell);
-                }
               }
 
               current_shell.clear();
@@ -458,28 +451,14 @@ namespace AUTOr3pair {
             }
           }
           // does it volume
-          if (Open_edges_current_shell.size() == 0 && current_shell.size()>2) {
+          if (Open_edges_current_shell.size() == 0 && current_shell.size() > 2) {
             vol.push_back(true);
             newshells.push_back(current_shell);
           } else {
-            no_vol_shells.push_back(current_shell);
-            if (STANDARDS["UseCaseRepair"]["KeepEverything"]) {
               vol.push_back(false);
               newshells.push_back(current_shell);
-            }
           }
         }
-      }
-      if (newshells.empty()){
-        int index = 0, maxsize = 0;
-        for (int s = 0; s < no_vol_shells.size(); ++s) {
-          if(no_vol_shells[s].size()>maxsize){
-            index = s;
-            maxsize = no_vol_shells[s].size();
-          }
-        }
-        newshells.push_back(no_vol_shells[index]);
-        vol.push_back(true);
       }
       return newshells;
     }
@@ -536,7 +515,7 @@ namespace AUTOr3pair {
           }
         }
       }
-      if (newshells.empty()){
+      if (newshells.empty()) {
         newshells.push_back(shell);
       }
       return newshells;
@@ -555,13 +534,13 @@ namespace AUTOr3pair {
 
       // Step 2: Collect faces to remove
       std::set<face_descriptor> faces_to_remove;
-      for (const auto& pair : intersecting_faces) {
+      for (const auto &pair: intersecting_faces) {
         faces_to_remove.insert(pair.first);
         faces_to_remove.insert(pair.second);
       }
 
       // Step 3: Remove the intersecting faces
-      for (auto fd : faces_to_remove) {
+      for (auto fd: faces_to_remove) {
         // Get a halfedge of the face to remove
         halfedge_descriptor h = halfedge(fd, mesh);
         // Remove the face
