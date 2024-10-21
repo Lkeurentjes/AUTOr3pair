@@ -4,6 +4,8 @@
 #include "Defenitions.h"
 #include "DefenitionsCGAL.h"
 #include "Geometrytools.h"
+#include "GeometrytoolsDetriangulationPoint3.h"
+#include "GeometrytoolsDetriangulationPoint3E.h"
 
 
 using json = nlohmann::json;
@@ -334,54 +336,71 @@ namespace AUTOr3pair {
       PMP::triangulate_faces(MeshShell);
 
       if (!holes.empty()) {
-        set<Point3E> OGpoints;
-        for (auto v: MeshShell.vertices()) {
-          Point3E p = MeshShell.point(v);
-          OGpoints.insert(p);
-        }
-
         MeshE Holes;
         PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
         PMP::triangulate_faces(Holes);
 
-        if (!CGAL::is_valid_polygon_mesh(MeshShell) ||
-            !CGAL::is_valid_polygon_mesh(Holes) ||
-            CGAL::Polygon_mesh_processing::does_self_intersect(MeshShell) ||
-            CGAL::Polygon_mesh_processing::does_self_intersect(Holes))
-        { return false;}
-          CGAL::Polygon_mesh_processing::remove_degenerate_faces(MeshShell);
-          CGAL::Polygon_mesh_processing::remove_degenerate_faces(Holes);
-
         PMP::clip(MeshShell, Holes);
 
-        vector<Mesh::Face_index> faces_to_remove;
-        for (Mesh::Face_index fi: MeshShell.faces()) {
-          bool hole = true;
-          Mesh::Halfedge_index h = MeshShell.halfedge(fi);
+        set<set<Point3E>> holefaces;
+        for (Mesh::Face_index fi: Holes.faces()) {
+          set<Point3E> holeface;
+          Mesh::Halfedge_index h = Holes.halfedge(fi);
           Mesh::Halfedge_index h_end = h;
           do {
-            Mesh::Vertex_index v = MeshShell.target(h);
-            Point3E p = MeshShell.point(v);
-            if (OGpoints.contains(p)) {
-              hole = false;
+            Mesh::Vertex_index v = Holes.target(h);
+            Point3E p = Holes.point(v);
+            holeface.insert(p);
+            h = Holes.next(h);
+          } while (h != h_end);
+          holefaces.insert(holeface);
+        }
+
+        vector<Mesh::Face_index> faces_to_remove;
+
+        while (true){
+          bool found = false;
+          int count = 0;
+          for (Mesh::Face_index fi: MeshShell.faces()) {
+            Mesh::Halfedge_index h = MeshShell.halfedge(fi);
+            Mesh::Halfedge_index h_end = h;
+            set<Point3E> face;
+            do {
+              Mesh::Vertex_index v = MeshShell.target(h);
+              Point3E p = MeshShell.point(v);
+              face.insert(p);
+              h = MeshShell.next(h);
+            } while (h != h_end);
+
+            if (holefaces.contains(face)){
+              halfedge_descriptor hi = halfedge(fi, MeshShell);
+              // Remove the face
+              CGAL::Euler::remove_face(hi,  MeshShell);
+              found = true;
               break;
             }
-            h = MeshShell.next(h);
-          } while (h != h_end);
-          if (hole) {
-            faces_to_remove.push_back(fi);
+            count++;
           }
+          if (!found){break;}
         }
-        for (auto &f: faces_to_remove) {
-          MeshShell.remove_face(f);
-        }
+
         MeshShell.collect_garbage();
 
-        // TODO this is a very bruttforce solution, maybe refine later
         MeshE copy;
         std::map<Mesh::Vertex_index, Mesh::Vertex_index> vmap;
+        std::map<Point3E, Mesh::Vertex_index> point_map_duplicates;  // Secondary map for points to vertex index
         for (auto v: MeshShell.vertices()) {
-          vmap[v] = copy.add_vertex(MeshShell.point(v));
+          Point3E p = MeshShell.point(v);
+          auto it = point_map_duplicates.find(p);
+          if (it != point_map_duplicates.end()) {
+            // Point exists, link to existing vertex
+            vmap[v] = it->second;
+          } else {
+            // Point does not exist, add a new vertex to copy and update both maps
+            Mesh::Vertex_index new_vertex = copy.add_vertex(p);
+            vmap[v] = new_vertex;
+            point_map_duplicates[p] = new_vertex;  // Store the point and its corresponding vertex index
+          }
         }
         for (auto f: MeshShell.faces()) {
           std::vector<Mesh::Vertex_index> vertices;
@@ -418,55 +437,71 @@ namespace AUTOr3pair {
       PMP::triangulate_faces(MeshShell);
 
       if (!holes.empty()) {
-        set<Point3> OGpoints;
-        for (auto v: MeshShell.vertices()) {
-          Point3 p = MeshShell.point(v);
-          OGpoints.insert(p);
-        }
-
         Mesh Holes;
         PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
         PMP::triangulate_faces(Holes);
-        if (!CGAL::is_valid_polygon_mesh(MeshShell) ||
-            !CGAL::is_valid_polygon_mesh(Holes) ||
-            CGAL::Polygon_mesh_processing::does_self_intersect(MeshShell) ||
-            CGAL::Polygon_mesh_processing::does_self_intersect(Holes))
-        { return false;}
-        CGAL::Polygon_mesh_processing::remove_degenerate_faces(MeshShell);
-        CGAL::Polygon_mesh_processing::remove_degenerate_faces(Holes);
 
-        std::cout << "clip" << endl;
         PMP::clip(MeshShell, Holes);
-        std::cout << "cip :(:" << endl;
 
-        vector<Mesh::Face_index> faces_to_remove;
-        for (Mesh::Face_index fi: MeshShell.faces()) {
-          bool hole = true;
-          Mesh::Halfedge_index h = MeshShell.halfedge(fi);
+        set<set<Point3>> holefaces;
+        for (Mesh::Face_index fi: Holes.faces()) {
+          set<Point3> holeface;
+          Mesh::Halfedge_index h = Holes.halfedge(fi);
           Mesh::Halfedge_index h_end = h;
           do {
-            Mesh::Vertex_index v = MeshShell.target(h);
-            Point3 p = MeshShell.point(v);
-            if (OGpoints.contains(p)) {
-              hole = false;
+            Mesh::Vertex_index v = Holes.target(h);
+            Point3 p = Holes.point(v);
+            holeface.insert(p);
+            h = Holes.next(h);
+          } while (h != h_end);
+          holefaces.insert(holeface);
+        }
+
+        vector<Mesh::Face_index> faces_to_remove;
+
+        while (true){
+          bool found = false;
+          int count = 0;
+          for (Mesh::Face_index fi: MeshShell.faces()) {
+            Mesh::Halfedge_index h = MeshShell.halfedge(fi);
+            Mesh::Halfedge_index h_end = h;
+            set<Point3> face;
+            do {
+              Mesh::Vertex_index v = MeshShell.target(h);
+              Point3 p = MeshShell.point(v);
+              face.insert(p);
+              h = MeshShell.next(h);
+            } while (h != h_end);
+
+            if (holefaces.contains(face)){
+              halfedge_descriptor hi = halfedge(fi, MeshShell);
+              // Remove the face
+              CGAL::Euler::remove_face(hi,  MeshShell);
+              found = true;
               break;
             }
-            h = MeshShell.next(h);
-          } while (h != h_end);
-          if (hole) {
-            faces_to_remove.push_back(fi);
+            count++;
           }
+          if (!found){break;}
         }
-        for (auto &f: faces_to_remove) {
-          MeshShell.remove_face(f);
-        }
+
         MeshShell.collect_garbage();
 
-        // TODO this is a very bruttforce solution, maybe refine later
         Mesh copy;
         std::map<Mesh::Vertex_index, Mesh::Vertex_index> vmap;
+        std::map<Point3, Mesh::Vertex_index> point_map_duplicates;  // Secondary map for points to vertex index
         for (auto v: MeshShell.vertices()) {
-          vmap[v] = copy.add_vertex(MeshShell.point(v));
+          Point3 p = MeshShell.point(v);
+          auto it = point_map_duplicates.find(p);
+          if (it != point_map_duplicates.end()) {
+            // Point exists, link to existing vertex
+            vmap[v] = it->second;
+          } else {
+            // Point does not exist, add a new vertex to copy and update both maps
+            Mesh::Vertex_index new_vertex = copy.add_vertex(p);
+            vmap[v] = new_vertex;
+            point_map_duplicates[p] = new_vertex;  // Store the point and its corresponding vertex index
+          }
         }
         for (auto f: MeshShell.faces()) {
           std::vector<Mesh::Vertex_index> vertices;
@@ -478,7 +513,7 @@ namespace AUTOr3pair {
         remove_unused_vertices(copy);
         MeshShell = copy;
       }
-        return true;
+      return true;
     }
 
     void make_shells(vector<vector<vector<vector<int>>>> &solid, vector<Nef_polyhedron> &shells,
@@ -588,66 +623,6 @@ namespace AUTOr3pair {
         }
         MeshShell.add_face(face_vertices);
       }
-      CGAL::draw(MeshShell);
 
-//      PMP::polygon_soup_to_polygon_mesh(verticesP3, faces, MeshShell);
-
-//      // Remove unused vertices (just for clearity)
-//      remove_unused_vertices(MeshShell);
-//
-//      // Triangulate mesh
-//      PMP::triangulate_faces(MeshShell);
-//
-//      if (!holes.empty()) {
-//        set<Point3E> OGpoints;
-//        for (auto v: MeshShell.vertices()) {
-//          Point3E p = MeshShell.point(v);
-//          OGpoints.insert(p);
-//        }
-//
-//        MeshE Holes;
-//        PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
-//        PMP::triangulate_faces(Holes);
-//        PMP::clip(MeshShell, Holes);
-//
-//        vector<Mesh::Face_index> faces_to_remove;
-//        for (Mesh::Face_index fi: MeshShell.faces()) {
-//          bool hole = true;
-//          Mesh::Halfedge_index h = MeshShell.halfedge(fi);
-//          Mesh::Halfedge_index h_end = h;
-//          do {
-//            Mesh::Vertex_index v = MeshShell.target(h);
-//            Point3E p = MeshShell.point(v);
-//            if (OGpoints.contains(p)) {
-//              hole = false;
-//              break;
-//            }
-//            h = MeshShell.next(h);
-//          } while (h != h_end);
-//          if (hole) {
-//            faces_to_remove.push_back(fi);
-//          }
-//        }
-//        for (auto &f: faces_to_remove) {
-//          MeshShell.remove_face(f);
-//        }
-//        MeshShell.collect_garbage();
-//
-//        // TODO this is a very bruttforce solution, maybe refine later
-//        MeshE copy;
-//        std::map<Mesh::Vertex_index, Mesh::Vertex_index> vmap;
-//        for (auto v: MeshShell.vertices()) {
-//          vmap[v] = copy.add_vertex(MeshShell.point(v));
-//        }
-//        for (auto f: MeshShell.faces()) {
-//          std::vector<Mesh::Vertex_index> vertices;
-//          for (auto v: vertices_around_face(MeshShell.halfedge(f), MeshShell)) {
-//            vertices.push_back(vmap[v]);
-//          }
-//          copy.add_face(vertices);
-//        }
-//        remove_unused_vertices(copy);
-//        MeshShell = copy;
-//      }
     }
 }

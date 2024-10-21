@@ -294,8 +294,6 @@ namespace AUTOr3pair {
         SMTassigner(Boundary);
       }
 
-
-
       // show progress
       if (STANDARDS["OutputParameters"]["ShowProgress"]) {
         std::cout << "\t\tRepaired Geometery " << id << " with Use Case repair: " << description << endl;

@@ -245,7 +245,7 @@ namespace AUTOr3pair {
 
       PlaneE plane(verticesP3[surface[0][0]], verticesP3[surface[0][1]], verticesP3[surface[0][2]]);
 
-      // make polygons form the inner rings
+      // make polygons from the inner rings
       vector<PolygonE> InnerRings;
       for (int i = 1; i < surface.size(); ++i) {
         vector<Point2E> e;
