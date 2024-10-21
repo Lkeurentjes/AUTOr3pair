@@ -52,7 +52,7 @@ namespace AUTOr3pair {
       size = vertices_list.size();
     }
 
-    void Vertices::initialize(json& jsonvertices, json& jsonscale, json& jsontranslate){
+    void Vertices::initialize(json &jsonvertices, json &jsonscale, json &jsontranslate) {
       if (jsonscale != nullptr) { scale = {jsonscale[0], jsonscale[1], jsonscale[2]}; }
       else { scale = {1, 1, 1}; }
 
@@ -61,9 +61,9 @@ namespace AUTOr3pair {
 
       size = jsonvertices.size();
 
-      int quarter = 0.25*size;
-      int half = 0.5*size;
-      int threequarters = 0.75*size;
+      int quarter = 0.25 * size;
+      int half = 0.5 * size;
+      int threequarters = 0.75 * size;
 
       for (int i = 0; i < size; ++i) {
         if (STANDARDS["OutputParameters"]["ShowProgress"] && i == quarter) {
@@ -112,7 +112,7 @@ namespace AUTOr3pair {
         double distance = std::sqrt(it->second);
         double tol = STANDARDS["Tollerances"]["snap_tol"];
         // +0.00001 is for floating point differences
-        if (distance <= tol+0.0000001){
+        if (distance <= tol + 0.0000001) {
 //          for (int i = 0; i < vertices_point3_List.size(); ++i) {
 //            std::cout << "\t" << vertices_point3_List[i] << endl;
 //          }
@@ -160,7 +160,7 @@ namespace AUTOr3pair {
             Point3E p(add[0], add[1], add[2]);
             vertices_point3E_List.push_back(p);
           }
-          return size - 1 ;
+          return size - 1;
         } else {
           return duplicateIndex;
         }
@@ -244,28 +244,50 @@ namespace AUTOr3pair {
     }
 
     vector<vector<int>> Vertices::get_verticeslistEnd() {
+      // Divide by 2 to be sure that things already in for small part in snap_tol stays correct
+      double snaptol = STANDARDS["Tollerances"]["snap_tol"].get<double>() / 2;
       int Multiplymax = 0;
-      for (const auto &vertex: vertices_list) {
-        for (double coord: vertex) {
-          int rounded_coord = static_cast<int>(round(coord));
-          if (std::fabs(coord - rounded_coord) > STANDARDS["Tollerances"]["snap_tol"]) {
-            int multiply_count = 0;
-            double tol = STANDARDS["Tollerances"]["snap_tol"];
-            while (std::fabs(coord - rounded_coord) >= tol) {
-              tol *= 10;
-              coord *= 10;
-              rounded_coord = static_cast<int>(std::round(coord));
-              ++multiply_count;
-              // max 10^10 times bigger
-              if (multiply_count>10){
-                std::cout << "VERTICES TO INT CAME TO MAX MULTIPLIER OF 10, CHECK FILE" << endl;
-                break;}
+      for (auto vertex: vertices_list) {
+        vector<int> rounded_coord;
+        for (double value: vertex) {
+          rounded_coord.push_back(static_cast<int>(value));  // Cast double to int
+        }
+        // Calculate the Euclidean distance
+        double distance = std::sqrt(std::pow(vertex[0] - rounded_coord[0], 2) +
+                                    std::pow(vertex[1] - rounded_coord[1], 2) +
+                                    std::pow(vertex[2] - rounded_coord[2], 2));
+
+        if (distance > snaptol) {
+          int multiply_count = 0;
+          double tol = snaptol;
+          while (distance > tol) {
+            // all time 10
+            tol *= 10;
+            for (auto &v: vertex) {
+              v *= 10;
             }
+            rounded_coord.clear();
+            for (double value: vertex) {
+              rounded_coord.push_back(static_cast<int>(value));  // Cast double to int
+            }
+            // Calculate the Euclidean distance again
+            distance = std::sqrt(std::pow(vertex[0] - rounded_coord[0], 2) +
+                                 std::pow(vertex[1] - rounded_coord[1], 2) +
+                                 std::pow(vertex[2] - rounded_coord[2], 2));
+            ++multiply_count;
+            // max 10^10 times bigger
+            if (multiply_count > 10) {
+              std::cout << "VERTICES TO INT CAME TO MAX MULTIPLIER OF 10, CHECK FILE" << endl;
+              break;
+            }
+          }
+          if (multiply_count > Multiplymax){
+            Multiplymax = multiply_count;
           }
         }
       }
 
-      // this is okay cause 10^0 = 1 so doEsnt change anything
+      // this is okay cause 10^0 = 1 so doesnt change anything
       double multiplier = std::pow(10, Multiplymax);
 
       for (double &s: scale) {
@@ -339,16 +361,16 @@ namespace AUTOr3pair {
 
       bool geometry = false;
       for (const auto &co: CO) {
-        if (!co.contains("geometry")){
+        if (!co.contains("geometry")) {
           continue;
-        }else{
+        } else {
           for (const auto &geom: co["geometry"]) {
             recursive_counter(geom["boundaries"], count);
           }
           geometry = true;
         }
       }
-      if (!geometry){
+      if (!geometry) {
         vertices_list = {};
         scaled_vertices_list = {};
         vertices_point3_List = {};
@@ -368,9 +390,9 @@ namespace AUTOr3pair {
       }
 
       for (auto &co: CO) {
-        if (!co.contains("geometry")){
+        if (!co.contains("geometry")) {
           continue;
-        }else{
+        } else {
           for (auto &geom: co["geometry"]) {
             recursive_changer(geom["boundaries"], newidsOrphan);
           }
