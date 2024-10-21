@@ -24,8 +24,6 @@ namespace AUTOr3pair {
             const vector<vector<Point3>>& triangles,
             const vector<set<int>>& connected_components);
     vector<vector<Point3>> merge_triangles(const vector<vector<Point3>>& triangles);
-    vector<vector<Point3>> cut_rings(const vector<Point3>& points);
-    vector<vector<Point3>> sort_rings(const vector<vector<Point3>>& points);
 
 
 } // AUTOr3pair
