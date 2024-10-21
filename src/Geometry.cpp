@@ -281,7 +281,19 @@ namespace AUTOr3pair {
       done["boundary_before"] = tu3djson["features"][0]["geometry"]["boundaries"];
       triangulate(tu3djson["features"][0]["geometry"]);
       done["boundary_now"] = tu3djson["features"][0]["geometry"]["boundaries"];
-      //TODO add SMT face
+      // Do all the actions per shell to overcome weird intersection problems
+      json& geometry = tu3djson["features"][0]["geometry"];
+      if (geometry["type"] == "MultiSurface" || geometry["type"] == "CompositeSurface"){
+        vector<vector<vector<int>>> Boundary = tu3djson["features"][0]["geometry"]["boundaries"];
+        SMTassigner(Boundary);
+      } else if (geometry["type"] == "Solid"){
+        vector<vector<vector<vector<int>>>> Boundary = tu3djson["features"][0]["geometry"]["boundaries"];
+        SMTassigner(Boundary);
+      } else if (geometry["type"] == "MultiSolid" || geometry["type"] == "CompositeSolid"){
+        vector<vector<vector<vector<vector<int>>>>> Boundary = tu3djson["features"][0]["geometry"]["boundaries"];
+        SMTassigner(Boundary);
+      }
+
 
 
       // show progress
