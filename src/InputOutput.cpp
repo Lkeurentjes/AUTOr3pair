@@ -425,8 +425,12 @@ namespace AUTOr3pair {
         for (auto &p: f["Primitives"]) {
           for (auto &r: p["repairs"]) {
             for (auto &d: r["repairs_done"]) {
-              recursive_increment(d["boundary_before"]);
-              recursive_increment(d["boundary_now"]);
+              if (d.contains("boundary_before")){
+                recursive_increment(d["boundary_before"]);
+              }
+              if (d.contains("boundary_now")){
+                recursive_increment(d["boundary_now"]);
+              }
             }
           }
         }
