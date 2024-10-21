@@ -190,7 +190,7 @@ namespace AUTOr3pair {
           overused_edges.insert(halfEdge);
         }
       }
-      
+
 
       if (Umbrella_Problem) {
         std::cout << "\t\tUmbrella problem!" << endl;
@@ -434,8 +434,8 @@ namespace AUTOr3pair {
                 vol.push_back(true);
                 newshells.push_back(current_shell);
               } else {
-                  vol.push_back(false);
-                  newshells.push_back(current_shell);
+                vol.push_back(false);
+                newshells.push_back(current_shell);
               }
 
               current_shell.clear();
@@ -455,8 +455,8 @@ namespace AUTOr3pair {
             vol.push_back(true);
             newshells.push_back(current_shell);
           } else {
-              vol.push_back(false);
-              newshells.push_back(current_shell);
+            vol.push_back(false);
+            newshells.push_back(current_shell);
           }
         }
       }
@@ -502,21 +502,16 @@ namespace AUTOr3pair {
           test = true;
         }
 
-        if (STANDARDS["UseCaseRepair"]["KeepEverything"] || test) {
-          vol.push_back(test);
-          if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
-            // detriangulate
-            vector<vector<vector<Point3E>>> outshell = get_faces(voltest);
-            vector<vector<vector<Point3E>>> detrishell = detriangulate(outshell);
-            vector<vector<vector<int>>> newshell = get_shell(detrishell, indexes);
-            newshells.push_back(newshell);
-          } else {
-            newshells.push_back(elem.second);
-          }
+        vol.push_back(test);
+        if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
+          // detriangulate
+          vector<vector<vector<Point3E>>> outshell = get_faces(voltest);
+          vector<vector<vector<Point3E>>> detrishell = detriangulate(outshell);
+          vector<vector<vector<int>>> newshell = get_shell(detrishell, indexes);
+          newshells.push_back(newshell);
+        } else {
+          newshells.push_back(elem.second);
         }
-      }
-      if (newshells.empty()) {
-        newshells.push_back(shell);
       }
       return newshells;
     }

@@ -374,6 +374,7 @@ namespace AUTOr3pair {
                 voladded = distance(vol.begin(), firsttrue);// If first is not volume
               }
               newboundaries.push_back(replace303[voladded]);
+
               for (int g = 0; g < replace303.size(); ++g) {
                 if ((vol[g] || STANDARDS["UseCaseRepair"]["KeepEverything"]) && g != voladded) {
                   if (i == 0 && vol[g]) {
@@ -413,40 +414,45 @@ namespace AUTOr3pair {
               vector<vector<vector<vector<int>>>> replace305 = AUTOr3pair::Shellr3pair305(boundary, vol);
               SMTassigner(replace305);
               done["boundary_now"] = replace305;
+
+              int voladded = 0; // if None are volume keep first
               auto firsttrue = find(vol.begin(), vol.end(), true);
               if (firsttrue != vol.end()) {
-                newboundaries.push_back(replace305[distance(vol.begin(), firsttrue)]);
+                voladded = distance(vol.begin(), firsttrue);// If first is not volume
               }
+              newboundaries.push_back(replace305[voladded]);
+
               for (int g = 0; g < replace305.size(); ++g) {
-                if (g == distance(vol.begin(), firsttrue)) {
-                  continue;
-                }
-                if (vol[g] && i == 0) {
-                  if (STANDARDS["UseCaseRepair"]["Watertight"]) {
-                    // pushback as Solid features
+                if ((vol[g] || STANDARDS["UseCaseRepair"]["KeepEverything"]) && g != voladded) {
+                  if (i == 0 && vol[g]) {
+                    if (STANDARDS["UseCaseRepair"]["Watertight"]) {
+                      // pushback as Solid features
+                      json feature;
+                      feature["type"] = "feature";
+                      feature["geometry"]["type"] = "Solid";
+                      feature["geometry"]["boundaries"] = {replace305[g]};
+                      feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
+                      tu3djson["features"].push_back(feature);
+                    } else {
+                      // make it MultiSolid
+                      to_multi = true;
+                      add_shells.push_back(replace305[g]);
+                    }
+                  } else if (STANDARDS["UseCaseRepair"]["Watertight"]) {
+                    if (replace305[g].size()>2){ // otherwise it can never be closed
+                      newboundaries.push_back(replace305[g]);
+                    }
+                  } else {
+                    // pushback as Surface features
                     json feature;
                     feature["type"] = "feature";
-                    feature["geometry"]["type"] = "Solid";
-                    feature["geometry"]["boundaries"] = {replace305[g]};
+                    feature["geometry"]["type"] = STANDARDS["UseCaseRepair"]["Orientation"].get<bool>()
+                                                  ? "CompositeSurface" : "MultiSurface";
+                    feature["geometry"]["boundaries"] = replace305[g];
                     feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
                     tu3djson["features"].push_back(feature);
-                  } else {
-                    // make it MultiSolid
-                    to_multi = true;
-                    add_shells.push_back(replace305[g]);
                   }
-                } else if (vol[g]) {
-                  newboundaries.push_back(replace305[g]);
-                } else {
-                  // pushback as Msurf features
-                  json feature;
-                  feature["type"] = "feature";
-                  feature["geometry"]["type"] = "MultiSurface";
-                  feature["geometry"]["boundaries"] = replace305[g];
-                  feature["geometry"]["vertices"] = VERTICES.get_verticeslist();
-                  tu3djson["features"].push_back(feature);
                 }
-
               }
             } else if (code == 306) {
               // SHELL SELF INTERSECTION
