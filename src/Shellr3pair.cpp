@@ -87,8 +87,6 @@ namespace AUTOr3pair {
       MeshE MeshShell;
       map<Point3E, int> indexes;
       make_shell(shell, MeshShell, indexes);
-      std::cout << MeshShell << endl;
-
       Halfedge_descriptorE border_hedge;
       set<Halfedge_descriptorE> visited;
       bool filled = false;
@@ -115,11 +113,13 @@ namespace AUTOr3pair {
         }
         count++;
       }
+      MeshE BetterMesh;
+      CGAL::Polygon_mesh_processing::remesh_planar_patches(MeshShell, BetterMesh);
 
       // if at least one of the holes is filled
       if (filled) {
         // get the shell
-        vector<vector<vector<Point3E>>> outshell = get_faces(MeshShell);
+        vector<vector<vector<Point3E>>> outshell = get_faces(BetterMesh);
         vector<vector<vector<Point3E>>> goodshell = delete_triangle_lines(outshell);
         if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
           // detriangulate
