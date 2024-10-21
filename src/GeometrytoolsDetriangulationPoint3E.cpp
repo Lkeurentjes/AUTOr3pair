@@ -213,32 +213,21 @@ namespace AUTOr3pair {
 
       // Get all the Boundary edges
       vector<pair<Point3E, Point3E>> Outers;
-      std::cout << "NEW FACE" << endl;
       for (const auto& entry : EdgesMap) {
         const pair<Point3E, Point3E>& edge = entry.first;
         int count = entry.second;
-
-        std::cout << "Edge: (" << edge.first << ") -> (" << edge.second << ")"
-                  << ", Count: " << count << std::endl;
         if (count == 1){
           Outers.push_back(edge);
         }
       }
-      std::cout << "Size of outers is " << Outers.size() << endl;
-      std::cout << endl;
 
       vector<Point3E> Ring = {Outers[0].first, Outers[0].second};
       Point3E Current = Outers[0].second;
       Outers.erase(Outers.begin() + 0);
       vector<vector<Point3E>> Rings;
       while (Outers.size() > 0){
-        std::cout << "SIZE" << Outers.size() << endl;
         int del = 0;
         bool found = false;
-        for (const auto& p : Ring) {
-          std::cout << p << " --> ";
-        }
-        std::cout << endl;
         for (const auto& [first, second] : Outers) {
 
           if (first == Current){
