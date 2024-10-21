@@ -1,7 +1,7 @@
-## Test data
+# Test data
 All testdata and describe what it is
 
-### input files
+## Unit tests
 
 ### Geometry repairs
 CityJSON geometries can exist as multiple geometry types, the geometry type is described in the file name.
@@ -56,6 +56,7 @@ User input:
 * **302**: Unit cube with one face missing (bottom one)
 * **302_1**: Unit cube with a hole (inner ring) in the top face
 * **302_2**: A vertex in the top surface does not close the shell (0.01 discrepancy), GML cube
+* **302_3**: Cube with torus, which misses a face of the "inside" torus
 * **303**: Unit cube with one dangling face touching the cube at one point only. The dangling face is the last in the list
 * **303_1**: 2 unit cubes touching at one vertex
 * **303_1b**: same as 303 but 2 unit cubes touching at one vertex are different vertices
@@ -120,4 +121,35 @@ User input:
 * **SubPart_Merge0**: like SubPart, but "MergeTol" is set to 0
 * **SubPart_Merge1**: like SubPart, but "MergeTol" is set to 1
 
-### Other data
+### (Use case) Parameters
+This section will describe specific parameters that can be adjusted during repair operations, 
+including the tolerance for geometric validation, planarity checks, and volume consistency.
+
+
+
+
+### Pre-/postprocessing
+Details of any preprocessing or postprocessing required before or after running repairs on 3D models. This might include data normalization or optimization steps for better repair accuracy.
+
+
+### input file formats
+Supported input file formats for the geometry repair framework include:
+- CityJSON
+- OBJ (where applicable, for visual error inspection)
+
+## Thesis data
+This section includes the test data used for the [MSc thesis](../docs/msc_geomatics_thesis_LisaKeurentjes.pdf), "An Automatic Geometry Repair Framework for Semantic 3D City Models." 
+The results can also be found in the [PDF](../docs/msc_geomatics_thesis_LisaKeurentjes.pdf) version uploaded.
+
+
+
+## Unrepairebale Non Manifold
+Examples of non-repairable manifolds, where the topology makes automated repair impossible with the current methods. These files will be used to develop more advanced repair strategies in the future.
+
+<p align="center">
+  <img src="../docs/_images/NonManifoldNonRepair.png" alt="Non Manifolds which can't be repaired"/>
+</p>
+
+## Demo
+A curated set of files used for demonstrations. These include the key cases mentioned above and are copied here for faster and easier access during demos. The files are located in the `Data` directory of the [AUTOr3pair repository](https://github.com/Lkeurentjes/AUTOr3pair).
+
