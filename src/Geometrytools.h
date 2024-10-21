@@ -27,6 +27,7 @@ namespace AUTOr3pair {
     double CalculateVolume(const Nef_polyhedron& poly);
     bool are_points_collinear(const vector<Point3>& points);
     double compute_area_from_3d_polygon(const std::vector<Point3E>& points3);
+    double compute_area_from_3d_polygon(const std::vector<Point3>& points3);
 
 
     //geometry transformations

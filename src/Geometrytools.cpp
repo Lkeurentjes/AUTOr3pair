@@ -339,6 +339,56 @@ namespace AUTOr3pair {
 
       // Check if the polygon is simple (non-self-intersecting)
       if (!polygon.is_simple()) {
+        std::cout << "Problems" << endl;
+        std::cout << polygon << endl;
+        std::cerr << "Polygon is not simple!" << std::endl;
+        return 0.0;
+      }
+
+      // Compute the area of the 2D polygon
+      double area = CGAL::to_double(polygon.area());
+
+      // The area might be negative depending on the orientation, so take the absolute value
+      return CGAL::to_double(CGAL::abs(area));
+    }
+
+    double compute_area_from_3d_polygon(const vector<Point3> &points3) {
+      // Compute the best-fit plane for the polygon
+      Plane best_fit_plane;
+      CGAL::linear_least_squares_fitting_3(points3.begin(), points3.end(), best_fit_plane, CGAL::Dimension_tag<0>());
+
+      // Choose an axis to project to, based on the orientation of the best-fit plane's normal
+      Vector3 normal = best_fit_plane.orthogonal_vector();
+      double nx = CGAL::to_double(normal.x());
+      double ny = CGAL::to_double(normal.y());
+      double nz = CGAL::to_double(normal.z());
+
+      // Projection based on the dominant component of the normal vector
+      std::vector<Point2> points2;
+      if (nz >= nx && nz >= ny) {
+        // Project onto the XY plane
+        for (const auto& p : points3) {
+          points2.push_back(Point2(p.x(), p.y()));
+        }
+      } else if (ny >= nx && ny >= nz) {
+        // Project onto the XZ plane
+        for (const auto& p : points3) {
+          points2.push_back(Point2(p.x(), p.z()));
+        }
+      } else {
+        // Project onto the YZ plane
+        for (const auto& p : points3) {
+          points2.push_back(Point2(p.y(), p.z()));
+        }
+      }
+
+      // Construct a 2D polygon from the projected points
+      Polygon polygon(points2.begin(), points2.end());
+
+      // Check if the polygon is simple (non-self-intersecting)
+      if (!polygon.is_simple()) {
+        std::cout << "Problems" << endl;
+        std::cout << polygon << endl;
         std::cerr << "Polygon is not simple!" << std::endl;
         return 0.0;
       }

@@ -180,6 +180,96 @@ namespace AUTOr3pair {
     vector<vector<Point3>> merge_triangles(const vector<vector<Point3>> &triangles) {
       vector<vector<Point3>> result;
 
+      // get all the (half) edges with count of half edges
+      map<pair<Point3, Point3>, int> EdgesMap;
+      for(const auto& tri : triangles){
+        for (size_t i = 0; i < tri.size(); ++i) {
+          size_t nextIndex = (i + 1) % tri.size();
+          pair<Point3, Point3> OppositeHalfEdge(tri[nextIndex], tri[i]);
+          if (EdgesMap.contains(OppositeHalfEdge)){
+            EdgesMap[OppositeHalfEdge]+=1;
+          } else{
+            pair<Point3, Point3> HalfEdge(tri[i], tri[nextIndex]);
+            EdgesMap[HalfEdge] = 1;
+          }
+        }
+      }
+
+      // Get all the Boundary edges
+      vector<pair<Point3, Point3>> Outers;
+      std::cout << "NEW FACE" << endl;
+      for (const auto& entry : EdgesMap) {
+        const pair<Point3, Point3>& edge = entry.first;
+        int count = entry.second;
+
+        std::cout << "Edge: (" << edge.first << ") -> (" << edge.second << ")"
+                  << ", Count: " << count << std::endl;
+        if (count == 1){
+          Outers.push_back(edge);
+        }
+      }
+      std::cout << "Size of outers is " << Outers.size() << endl;
+      std::cout << endl;
+
+      vector<Point3> Ring = {Outers[0].first, Outers[0].second};
+      Point3 Current = Outers[0].second;
+      Outers.erase(Outers.begin() + 0);
+      vector<vector<Point3>> Rings;
+      while (Outers.size() > 0){
+        std::cout << "SIZE" << Outers.size() << endl;
+        int del = 0;
+        bool found = false;
+        for (const auto& p : Ring) {
+          std::cout << p << " --> ";
+        }
+        std::cout << endl;
+        for (const auto& [first, second] : Outers) {
+
+          if (first == Current){
+            found = true;
+            Current = second;
+            if (second!= Ring[0]){
+              Ring.push_back(second);
+            }
+            break;
+          }
+          del++;
+        }
+        if (!found){
+          std::cerr << "Couldn't finish detriangulation contact developer" << endl;
+          return result;
+        }
+        Outers.erase(Outers.begin() + del);
+
+        if (Current == Ring[0]){
+          Rings.push_back(Ring);
+          if (Outers.empty()){
+            break;
+          }
+          Ring = {Outers[0].first, Outers[0].second};
+          Current = Outers[0].second;
+          Outers.erase(Outers.begin() + 0);
+        }
+
+      }
+      if (Rings.size() == 1){
+        return Rings;
+      } else{
+        vector<pair<double, vector<Point3>>> areas;
+        for (const auto& ring: Rings) {
+          double area = compute_area_from_3d_polygon(ring);
+          areas.push_back({area, ring});
+        }
+        std::sort(areas.begin(), areas.end(),
+                  [](const std::pair<double, vector<Point3>>& a, std::pair<double, vector<Point3>>& b) {
+                      return a.first > b.first;  // Sort in ascending order of area
+                  });
+        for (const auto& pair : areas) {
+          result.push_back(pair.second);
+        }
+        return result;
+      }
+
       vector<vector<Point3>> tri = triangles;
       vector<Point3> Mergeface = tri[0];
       tri.erase(tri.begin() + 0);
