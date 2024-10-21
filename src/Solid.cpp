@@ -342,8 +342,8 @@ namespace AUTOr3pair {
                 } else {
                   newboundaries.push_back(replace301);
                 }
-                done["boundary_now"] = replace301;
               }
+              done["boundary_now"] = replace301;
 
             } else if (code == 302) {
               // SHELL NOT CLOSED

@@ -23,5 +23,5 @@
   "ExtendScope": [
     "GenericCityObject"
   ],
-  "Triangulation": true
+  "Orientation": true
 }

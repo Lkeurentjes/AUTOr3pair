@@ -87,15 +87,18 @@ namespace AUTOr3pair {
       MeshE MeshShell;
       map<Point3E, int> indexes;
       make_shell(shell, MeshShell, indexes);
+      std::cout << MeshShell << endl;
 
       Halfedge_descriptorE border_hedge;
+      set<Halfedge_descriptorE> visited;
       bool filled = false;
       bool hole = true;
       int count = 0;
       while (hole && (count < 100)) {
         bool found_hole = false;
         for (auto h: halfedges(MeshShell)) {
-          if (is_border(h, MeshShell)) {
+          if (!visited.contains(h) && is_border(h, MeshShell)) {
+            visited.insert(h);
             border_hedge = h;
             found_hole = true;
             break;
@@ -103,11 +106,9 @@ namespace AUTOr3pair {
         }
         if (found_hole) {
           filled = true;
-          std::vector<Halfedge_descriptorE> patch;
-          CGAL::Polygon_mesh_processing::triangulate_hole(
+          CGAL::Polygon_mesh_processing::triangulate_and_refine_hole(
                   MeshShell,
-                  border_hedge,
-                  CGAL::Polygon_mesh_processing::parameters::use_delaunay_triangulation(true)
+                  border_hedge
           );
         } else {
           hole = false;

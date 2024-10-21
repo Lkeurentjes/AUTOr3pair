@@ -8,7 +8,7 @@ from tests.conftest import data_from_dir
 # ---------------------------------------------------------------------------------------------------------------- Data
 # ---------------------------------------------------------------------------------------- User input tests
 @pytest.fixture(scope="module",
-                params=["USERINPUT_SubPartI.json"])
+                params=["USERINPUT_SubPart.json"])
 def data_SUBPART_UserInput(request, dir_SubPart):
     path = dir_SubPart + "/" + request.param
     return path
@@ -82,8 +82,6 @@ def test_601(repair_return_test, outputnames, validate, data_601):
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
 
 def test_601_Merge0(repair_return_test, outputnames, validate, data_601_merge0):
     data, option, user = data_601_merge0
@@ -103,8 +101,6 @@ def test_601_Merge0(repair_return_test, outputnames, validate, data_601_merge0):
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
 
 def test_601_Merge1(repair_return_test, outputnames, validate, data_601_merge1):
     data, option, user = data_601_merge1
@@ -123,12 +119,6 @@ def test_601_Merge1(repair_return_test, outputnames, validate, data_601_merge1):
     assert os.path.exists(repaired)
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
-
-    with open(report) as f:
-        rr = json.load(f)
-
-
-
 
 def test_cityJSON_Schema_valid_SubPartR3pair(Valid_CityJSON, dir_SubPart):
     done = Valid_CityJSON(dir_SubPart)

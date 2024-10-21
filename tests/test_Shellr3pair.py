@@ -283,7 +283,17 @@ def test_301(repair_return_test, outputnames, validate, data_301):
     with open(report) as f:
         rr = json.load(f)
 
-def test_301_triangulation(repair_return_test, outputnames, validate, data_301_triangulation):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > len(d["boundary_before"])  or d["boundary_now"] == d["boundary_before"])
+
+def test_301_triangulation(repair_return_test, outputnames, validate, data_301_triangulation, extract_faces_from_cityjson):
     data, option, user = data_301_triangulation
     repair = 301
     # are the error(s) there
@@ -301,8 +311,22 @@ def test_301_triangulation(repair_return_test, outputnames, validate, data_301_t
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+
+        facesCJ = extract_faces_from_cityjson(cj)
+        for faces in facesCJ.values():
+            for face in faces:
+                for ring in face:
+                    assert len(ring) == 3
+    if ".obj" in repaired:
+        with open(repaired, "r") as obj:
+            for line in obj:
+                line = line.strip()
+                if line.startswith('f '):
+                    vertices = line.split()[1:]
+                    assert len(vertices) == 3
 
 def test_302(repair_return_test, outputnames, validate, data_302):
     data, option, user = data_302
@@ -325,7 +349,17 @@ def test_302(repair_return_test, outputnames, validate, data_302):
     with open(report) as f:
         rr = json.load(f)
 
-def test_302_triangulation(repair_return_test, outputnames, validate, data_302_triangulation):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) >= len(d["boundary_before"])  or d["boundary_now"] == d["boundary_before"])
+
+def test_302_triangulation(repair_return_test, outputnames, validate, data_302_triangulation, extract_faces_from_cityjson):
     data, option, user = data_302_triangulation
     repair = 302
     # are the error(s) there
@@ -343,8 +377,22 @@ def test_302_triangulation(repair_return_test, outputnames, validate, data_302_t
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+
+        facesCJ = extract_faces_from_cityjson(cj)
+        for faces in facesCJ.values():
+            for face in faces:
+                for ring in face:
+                    assert len(ring) == 3
+    if ".obj" in repaired:
+        with open(repaired, "r") as obj:
+            for line in obj:
+                line = line.strip()
+                if line.startswith('f '):
+                    vertices = line.split()[1:]
+                    assert len(vertices) == 3
 
 def test_303(repair_return_test, outputnames, validate, data_303):
     data, option, user = data_303
@@ -367,7 +415,17 @@ def test_303(repair_return_test, outputnames, validate, data_303):
     with open(report) as f:
         rr = json.load(f)
 
-def test_303_triangulation(repair_return_test, outputnames, validate, data_303_triangulation):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1  or len(d["boundary_now"][0]) < len(d["boundary_before"]) )
+
+def test_303_triangulation(repair_return_test, outputnames, validate, data_303_triangulation, extract_faces_from_cityjson):
     data, option, user = data_303_triangulation
     repair = 303
     # are the error(s) there
@@ -385,8 +443,22 @@ def test_303_triangulation(repair_return_test, outputnames, validate, data_303_t
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+
+        facesCJ = extract_faces_from_cityjson(cj)
+        for faces in facesCJ.values():
+            for face in faces:
+                for ring in face:
+                    assert len(ring) == 3
+    if ".obj" in repaired:
+        with open(repaired, "r") as obj:
+            for line in obj:
+                line = line.strip()
+                if line.startswith('f '):
+                    vertices = line.split()[1:]
+                    assert len(vertices) == 3
 
 def test_303_keep(repair_return_test, outputnames, validate, data_303_keep):
     data, option, user = data_303_keep
@@ -409,7 +481,19 @@ def test_303_keep(repair_return_test, outputnames, validate, data_303_keep):
     with open(report) as f:
         rr = json.load(f)
 
-def test_303_watertight(repair_return_test, outputnames, validate, data_303_watertight):
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1  or len(d["boundary_now"][0]) < len(d["boundary_before"]) )
+
+
+def test_303_watertight(repair_return_test, outputnames, validate, data_303_watertight, check_watertight):
     data, option, user = data_303_watertight
     repair = 303
     # are the error(s) there
@@ -427,10 +511,12 @@ def test_303_watertight(repair_return_test, outputnames, validate, data_303_wate
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+            assert check_watertight(cj)
 
-def test_303_orientation(repair_return_test, outputnames, validate, data_303_orientation):
+def test_303_orientation(repair_return_test, outputnames, validate, data_303_orientation, check_orientation):
     data, option, user = data_303_orientation
     repair = 303
     # are the error(s) there
@@ -448,8 +534,10 @@ def test_303_orientation(repair_return_test, outputnames, validate, data_303_ori
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+            assert check_orientation(cj)
 
 def test_305(repair_return_test, outputnames, validate, data_305):
     data, option, user = data_305
@@ -472,7 +560,17 @@ def test_305(repair_return_test, outputnames, validate, data_305):
     with open(report) as f:
         rr = json.load(f)
 
-def test_305_triangulation(repair_return_test, outputnames, validate, data_305_triangulation):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1)
+
+def test_305_triangulation(repair_return_test, outputnames, validate, data_305_triangulation, extract_faces_from_cityjson):
     data, option, user = data_305_triangulation
     repair = 305
     # are the error(s) there
@@ -490,8 +588,22 @@ def test_305_triangulation(repair_return_test, outputnames, validate, data_305_t
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+
+        facesCJ = extract_faces_from_cityjson(cj)
+        for faces in facesCJ.values():
+            for face in faces:
+                for ring in face:
+                    assert len(ring) == 3
+    if ".obj" in repaired:
+        with open(repaired, "r") as obj:
+            for line in obj:
+                line = line.strip()
+                if line.startswith('f '):
+                    vertices = line.split()[1:]
+                    assert len(vertices) == 3
 
 def test_305_keep(repair_return_test, outputnames, validate, data_305_keep):
     data, option, user = data_305_keep
@@ -514,7 +626,17 @@ def test_305_keep(repair_return_test, outputnames, validate, data_305_keep):
     with open(report) as f:
         rr = json.load(f)
 
-def test_305_watertight(repair_return_test, outputnames, validate, data_305_watertight):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert (len(d["boundary_now"]) > 1)
+
+def test_305_watertight(repair_return_test, outputnames, validate, data_305_watertight, check_watertight):
     data, option, user = data_305_watertight
     repair = 305
     # are the error(s) there
@@ -532,10 +654,12 @@ def test_305_watertight(repair_return_test, outputnames, validate, data_305_wate
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+            assert check_watertight(cj)
 
-def test_305_orientation(repair_return_test, outputnames, validate, data_305_orientation):
+def test_305_orientation(repair_return_test, outputnames, validate, data_305_orientation, check_orientation):
     data, option, user = data_305_orientation
     repair = 305
     # are the error(s) there
@@ -553,8 +677,10 @@ def test_305_orientation(repair_return_test, outputnames, validate, data_305_ori
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+            assert check_orientation(cj)
 
 def test_306(repair_return_test, outputnames, validate, data_306):
     data, option, user = data_306
@@ -577,7 +703,20 @@ def test_306(repair_return_test, outputnames, validate, data_306):
     with open(report) as f:
         rr = json.load(f)
 
-def test_306_triangulation(repair_return_test, outputnames, validate, data_306_triangulation):
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert d["boundary_now"] != d["boundary_before"]
+
+
+
+
+def test_306_triangulation(repair_return_test, outputnames, validate, data_306_triangulation, extract_faces_from_cityjson):
     data, option, user = data_306_triangulation
     repair = 306
     # are the error(s) there
@@ -595,10 +734,24 @@ def test_306_triangulation(repair_return_test, outputnames, validate, data_306_t
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
 
-def test_306_watertight(repair_return_test, outputnames, validate, data_306_watertight):
+        facesCJ = extract_faces_from_cityjson(cj)
+        for faces in facesCJ.values():
+            for face in faces:
+                for ring in face:
+                    assert len(ring) == 3
+    if ".obj" in repaired:
+        with open(repaired, "r") as obj:
+            for line in obj:
+                line = line.strip()
+                if line.startswith('f '):
+                    vertices = line.split()[1:]
+                    assert len(vertices) == 3
+
+def test_306_watertight(repair_return_test, outputnames, validate, data_306_watertight, check_watertight):
     data, option, user = data_306_watertight
     repair = 306
     # are the error(s) there
@@ -616,10 +769,12 @@ def test_306_watertight(repair_return_test, outputnames, validate, data_306_wate
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+            assert check_watertight(cj)
 
-def test_306_orientation(repair_return_test, outputnames, validate, data_306_orientation):
+def test_306_orientation(repair_return_test, outputnames, validate, data_306_orientation, check_orientation):
     data, option, user = data_306_orientation
     repair = 306
     # are the error(s) there
@@ -637,8 +792,11 @@ def test_306_orientation(repair_return_test, outputnames, validate, data_306_ori
     Verror_end = validate(repaired, options=option)
     assert (repair not in Verror_end)
 
-    with open(report) as f:
-        rr = json.load(f)
+    if ".json" in repaired:
+        with open(repaired) as f:
+            cj = json.load(f)
+            assert check_orientation(cj)
+
 def test_307(repair_return_test, outputnames, validate, data_307):
     data, option, user = data_307
     repair = 307
@@ -659,6 +817,18 @@ def test_307(repair_return_test, outputnames, validate, data_307):
 
     with open(report) as f:
         rr = json.load(f)
+
+
+    for f in rr["features"]:
+        if repair in f["all_Geomr3pairs"]:
+            for p in f["Primitives"]:
+                assert (error not in p["ISOerrorsremaining"])
+                for r in p["repairs"]:
+                    if r["kind_of_repair"] == "ShellRepairs":
+                        for d in r["repairs_done"]:
+                            if d["code"] == repair:
+                                assert len(d["boundary_now"]) == len(d["boundary_before"])
+
 
 
 def test_cityJSON_Schema_valid_ShellR3pair(Valid_CityJSON, dir_Shell):

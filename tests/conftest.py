@@ -390,6 +390,18 @@ def check_watertight(AUTOr3pair):
         return True
     return _check
 
+# -------------------------------------------------------------------------------------------------- check Orientation
+@pytest.fixture(scope="session")
+def check_orientation(AUTOr3pair):
+    def _check(cityjson):
+        for obj_id, obj_data in cityjson.get('CityObjects', {}).items():
+            for geometry in obj_data.get('geometry', []):
+                geom_type = geometry.get('type')
+                # Ensure that the geometry type is not MultiSurface or CompositeSurface
+                if geom_type in ['MultiSurface']:
+                    return False;
+        return True
+    return _check
 
 # -------------------------------------------------------------------------------------------------- clean up afterward
 @pytest.fixture(scope="session")
