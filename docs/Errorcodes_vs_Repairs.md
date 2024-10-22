@@ -132,9 +132,9 @@ Overlapping BuildingParts are repaired using Boolean operations, with semantics 
 
 ## Global Approach
 If the local repair methods fail to resolve issues, a global repair approach is triggered, which consists of four stages:
-1. Alpha wrap on polygons
-2. Alpha wrap on vertices
-3. Convex hull of geometry
-4. Oriented bounding box
+1. Alpha wrap on polygons (report as code 1000)
+2. Alpha wrap on vertices (report as code 1001)
+3. Convex hull of geometry (report as code 1002)
+4. Oriented bounding box (report as code 1003)
 
 ![Global Repair](_images/Repairs/RepairGlobal.svg)

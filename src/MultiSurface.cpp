@@ -273,7 +273,7 @@ namespace AUTOr3pair {
       update_vertices();
       tu3djson["features"][0]["geometry"]["boundaries"] = replaceAF;
 
-      done["code"] = "AlphaWrapFaces";
+      done["code"] = 1000;
       done["description"] = "Global alpha wrap on faces";
       done["id"] = id;
       done["boundary_now"] = replaceAF;
@@ -297,7 +297,7 @@ namespace AUTOr3pair {
       tu3djson["features"][0]["geometry"]["boundaries"] = replaceAP;
 
 
-      done["code"] = "AlphaWrapFaces";
+      done["code"] = 1001;
       done["description"] = "Global alpha wrap on point";
       done["id"] = id;
       done["boundary_now"] = replaceAP;
@@ -323,8 +323,8 @@ namespace AUTOr3pair {
       tu3djson["features"][0]["geometry"]["boundaries"] = replaceCH;
 
 
-      done["code"] = "Convex hull";
-      done["description"] = "Global alpha wrap on faces";
+      done["code"] = 1002;
+      done["description"] = "Convex hull";
       done["id"] = id;
       done["boundary_now"] = replaceCH;
 
@@ -357,7 +357,7 @@ namespace AUTOr3pair {
       }
 
 
-      done["code"] = "Boundingbox";
+      done["code"] = 1003;
       done["description"] = "Did the last resort creating boundingbox per shell";
       done["id"] = id;
       done["boundary_now"] = replaceBB;

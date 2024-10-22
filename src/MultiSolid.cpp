@@ -630,7 +630,7 @@ namespace AUTOr3pair {
       update_vertices();
       tu3djson["features"][0]["geometry"]["boundaries"] = result;
 
-      done["code"] = "AlphaWrapFaces";
+      done["code"] = 1000;
       done["description"] = "Global alpha wrap on faces";
       done["id"] = id;
       done["boundary_now"] = result;
@@ -663,7 +663,7 @@ namespace AUTOr3pair {
       update_vertices();
       tu3djson["features"][0]["geometry"]["boundaries"] = result2;
 
-      done["code"] = "AlphaWrapPoints";
+      done["code"] = 1001;
       done["description"] = "Global alpha wrap on points";
       done["id"] = id;
       done["boundary_now"] = result2;
@@ -688,7 +688,7 @@ namespace AUTOr3pair {
         vector<vector<vector<vector<int>>>> resultS;
         for (int j = 0; j < OGtu3djson["features"][0]["geometry"]["boundaries"][i].size(); ++j) {
           vector<vector<vector<int>>> shell = OGtu3djson["features"][0]["geometry"]["boundaries"][i][j];
-          vector<vector<vector<int>>> replaceCH = AUTOr3pair::Globalr3pairAlphaPoints(shell);
+          vector<vector<vector<int>>> replaceCH = AUTOr3pair::Globalr3pairConvexHull(shell);
           if (j != 0) { replaceCH = flip_shell(replaceCH); }
           resultS.push_back(replaceCH);
         }
@@ -697,8 +697,8 @@ namespace AUTOr3pair {
       update_vertices();
       tu3djson["features"][0]["geometry"]["boundaries"] = resultCH;
 
-      done["code"] = "AlphaWrapPoints";
-      done["description"] = "Global alpha wrap on points";
+      done["code"] = 1002;
+      done["description"] = "Convex Hull";
       done["id"] = id;
       done["boundary_now"] = resultCH;
 
@@ -772,7 +772,7 @@ namespace AUTOr3pair {
         SMTassigner(result3);
       }
 
-      done["code"] = "Boundingbox";
+      done["code"] = 1003;
       done["description"] = "Did the last resort creating boundingbox per shell";
       done["id"] = id;
       done["boundary_now"] = tu3djson["features"][0]["geometry"]["boundaries"];
