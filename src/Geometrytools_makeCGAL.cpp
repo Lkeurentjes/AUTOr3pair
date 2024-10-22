@@ -340,7 +340,7 @@ namespace AUTOr3pair {
         PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
         PMP::triangulate_faces(Holes);
 
-        PMP::clip(MeshShell, Holes);
+        PMP::split(MeshShell, Holes);
 
         set<set<Point3E>> holefaces;
         for (Mesh::Face_index fi: Holes.faces()) {
@@ -441,7 +441,7 @@ namespace AUTOr3pair {
         PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
         PMP::triangulate_faces(Holes);
 
-        PMP::clip(MeshShell, Holes);
+        PMP::split(MeshShell, Holes);
 
         set<set<Point3>> holefaces;
         for (Mesh::Face_index fi: Holes.faces()) {
