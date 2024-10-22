@@ -479,11 +479,13 @@ namespace AUTOr3pair {
         vector<vector<int>> indices(1);
         CGAL::Vertex_around_face_circulator<MeshE> vcirc(MeshShell.halfedge(f), MeshShell), done(vcirc);
         do {
-          indices[0].push_back(*vcirc++); // Assuming the dereferencing of vcirc gives the index you need
+          Point3E point = MeshShell.point(*vcirc);
+          int original_index = indexes[point];
+          indices[0].push_back(original_index);
+          ++vcirc;
         } while (vcirc != done);
         components[fccmap[f]].push_back(indices);
       }
-
 
       // Sort the elements big to small
       vector<pair<faces_size_type, vector<vector<vector<int>>>>> elems(components.begin(), components.end());
@@ -502,8 +504,8 @@ namespace AUTOr3pair {
         if (PMP::volume(voltest) > 0) {
           test = true;
         }
-
         vol.push_back(test);
+
         if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
           // detriangulate
           vector<vector<vector<Point3E>>> outshell = get_faces(voltest);
