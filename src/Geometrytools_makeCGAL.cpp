@@ -133,13 +133,13 @@ namespace AUTOr3pair {
       set<int> seen;
       vector<int> uniqueFace;
 
-      for (int index : face) {
+      for (int index: face) {
         if (seen.find(index) == seen.end()) {
           uniqueFace.push_back(index);
           seen.insert(index);
         }
       }
-      if (uniqueFace.size() < 3 || face.size() != uniqueFace.size()){
+      if (uniqueFace.size() < 3 || face.size() != uniqueFace.size()) {
         return false;
       }
 
@@ -182,10 +182,10 @@ namespace AUTOr3pair {
       PolygonE pgn;
       create_2Dcgal_polygon(lsPts, best_plane, pgn);
       bool test = pgn.is_simple();
-      if (!test) {return false;}
+      if (!test) { return false; }
       double area = abs(CGAL::to_double(pgn.area()));
 
-      if (area < 3){
+      if (area < 3) {
         return false;
       }
 
@@ -193,7 +193,7 @@ namespace AUTOr3pair {
       make_2D_poly(lsPts, p);
       CGAL::Polygon_mesh_processing::remove_degenerate_faces(p);
       // Test here: Validate the polyhedron
-      if (!p.is_pure_bivalent () || !p.is_valid() || p.empty() ) {
+      if (!p.is_pure_bivalent() || !p.is_valid() || p.empty()) {
         return false;
       }
 
@@ -335,12 +335,25 @@ namespace AUTOr3pair {
       // Triangulate mesh
       PMP::triangulate_faces(MeshShell);
 
+
       if (!holes.empty()) {
         MeshE Holes;
         PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
         PMP::triangulate_faces(Holes);
 
-        PMP::split(MeshShell, Holes);
+        try {
+          PMP::split(MeshShell, Holes, PMP::parameters::throw_on_self_intersection(true));
+        } catch (const PMP::Corefinement::Self_intersection_exception &e) {
+          std::cout << "Self-intersection found during split: " << std::endl;
+        } catch (const CGAL::Constrained_triangulation_2<K, CGAL::Triangulation_data_structure_2<
+                CGAL::Triangulation_vertex_base_with_info_2<unsigned long, K, CGAL::Triangulation_vertex_base_2<K, CGAL::Triangulation_ds_vertex_base_2<void> > >,
+                CGAL::Constrained_triangulation_face_base_2<K, CGAL::Triangulation_face_base_2<K, CGAL::Triangulation_ds_face_base_2<void> > > >,
+                CGAL::Default>::Intersection_of_constraints_exception &e) {
+          std::cout << "Unauthorized intersections of constraints: " << std::endl;
+        } catch (const std::exception &e) {
+          std::cout << "An error occurred during split: " << std::endl;
+        }
+
 
         set<set<Point3E>> holefaces;
         for (Mesh::Face_index fi: Holes.faces()) {
@@ -358,7 +371,7 @@ namespace AUTOr3pair {
 
         vector<Mesh::Face_index> faces_to_remove;
 
-        while (true){
+        while (true) {
           bool found = false;
           int count = 0;
           for (Mesh::Face_index fi: MeshShell.faces()) {
@@ -372,16 +385,16 @@ namespace AUTOr3pair {
               h = MeshShell.next(h);
             } while (h != h_end);
 
-            if (holefaces.contains(face)){
+            if (holefaces.contains(face)) {
               halfedge_descriptor hi = halfedge(fi, MeshShell);
               // Remove the face
-              CGAL::Euler::remove_face(hi,  MeshShell);
+              CGAL::Euler::remove_face(hi, MeshShell);
               found = true;
               break;
             }
             count++;
           }
-          if (!found){break;}
+          if (!found) { break; }
         }
 
         MeshShell.collect_garbage();
@@ -412,7 +425,7 @@ namespace AUTOr3pair {
         remove_unused_vertices(copy);
         MeshShell = copy;
       }
-        return true;
+      return true;
     }
 
     bool make_shell(vector<vector<vector<int>>> &shell, Mesh &MeshShell, map<Point3, int> &indexes) {
@@ -441,7 +454,18 @@ namespace AUTOr3pair {
         PMP::polygon_soup_to_polygon_mesh(verticesP3, holes, Holes);
         PMP::triangulate_faces(Holes);
 
-        PMP::split(MeshShell, Holes);
+        try {
+          PMP::split(MeshShell, Holes, PMP::parameters::throw_on_self_intersection(true));
+        } catch (const PMP::Corefinement::Self_intersection_exception &e) {
+          std::cout << "Self-intersection found during split: " << std::endl;
+        } catch (const CGAL::Constrained_triangulation_2<K, CGAL::Triangulation_data_structure_2<
+                CGAL::Triangulation_vertex_base_with_info_2<unsigned long, K, CGAL::Triangulation_vertex_base_2<K, CGAL::Triangulation_ds_vertex_base_2<void> > >,
+                CGAL::Constrained_triangulation_face_base_2<K, CGAL::Triangulation_face_base_2<K, CGAL::Triangulation_ds_face_base_2<void> > > >,
+                CGAL::Default>::Intersection_of_constraints_exception &e) {
+          std::cout << "Unauthorized intersections of constraints: " << std::endl;
+        } catch (const std::exception &e) {
+          std::cout << "An error occurred during split: " << std::endl;
+        }
 
         set<set<Point3>> holefaces;
         for (Mesh::Face_index fi: Holes.faces()) {
@@ -459,7 +483,7 @@ namespace AUTOr3pair {
 
         vector<Mesh::Face_index> faces_to_remove;
 
-        while (true){
+        while (true) {
           bool found = false;
           int count = 0;
           for (Mesh::Face_index fi: MeshShell.faces()) {
@@ -473,16 +497,16 @@ namespace AUTOr3pair {
               h = MeshShell.next(h);
             } while (h != h_end);
 
-            if (holefaces.contains(face)){
+            if (holefaces.contains(face)) {
               halfedge_descriptor hi = halfedge(fi, MeshShell);
               // Remove the face
-              CGAL::Euler::remove_face(hi,  MeshShell);
+              CGAL::Euler::remove_face(hi, MeshShell);
               found = true;
               break;
             }
             count++;
           }
-          if (!found){break;}
+          if (!found) { break; }
         }
 
         MeshShell.collect_garbage();
@@ -536,7 +560,7 @@ namespace AUTOr3pair {
     }
 
     void make_shell3D(vector<vector<vector<int>>> &shell, Nef_polyhedron &shells,
-                     map<Point3E, int> &indexes) {
+                      map<Point3E, int> &indexes) {
       vector<Point3E> verticesP3 = VERTICES.get_verticesPoint3E();
       map<int, Point3E> shellindexes;
       for (int i = 0; i < shell.size(); ++i) {
@@ -611,14 +635,14 @@ namespace AUTOr3pair {
       }
       typedef MeshE::Vertex_index Vertex_index;
       std::vector<Vertex_index> vertex_indices;
-      for (const auto& vertex : verticesP3) {
+      for (const auto &vertex: verticesP3) {
         vertex_indices.push_back(MeshShell.add_vertex(vertex));
       }
 
       // Insert faces
-      for (const auto& face : faces) {
+      for (const auto &face: faces) {
         std::vector<Vertex_index> face_vertices;
-        for (const auto& idx : face) {
+        for (const auto &idx: face) {
           face_vertices.push_back(vertex_indices[idx]);
         }
         MeshShell.add_face(face_vertices);
