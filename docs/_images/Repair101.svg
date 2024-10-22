@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ring" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538.58 60.6">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 9px;
+      }
+
+      .cls-5, .cls-3, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        stroke: #9b9a9a;
+      }
+
+      .cls-7, .cls-8 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 2.83px;
+      }
+
+      .cls-9 {
+        fill: #9b9a9a;
+      }
+
+      .cls-10 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-8 {
+        stroke: #437898;
+      }
+
+      .cls-2 {
+        font-size: 10px;
+      }
+
+      .cls-11 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-4 {
+        font-size: 15px;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-8" x="28.5" y="25.07" width="146.42" height="0"/>
+    <circle class="cls-5" cx="29.25" cy="25.82" r="7.75"/>
+    <text class="cls-2" transform="translate(26.19 29.37)"><tspan x="0" y="0">A</tspan></text>
+    <circle class="cls-5" cx="174.13" cy="25.39" r="7.75"/>
+    <text class="cls-1" transform="translate(171.69 28.58)"><tspan x="0" y="0">B</tspan></text>
+    <text class="cls-4" transform="translate(81.4 45.69)"><tspan class="cls-10" x="0" y="0">[</tspan><tspan class="cls-13" x="4.09" y="0">A,B]</tspan></text>
+  </g>
+  <text class="cls-4" transform="translate(406.28 34.56)"><tspan class="cls-11" x="0" y="0">“</tspan><tspan x="4.34" y="0">dele</tspan><tspan class="cls-15" x="31.36" y="0">t</tspan><tspan class="cls-12" x="36.24" y="0">e</tspan><tspan class="cls-14" x="43.38" y="0">”</tspan></text>
+  <g>
+    <g>
+      <line class="cls-7" x1="209.42" y1="31.07" x2="317.08" y2="31.07"/>
+      <polygon class="cls-9" points="312.94 45.2 337.42 31.07 312.94 16.93 312.94 45.2"/>
+    </g>
+    <text class="cls-3" transform="translate(247.24 28.84)"><tspan class="cls-6" x="0" y="0">D</tspan><tspan x="6.03" y="0">ele</tspan><tspan class="cls-16" x="17.17" y="0">t</tspan><tspan x="20.1" y="0">e</tspan></text>
+  </g>
+</svg>
