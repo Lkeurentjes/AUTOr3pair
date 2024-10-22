@@ -1,3 +1,24 @@
+# 3D city model
+The repaired 3D city models will be saved in their original formats (CityJSON or OBJ). If no repairs are made (i.e., the file remains unchanged), no output model will be generated.
+
+## CityJSON Output
+
+- The output is created by copying the original file, preserving untouched properties (such as type, version, and transform).
+- This ensures that non-obligatory properties (like metadata and appearance) are retained in the repaired model.
+- The original vertices array will be replaced with the new array, and the CityObjects array will be populated by converting TU3dJSONs back to CityObjects (see Figure COtoTU3d).
+- An additional key, **AUTOr3pair**, will be added, detailing when the model was repaired, the number of each feature repaired, and information about the program and the location of the Repair report (see Section repairReport).
+- If the `addrepair` parameter is utilized, an **AUTOrepair** key will be included for every CityObject, indicating the repairs performed on it.
+
+![AUTOr3pairKEY.svg](_images/AUTOr3pairKEY.svg)
+
+## OBJ Output
+
+- The output is generated using CGAL's I/O stream package, which writes vertices and polygons from a specified range.
+- The vertices will be sourced from the repaired vertices array, while the polygons will come from the CityObject "like" (see Figure OBJtoTU3d).
+- CGAL handles the conversion from 0-based to OBJ's 1-based boundaries.
+- Currently, objects are not grouped in the OBJ output.
+
+
 # Repair Report
 In addition to the repaired 3D city model, a repair report is also generated. The repair report provides clarification to the user on how the 3D city model was repaired. It is similar in structure to a val3dity report in JSON format. The schema used in the report is visualized in [Figure 1](#fig:RepairReport). The report consists of 14 properties, each of which is meant to be self-explanatory.
 

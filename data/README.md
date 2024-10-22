@@ -125,23 +125,70 @@ User input:
 This section will describe specific parameters that can be adjusted during repair operations, 
 including the tolerance for geometric validation, planarity checks, and volume consistency.
 
+* **Semanticsbuilding** is a building with semantic properties
 
+User input:
+* **KeepEverything**: Extends scope with GenericCityObject and "KeepEverything" is set to false.
+* **MergeTOL0.1**: Extends scope with GenericCityObject and sets the merge tolerance to 0.1.
+* **MergeTOL0.9**: Extends scope with GenericCityObject and sets the merge tolerance to 0.9.
+* **orientation**: Extends scope with GenericCityObject and "Orientation" is set to false.
+* **Overlap**: Extends scope with GenericCityObject and "Overlap" is set to true.
+* **RemeshSlivers**: Extends scope with GenericCityObject and "RemeshSlivers" is set to false.
+* **semanticsAdd**: Extends scope with GenericCityObject and "SemanticsAdd" is set to true.
+* **semanticsValidate**: Extends scope with GenericCityObject and "SemanticsValidate" is set to true.
+* **Simplification**: Extends scope with GenericCityObject and "Simplification" is set to false.
+* **SkipLowRepairs**: Extends scope with GenericCityObject and "SkipLowRepairs" is set to false.
+* **SnapOverlap**: Extends scope with GenericCityObject to resolve overlaps.
+* **Triangulation**: Extends scope with GenericCityObject and "Triangulation" is set to false.
+* **watertight**: Extends scope with GenericCityObject and "Watertight" is set to false.
 
 
 ### Pre-/postprocessing
 Details of any preprocessing or postprocessing required before or after running repairs on 3D models. This might include data normalization or optimization steps for better repair accuracy.
 
+* **CITYJSON_cube_change_scale**: Cube where in the output scale is changed to output only int
+* **CITYJSON_cube_Csolid**: Composite Solid cube with only one cube so will output as Solid
+* **CITYJSON_cube_duplicate**: Cube with duplicate vertex
+* **CITYJSON_cube_duplicateSNAP**: Cube with duplicate vertex based on snap tollerance
+* **CITYJSON_cube_geographicalExtent.**: Cube with geographicalExtent which will be changed
+* **CITYJSON_cube_Msolid**: Multi Solid cube with only one cube so will output as Solid
+* **CITYJSON_cube_OrphanVertex**: Cube with orphane vertices in list
+* **CITYJSON_cube_texture**: Cube with textures which will be deleted
+* **OBJ_cube_round_vertices**: OBJ cube where vertices are rounded
+
+User input:
+* **GenericCityObject**: Extends scope with GenericCityObject
 
 ### input file formats
 Supported input file formats for the geometry repair framework include:
 - CityJSON
-- OBJ (where applicable, for visual error inspection)
+- OBJ
+- Not know data types
 
 ## Thesis data
 This section includes the test data used for the [MSc thesis](../docs/msc_geomatics_thesis_LisaKeurentjes.pdf), "An Automatic Geometry Repair Framework for Semantic 3D City Models." 
 The results can also be found in the [PDF](../docs/msc_geomatics_thesis_LisaKeurentjes.pdf) version uploaded.
 
+### Repair and Evaluation of Open-Data 3D City Models
 
+In this section, the focus is on repairing and evaluating open-data 3D city models. Two main factors are considered for repairs:
+1. **Validity Percentage** - Evaluated using `val3dity`, comparing valid percentages of buildings before and after the repair process.
+2. **Geometric Difference** - Measured using the Hausdorff distance, which quantifies the spatial differences between geometry sets.
+
+### 3DBAG
+The 3D BAG dataset contains 3D building models of the Netherlands and can be downloaded from the [3D BAG Download site](https://3dbag.nl/nl/download). The dataset includes models at multiple levels of detail and has known geometric errors from data processing inconsistencies.
+
+The tiles evaluated are around the old center of Leiden, comprising 20 small and one larger tile. Validity percentages range from 85% to 99%, with existing geometric errors found at the Ring, Polygon, and Shell levels.
+
+Repairs are conducted with default parameters, adjusting `SemanticsValidate` to false for efficiency. Post-repair validity percentages reach 99%, with some tiles only one feature away from 100%. Remaining errors are attributed to rounding issues during the vertex list conversion.
+
+### Brussel
+Brussel offers an open dataset of 3D buildings, previously available in CityGML format but now only accessible through older tiles. The dataset contains MultiSurfaces, leading to various ring and polygon errors, along with complications related to surface normals orientation.
+
+Initial validity scores are low at 62%, but improvements are noted post-repair. The dataset's lower quality and the conversion process contribute to ongoing geometric issues, requiring further refinements before P5.
+
+### Data-sets from CityJSON Website
+Experiments using datasets from the [CityJSON website](https://www.cityjson.org/datasets/#some-randomly-selected-cities) compare various use cases on model validity and geometric distance. Notable observations include low validity scores for some cities, with high Hausdorff distances attributed to poorly handled alpha wraps.
 
 ## Unrepairebale Non Manifold
 Examples of non-repairable manifolds, where the topology makes automated repair impossible with the current methods. These files will be used to develop more advanced repair strategies in the future.
