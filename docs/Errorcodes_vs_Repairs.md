@@ -1,26 +1,6 @@
 # Methodology for Automatic Repair of Semantics 3D City Models
 The workflow for the proposed repair methodology is outlined in the figure below. The automatic repair process is done through a repair loop. This chapter focuses on geometric repairs and the use of Val3dity for validating and identifying errors. The repairs are organized per primitive level, as outlined in sections below. Each approach preserves semantics and materials where possible.
 
-![Methodology Flowchart](_images/Methodology.svg)
-
-## Validation by Val3dity
-Val3dity validates geometries and reports errors at three levels:
-1. **File errors** (9xx) – Out of scope for this thesis.
-2. **Feature errors** (6xx, 7xx) – These refer to city model objects like buildings.
-3. **Geometry errors** (1xx-5xx) – These errors relate to geometric primitives.
-
-A Val3dity report can be used to trigger repairs for invalid locations. Since Val3dity works hierarchically, repairs are applied per level, assuming valid lower-level primitives.
-
-![Val3dity Report](_images/Diagrams/Val3dityReport.svg)
-
-Val3dity uses tolerances for handling small errors. Three situations where tolerance is applied include:
-- **Planarity of polygons** (default tolerance is 1mm for vertices and 20° for normals).
-- **Snapping close vertices** (default tolerance 1mm).
-- **Distance between primitives** (used for ensuring no overlaps or disjoint parts).
-
-### Figure: Example of tolerance applied
-![Tolerance Example](_images/tollerance.svg)
-
 ## Ring-Level Repair Approaches
 Geometries should meet specific standards at the ring level. Below are repair strategies for common errors detected by Val3dity:
 
