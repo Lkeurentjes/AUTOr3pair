@@ -3,7 +3,7 @@ building instructions for my AUTOr3pair project.
 The versions used for developing are: 
 * Ubuntu 22.04.2 LTS
 * Cmake 3.27.0
-* CGAL 5.4-1
+* CGAL 6.0
 * Geos 3.11.2
 * gdb 12.1
 * Val3dity 

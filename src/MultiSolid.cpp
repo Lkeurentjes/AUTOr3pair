@@ -351,8 +351,8 @@ namespace AUTOr3pair {
                   }
                 } else {
                   if (replace301.empty()) {
-                    if (i <= OGtu3djson["features"][0]["geometry"]["boundaries"].size() &&
-                        j <= OGtu3djson["features"][0]["geometry"]["boundaries"][i].size()) {
+                    if (i < OGtu3djson["features"][0]["geometry"]["boundaries"].size() &&
+                        j < OGtu3djson["features"][0]["geometry"]["boundaries"][i].size()) {
                       vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i][j];
                       replace301 = AUTOr3pair::Shellr3pair300(OGboundary);
                       SMTassigner(replace301);
@@ -369,8 +369,8 @@ namespace AUTOr3pair {
                 vector<vector<vector<int>>> replace302 = AUTOr3pair::Shellr3pair302(boundary);
                 SMTassigner(replace302);
                 if (replace302.empty()) {
-                  if (i <= OGtu3djson["features"][0]["geometry"]["boundaries"].size() &&
-                      j <= OGtu3djson["features"][0]["geometry"]["boundaries"][i].size()) {
+                  if (i < OGtu3djson["features"][0]["geometry"]["boundaries"].size() &&
+                      j < OGtu3djson["features"][0]["geometry"]["boundaries"][i].size()) {
                     vector<vector<vector<int>>> OGboundary = OGtu3djson["features"][0]["geometry"]["boundaries"][i][j];
                     replace302 = AUTOr3pair::Shellr3pair300(OGboundary);
                     newsolids.push_back(replace302);
