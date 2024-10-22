@@ -272,6 +272,8 @@ namespace AUTOr3pair {
             for (double value: vertex) {
               rounded_coord.push_back(static_cast<int64_t>(value));  // Cast double to int
             }
+
+            // check for maxint
             if (std::any_of(rounded_coord.begin(), rounded_coord.end(),
                             [](int64_t coord) {
                                 return coord > std::numeric_limits<int>::max() ||
@@ -288,9 +290,6 @@ namespace AUTOr3pair {
                                  std::pow(vertex[1] - rounded_coord[1], 2) +
                                  std::pow(vertex[2] - rounded_coord[2], 2));
             ++multiply_count;
-
-            // check for maxint
-
 
             // max 10^4 times bigger
             if (multiply_count > 4) {
