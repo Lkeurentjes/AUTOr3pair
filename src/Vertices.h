@@ -74,7 +74,7 @@ namespace AUTOr3pair {
         //output
         vector<int> get_duplicates(bool& duplicates);
         vector<vector<double>> get_verticeslist(bool scaled= true);
-        vector<vector<int>> get_verticeslistEnd();
+        vector<vector<int64_t>> get_verticeslistEnd();
         vector<Point3> get_verticesPoint3();
         vector<Point3E> get_verticesPoint3E();
         vector<double> get_Geographical_extend();

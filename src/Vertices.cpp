@@ -8,6 +8,7 @@
 #include "Vertices.h"
 #include "DefenitionsCGAL.h"
 #include "Defenitions.h"
+#include <cstdint>  // for int64_t
 
 using json = nlohmann::json;
 using namespace std;
@@ -243,14 +244,15 @@ namespace AUTOr3pair {
       else { return vertices_list; }
     }
 
-    vector<vector<int>> Vertices::get_verticeslistEnd() {
+    vector<vector<int64_t>> Vertices::get_verticeslistEnd() {
       // Divide by 2 to be sure that things already in for small part in snap_tol stays correct
       double snaptol = STANDARDS["Tollerances"]["snap_tol"].get<double>() / 2;
       int Multiplymax = 0;
+      bool maxIntReached = false;
       for (auto vertex: vertices_list) {
-        vector<int> rounded_coord;
+        vector<int64_t> rounded_coord;
         for (double value: vertex) {
-          rounded_coord.push_back(static_cast<int>(value));  // Cast double to int
+          rounded_coord.push_back(static_cast<int64_t>(value));  // Cast double to int
         }
         // Calculate the Euclidean distance
         double distance = std::sqrt(std::pow(vertex[0] - rounded_coord[0], 2) +
@@ -268,20 +270,39 @@ namespace AUTOr3pair {
             }
             rounded_coord.clear();
             for (double value: vertex) {
-              rounded_coord.push_back(static_cast<int>(value));  // Cast double to int
+              rounded_coord.push_back(static_cast<int64_t>(value));  // Cast double to int
             }
+            if (std::any_of(rounded_coord.begin(), rounded_coord.end(),
+                            [](int64_t coord) {
+                                return coord > std::numeric_limits<int>::max() ||
+                                       coord < std::numeric_limits<int>::min();
+                            })) {
+              std::cerr << "One of the coordinates exceeds max 32-bit int." << std::endl;
+              multiply_count--;
+              maxIntReached = true;
+              break;
+            }
+
             // Calculate the Euclidean distance again
             distance = std::sqrt(std::pow(vertex[0] - rounded_coord[0], 2) +
                                  std::pow(vertex[1] - rounded_coord[1], 2) +
                                  std::pow(vertex[2] - rounded_coord[2], 2));
             ++multiply_count;
-            // max 10^10 times bigger
-            if (multiply_count > 10) {
+
+            // check for maxint
+
+
+            // max 10^4 times bigger
+            if (multiply_count > 4) {
               std::cout << "VERTICES TO INT CAME TO MAX MULTIPLIER OF 10, CHECK FILE" << endl;
               break;
             }
           }
-          if (multiply_count > Multiplymax){
+          if (maxIntReached) {
+            Multiplymax = multiply_count;
+            break; // dont check for other coordinates
+          }
+          if (multiply_count > Multiplymax) {
             Multiplymax = multiply_count;
           }
         }
@@ -294,11 +315,11 @@ namespace AUTOr3pair {
         s /= multiplier;
       }
 
-      vector<vector<int>> vertices_int;
+      vector<vector<int64_t>> vertices_int;
       for (int i = 0; i < vertices_list.size(); ++i) {
-        vertices_int.push_back({static_cast<int>(std::round(vertices_list[i][0] * multiplier)),
-                                static_cast<int>(std::round(vertices_list[i][1] * multiplier)),
-                                static_cast<int>(std::round(vertices_list[i][2] * multiplier))
+        vertices_int.push_back({static_cast<int64_t>(std::round(vertices_list[i][0] * multiplier)),
+                                static_cast<int64_t>(std::round(vertices_list[i][1] * multiplier)),
+                                static_cast<int64_t>(std::round(vertices_list[i][2] * multiplier))
                                });
       }
 
