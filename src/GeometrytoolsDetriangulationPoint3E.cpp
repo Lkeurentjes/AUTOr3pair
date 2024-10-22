@@ -117,6 +117,13 @@ namespace AUTOr3pair {
           return false;
         }
       }
+
+      // Compute dot product to see if face points in right direction
+      Vector3E normal2 = computeTriangleNormal(face2);
+      double dot_product = CGAL::to_double(normal1 * normal2);
+      if (dot_product < 0){
+        return false;
+      }
       return true;
     }
 
@@ -221,6 +228,12 @@ namespace AUTOr3pair {
         }
       }
 
+      if (Outers.empty()) {
+        result.push_back(triangles[0]);
+        std::cerr << "No boundary edges found. Exiting." << std::endl;
+        return result;
+      }
+
       vector<Point3E> Ring = {Outers[0].first, Outers[0].second};
       Point3E Current = Outers[0].second;
       Outers.erase(Outers.begin() + 0);
@@ -262,8 +275,13 @@ namespace AUTOr3pair {
       } else{
         vector<pair<double, vector<Point3E>>> areas;
         for (const auto& ring: Rings) {
-          double area = compute_area_from_3d_polygon(ring);
-          areas.push_back({area, ring});
+          if (ring.size()>2){
+            double area = compute_area_from_3d_polygon(ring);
+            areas.push_back({area, ring});
+          } else{
+            areas.push_back({0.0, ring});
+          }
+
         }
         std::sort(areas.begin(), areas.end(),
                   [](const std::pair<double, vector<Point3E>>& a, std::pair<double, vector<Point3E>>& b) {
