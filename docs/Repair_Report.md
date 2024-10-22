@@ -1,73 +1,14 @@
 # Repair Report
+In addition to the repaired 3D city model, a repair report is also generated. The repair report provides clarification to the user on how the 3D city model was repaired. It is similar in structure to a val3dity report in JSON format. The schema used in the report is visualized in [Figure 1](#fig:RepairReport). The report consists of 14 properties, each of which is meant to be self-explanatory.
 
-- input_file : `string` filename
-- input_file_type : `string` CityJSON (maybe later other types)
-- output_file: `string` filename
-- output_file_type : `string` CityJSON (maybe later other types)
-- time: `string` time stamp ("Mon Aug  1 18:51:25 2022 CEST")
-- type: `string` AUTOr3pairReport
-- AUTOr3pair_version: `string` or `int` version
-- repaired: `bool` true if so
-- parameters: `json` of standards used
-    - overlap_tol: `int` Standardused
-    - planarity_d2p_tol: `int` Standardused
-    - planarity_n_tol: `int` Standardused
-    - snap_tol: `int` Standardused
-    - extend_scope : `list`[`string` Standardused],
-    - RepairDepth: `json` with:
-        - maxRepairDepth: `int` Standardused
-        - TotalRepairDepth: `int` Standardused
-    - ISOr3pair: `json` with:
-        - solve_all: `bool` Standardused
-        - errors_to_solve:`list`[`int` Standardused],
-    - ADDr3pair: `json` with:
-        - "additional_repair": `list`[`int` or `string` Standardused],
+The key `Parameters` displays the parameters used during the repair process (as explained in [User Standards](#subsec:userstandards)), so the user can see which factors influenced the repairs. The `Data_errors` key is used when a file is unreadable or when val3dity outputs a data error. The `features_overview` and `primitives_overview` keys show the number of repaired objects per type. `input_file` and `output_file` provide details on which file was repaired and where the repaired 3D city model is saved.
 
+To provide additional metadata on the repair process, the `time` key indicates the timestamp of the repair, and the `version` key specifies the version of AUTOr3pair that was used. The `type` key is always set to `AUTOr3pairReport`.
 
-- all_ISOr3pairs : `set`[`int` error val3dity]
-- all_ADDr3pairs : `set`[`string` additional]
-- data_errors : `list`[`int` >900 error val3dity]
+The `repaired` key is a boolean that shows whether anything in the 3D city model was repaired. The `Features` key contains an array of all features, with the subkey `repaired` indicating if a feature was repaired. The `features_repaired` key lists all the IDs of repaired features.
 
+For more detailed information on the repairs, the user can check the `Primitive` key to see the order in which repairs were applied. The `repairs` key provides a breakdown per round of what kind of repair(s) were performed. For each repair, the ID/name, description, and boundary change are displayed by showing the `boundary_before` and `boundary_after`.
 
-- features : `list`[`json` per feature]
-    - id : `string` original id
-    - type : `string` original type
-    - repaired: `bool` true if so
-    - repairs : `list`[`int` iso error >600 or maybe addr3pair] (for now leave empty)
-    - all_ISOr3pairs_primitives : `set`[`int` error val3dity]
-    - all_ADDr3pairs_primitives : `set`[`string` error val3dity]
-    - Primitives : `list`[`json` per primitive]
-        - id : `string` original id or `None` if doenst excist
-        - numberfaces : `int` count
-        - numbershells : `int` count
-        - numbersolids : `int` count
-        - numbervertices : `int` count
-        - type : `string` original geometry type
-        - repaired: `bool` true if so
-        - repairs : `list`[`json` per round]
-            - round : `int` number of round
-            - kind_of_repair : `string` repairname
-            - repairs_done: `list`[`json` per repair]
-                - code : `int` val3ditycode or addcode?
-                - description : `string` val3dity description or add description
-                - id : `string` where was the repair (same as val3dity)
-                - boundary_before : `list`[original boundary]
-                - boundary_now : `list`[new boundary]
-        - ISOerrorsremaining : `json` with
-            - RingErrors : `list`[`list`[`int` error, `string` where]]
-            - PolyErrors : `list`[`list`[`int` error, `string` where]]
-            - ShellErrors : `list`[`list`[`int` error, `string` where]]
-            - SolidErrors : `list`[`list`[`int` error, `string` where]]
-            - SolidIErrors : `list`[`list`[`int` error, `string` where]]
+To make boundary changes clear, any conversion between 0-based boundaries and OBJ's 1-based boundaries is handled before the report is written.
 
-
-- features_overview : `list`[`json` of all features per type]
-    - type : `string` featuretype
-    - total : `int` count
-    - repaired : `int` count
-
-
-- primitives_overview : `list`[`json` of all primatives per type]
-    - type : `string` primativetype
-    - total : `int` count
-    - repaired : `int` count
+![RepairReport](_images/RepairReport.svg)
