@@ -138,11 +138,11 @@ namespace AUTOr3pair {
 
     void triangulate(json &geometry) {
       // Do all the actions per shell to overcome weird intersection problems
-      if (geometry["type"] == "MultiSurface" || geometry["type"] == "CompositeSurface"){
+      if (geometry["type"] == "MultiSurface" || geometry["type"] == "CompositeSurface") {
         vector<vector<vector<int>>> inshell = geometry["boundaries"].get<vector<vector<vector<int>>>>();
         vector<vector<vector<int>>> outshell = triangulateShell(inshell);
         geometry["boundaries"] = outshell;
-      } else if (geometry["type"] == "Solid"){
+      } else if (geometry["type"] == "Solid") {
         vector<vector<vector<vector<int>>>> solid;
         for (int i = 0; i < geometry["boundaries"].size(); ++i) {
           vector<vector<vector<int>>> inshell = geometry["boundaries"][i].get<vector<vector<vector<int>>>>();
@@ -150,16 +150,16 @@ namespace AUTOr3pair {
           solid.push_back(outshell);
         }
         geometry["boundaries"] = solid;
-      } else if (geometry["type"] == "MultiSolid" || geometry["type"] == "CompositeSolid"){
+      } else if (geometry["type"] == "MultiSolid" || geometry["type"] == "CompositeSolid") {
         vector<vector<vector<vector<vector<int>>>>> Msolid;
         for (int i = 0; i < geometry["boundaries"].size(); ++i) {
-        vector<vector<vector<vector<int>>>> solid;
-        for (int j = 0; j < geometry["boundaries"][i].size(); ++j) {
-          vector<vector<vector<int>>> inshell = geometry["boundaries"][i][j].get<vector<vector<vector<int>>>>();
-          vector<vector<vector<int>>> outshell = triangulateShell(inshell);
-          solid.push_back(outshell);
-        }
-        Msolid.push_back(solid);
+          vector<vector<vector<vector<int>>>> solid;
+          for (int j = 0; j < geometry["boundaries"][i].size(); ++j) {
+            vector<vector<vector<int>>> inshell = geometry["boundaries"][i][j].get<vector<vector<vector<int>>>>();
+            vector<vector<vector<int>>> outshell = triangulateShell(inshell);
+            solid.push_back(outshell);
+          }
+          Msolid.push_back(solid);
         }
         geometry["boundaries"] = Msolid;
       }
@@ -171,50 +171,86 @@ namespace AUTOr3pair {
       vector<vector<vector<int>>> newshell;
       Mesh MeshShell;
       map<Point3, int> indexes;
-      make_shell(shell, MeshShell, indexes);
-      if (STANDARDS["UseCaseRepair"]["Simplification"]){
-        std::size_t initial_edges = MeshShell.num_edges();
-        std::size_t target_edges_to_collapse = static_cast<std::size_t>(initial_edges * 0.10);  // 10% of the edges
-        SMS::Edge_count_stop_predicate<Mesh> stop(target_edges_to_collapse);
+      bool problems = make_shell(shell, MeshShell, indexes);
 
-        std::cout << "Before simplification: " << initial_edges << " edges." << endl;
-
-        // Simplify the mesh
-        int r = SMS::edge_collapse(MeshShell, stop);
-        // Perform mesh cleanup
-        PMP::remove_degenerate_edges(MeshShell);
-        PMP::remove_degenerate_faces(MeshShell);
-
-        std::cout << "After simplification: " << MeshShell.num_edges() << " edges. "
-                  << r << " edges collapsed." << endl;
-
-        // todo generalization?
-      }
-
-      if (STANDARDS["UseCaseRepair"]["RemeshSlivers"]){
-        // Apply mesh smoothing
-
-        // Constrain border vertices so they stay the same
-
+      if (STANDARDS["UseCaseRepair"]["Simplification"] && problems) {
+        // for removing spikes etc.
+        // get constrained vertices (boundaries which need to stay the same)
         set<Mesh::Vertex_index> constrained_vertices;
-        for (Mesh::Vertex_index v : vertices(MeshShell)) {
+        for (Mesh::Vertex_index v: vertices(MeshShell)) {
           if (is_border(v, MeshShell)) {
             constrained_vertices.insert(v);
           }
         }
         CGAL::Boolean_property_map<std::set<Mesh::Vertex_index>> vcmap(constrained_vertices);
 
-        // Apply shape smoothing with 5 iterations and a small time step
-        PMP::smooth_shape(MeshShell, 0.0001, CGAL::parameters::number_of_iterations(5).vertex_is_constrained_map(vcmap));
+        // PART 1: simplification
+        // define stop predicate
+        std::size_t initial_edges = MeshShell.num_edges();
+        std::array<Point3, 8> obb_points;
+        CGAL::oriented_bounding_box(MeshShell, obb_points, CGAL::parameters::use_convex_hull(true));
+        double diagonal_dist = std::sqrt(CGAL::squared_distance(obb_points[0], obb_points[7]));
+        double threshold = 0.5 * diagonal_dist;
+        SMS::Edge_length_stop_predicate<double> stop(threshold);
 
+        // get edges which are constrained
+        std::set<Mesh::Edge_index> constrained_edges;
+        double min_dihedral_angle = 2 * CGAL_PI / 3.0; //Theshold angle
+        for (auto edge: edges(MeshShell)) {
+          auto h = halfedge(edge, MeshShell);
+          if (is_border(h, MeshShell) || is_border(opposite(h, MeshShell), MeshShell)) {
+            constrained_edges.insert(edge); // Mark the edge as constrained
+          } else {
+            auto face1_normal = PMP::compute_face_normal(face(h, MeshShell), MeshShell);
+            auto face2_normal = PMP::compute_face_normal(
+                    face(opposite(h, MeshShell), MeshShell), MeshShell);
+            double dihedral_angle = std::acos(CGAL::to_double(face1_normal * face2_normal));
+            if (dihedral_angle < min_dihedral_angle) {
+              constrained_edges.insert(edge); // Mark the edge as constrained
+            }
+          }
+        }
+        CGAL::Boolean_property_map<std::set<Mesh::Edge_index>> ebmap(constrained_edges);
+
+        // Simplify the mesh
+        int r = SMS::edge_collapse(MeshShell, stop, CGAL::parameters::vertex_is_constrained_map(vcmap).edge_is_constrained_map(ebmap));
+        // Perform mesh cleanup
+        PMP::remove_degenerate_edges(MeshShell);
+        PMP::remove_degenerate_faces(MeshShell);
+
+        if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+          std::cout << "\t\tSimplified Geometery by edge collaps, collapsing " << r << " edges from " << initial_edges
+                    << endl;
+        }
+
+        // PART 2 Smoothing
+        // Apply shape smoothing with 5 iterations and a smalll time step
+        PMP::smooth_shape(MeshShell, 0.0001,
+                          CGAL::parameters::number_of_iterations(5).vertex_is_constrained_map(vcmap));
+        if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+          std::cout << "\t\tSimplified Geometery by smoothing" << endl;
+        }
+      }
+
+      if (STANDARDS["UseCaseRepair"]["RemeshSlivers"]) {
+        // Apply remeshing
+        Mesh temp_mesh;
+        PMP::remesh_planar_patches(MeshShell, temp_mesh);
+        MeshShell = temp_mesh;
+
+        PMP::remove_degenerate_edges(MeshShell);
+        PMP::remove_degenerate_faces(MeshShell);
+        if (STANDARDS["OutputParameters"]["ShowProgress"]) {
+          std::cout << "\t\tRemeshed Geometery" << endl;
+        }
       }
       vector<vector<vector<Point3>>> outshell = get_faces(MeshShell);
 
 
-      if (!STANDARDS["UseCaseRepair"]["Triangulation"]){
+      if (!STANDARDS["UseCaseRepair"]["Triangulation"]) {
         vector<vector<vector<Point3>>> detrishell = detriangulate(outshell);
-        newshell = get_shell(detrishell , indexes);
-      }else{
+        newshell = get_shell(detrishell, indexes);
+      } else {
         newshell = get_shell(outshell, indexes);
       }
 
