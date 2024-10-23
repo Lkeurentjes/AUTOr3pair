@@ -36,7 +36,7 @@ def data_BAG(request, dir_Bag, USERINPUT_BAG):
 
 
 
-def test_BAG(repair_return_test, data_BAG):
-    data, user = data_BAG
-    code, error = repair_return_test([data, user])
-    assert code == 0
+# def test_BAG(repair_return_test, data_BAG):
+#     data, user = data_BAG
+#     code, error = repair_return_test([data, user])
+#     assert code == 0

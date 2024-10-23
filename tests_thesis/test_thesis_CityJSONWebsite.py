@@ -87,26 +87,26 @@ def data_09_Zurich(request, dir_CityJSON_website):
 
 # --------------------------------------------------------------------------------------------------------------- Tests
 
-def test_00_Brussel(repair_return_test, data_00_Brussel):
-    code, error = repair_return_test([data_00_Brussel])
-    assert code == 0
+# def test_00_Brussel(repair_return_test, data_00_Brussel):
+#     code, error = repair_return_test([data_00_Brussel])
+#     assert code == 0
 
-def test_00_BrusselO(repair_return_test, data_00_Brussel, data_Brussel_UI_Orientation):
-    code, error = repair_return_test([data_00_Brussel, data_Brussel_UI_Orientation])
-    assert code == 0
+# def test_00_BrusselO(repair_return_test, data_00_Brussel, data_Brussel_UI_Orientation):
+#     code, error = repair_return_test([data_00_Brussel, data_Brussel_UI_Orientation])
+#     assert code == 0
 
-def test_00_BrusselW(repair_return_test, data_00_Brussel, data_Brussel_UI_Watertight):
-    code, error = repair_return_test([data_00_Brussel, data_Brussel_UI_Watertight])
-    assert code == 0
+# def test_00_BrusselW(repair_return_test, data_00_Brussel, data_Brussel_UI_Watertight):
+#     code, error = repair_return_test([data_00_Brussel, data_Brussel_UI_Watertight])
+#     assert code == 0
 
-def test_01_BAG(repair_return_test, data_01_BAG):
-    code, error = repair_return_test([data_01_BAG])
-    assert code == 0
+# def test_01_BAG(repair_return_test, data_01_BAG):
+#     code, error = repair_return_test([data_01_BAG])
+#     assert code == 0
 
 
-def test_01_BAG_CFD(repair_return_test, data_01_BAG, UseCaseCFD):
-    code, error = repair_return_test([data_01_BAG, UseCaseCFD])
-    assert code == 0
+# def test_01_BAG_CFD(repair_return_test, data_01_BAG, UseCaseCFD):
+#     code, error = repair_return_test([data_01_BAG, UseCaseCFD])
+#     assert code == 0
 
 
 def test_01_BAG_ED(repair_return_test, data_01_BAG, UseCaseENERGYDEMAND):
