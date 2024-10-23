@@ -1,7 +1,5 @@
 {
-  "all_errors": [
-    102
-  ],
+  "all_errors": [],
   "dataset_errors": [],
   "features": [
     {
@@ -641,23 +639,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0546100000040132-0|geom=2|shell=0|face=84",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0546100000040132-0|geom=2|shell=0|face=89",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000040132",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7288,13 +7273,13 @@
     {
       "total": 1211,
       "type": "Building",
-      "valid": 1210
+      "valid": 1211
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-320-624__USERINPUT_BAG__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/BAG_tiles/10-320-624__USERINPUT_BAG__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
@@ -7303,7 +7288,7 @@
     {
       "total": 3642,
       "type": "Solid",
-      "valid": 3641
+      "valid": 3642
     },
     {
       "total": 1211,
@@ -7311,8 +7296,8 @@
       "valid": 1211
     }
   ],
-  "time": "2024-09-17T12:39:11 (CEST)",
+  "time": "2024-10-23T14:48:51 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
-  "validity": false
+  "validity": true
 }

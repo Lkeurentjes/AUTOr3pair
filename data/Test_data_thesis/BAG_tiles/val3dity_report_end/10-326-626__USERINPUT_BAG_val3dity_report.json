@@ -1,7 +1,5 @@
 {
-  "all_errors": [
-    203
-  ],
+  "all_errors": [],
   "dataset_errors": [],
   "features": [
     {
@@ -221,17 +219,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000034115-0|geom=2|shell=0|face=8",
-          "info": "distance to fitted plane: 0.0353013 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000034115",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2776,13 +2767,13 @@
     {
       "total": 460,
       "type": "Building",
-      "valid": 459
+      "valid": 460
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-326-626__USERINPUT_BAG__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/BAG_tiles/10-326-626__USERINPUT_BAG__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
@@ -2791,7 +2782,7 @@
     {
       "total": 1380,
       "type": "Solid",
-      "valid": 1379
+      "valid": 1380
     },
     {
       "total": 460,
@@ -2799,8 +2790,8 @@
       "valid": 460
     }
   ],
-  "time": "2024-09-17T12:39:27 (CEST)",
+  "time": "2024-10-23T14:50:14 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
-  "validity": false
+  "validity": true
 }

@@ -1,9 +1,5 @@
 {
-  "all_errors": [
-    102,
-    203,
-    204
-  ],
+  "all_errors": [],
   "dataset_errors": [],
   "features": [
     {
@@ -1117,35 +1113,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000043095|geom=0|face=0",
-          "info": "distance to fitted plane: 0.0175616 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000043095-0|geom=0|shell=0|face=0",
-          "info": "distance to fitted plane: 0.0175626 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000043095-0|geom=1|shell=0|face=0",
-          "info": "distance to fitted plane: 0.0175626 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000043095-0|geom=2|shell=0|face=0",
-          "info": "distance to fitted plane: 0.0231737 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000043095",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -3842,17 +3813,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=NL.IMBAG.Pand.0546100000047237-0|geom=2|shell=0|face=80",
-          "info": "deviation normals: 21.8059 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000047237",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4293,23 +4257,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0546100000047418-0|geom=1|shell=0|face=0",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0546100000047418-0|geom=1|shell=0|face=32",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000047418",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7112,36 +7063,36 @@
     {
       "total": 1176,
       "type": "Building",
-      "valid": 1173
+      "valid": 1176
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-324-624__USERINPUT_BAG__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/BAG_tiles/10-324-624__USERINPUT_BAG__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 3527,
+      "total": 3525,
       "type": "Solid",
-      "valid": 3522
+      "valid": 3525
     },
     {
-      "total": 1,
+      "total": 2,
       "type": "MultiSolid",
-      "valid": 1
+      "valid": 2
     },
     {
-      "total": 1176,
+      "total": 1177,
       "type": "MultiSurface",
-      "valid": 1175
+      "valid": 1177
     }
   ],
-  "time": "2024-09-17T12:39:24 (CEST)",
+  "time": "2024-10-23T14:50:10 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
-  "validity": false
+  "validity": true
 }

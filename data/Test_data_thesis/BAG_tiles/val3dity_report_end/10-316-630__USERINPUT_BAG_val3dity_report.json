@@ -1,7 +1,5 @@
 {
   "all_errors": [
-    203,
-    302,
     601
   ],
   "dataset_errors": [],
@@ -19,35 +17,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=0|shell=0|face=63",
-          "info": "distance to fitted plane: 0.0168402 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=0|shell=0|face=106",
-          "info": "distance to fitted plane: 0.0126304 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=1|shell=0|face=57",
-          "info": "distance to fitted plane: 0.0168402 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000000033-0|geom=1|shell=0|face=194",
-          "info": "distance to fitted plane: 0.0126304 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000000033",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -156,22 +129,22 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=0&&coid=NL.IMBAG.Pand.0546100000001040-0|geom=1",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=1&&coid=NL.IMBAG.Pand.0546100000001040-0|geom=1",
+          "info": "geometries are lod=1.3",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=0&&coid=NL.IMBAG.Pand.0546100000001040-0|geom=2",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=1&&coid=NL.IMBAG.Pand.0546100000001040-0|geom=1",
+          "info": "geometries are lod=2.2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000001040-0|geom=1&&coid=NL.IMBAG.Pand.0546100000001040-0|geom=2",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000001040-1|geom=2&&coid=NL.IMBAG.Pand.0546100000001040-0|geom=2",
+          "info": "geometries are lod=2.2",
           "type": "Error"
         }
       ],
@@ -204,17 +177,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0546100000011568-0|geom=2|shell=0|face=",
-          "info": "Location hole: (92628.5, 464538, 5.2355)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000011568",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -247,23 +213,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000011594-0|geom=2|shell=0|face=47",
-          "info": "distance to fitted plane: 0.0167172 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000011594-0|geom=2|shell=0|face=54",
-          "info": "distance to fitted plane: 0.103433 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000011594",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -324,8 +277,22 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000051346-0|geom=0&&coid=NL.IMBAG.Pand.0546100000051346-0|geom=1",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=1&&coid=NL.IMBAG.Pand.0546100000051346-0|geom=1",
+          "info": "geometries are lod=1.3",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=1&&coid=NL.IMBAG.Pand.0546100000051346-0|geom=1",
+          "info": "geometries are lod=2.2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0546100000051346-1|geom=2&&coid=NL.IMBAG.Pand.0546100000051346-0|geom=2",
+          "info": "geometries are lod=2.2",
           "type": "Error"
         }
       ],
@@ -362,22 +329,43 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000055022-1|geom=0&&coid=NL.IMBAG.Pand.0546100000055022-0|geom=1",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-1|geom=0&&coid=NL.IMBAG.Pand.0546100000055022-2|geom=0",
+          "info": "geometries are lod=1.2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000055022-1|geom=0&&coid=NL.IMBAG.Pand.0546100000055022-0|geom=2",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-1|geom=0&&coid=NL.IMBAG.Pand.0546100000055022-2|geom=0",
+          "info": "geometries are lod=1.3",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=1&&coid=NL.IMBAG.Pand.0546100000055022-0|geom=2",
-          "info": "geometries are lod=1.000000",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=1&&coid=NL.IMBAG.Pand.0546100000055022-2|geom=1",
+          "info": "geometries are lod=1.3",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-1|geom=0&&coid=NL.IMBAG.Pand.0546100000055022-2|geom=0",
+          "info": "geometries are lod=2.2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=1&&coid=NL.IMBAG.Pand.0546100000055022-2|geom=1",
+          "info": "geometries are lod=2.2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0546100000055022-0|geom=2&&coid=NL.IMBAG.Pand.0546100000055022-2|geom=2",
+          "info": "geometries are lod=2.2",
           "type": "Error"
         }
       ],
@@ -492,32 +480,22 @@
     {
       "total": 64,
       "type": "Building",
-      "valid": 58
+      "valid": 61
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-316-630__USERINPUT_BAG__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/BAG_tiles/10-316-630__USERINPUT_BAG__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 203,
+      "total": 207,
       "type": "Solid",
-      "valid": 199
-    },
-    {
-      "total": 1,
-      "type": "MultiSolid",
-      "valid": 1
-    },
-    {
-      "total": 3,
-      "type": "CompositeSurface",
-      "valid": 3
+      "valid": 207
     },
     {
       "total": 64,
@@ -525,7 +503,7 @@
       "valid": 64
     }
   ],
-  "time": "2024-09-17T12:39:02 (CEST)",
+  "time": "2024-10-23T14:48:07 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false
