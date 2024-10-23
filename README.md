@@ -54,7 +54,8 @@ interface or within an Integrated Development Environment (IDE).
 
 ### Building the programm
 
-Before running AUTOr3pair, the program must be built using CMake.
+Before running AUTOr3pair, the program must be built using CMake (use `-DLIBRARY=true` as cmake parameter to link
+val3dity correctly).
 The CMake build system manages the building process across different platforms,
 ensuring that the necessary build files are generated.
 To build the program, navigate to your chosen build directory and use the following command:
