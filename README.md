@@ -54,7 +54,12 @@ interface or within an Integrated Development Environment (IDE).
 
 ### Building the programm
 
-Before running AUTOr3pair, the program must be built using CMake.
+Before running AUTOr3pair, the program must be built using CMake. AUTOr3pair depends on CGAL, val3dity, and Nlohmann-json:
+
+- **CGAL** needs to be installed. AUTOr3pair works with version 5.5 (the version where Alpha wrap packages are introduced) and higher, with testing done using version 6.0. Using 6.0 is recommended, as it gives fewer segmentation errors when using Nef polyhedrons and surface meshes.
+- **Val3dity** can be downloaded from their GitHub. AUTOr3pair depends on the "new" report structure, which has been implemented since version 2.3.1, but the experiments (see [Results](#results)) have been done with version 2.5.1. Val3dity depends on CGAL, Eigen (version used 3.4.0-4), and GEOS (version used 3.11.2).
+- **Nlohmann-json** is included in the third-party directory and is on version 3.11.2.
+
 The CMake build system manages the building process across different platforms,
 ensuring that the necessary build files are generated.
 To build the program, navigate to your chosen build directory and use the following command:
