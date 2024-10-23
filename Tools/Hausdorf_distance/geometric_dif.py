@@ -14,7 +14,7 @@ def extract_object_vertices_by_lod(cityjson_file):
     with open(cityjson_file, 'r') as f:
         data = json.load(f)
 
-    vertices = np.array(data['vertices'])  # Assuming 'vertices' contains the 3D points
+    vertices = np.array(data['vertices'])
     scale = data.get('transform', {}).get('scale', [1.0, 1.0, 1.0])
     scaled_vertices = vertices * scale
 
@@ -95,8 +95,13 @@ def hausdorff_distance_per_lod(cityjson_file1, cityjson_file2):
                     percentage = round((hausdorff_dist / size) if size > 0 else 0, 4)  # Rounded to 4 decimal places
 
                     # Update the highest percentage for this LOD and whole file
-                    highest_percentage_lod = max(highest_percentage_lod, percentage)
-                    highest_percentage_whole_file = max(highest_percentage_whole_file, percentage)
+                    if max_difference_lod < hausdorff_dist:
+                        highest_percentage_lod = percentage
+                        max_difference_lod = hausdorff_dist
+                        if max_difference_whole_file < hausdorff_dist:
+                            highest_percentage_whole_file = percentage
+                            max_difference_whole_file = hausdorff_dist
+
 
                     # Store the result with additional details
                     distances[object_id] = {
@@ -104,7 +109,8 @@ def hausdorff_distance_per_lod(cityjson_file1, cityjson_file2):
                         "size": size,
                         "percentage": percentage
                     }
-                    max_difference_lod = max(max_difference_lod, hausdorff_dist)
+
+
                 else:
                     distances[object_id] = None  # Object not found in the second file
                     missing_count += 1
@@ -117,8 +123,7 @@ def hausdorff_distance_per_lod(cityjson_file1, cityjson_file2):
                 "highestPercentage": round(highest_percentage_lod, 4)  # Rounded to 4 decimal places
             }
 
-            # Update max difference for the whole file
-            max_difference_whole_file = max(max_difference_whole_file, max_difference_lod)
+
 
     return lod_distances, max_difference_whole_file, highest_percentage_whole_file
 
@@ -143,59 +148,57 @@ def write_report(lod_distances, max_difference_whole_file, highest_percentage_wh
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 3:
-        print("Usage: python script_name.py <cityjson_file1> <cityjson_file2>")
-        sys.exit(1)
-
-    cityjson_file1 = sys.argv[1]
-    cityjson_file2 = sys.argv[2]
-
-    output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    if output_file == cityjson_file2:
-        output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-
-    lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
-                                                                                                         cityjson_file2)
-    write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
-
-    ####### BAG
-    # filestocheck =[
-    #     "9-324-628.city.json",
-    #     "10-316-624.city.json",
-    #     "10-316-626.city.json",
-    #     "10-316-628.city.json",
-    #     "10-316-630.city.json",
-    #     "10-318-624.city.json",
-    #     "10-318-626.city.json",
-    #     "10-318-628.city.json",
-    #     "10-318-630.city.json",
-    #     "10-320-624.city.json",
-    #     "10-320-626.city.json",
-    #     "10-320-628.city.json",
-    #     "10-320-630.city.json",
-    #     "10-322-624.city.json",
-    #     "10-322-626.city.json",
-    #     "10-322-628.city.json",
-    #     "10-322-630.city.json",
-    #     "10-324-624.city.json",
-    #     "10-324-626.city.json",
-    #     "10-326-624.city.json",
-    #     "10-326-626.city.json"]
+    # if len(sys.argv) < 3:
+    #     print("Usage: python script_name.py <cityjson_file1> <cityjson_file2>")
+    #     sys.exit(1)
     #
-    # for file in filestocheck:
-    #     cityjson_file1 = "../../data/Test_data_thesis/BAG_tiles/" + file
-    #     outfile = file.replace(".city.json", "__USERINPUT_BAG__REPAIRED.json")
-    #     cityjson_file2 = "../../data/Test_data_thesis/BAG_tiles/" + outfile
+    # cityjson_file1 = sys.argv[1]
+    # cityjson_file2 = sys.argv[2]
     #
+    # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    # if output_file == cityjson_file2:
+    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
     #
-    #     output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    #     if output_file == cityjson_file2:
-    #         output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-    #
-    #     lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(
-    #         cityjson_file1,
-    #         cityjson_file2)
-    #     write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+    # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
+    #                                                                                                      cityjson_file2)
+    # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+
+    ###### BAG
+    filestocheck =[
+        "9-324-628.city.json",
+        "10-316-624.city.json",
+        "10-316-626.city.json",
+        "10-316-628.city.json",
+        "10-316-630.city.json",
+        "10-318-624.city.json",
+        "10-318-626.city.json",
+        "10-318-628.city.json",
+        "10-318-630.city.json",
+        "10-320-624.city.json",
+        "10-320-626.city.json",
+        "10-320-628.city.json",
+        "10-320-630.city.json",
+        "10-322-624.city.json",
+        "10-322-626.city.json",
+        "10-322-628.city.json",
+        "10-322-630.city.json",
+        "10-324-624.city.json",
+        "10-324-626.city.json",
+        "10-326-624.city.json",
+        "10-326-626.city.json"]
+
+    for file in filestocheck:
+        cityjson_file1 = "../../data/Test_data_thesis/BAG_tiles/" + file
+        outfile = file.replace(".city.json", "__USERINPUT_BAG__REPAIRED.json")
+        cityjson_file2 = "../../data/Test_data_thesis/BAG_tiles/" + outfile
+
+        output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+        output_file = output_file.replace('BAG_tiles/', 'BAG_tiles/Hausdorf_Distance_Report/')
+
+        lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(
+            cityjson_file1,
+            cityjson_file2)
+        write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
 
 
     ## Brussels
