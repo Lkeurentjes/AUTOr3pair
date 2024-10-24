@@ -195,7 +195,7 @@ namespace AUTOr3pair {
 
         // get edges which are constrained
         std::set<Mesh::Edge_index> constrained_edges;
-        double min_dihedral_angle = 2 * CGAL_PI / 3.0; //Theshold angle
+        double min_dihedral_angle =  CGAL_PI / 2; //Theshold angle
         for (auto edge: edges(MeshShell)) {
           auto h = halfedge(edge, MeshShell);
           if (is_border(h, MeshShell) || is_border(opposite(h, MeshShell), MeshShell)) {
@@ -225,7 +225,7 @@ namespace AUTOr3pair {
 
         // PART 2 Smoothing
         // Apply shape smoothing with 5 iterations and a smalll time step
-        PMP::smooth_shape(MeshShell, 0.0001,
+        PMP::smooth_shape(MeshShell, 0.1,
                           CGAL::parameters::number_of_iterations(5).vertex_is_constrained_map(vcmap));
         if (STANDARDS["OutputParameters"]["ShowProgress"]) {
           std::cout << "\t\tSimplified Geometery by smoothing" << endl;
