@@ -217,9 +217,9 @@ if __name__ == '__main__':
     #random thesis data
     cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/01_BAG.city.json'
     cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/02_DenHaag.city.json'
-    # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/03_Ingolstadt.city.json'
-    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/04_Montreal.city.json'
-    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/06_Railway.city.json'
+    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/03_Ingolstadt.city.json'
+    # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/04_Montreal.city.json'
+    # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/06_Railway.city.json'
     # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/07_Rotterdam.city.json'
     # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/08_Vienna.city.json'
     cityjson_file2 = cityjson_file1.replace(".city.json", "__REPAIRED.json")
