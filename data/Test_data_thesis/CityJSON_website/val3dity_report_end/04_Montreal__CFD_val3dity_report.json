@@ -1,7 +1,7 @@
 {
   "all_errors": [
-    306,
-    906
+    102,
+    306
   ],
   "dataset_errors": [],
   "features": [
@@ -30,107 +30,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300275, 5.04132e+06, 33.5243)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300260, 5.04132e+06, 24.834)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300319, 5.04136e+06, 46.464)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300324, 5.04136e+06, 46.84)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300275, 5.04131e+06, 22.441)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300286, 5.04131e+06, 22.6227)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300263, 5.04131e+06, 22.0793)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300290, 5.04131e+06, 27.1357)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300269, 5.04132e+06, 28.1903)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300264, 5.04132e+06, 25.652)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300290, 5.04131e+06, 32.112)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300310, 5.04135e+06, 47.553)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300305, 5.04137e+06, 37.8873)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300283, 5.0413e+06, 22.84)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300281, 5.04131e+06, 20.4497)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20131218142635-5A79CD833C7B|geom=0|shell=0|face=",
-          "info": "Location close to: (300302, 5.04136e+06, 48.9127)"
-        }
-      ],
+      "errors": [],
       "id": "B-20131218142635-5A79CD833C7B",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -211,113 +114,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300884, 5.04208e+06, 26.5683)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300883, 5.04208e+06, 26.5883)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300869, 5.04208e+06, 27.0697)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300856, 5.04207e+06, 26.4123)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300812, 5.04209e+06, 17.7053)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300882, 5.04207e+06, 27.738)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300885, 5.04208e+06, 27.7877)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300885, 5.04208e+06, 25.9343)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300812, 5.04208e+06, 13.6253)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300896, 5.04213e+06, 21.062)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300899, 5.04213e+06, 17.4113)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300892, 5.04213e+06, 20.861)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300890, 5.04214e+06, 17.1973)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300809, 5.04208e+06, 13.6513)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300814, 5.04209e+06, 13.6507)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300814, 5.04209e+06, 17.7153)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=0|shell=0|face=",
-          "info": "Location close to: (300899, 5.04211e+06, 13.6233)"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118273-A4A5469505DC",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -626,10 +426,35 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=B-201391182957-F9000113E8C0|geom=0|shell=0|face=",
+          "info": "Location close to: (300558, 5.04169e+06, 32.4975)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=B-201391182957-F9000113E8C0|geom=0|shell=0|face=",
+          "info": "Location close to: (300558, 5.04169e+06, 32.7714)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=B-201391182957-F9000113E8C0|geom=0|shell=0|face=",
+          "info": "Location close to: (300558, 5.04169e+06, 32.8352)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=B-201391182957-F9000113E8C0|geom=0|shell=0|face=",
+          "info": "Location close to: (300558, 5.04169e+06, 32.6472)"
+        }
+      ],
       "id": "B-201391182957-F9000113E8C0",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -734,18 +559,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183054-74E5BC303181",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -976,47 +793,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183424-FF33B52D696B|geom=0|shell=0|face=",
-          "info": "Location close to: (300589, 5.04112e+06, 53.7277)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183424-FF33B52D696B|geom=0|shell=0|face=",
-          "info": "Location close to: (300589, 5.04113e+06, 51.2677)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183424-FF33B52D696B|geom=0|shell=0|face=",
-          "info": "Location close to: (300589, 5.04113e+06, 47.979)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183424-FF33B52D696B|geom=0|shell=0|face=",
-          "info": "Location close to: (300588, 5.04112e+06, 51.9507)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183424-FF33B52D696B|geom=0|shell=0|face=",
-          "info": "Location close to: (300580, 5.04111e+06, 48.371)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183424-FF33B52D696B|geom=0|shell=0|face=",
-          "info": "Location close to: (300591, 5.04113e+06, 47.9063)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183424-FF33B52D696B",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1031,71 +811,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300602, 5.04106e+06, 55.9593)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300600, 5.04106e+06, 57.5553)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300599, 5.04106e+06, 57.5553)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300599, 5.04106e+06, 55.9787)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300634, 5.04108e+06, 53.621)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300637, 5.04107e+06, 53.7413)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300594, 5.04106e+06, 54.438)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300627, 5.04107e+06, 54.3013)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300599, 5.04106e+06, 54.4173)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=",
-          "info": "Location close to: (300631, 5.04107e+06, 54.3347)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183433-2198331460F1",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1398,35 +1117,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183716-E7AF85DD5CA4|geom=0|shell=0|face=",
-          "info": "Location close to: (300378, 5.04137e+06, 29.8653)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183716-E7AF85DD5CA4|geom=0|shell=0|face=",
-          "info": "Location close to: (300379, 5.04137e+06, 39.119)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183716-E7AF85DD5CA4|geom=0|shell=0|face=",
-          "info": "Location close to: (300382, 5.04137e+06, 36.1253)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183716-E7AF85DD5CA4|geom=0|shell=0|face=",
-          "info": "Location close to: (300371, 5.04137e+06, 34.4453)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183716-E7AF85DD5CA4",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1435,18 +1129,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183727-1F5E0D83BBB1",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1575,10 +1261,23 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183840-702287C9516F|geom=0|shell=0|face=185",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391183840-702287C9516F|geom=0|shell=0|face=187",
+          "info": ""
+        }
+      ],
       "id": "B-201391183840-702287C9516F",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1599,18 +1298,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183856-5E4B22C6B0E2",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1637,171 +1328,28 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300648, 5.04135e+06, 22.2277)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300649, 5.04136e+06, 23.8507)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300670, 5.04135e+06, 18.773)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300648, 5.04135e+06, 27.307)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300639, 5.04136e+06, 29.411)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300631, 5.04136e+06, 34.419)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300633, 5.04136e+06, 31.9133)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300635, 5.04136e+06, 30.4443)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300633, 5.04135e+06, 30.1627)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183935-6B8EA1920647|geom=0|shell=0|face=",
-          "info": "Location close to: (300637, 5.04135e+06, 30.0903)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183935-6B8EA1920647",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|shell=0|face=",
-          "info": "Location close to: (300348, 5.04132e+06, 17.419)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|shell=0|face=",
-          "info": "Location close to: (300344, 5.04131e+06, 17.2733)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|shell=0|face=",
-          "info": "Location close to: (300341, 5.04132e+06, 23.6597)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|shell=0|face=",
-          "info": "Location close to: (300344, 5.04132e+06, 23.3817)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|shell=0|face=",
-          "info": "Location close to: (300346, 5.04132e+06, 22.7683)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-20139118395-3F7BEFAAE468|geom=0|shell=0|face=",
-          "info": "Location close to: (300340, 5.04132e+06, 27.6343)"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118395-3F7BEFAAE468",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183952-0B0102F9E63A|geom=0|shell=0|face=",
-          "info": "Location close to: (300506, 5.04146e+06, 32.957)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183952-0B0102F9E63A|geom=0|shell=0|face=",
-          "info": "Location close to: (300506, 5.04146e+06, 23.356)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183952-0B0102F9E63A|geom=0|shell=0|face=",
-          "info": "Location close to: (300501, 5.04147e+06, 23.4253)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183952-0B0102F9E63A|geom=0|shell=0|face=",
-          "info": "Location close to: (300497, 5.04147e+06, 31.8963)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183952-0B0102F9E63A|geom=0|shell=0|face=",
-          "info": "Location close to: (300506, 5.04147e+06, 39.888)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=B-201391183952-0B0102F9E63A|geom=0|shell=0|face=",
-          "info": "Location close to: (300505, 5.04146e+06, 40.367)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183952-0B0102F9E63A",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118400-95DC7A2E0FC0",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1978,18 +1526,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184346-5A79244F6253",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2016,10 +1556,23 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|shell=0|face=108",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-201391184359-51543C50DA44|geom=0|shell=0|face=109",
+          "info": ""
+        }
+      ],
       "id": "B-201391184359-51543C50DA44",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2046,10 +1599,47 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118442-9CF8A5F670BD|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118442-9CF8A5F670BD|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118442-9CF8A5F670BD|geom=0|shell=0|face=112",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118442-9CF8A5F670BD|geom=0|shell=0|face=115",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118442-9CF8A5F670BD|geom=0|shell=0|face=159",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=B-20139118442-9CF8A5F670BD|geom=0|shell=0|face=161",
+          "info": ""
+        }
+      ],
       "id": "B-20139118442-9CF8A5F670BD",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2112,18 +1702,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118447-91BF660254F2",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2186,18 +1768,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184551-8C37C51A0CFD",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2288,25 +1862,25 @@
     {
       "total": 294,
       "type": "Building",
-      "valid": 279
+      "valid": 290
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/04_Montreal__CFD__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/04_Montreal__CFD__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 287,
+      "total": 294,
       "type": "Solid",
-      "valid": 279
+      "valid": 290
     }
   ],
-  "time": "2024-09-18T08:11:38 (CEST)",
+  "time": "2024-10-24T12:56:39 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

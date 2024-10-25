@@ -1,10 +1,9 @@
 {
   "all_errors": [
     104,
-    203,
-    302,
-    601,
-    906
+    208,
+    305,
+    601
   ],
   "dataset_errors": [],
   "features": [
@@ -119,40 +118,270 @@
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=3|shell=0|face=81",
-          "info": "distance to fitted plane: 0.0362201 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=5|shell=0|face=",
-          "info": "Location hole: (300916, 5.04177e+06, 38.651)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=2",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=6|shell=0|face=52",
-          "info": "distance to fitted plane: 0.0201518 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=3",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=9|shell=0|face=11",
-          "info": "distance to fitted plane: 0.017779 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=4",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=10|shell=0|face=",
-          "info": "Location hole: (300395, 5.04126e+06, 42.416)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=B-20139118273-A4A5469505DC|geom=25|shell=0|face=6",
-          "info": "distance to fitted plane: 0.0398113 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=25",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=26",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=27",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=28",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=29",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=30",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=31",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=32",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=33",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=34",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=35",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=36",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=37",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-20139118273-A4A5469505DC|geom=0&&coid=B-20139118273-A4A5469505DC|geom=38",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "B-20139118273-A4A5469505DC",
@@ -418,18 +647,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391182932-664B1DD38ED2",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -582,18 +803,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183054-74E5BC303181",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -656,23 +869,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183257-7BB8DDB32812|geom=2|shell=0|face=",
-          "info": "Location hole: (301030, 5.04211e+06, 39.529)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183257-7BB8DDB32812|geom=4|shell=0|face=",
-          "info": "Location hole: (300857, 5.04163e+06, 31.792)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183257-7BB8DDB32812",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -717,18 +917,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=B-201391183326-125907732D98|geom=0&&coid=B-201391183326-125907732D98|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183326-125907732D98",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -791,18 +983,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183353-C3A1DF5EF6A9",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -873,10 +1057,22 @@
     {
       "errors": [
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183433-2198331460F1|geom=1|shell=0|face=",
-          "info": "Location hole: (300414, 5.0413e+06, 45.857)"
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=505",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
+          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=507",
+          "info": "ring self-intersects or is collapsed to a line"
+        },
+        {
+          "code": 208,
+          "description": "ORIENTATION_RINGS_SAME",
+          "id": "coid=B-201391183433-2198331460F1|geom=0|shell=0|face=507",
+          "info": "same orientation for outer and inner rings"
         }
       ],
       "id": "B-201391183433-2198331460F1",
@@ -1070,23 +1266,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=B-201391183614-E8E64E86E428|geom=0|shell=0|face=7",
-          "info": "ring self-intersects or is collapsed to a line"
-        },
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=B-201391183614-E8E64E86E428|geom=1|shell=0|face=8",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183614-E8E64E86E428",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1101,18 +1284,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183621-8B61B8DDF4D9",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1163,43 +1338,26 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183650-562149ECFA72|geom=0|shell=0|face=",
-          "info": "Location hole: (300450, 5.04137e+06, 15.196)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183650-562149ECFA72|geom=0|shell=0|face=",
-          "info": "Location hole: (300460, 5.04136e+06, 15.196)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183650-562149ECFA72|geom=0|shell=0|face=",
-          "info": "Location hole: (300461, 5.04136e+06, 32.748)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391183650-562149ECFA72|geom=0|shell=0|face=",
-          "info": "Location hole: (300451, 5.04137e+06, 33.832)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183650-562149ECFA72",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=2|shell=0|face=7",
-          "info": "ring self-intersects or is collapsed to a line"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0&&coid=B-201391183653-2DD4AB9D17F2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=B-201391183653-2DD4AB9D17F2|geom=0&&coid=B-201391183653-2DD4AB9D17F2|geom=2",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "B-201391183653-2DD4AB9D17F2",
@@ -1249,18 +1407,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183727-1F5E0D83BBB1",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1365,18 +1515,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183830-18E2001E57D4",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1421,18 +1563,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391183856-5E4B22C6B0E2",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1477,18 +1611,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118400-95DC7A2E0FC0",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1665,32 +1791,16 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184346-5A79244F6253",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184349-54EB5C5BB287",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1711,18 +1821,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184359-51543C50DA44",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1737,18 +1839,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184414-C63FB37C0C74",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1775,83 +1869,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300207, 5.04113e+06, 14.17)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300212, 5.04113e+06, 14.17)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300217, 5.04112e+06, 29.432)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300213, 5.04113e+06, 30.443)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300216, 5.04112e+06, 30.35)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300206, 5.04113e+06, 30.138)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300206, 5.04113e+06, 31.424)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300206, 5.04112e+06, 31.102)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300210, 5.04113e+06, 31.081)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300215, 5.04113e+06, 28.085)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300211, 5.04113e+06, 31.199)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184429-5CC8BA5E751A|geom=0|shell=0|face=",
-          "info": "Location hole: (300206, 5.04112e+06, 30.091)"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184429-5CC8BA5E751A",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1872,18 +1893,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184443-391F136E8FC3",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1904,32 +1917,16 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118447-91BF660254F2",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-20139118451-19B52C5A0645",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1938,18 +1935,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184517-A9BDAEC1B6F3",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1994,18 +1983,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "B-201391184551-8C37C51A0CFD",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2076,22 +2057,10 @@
     {
       "errors": [
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
+          "code": 305,
+          "description": "MULTIPLE_CONNECTED_COMPONENTS",
           "id": "coid=B-201391184640-79B8A95C2001|geom=0|shell=0|face=",
-          "info": "Location hole: (300436, 5.04163e+06, 22.247)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=B-201391184640-79B8A95C2001|geom=0|shell=0|face=",
-          "info": "Location hole: (300437, 5.04163e+06, 29.424)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=B-201391184640-79B8A95C2001|geom=2|shell=0|face=13",
-          "info": "distance to fitted plane: 0.0141807 (tolerance=0.01)"
+          "info": ""
         }
       ],
       "id": "B-201391184640-79B8A95C2001",
@@ -2115,25 +2084,25 @@
     {
       "total": 294,
       "type": "Building",
-      "valid": 268
+      "valid": 290
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/04_Montreal__ENERGYDEMAND__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/04_Montreal__ENERGYDEMAND__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 332,
+      "total": 4983,
       "type": "Solid",
-      "valid": 316
+      "valid": 4981
     }
   ],
-  "time": "2024-09-18T08:11:39 (CEST)",
+  "time": "2024-10-24T12:56:52 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

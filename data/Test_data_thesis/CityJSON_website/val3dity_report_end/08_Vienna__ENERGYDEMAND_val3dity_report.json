@@ -1,8 +1,5 @@
 {
   "all_errors": [
-    203,
-    204,
-    302,
     601
   ],
   "dataset_errors": [],
@@ -2164,10 +2161,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011503-81c830ea-4a4e-4bc6-9590|geom=0&&coid=UUID_LOD2_011503-81c830ea-4a4e-4bc6-9590|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_011503-81c830ea-4a4e-4bc6-9590",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -2585,40 +2590,95 @@
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=0|shell=0|face=109",
-          "info": "distance to fitted plane: 0.0165207 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_1|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=1|shell=0|face=4",
-          "info": "distance to fitted plane: 0.0111841 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_2|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=2|shell=0|face=11",
-          "info": "distance to fitted plane: 0.0136331 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_2|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=3|shell=0|face=109",
-          "info": "distance to fitted plane: 0.0165207 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_2|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=4|shell=0|face=4",
-          "info": "distance to fitted plane: 0.0111841 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_2|geom=1&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=5|shell=0|face=11",
-          "info": "distance to fitted plane: 0.0136331 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_2|geom=1&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_3|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=1&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4|geom=1&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=0&&coid=UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_011511-2737a4b3-eded-43ea-beab",
@@ -2934,10 +2994,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011523-c567aff9-c2cb-455d-842b|geom=0&&coid=UUID_LOD2_011523-c567aff9-c2cb-455d-842b|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_011523-c567aff9-c2cb-455d-842b",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -3455,13 +3523,34 @@
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=0&&coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=1",
-          "info": "geometries are lod=1.0",
+          "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=0&&coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=1",
+          "id": "coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=0&&coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=0&&coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=1&&coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1|geom=1&&coid=UUID_LOD2_011533-ebe601ad-25b9-4955-907b_2|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -3675,16 +3764,25 @@
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_2|geom=0|shell=0|face=6",
-          "info": "distance to fitted plane: 0.0422422 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_1|geom=0&&coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_2|geom=1|shell=0|face=14",
-          "info": "distance to fitted plane: 0.0597423 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_2|geom=0&&coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_3|geom=0&&coid=UUID_LOD2_011536-9f21182b-5919-453e-bcdf_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_011536-9f21182b-5919-453e-bcdf",
@@ -5127,10 +5225,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011553-c17481de-6c21-4caa-b1a9_1|geom=0&&coid=UUID_LOD2_011553-c17481de-6c21-4caa-b1a9_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_011553-c17481de-6c21-4caa-b1a9",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -5653,28 +5759,95 @@
     {
       "errors": [
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=0|shell=0|face=",
-          "info": "Location hole: (1232.41, 340570, 41.92)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_1|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=0|shell=0|face=",
-          "info": "Location hole: (1243.93, 340580, 64.243)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_2|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=1|shell=0|face=",
-          "info": "Location hole: (1232.41, 340570, 41.92)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=1|shell=0|face=",
-          "info": "Location hole: (1243.93, 340580, 64.243)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=1&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3|geom=1&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_4|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_4|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_4|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_4|geom=1&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_4|geom=1&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=0&&coid=UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72",
@@ -6228,10 +6401,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011590-1102f5a7-5436-4969-a23b|geom=0&&coid=UUID_LOD2_011590-1102f5a7-5436-4969-a23b|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_011590-1102f5a7-5436-4969-a23b",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -6934,10 +7115,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011603-aa2a6299-ba52-4b77-97ef|geom=0&&coid=UUID_LOD2_011603-aa2a6299-ba52-4b77-97ef|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_011603-aa2a6299-ba52-4b77-97ef",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -7861,6 +8050,34 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_3|geom=0&&coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_3|geom=0&&coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_3|geom=1&&coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_3|geom=1&&coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_4|geom=0&&coid=UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_4|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -8071,21 +8288,42 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=1",
+          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=1",
+          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=1&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_1|geom=1&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=0&&coid=UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         }
@@ -8813,21 +9051,42 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=1",
+          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=1",
+          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=1&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_1|geom=1&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=0&&coid=UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         }
@@ -9023,21 +9282,35 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=1",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=1&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_1|geom=1&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -9051,7 +9324,70 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_2|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_2|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_2|geom=1&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_2|geom=1&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_3|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_3|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_3|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_3|geom=1&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_3|geom=1&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=0&&coid=UUID_LOD2_011984-19096613-52ca-44ae-87c6_4|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         }
@@ -9264,10 +9600,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_011988-558d6051-2ac2-4822-bb8b|geom=0&&coid=UUID_LOD2_011988-558d6051-2ac2-4822-bb8b|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_011988-558d6051-2ac2-4822-bb8b",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -9419,16 +9763,116 @@
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0|shell=0|face=71",
-          "info": "distance to fitted plane: 0.0197268 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_1|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0|shell=0|face=72",
-          "info": "distance to fitted plane: 0.0100613 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_1|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_1|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_1|geom=1&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_1|geom=1&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_2|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_2|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_2|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_2|geom=1&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_2|geom=1&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_3|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_3|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_3|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_3|geom=1&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_3|geom=1&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=0&&coid=UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6",
@@ -9561,10 +10005,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012089-a8416fcc-2206-4009-982d|geom=0&&coid=UUID_LOD2_012089-a8416fcc-2206-4009-982d|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_012089-a8416fcc-2206-4009-982d",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -9812,10 +10264,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012092-314dbb09-4cfb-41f1-b664|geom=0&&coid=UUID_LOD2_012092-314dbb09-4cfb-41f1-b664|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_012092-314dbb09-4cfb-41f1-b664",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -10424,20 +10884,6 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_1|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -10494,6 +10940,34 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_4|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_4|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_4|geom=1&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_4|geom=1&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_5|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_5|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -10516,6 +10990,41 @@
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_8|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_8|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_10|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=0&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_10|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9|geom=1&&coid=UUID_LOD2_012107-3fdb7329-6a42-4764-af09_10|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -11145,20 +11654,6 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=1&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=4",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=1&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=4",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_1|geom=0&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -11250,7 +11745,7 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_4|geom=0&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=3",
+          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_4|geom=0&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -11264,21 +11759,14 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_4|geom=1&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=3",
+          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_4|geom=1&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=0&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=3",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=2&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=5",
+          "id": "coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=0&&coid=UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         }
@@ -11687,10 +12175,18 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012741-70d85124-e385-48fc-ad59|geom=0&&coid=UUID_LOD2_012741-70d85124-e385-48fc-ad59|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "UUID_LOD2_012741-70d85124-e385-48fc-ad59",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -12332,16 +12828,137 @@
     {
       "errors": [
         {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=3|shell=0|face=4",
-          "info": "deviation normals: 72.3414 (tolerance=20)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_1|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=7|shell=0|face=4",
-          "info": "deviation normals: 72.3414 (tolerance=20)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_2|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_3|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_4|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_4|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_4|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_4|geom=1&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_4|geom=1&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_6|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_6|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_7|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_7|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_6|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_6|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_7|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5|geom=1&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_7|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_6|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_6|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_7|geom=0&&coid=UUID_LOD2_012746-a16ce0ef-323f-4449-9595_7|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_012746-a16ce0ef-323f-4449-9595",
@@ -14836,28 +15453,11 @@
     {
       "errors": [
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2|geom=0|shell=0|face=",
-          "info": "Location hole: (1226.74, 340571, 60.416)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2|geom=0|shell=0|face=",
-          "info": "Location hole: (1220.96, 340584, 64.724)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2|geom=0|shell=0|face=",
-          "info": "Location hole: (1243.93, 340580, 41.92)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2|geom=0|shell=0|face=",
-          "info": "Location hole: (1214.34, 340584, 62.42)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2|geom=0&&coid=UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2",
@@ -15588,16 +16188,361 @@
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0|shell=0|face=8",
-          "info": "distance to fitted plane: 0.0123263 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_1|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_1|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1|shell=0|face=8",
-          "info": "distance to fitted plane: 0.0123263 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_2|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_3|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_4|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_4|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_5|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_6|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_6|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_7|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_7|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_8|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_8|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_9|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_9|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_10|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_11|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_12|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_12|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_12|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_12|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_12|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_12|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_13|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_13|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_14|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_14|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_15|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_17|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_17|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_17|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_17|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_16|geom=1&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_17|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_17|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_18|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_18|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=0&&coid=UUID_LOD2_099692-7f734849-7f18-43ee-932c_19|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "UUID_LOD2_099692-7f734849-7f18-43ee-932c",
@@ -16435,21 +17380,42 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=1",
+          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=1",
+          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=1&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_1|geom=1&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=0&&coid=UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         }
@@ -16464,13 +17430,34 @@
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=0&&coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=1",
-          "info": "geometries are lod=1.0",
+          "info": "geometries are lod=2",
           "type": "Error"
         },
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=0&&coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=1",
+          "id": "coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=0&&coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=0&&coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_2|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=1&&coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_2|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_1|geom=1&&coid=UUID_LOD2_210140-965129c8-6b37-46df-b46c_2|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -16995,188 +17982,6 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
-          "info": "geometries are lod=2",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_1|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_1|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -17247,6 +18052,125 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_2|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_2|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_2|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_2|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_4|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_4|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -17276,6 +18200,69 @@
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_4|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -17394,6 +18381,41 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_9|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_9|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_9|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_9|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -17478,6 +18500,41 @@
         {
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
@@ -17486,6 +18543,69 @@
           "code": 601,
           "description": "BUILDINGPARTS_OVERLAP",
           "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_17|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_21|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=0&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_21|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_21|geom=0",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18|geom=1&&coid=UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_21|geom=1",
           "info": "geometries are lod=2",
           "type": "Error"
         },
@@ -18213,10 +19333,10 @@
     {
       "total": 307,
       "type": "Building",
-      "valid": 12
+      "valid": 3
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/08_Vienna__ENERGYDEMAND__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/08_Vienna__ENERGYDEMAND__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
     "overlap_tol": -1.0,
@@ -18226,12 +19346,12 @@
   },
   "primitives_overview": [
     {
-      "total": 2207,
+      "total": 2200,
       "type": "Solid",
-      "valid": 2191
+      "valid": 2200
     }
   ],
-  "time": "2024-09-18T08:39:22 (CEST)",
+  "time": "2024-10-24T15:09:13 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

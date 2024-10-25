@@ -4,6 +4,7 @@
     302,
     305,
     306,
+    601,
     902
   ],
   "dataset_errors": [],
@@ -11,10 +12,10 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000000010-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000000010-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000000010",
@@ -24,10 +25,28 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
           "id": "coid=NL.IMBAG.Pand.0503100000000030-0|geom=1|shell=0|face=",
-          "info": ""
+          "info": "Location hole: (84586.2, 446247, 8.346)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000000030-0|geom=1|shell=0|face=",
+          "info": "Location hole: (84547.9, 446235, 8.346)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000000030-0|geom=1|shell=0|face=",
+          "info": "Location hole: (84535.9, 446243, 8.346)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000000030-0|geom=1|shell=0|face=",
+          "info": "Location hole: (84574.2, 446255, 8.346)"
         },
         {
           "code": 305,
@@ -1217,29 +1236,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000013381-0|geom=0|shell=0|face=",
-          "info": ""
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000013381-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84815.4, 446429, 0.435002)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000013381-0|geom=2|shell=0|face=",
-          "info": "Location hole: (84817.9, 446429, 0.435002)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000013381",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1905,10 +1905,10 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000017024-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000017024-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000017024",
@@ -2543,10 +2543,47 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000018572-0|geom=1|shell=0|face=",
+          "info": "Location close to: (84898.1, 446548, 6.63468)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000018572-0|geom=1|shell=0|face=",
+          "info": "Location close to: (84899, 446547, 4.29202)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000018572-0|geom=1|shell=0|face=",
+          "info": "Location close to: (84899.3, 446546, 7.61632)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000018572-0|geom=1|shell=0|face=",
+          "info": "Location close to: (84898.5, 446548, 3.31035)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000018572-0|geom=1|shell=0|face=",
+          "info": "Location close to: (84899.1, 446547, 7.61635)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000018572-0|geom=1|shell=0|face=",
+          "info": "Location close to: (84898.4, 446547, 9.95892)"
+        }
+      ],
       "id": "NL.IMBAG.Pand.0503100000018572",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2659,10 +2696,10 @@
     {
       "errors": [
         {
-          "code": 902,
-          "description": "EMPTY_PRIMITIVE",
-          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000019003-0|geom=2",
-          "info": "empty Solid, contains no points and/or surfaces"
+          "code": 305,
+          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "id": "coid=NL.IMBAG.Pand.0503100000019003-0|geom=2|shell=0|face=",
+          "info": ""
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000019003",
@@ -2875,41 +2912,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000019354-0|geom=2|shell=0|face=",
-          "info": "Location close to: (85293.4, 446517, 3.21934)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000019354-0|geom=2|shell=0|face=",
-          "info": "Location close to: (85295.6, 446516, 2.821)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000019354-0|geom=2|shell=0|face=",
-          "info": "Location close to: (85290.3, 446519, 0.680335)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000019354-0|geom=2|shell=0|face=",
-          "info": "Location close to: (85288.8, 446519, 1.71967)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000019354-0|geom=2|shell=0|face=",
-          "info": "Location close to: (85292, 446516, 2.401)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000019354",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2945,9 +2951,75 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=",
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=23",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=28",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=35",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=88",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=164",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=165",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=179",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=183",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=187",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=198",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=201",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019363-0|geom=2|shell=0|face=202",
           "info": ""
         }
       ],
@@ -3201,9 +3273,15 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000019447-0|geom=2|shell=0|face=",
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019447-0|geom=2|shell=0|face=98",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000019447-0|geom=2|shell=0|face=184",
           "info": ""
         }
       ],
@@ -4092,10 +4170,10 @@
     {
       "errors": [
         {
-          "code": 902,
-          "description": "EMPTY_PRIMITIVE",
-          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000019809-0|geom=2",
-          "info": "empty Solid, contains no points and/or surfaces"
+          "code": 305,
+          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "id": "coid=NL.IMBAG.Pand.0503100000019809-0|geom=2|shell=0|face=",
+          "info": ""
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000019809",
@@ -5099,10 +5177,10 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000024960-0|geom=2|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000024960-0|geom=2",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000024960",
@@ -5110,30 +5188,61 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000025026-0|geom=1|shell=0|face=",
+          "info": "Location close to: (85555.2, 445995, 22.7816)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000025026-0|geom=1|shell=0|face=",
+          "info": "Location close to: (85555.3, 445995, 15.9774)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000025026-0|geom=1|shell=0|face=",
+          "info": "Location close to: (85555, 445996, 15.9773)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000025026-0|geom=1|shell=0|face=",
+          "info": "Location close to: (85551.9, 445996, 9.17302)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000025026-0|geom=1|shell=0|face=",
+          "info": "Location close to: (85555.2, 445995, 9.17302)"
+        }
+      ],
       "id": "NL.IMBAG.Pand.0503100000025026",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025027-0|geom=0|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025027-0|geom=0",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025027-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025027-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025027-0|geom=2|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025027-0|geom=2",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000025027",
@@ -5143,10 +5252,28 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
           "id": "coid=NL.IMBAG.Pand.0503100000025028-0|geom=1|shell=0|face=",
-          "info": ""
+          "info": "Location hole: (85079.2, 446422, 18.408)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000025028-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85093.7, 446387, 18.408)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000025028-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85089.4, 446379, 18.408)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000025028-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85070, 446427, 18.408)"
         },
         {
           "code": 305,
@@ -5166,67 +5293,24 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85159.3, 446713, 8.78934)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85146.3, 446718, 2.968)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85137.2, 446709, 3.26034)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85152.9, 446716, 4.896)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85165.7, 446712, 5.24367)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85140.1, 446730, 4.42334)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025100-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85144.3, 446685, 7.29867)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000025100",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025101-0|geom=0|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025101-0|geom=0",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025101-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025101-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
           "code": 305,
@@ -5242,22 +5326,22 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025102-0|geom=0|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025102-0|geom=0",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025102-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025102-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025102-0|geom=2|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000025102-0|geom=2",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000025102",
@@ -5280,10 +5364,16 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
           "id": "coid=NL.IMBAG.Pand.0503100000025161-0|geom=1|shell=0|face=",
-          "info": ""
+          "info": "Location hole: (85581.7, 446361, 16.526)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000025161-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85580.7, 446360, 16.526)"
         },
         {
           "code": 305,
@@ -5305,9 +5395,51 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=",
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=146",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=151",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=152",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=170",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=171",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=202",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=203",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=NL.IMBAG.Pand.0503100000025163-0|geom=2|shell=0|face=205",
           "info": ""
         }
       ],
@@ -5334,65 +5466,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85179.6, 445994, 8.377)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85190.6, 445999, 5.03134)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85146.6, 446017, 7.229)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85142.5, 446028, 7.27234)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85178.5, 445994, 7.003)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85145, 446021, 3.40267)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85186.9, 446008, 7.77167)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85156.7, 445997, 11.1523)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85150.5, 446007, 11.0737)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000025168",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5497,35 +5574,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0503100000025484|geom=0|shell=0|face=2",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0503100000025484|geom=0|shell=0|face=3",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0503100000025484|geom=0|shell=0|face=4",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=NL.IMBAG.Pand.0503100000025484|geom=0|shell=0|face=5",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000025484",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6145,94 +6197,18 @@
     {
       "errors": [
         {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85446.8, 445925, 10.4593)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1&&coid=NL.IMBAG.Pand.0503100000030264-0|geom=2",
+          "info": "geometries are lod=1.3",
+          "type": "Error"
         },
         {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85485.4, 445944, 10.6567)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85475, 445924, 10.5537)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85462.9, 445899, -0.499331)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85487.2, 445893, -0.560665)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85450.2, 446027, -0.446665)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85437.4, 446006, -0.333998)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85436, 445960, -0.759998)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85471.2, 445929, 4.667)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85456.1, 446015, 4.832)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85457.5, 445911, 5.12767)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85460.2, 445900, 15.9743)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85484.7, 445894, 16.0623)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85436.6, 446012, 16.051)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85433, 445964, 16.341)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1&&coid=NL.IMBAG.Pand.0503100000030264-0|geom=3",
+          "info": "geometries are lod=1.3",
+          "type": "Error"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000030264",
@@ -6606,60 +6582,6 @@
     {
       "errors": [
         {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85065.9, 446213, 10.9223)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85108.1, 446203, 9.60367)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85069.8, 446204, 10.806)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85074.5, 446215, 8.57667)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85101.5, 446209, 17.3523)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85099.3, 446202, 13.8913)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85075.3, 446205, 15.0697)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85098.9, 446215, 11.484)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=1|shell=0|face=",
-          "info": "Location close to: (85107, 446211, 7.791)"
-        },
-        {
           "code": 305,
           "description": "MULTIPLE_CONNECTED_COMPONENTS",
           "id": "coid=NL.IMBAG.Pand.0503100000031391-0|geom=2|shell=0|face=",
@@ -6745,22 +6667,10 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000031902-0|geom=1|shell=0|face=",
-          "info": ""
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000031902-0|geom=2|shell=0|face=",
-          "info": "Location hole: (85558.3, 446111, 10.922)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000031902-0|geom=2|shell=0|face=",
-          "info": "Location hole: (85556.7, 446094, 10.812)"
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000031902-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000031902",
@@ -7113,16 +7023,16 @@
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000032554-0|geom=0|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000032554-0|geom=0",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000032554-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000032554-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000032554",
@@ -7136,10 +7046,35 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000032606-0|geom=2|shell=0|face=",
+          "info": "Location close to: (84646.6, 446471, 9.53785)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000032606-0|geom=2|shell=0|face=",
+          "info": "Location close to: (84646, 446471, 9.54809)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000032606-0|geom=2|shell=0|face=",
+          "info": "Location close to: (84646.7, 446471, 9.53967)"
+        },
+        {
+          "code": 306,
+          "description": "SHELL_SELF_INTERSECTION",
+          "id": "coid=NL.IMBAG.Pand.0503100000032606-0|geom=2|shell=0|face=",
+          "info": "Location close to: (84646.6, 446471, 9.53751)"
+        }
+      ],
       "id": "NL.IMBAG.Pand.0503100000032606",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -7160,43 +7095,60 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032703-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84852.1, 446520, 2.739)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032703-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84857, 446521, 4.592)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032703-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84860.2, 446521, 4.052)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032703-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84858, 446521, 6.06667)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000032703",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
           "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
-          "info": ""
+          "info": "Location hole: (85535.6, 446520, 22.976)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85543, 446513, 22.976)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85530, 446516, 22.976)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85528.4, 446510, 22.976)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85540.8, 446508, 22.976)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85523, 446514, 11.466)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85535.1, 446500, 11.466)"
+        },
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=NL.IMBAG.Pand.0503100000032799-0|geom=1|shell=0|face=",
+          "info": "Location hole: (85531.8, 446507, 22.976)"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000032799",
@@ -7221,193 +7173,151 @@
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85173.5, 446842, 14.3207)"
+          "info": "Location close to: (85108.7, 446812, 14.3347)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85230.3, 446866, 14.259)"
+          "info": "Location close to: (85107.4, 446810, 14.3346)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85212.3, 446913, 14.3343)"
+          "info": "Location close to: (85104.8, 446807, 14.3346)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85246.4, 446893, 14.3347)"
+          "info": "Location close to: (85106.1, 446809, 14.3346)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85251.9, 446897, 14.333)"
+          "info": "Location close to: (85181.8, 446750, 14.3347)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85230.3, 446953, 14.2987)"
+          "info": "Location close to: (85180.7, 446749, 14.3347)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85152.6, 446845, -0.00666467)"
+          "info": "Location close to: (85153.2, 446850, 14.3347)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85163.7, 446841, -0.0156647)"
+          "info": "Location close to: (85151, 446852, 14.3347)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85226.9, 446869, -0.112665)"
+          "info": "Location close to: (85150.5, 446852, 0.00200533)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85241.2, 446856, 7.063)"
+          "info": "Location close to: (85149.6, 446853, 0.002022)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85240.7, 446862, -0.00533133)"
+          "info": "Location close to: (85152.6, 446851, 0.00202867)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85224.9, 446887, 0.028002)"
+          "info": "Location close to: (85108, 446811, 7.16832)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85210.9, 446899, 0.0206687)"
+          "info": "Location close to: (85105.4, 446808, 7.1683)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85197.7, 446910, 0.00133533)"
+          "info": "Location close to: (85181.3, 446750, 7.16834)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85209.2, 446915, 0.00266867)"
+          "info": "Location close to: (85153.4, 446850, 7.16834)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85239.7, 446956, -0.00266467)"
+          "info": "Location close to: (85152.6, 446851, 7.16834)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85249.1, 446976, 3.30367)"
+          "info": "Location close to: (85149.6, 446853, 7.16834)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85213.1, 446932, 7.12434)"
+          "info": "Location close to: (85151.2, 446852, 7.16834)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85152.1, 446851, 7.15734)"
+          "info": "Location close to: (85180.5, 446751, 21.5011)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85214.5, 446870, 7.04967)"
+          "info": "Location close to: (85181.5, 446750, 21.501)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85249.9, 446894, 7.162)"
+          "info": "Location close to: (85105.7, 446808, 21.501)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85246.5, 446972, 10.4843)"
+          "info": "Location close to: (85106.8, 446809, 21.5009)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85178.4, 446848, 7.161)"
+          "info": "Location close to: (85105.7, 446808, 21.5009)"
         },
         {
           "code": 306,
           "description": "SHELL_SELF_INTERSECTION",
           "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85215.1, 446896, 7.18834)"
+          "info": "Location close to: (85108.2, 446811, 21.5009)"
         },
         {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85160.3, 446844, 14.3227)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85218.8, 446933, 21.5033)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85249.1, 446976, 17.6977)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85251.3, 446889, 21.4763)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85244.6, 446889, 21.4627)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85248.9, 446894, 21.481)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=0|shell=0|face=",
-          "info": "Location close to: (85245.3, 446893, 21.4763)"
-        },
-        {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000032914-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000032914-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000032914",
@@ -7434,61 +7344,30 @@
       "validity": false
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032943-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84791.3, 445934, 5.984)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032943-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84797.8, 445922, 9.22)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032943-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84797, 445916, 3.88367)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032943-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84789.7, 445947, 7.38634)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000032943-0|geom=2|shell=0|face=",
-          "info": "Location close to: (84796.3, 445935, 8.437)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000032943",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000032946-0|geom=0|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000032946-0|geom=0",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000032946-0|geom=1|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000032946-0|geom=1",
+          "info": "empty Solid, contains no points and/or surfaces"
         },
         {
-          "code": 305,
-          "description": "MULTIPLE_CONNECTED_COMPONENTS",
-          "id": "coid=NL.IMBAG.Pand.0503100000032946-0|geom=2|shell=0|face=",
-          "info": ""
+          "code": 902,
+          "description": "EMPTY_PRIMITIVE",
+          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000032946-0|geom=2",
+          "info": "empty Solid, contains no points and/or surfaces"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000032946",
@@ -7504,10 +7383,10 @@
     {
       "errors": [
         {
-          "code": 902,
-          "description": "EMPTY_PRIMITIVE",
-          "id": "Geometry (Solid) #coid=NL.IMBAG.Pand.0503100000033022-0|geom=2",
-          "info": "empty Solid, contains no points and/or surfaces"
+          "code": 305,
+          "description": "MULTIPLE_CONNECTED_COMPONENTS",
+          "id": "coid=NL.IMBAG.Pand.0503100000033022-0|geom=2|shell=0|face=",
+          "info": ""
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000033022",
@@ -7757,10 +7636,10 @@
     {
       "total": 1110,
       "type": "Building",
-      "valid": 1040
+      "valid": 1044
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/01_BAG__CFD__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/01_BAG__CFD__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
     "overlap_tol": -1.0,
@@ -7770,12 +7649,12 @@
   },
   "primitives_overview": [
     {
-      "total": 3331,
+      "total": 3339,
       "type": "Solid",
-      "valid": 3243
+      "valid": 3260
     }
   ],
-  "time": "2024-09-18T08:11:05 (CEST)",
+  "time": "2024-10-24T14:45:39 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

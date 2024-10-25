@@ -128,7 +128,6 @@ namespace AUTOr3pair {
     }
 
     bool make_2D_polySMT(vector<int> &face, Nef_polyhedron &Poly) {
-      return false;
       // check based on points
       set<int> seen;
       vector<int> uniqueFace;
@@ -200,7 +199,6 @@ namespace AUTOr3pair {
       if (CGAL::Polygon_mesh_processing::does_self_intersect(p)) {
         return false;
       }
-      std::cout << p << endl;
 
       const Nef_polyhedron P(p);
       Poly += P;
@@ -315,6 +313,7 @@ namespace AUTOr3pair {
     }
 
     bool make_shell(vector<vector<vector<int>>> &shell, MeshE &MeshShell, map<Point3E, int> &indexes) {
+      bool noproblems = true;
       vector<Point3E> verticesP3 = VERTICES.get_verticesPoint3E();
       vector<vector<int>> faces;
       vector<vector<int>> holes;
@@ -345,13 +344,16 @@ namespace AUTOr3pair {
           PMP::split(MeshShell, Holes, PMP::parameters::throw_on_self_intersection(true));
         } catch (const PMP::Corefinement::Self_intersection_exception &e) {
           std::cout << "Self-intersection found during split: " << std::endl;
+          noproblems = false;
         } catch (const CGAL::Constrained_triangulation_2<K, CGAL::Triangulation_data_structure_2<
                 CGAL::Triangulation_vertex_base_with_info_2<unsigned long, K, CGAL::Triangulation_vertex_base_2<K, CGAL::Triangulation_ds_vertex_base_2<void> > >,
                 CGAL::Constrained_triangulation_face_base_2<K, CGAL::Triangulation_face_base_2<K, CGAL::Triangulation_ds_face_base_2<void> > > >,
                 CGAL::Default>::Intersection_of_constraints_exception &e) {
           std::cout << "Unauthorized intersections of constraints: " << std::endl;
+          noproblems = false;
         } catch (const std::exception &e) {
           std::cout << "An error occurred during split: " << std::endl;
+          noproblems = false;
         }
 
 
@@ -425,10 +427,11 @@ namespace AUTOr3pair {
         remove_unused_vertices(copy);
         MeshShell = copy;
       }
-      return true;
+      return noproblems;
     }
 
     bool make_shell(vector<vector<vector<int>>> &shell, Mesh &MeshShell, map<Point3, int> &indexes) {
+      bool noproblems = true;
       vector<Point3> verticesP3 = VERTICES.get_verticesPoint3();
       vector<vector<int>> faces;
       vector<vector<int>> holes;
@@ -458,13 +461,16 @@ namespace AUTOr3pair {
           PMP::split(MeshShell, Holes, PMP::parameters::throw_on_self_intersection(true));
         } catch (const PMP::Corefinement::Self_intersection_exception &e) {
           std::cout << "Self-intersection found during split: " << std::endl;
+          noproblems = false;
         } catch (const CGAL::Constrained_triangulation_2<K, CGAL::Triangulation_data_structure_2<
                 CGAL::Triangulation_vertex_base_with_info_2<unsigned long, K, CGAL::Triangulation_vertex_base_2<K, CGAL::Triangulation_ds_vertex_base_2<void> > >,
                 CGAL::Constrained_triangulation_face_base_2<K, CGAL::Triangulation_face_base_2<K, CGAL::Triangulation_ds_face_base_2<void> > > >,
                 CGAL::Default>::Intersection_of_constraints_exception &e) {
           std::cout << "Unauthorized intersections of constraints: " << std::endl;
+          noproblems = false;
         } catch (const std::exception &e) {
           std::cout << "An error occurred during split: " << std::endl;
+          noproblems = false;
         }
 
         set<set<Point3>> holefaces;
@@ -537,7 +543,7 @@ namespace AUTOr3pair {
         remove_unused_vertices(copy);
         MeshShell = copy;
       }
-      return true;
+      return noproblems;
     }
 
     void make_shells(vector<vector<vector<vector<int>>>> &solid, vector<Nef_polyhedron> &shells,

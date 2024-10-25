@@ -3383,9 +3383,9 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000041221": {
-                    "distance": 0.0196,
+                    "distance": 0.0,
                     "size": 17.5814,
-                    "percentage": 0.0011
+                    "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000041222": {
                     "distance": 0.0,
@@ -4698,14 +4698,14 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000063059": {
-                    "distance": 0.0226,
+                    "distance": 0.0,
                     "size": 10.434,
-                    "percentage": 0.0022
+                    "percentage": 0.0
                 }
             },
-            "maxDifference": 0.0226,
+            "maxDifference": 0.001,
             "missingCount": 0,
-            "highestPercentage": 0.0022
+            "highestPercentage": 0.0001
         },
         "1.2": {
             "per object": {
@@ -8095,9 +8095,9 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000041221-0": {
-                    "distance": 0.0196,
+                    "distance": 0.0,
                     "size": 21.575,
-                    "percentage": 0.0009
+                    "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000041222-0": {
                     "distance": 0.0,
@@ -9415,14 +9415,14 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000063059-0": {
-                    "distance": 0.0226,
+                    "distance": 0.0,
                     "size": 10.8974,
-                    "percentage": 0.0021
+                    "percentage": 0.0
                 }
             },
-            "maxDifference": 0.0226,
+            "maxDifference": 0.001,
             "missingCount": 0,
-            "highestPercentage": 0.0021
+            "highestPercentage": 0.0001
         },
         "1.3": {
             "per object": {
@@ -14132,9 +14132,9 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000063059-0": {
-                    "distance": 0.0226,
+                    "distance": 0.0,
                     "size": 10.8974,
-                    "percentage": 0.0021
+                    "percentage": 0.0
                 }
             },
             "maxDifference": 0.5892,
@@ -14488,7 +14488,11 @@
                     "size": 27.6642,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000034655-0": null,
+                "NL.IMBAG.Pand.0546100000034655-0": {
+                    "distance": 4.7999,
+                    "size": 20.6647,
+                    "percentage": 0.2323
+                },
                 "NL.IMBAG.Pand.0546100000034656-0": {
                     "distance": 0.0,
                     "size": 21.1472,
@@ -14944,7 +14948,11 @@
                     "size": 22.1055,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000034814-0": null,
+                "NL.IMBAG.Pand.0546100000034814-0": {
+                    "distance": 30.9052,
+                    "size": 128.0513,
+                    "percentage": 0.2414
+                },
                 "NL.IMBAG.Pand.0546100000034816-0": {
                     "distance": 0.001,
                     "size": 85.3384,
@@ -15076,9 +15084,9 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000035402-0": {
-                    "distance": 0.0116,
+                    "distance": 0.0118,
                     "size": 12.2712,
-                    "percentage": 0.0009
+                    "percentage": 0.001
                 },
                 "NL.IMBAG.Pand.0546100000035410-0": {
                     "distance": 0.0,
@@ -15161,9 +15169,9 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000035431-0": {
-                    "distance": 0.0,
+                    "distance": 8.5521,
                     "size": 23.6342,
-                    "percentage": 0.0
+                    "percentage": 0.3619
                 },
                 "NL.IMBAG.Pand.0546100000035432-0": {
                     "distance": 0.0,
@@ -15740,7 +15748,11 @@
                     "size": 19.3507,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000035764-0": null,
+                "NL.IMBAG.Pand.0546100000035764-0": {
+                    "distance": 7.1352,
+                    "size": 29.1582,
+                    "percentage": 0.2447
+                },
                 "NL.IMBAG.Pand.0546100000035765-0": {
                     "distance": 0.0,
                     "size": 19.5344,
@@ -15946,7 +15958,11 @@
                     "size": 11.8182,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000035807-0": null,
+                "NL.IMBAG.Pand.0546100000035807-0": {
+                    "distance": 5.522,
+                    "size": 16.5316,
+                    "percentage": 0.334
+                },
                 "NL.IMBAG.Pand.0546100000035808-0": {
                     "distance": 0.0,
                     "size": 11.8927,
@@ -16043,9 +16059,9 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000035827-0": {
-                    "distance": 0.001,
+                    "distance": 0.0012,
                     "size": 22.0783,
-                    "percentage": 0.0
+                    "percentage": 0.0001
                 },
                 "NL.IMBAG.Pand.0546100000035828-0": {
                     "distance": 0.0,
@@ -16193,7 +16209,7 @@
                     "percentage": 0.0
                 },
                 "NL.IMBAG.Pand.0546100000035857-0": {
-                    "distance": 0.0014,
+                    "distance": 0.0013,
                     "size": 20.7461,
                     "percentage": 0.0001
                 },
@@ -17362,7 +17378,11 @@
                     "size": 19.1329,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000039790-0": null,
+                "NL.IMBAG.Pand.0546100000039790-0": {
+                    "distance": 4.5899,
+                    "size": 25.2939,
+                    "percentage": 0.1815
+                },
                 "NL.IMBAG.Pand.0546100000039791-0": {
                     "distance": 0.0,
                     "size": 24.9827,
@@ -17508,7 +17528,11 @@
                     "size": 21.4888,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000041221-0": null,
+                "NL.IMBAG.Pand.0546100000041221-0": {
+                    "distance": 4.3073,
+                    "size": 21.4583,
+                    "percentage": 0.2007
+                },
                 "NL.IMBAG.Pand.0546100000041222-0": {
                     "distance": 0.001,
                     "size": 28.8407,
@@ -17619,7 +17643,11 @@
                     "size": 13.4374,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000041269-0": null,
+                "NL.IMBAG.Pand.0546100000041269-0": {
+                    "distance": 3.7345,
+                    "size": 14.1821,
+                    "percentage": 0.2633
+                },
                 "NL.IMBAG.Pand.0546100000041270-0": {
                     "distance": 0.001,
                     "size": 18.3704,
@@ -18445,7 +18473,11 @@
                     "size": 10.9859,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000057242-0": null,
+                "NL.IMBAG.Pand.0546100000057242-0": {
+                    "distance": 22.4994,
+                    "size": 136.8943,
+                    "percentage": 0.1644
+                },
                 "NL.IMBAG.Pand.0546100000057346-0": {
                     "distance": 0.0,
                     "size": 3.8146,
@@ -18816,13 +18848,17 @@
                     "size": 4.2125,
                     "percentage": 0.0
                 },
-                "NL.IMBAG.Pand.0546100000063059-0": null
+                "NL.IMBAG.Pand.0546100000063059-0": {
+                    "distance": 1.9,
+                    "size": 11.0973,
+                    "percentage": 0.1712
+                }
             },
-            "maxDifference": 0.0968,
-            "missingCount": 9,
-            "highestPercentage": 0.0011
+            "maxDifference": 30.9052,
+            "missingCount": 0,
+            "highestPercentage": 0.2414
         }
     },
-    "Maxdifferencewholefile": 0.5892,
-    "HighestPercentageWholeFile": 0.027
+    "Maxdifferencewholefile": 30.9052,
+    "HighestPercentageWholeFile": 0.2414
 }

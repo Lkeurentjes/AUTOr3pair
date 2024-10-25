@@ -1,7 +1,5 @@
 {
-  "all_errors": [
-    204
-  ],
+  "all_errors": [],
   "dataset_errors": [],
   "features": [
     {
@@ -4673,17 +4671,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid={EA541FCF-CC5D-4317-A6DA-D4BD6496A9A2}|geom=0|face=2",
-          "info": "deviation normals: 53.6539 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "{EA541FCF-CC5D-4317-A6DA-D4BD6496A9A2}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5134,13 +5125,13 @@
     {
       "total": 853,
       "type": "Building",
-      "valid": 852
+      "valid": 853
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/07_Rotterdam__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/07_Rotterdam__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
@@ -5149,11 +5140,11 @@
     {
       "total": 853,
       "type": "MultiSurface",
-      "valid": 852
+      "valid": 853
     }
   ],
-  "time": "2024-09-18T08:11:48 (CEST)",
+  "time": "2024-10-24T13:04:10 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
-  "validity": false
+  "validity": true
 }

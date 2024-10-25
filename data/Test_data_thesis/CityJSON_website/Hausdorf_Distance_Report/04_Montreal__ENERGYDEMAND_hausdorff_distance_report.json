@@ -57,7 +57,11 @@
                     "size": 75.5723,
                     "percentage": 0.0
                 },
-                "B-201391183054-74E5BC303181": null,
+                "B-201391183054-74E5BC303181": {
+                    "distance": 52.1864,
+                    "size": 154.9755,
+                    "percentage": 0.3367
+                },
                 "B-201391182654-63DE13DF530F": {
                     "distance": 0.0,
                     "size": 43.8844,
@@ -83,13 +87,21 @@
                     "size": 25.6146,
                     "percentage": 0.0
                 },
-                "B-201391183621-8B61B8DDF4D9": null,
+                "B-201391183621-8B61B8DDF4D9": {
+                    "distance": 2.0513,
+                    "size": 26.8372,
+                    "percentage": 0.0764
+                },
                 "B-20139118424-D1224DCD2D9A": {
                     "distance": 0.0,
                     "size": 55.2678,
                     "percentage": 0.0
                 },
-                "B-201391184414-C63FB37C0C74": null,
+                "B-201391184414-C63FB37C0C74": {
+                    "distance": 2.7713,
+                    "size": 23.052,
+                    "percentage": 0.1202
+                },
                 "B-201391184612-297A99D80ED4": {
                     "distance": 0.0,
                     "size": 23.9764,
@@ -111,9 +123,9 @@
                     "percentage": 0.0
                 },
                 "B-201391184355-18781E6D879F": {
-                    "distance": 0.7109,
+                    "distance": 2.9195,
                     "size": 22.5733,
-                    "percentage": 0.0315
+                    "percentage": 0.1293
                 },
                 "B-201391184252-75B09D623219": {
                     "distance": 0.0,
@@ -131,9 +143,9 @@
                     "percentage": 0.0
                 },
                 "B-201391183326-125907732D98": {
-                    "distance": 416.4344,
+                    "distance": 6.402,
                     "size": 20.109,
-                    "percentage": 20.7089
+                    "percentage": 0.3184
                 },
                 "B-201391184210-64C8F019CADB": {
                     "distance": 0.0,
@@ -146,9 +158,9 @@
                     "percentage": 0.0
                 },
                 "B-201391182732-4EC441B9F5AD": {
-                    "distance": 110.2906,
+                    "distance": 3.901,
                     "size": 19.8566,
-                    "percentage": 5.5544
+                    "percentage": 0.1965
                 },
                 "B-201391183247-CBAFA61E6378": {
                     "distance": 0.0,
@@ -210,19 +222,31 @@
                     "size": 21.48,
                     "percentage": 0.0
                 },
-                "B-20139118400-95DC7A2E0FC0": null,
+                "B-20139118400-95DC7A2E0FC0": {
+                    "distance": 8.3783,
+                    "size": 35.2509,
+                    "percentage": 0.2377
+                },
                 "B-201391183026-346D18B721CE": {
                     "distance": 0.0,
                     "size": 63.5181,
                     "percentage": 0.0
                 },
-                "B-201391184426-66486958F7C2": null,
+                "B-201391184426-66486958F7C2": {
+                    "distance": 6.8999,
+                    "size": 27.1707,
+                    "percentage": 0.2539
+                },
                 "B-201391184455-00E4CD135812": {
                     "distance": 0.0,
                     "size": 50.6102,
                     "percentage": 0.0
                 },
-                "B-201391182932-664B1DD38ED2": null,
+                "B-201391182932-664B1DD38ED2": {
+                    "distance": 9.7503,
+                    "size": 27.5801,
+                    "percentage": 0.3535
+                },
                 "B-201391183529-E606B725B483": {
                     "distance": 0.0,
                     "size": 18.893,
@@ -274,16 +298,20 @@
                     "percentage": 0.0
                 },
                 "B-201391184429-5CC8BA5E751A": {
-                    "distance": 0.8995,
+                    "distance": 7.7153,
                     "size": 26.8909,
-                    "percentage": 0.0334
+                    "percentage": 0.2869
                 },
                 "B-201391184555-C279F80D1B8E": {
                     "distance": 0.0,
                     "size": 29.7599,
                     "percentage": 0.0
                 },
-                "B-201391184342-E93BA8C06B76": null,
+                "B-201391184342-E93BA8C06B76": {
+                    "distance": 4.9988,
+                    "size": 25.181,
+                    "percentage": 0.1985
+                },
                 "B-20131218142914-9F6E26613784": {
                     "distance": 0.0,
                     "size": 68.7411,
@@ -309,13 +337,21 @@
                     "size": 42.7763,
                     "percentage": 0.0
                 },
-                "B-201391183833-B05809576342": null,
+                "B-201391183833-B05809576342": {
+                    "distance": 7.807,
+                    "size": 33.5642,
+                    "percentage": 0.2326
+                },
                 "B-20139118282-5874E2479365": {
                     "distance": 0.0,
                     "size": 50.5284,
                     "percentage": 0.0
                 },
-                "B-201391183727-1F5E0D83BBB1": null,
+                "B-201391183727-1F5E0D83BBB1": {
+                    "distance": 22.9662,
+                    "size": 64.7952,
+                    "percentage": 0.3544
+                },
                 "B-201391184233-B61681C801E1": {
                     "distance": 0.0,
                     "size": 9.8173,
@@ -436,7 +472,11 @@
                     "size": 73.2517,
                     "percentage": 0.0
                 },
-                "B-201391184551-8C37C51A0CFD": null,
+                "B-201391184551-8C37C51A0CFD": {
+                    "distance": 0.0252,
+                    "size": 32.4661,
+                    "percentage": 0.0008
+                },
                 "B-201391183524-32A15A89EE11": {
                     "distance": 0.0,
                     "size": 18.9693,
@@ -497,7 +537,11 @@
                     "size": 46.2535,
                     "percentage": 0.0
                 },
-                "B-201391183353-C3A1DF5EF6A9": null,
+                "B-201391183353-C3A1DF5EF6A9": {
+                    "distance": 6.842,
+                    "size": 36.557,
+                    "percentage": 0.1872
+                },
                 "B-201391184259-88FD548B62FC": {
                     "distance": 0.0,
                     "size": 80.4465,
@@ -513,7 +557,11 @@
                     "size": 21.4815,
                     "percentage": 0.0
                 },
-                "B-20139118447-91BF660254F2": null,
+                "B-20139118447-91BF660254F2": {
+                    "distance": 2.6744,
+                    "size": 22.0965,
+                    "percentage": 0.121
+                },
                 "B-201391183657-7D3CF407DE1F": {
                     "distance": 0.0,
                     "size": 48.0963,
@@ -550,9 +598,9 @@
                     "percentage": 0.0
                 },
                 "B-201391183653-2DD4AB9D17F2": {
-                    "distance": 489.0414,
+                    "distance": 24.094,
                     "size": 30.5261,
-                    "percentage": 16.0204
+                    "percentage": 0.7893
                 },
                 "B-20139118462-E4C75C4B826B": {
                     "distance": 0.0,
@@ -570,9 +618,9 @@
                     "percentage": 0.0
                 },
                 "B-201391183420-343A97831368": {
-                    "distance": 462.9595,
+                    "distance": 0.001,
                     "size": 25.9242,
-                    "percentage": 17.8582
+                    "percentage": 0.0
                 },
                 "B-201391184230-6ADDD915E5AD": {
                     "distance": 0.0,
@@ -584,7 +632,11 @@
                     "size": 31.3986,
                     "percentage": 0.0
                 },
-                "B-201391183823-F21CED44AAA6": null,
+                "B-201391183823-F21CED44AAA6": {
+                    "distance": 7.4271,
+                    "size": 27.7004,
+                    "percentage": 0.2681
+                },
                 "B-201391182823-5533FC360C75": {
                     "distance": 0.0,
                     "size": 49.7422,
@@ -595,7 +647,11 @@
                     "size": 7.8385,
                     "percentage": 0.0
                 },
-                "B-201391184346-5A79244F6253": null,
+                "B-201391184346-5A79244F6253": {
+                    "distance": 2.9546,
+                    "size": 23.3665,
+                    "percentage": 0.1264
+                },
                 "B-201391184423-4B1DB61A0C55": {
                     "distance": 0.0,
                     "size": 34.3151,
@@ -607,9 +663,9 @@
                     "percentage": 0.0
                 },
                 "B-201391183257-7BB8DDB32812": {
-                    "distance": 444.3068,
+                    "distance": 2.0256,
                     "size": 18.6034,
-                    "percentage": 23.8831
+                    "percentage": 0.1089
                 },
                 "B-20139118338-5AFA41A99E82": {
                     "distance": 0.0,
@@ -656,7 +712,11 @@
                     "size": 21.1689,
                     "percentage": 0.0
                 },
-                "B-20139118451-19B52C5A0645": null,
+                "B-20139118451-19B52C5A0645": {
+                    "distance": 3.5433,
+                    "size": 26.3118,
+                    "percentage": 0.1347
+                },
                 "B-201391183752-3DE567C6CA9D": {
                     "distance": 0.0,
                     "size": 35.0495,
@@ -727,7 +787,11 @@
                     "size": 80.66,
                     "percentage": 0.0
                 },
-                "B-201391184517-A9BDAEC1B6F3": null,
+                "B-201391184517-A9BDAEC1B6F3": {
+                    "distance": 6.3414,
+                    "size": 24.971,
+                    "percentage": 0.254
+                },
                 "B-20139118346-ACDD1D2E486F": {
                     "distance": 0.0,
                     "size": 17.2714,
@@ -744,16 +808,20 @@
                     "percentage": 0.0
                 },
                 "B-201391183614-E8E64E86E428": {
-                    "distance": 459.7292,
+                    "distance": 0.0,
                     "size": 26.029,
-                    "percentage": 17.6622
+                    "percentage": 0.0
                 },
                 "B-201391182644-1AF3B39B38DB": {
                     "distance": 0.0,
                     "size": 7.6523,
                     "percentage": 0.0
                 },
-                "B-201391184349-54EB5C5BB287": null,
+                "B-201391184349-54EB5C5BB287": {
+                    "distance": 7.4434,
+                    "size": 28.7326,
+                    "percentage": 0.2591
+                },
                 "B-201391184326-CEC6AFE3D791": {
                     "distance": 0.0,
                     "size": 97.0886,
@@ -824,16 +892,20 @@
                     "size": 26.9902,
                     "percentage": 0.0
                 },
-                "B-201391184359-51543C50DA44": null,
+                "B-201391184359-51543C50DA44": {
+                    "distance": 0.001,
+                    "size": 22.8423,
+                    "percentage": 0.0
+                },
                 "B-20139118374-949D359133E5": {
                     "distance": 0.0,
                     "size": 25.5722,
                     "percentage": 0.0
                 },
                 "B-20139118273-A4A5469505DC": {
-                    "distance": 823.6748,
+                    "distance": 167.2736,
                     "size": 296.616,
-                    "percentage": 2.7769
+                    "percentage": 0.5639
                 },
                 "B-201391182639-BA8A278ECC36": {
                     "distance": 0.0,
@@ -856,9 +928,9 @@
                     "percentage": 0.0
                 },
                 "B-201391183433-2198331460F1": {
-                    "distance": 633.4073,
+                    "distance": 72.9489,
                     "size": 79.0065,
-                    "percentage": 8.0172
+                    "percentage": 0.9233
                 },
                 "B-20139118366-08F14B12E2A3": {
                     "distance": 0.0,
@@ -870,7 +942,11 @@
                     "size": 23.828,
                     "percentage": 0.0
                 },
-                "B-201391184410-E0148570819D": null,
+                "B-201391184410-E0148570819D": {
+                    "distance": 2.3309,
+                    "size": 22.7811,
+                    "percentage": 0.1023
+                },
                 "B-20139118357-90DC44FF4763": {
                     "distance": 0.0,
                     "size": 27.4186,
@@ -951,7 +1027,11 @@
                     "size": 18.1504,
                     "percentage": 0.0
                 },
-                "B-201391184443-391F136E8FC3": null,
+                "B-201391184443-391F136E8FC3": {
+                    "distance": 4.2782,
+                    "size": 23.757,
+                    "percentage": 0.1801
+                },
                 "B-20139118406-437E42C22B35": {
                     "distance": 0.0,
                     "size": 25.5859,
@@ -967,7 +1047,11 @@
                     "size": 58.4008,
                     "percentage": 0.0
                 },
-                "B-201391183820-8BCBC52D9B27": null,
+                "B-201391183820-8BCBC52D9B27": {
+                    "distance": 5.6639,
+                    "size": 28.0005,
+                    "percentage": 0.2023
+                },
                 "B-20139118435-EF2813F1D424": {
                     "distance": 0.0,
                     "size": 53.1374,
@@ -1043,7 +1127,11 @@
                     "size": 24.1031,
                     "percentage": 0.0
                 },
-                "B-201391183021-E12BF228B91F": null,
+                "B-201391183021-E12BF228B91F": {
+                    "distance": 8.6487,
+                    "size": 26.3182,
+                    "percentage": 0.3286
+                },
                 "B-20139118349-787D4E2FB02E": {
                     "distance": 0.0,
                     "size": 19.8076,
@@ -1114,9 +1202,21 @@
                     "size": 36.3652,
                     "percentage": 0.0
                 },
-                "B-20131218142550-D8859B0F37FA": null,
-                "B-201391183912-9BE8B9BBEBF2": null,
-                "B-201391183929-A24AD1C2C5E9": null,
+                "B-20131218142550-D8859B0F37FA": {
+                    "distance": 2.1513,
+                    "size": 20.3486,
+                    "percentage": 0.1057
+                },
+                "B-201391183912-9BE8B9BBEBF2": {
+                    "distance": 3.9621,
+                    "size": 31.0802,
+                    "percentage": 0.1275
+                },
+                "B-201391183929-A24AD1C2C5E9": {
+                    "distance": 76.4901,
+                    "size": 98.3586,
+                    "percentage": 0.7777
+                },
                 "B-201391184242-4158F7B23F07": {
                     "distance": 0.0,
                     "size": 90.071,
@@ -1142,7 +1242,11 @@
                     "size": 27.819,
                     "percentage": 0.0
                 },
-                "B-201391184352-CE3F5D7B3BD0": null,
+                "B-201391184352-CE3F5D7B3BD0": {
+                    "distance": 2.4885,
+                    "size": 22.9744,
+                    "percentage": 0.1083
+                },
                 "B-201391183952-0B0102F9E63A": {
                     "distance": 0.0,
                     "size": 93.1712,
@@ -1154,9 +1258,9 @@
                     "percentage": 0.0
                 },
                 "B-201391184640-79B8A95C2001": {
-                    "distance": 689.2582,
+                    "distance": 54.362,
                     "size": 90.6658,
-                    "percentage": 7.6022
+                    "percentage": 0.5996
                 },
                 "B-20139118371-0B7D633627FE": {
                     "distance": 0.0,
@@ -1188,7 +1292,11 @@
                     "size": 108.2372,
                     "percentage": 0.0
                 },
-                "B-201391183830-18E2001E57D4": null,
+                "B-201391183830-18E2001E57D4": {
+                    "distance": 11.6756,
+                    "size": 33.658,
+                    "percentage": 0.3469
+                },
                 "B-201391184219-942EB067627A": {
                     "distance": 0.0,
                     "size": 6.8783,
@@ -1209,11 +1317,15 @@
                     "size": 39.3106,
                     "percentage": 0.0
                 },
-                "B-20139118442-9CF8A5F670BD": null,
+                "B-20139118442-9CF8A5F670BD": {
+                    "distance": 0.0,
+                    "size": 23.0943,
+                    "percentage": 0.0
+                },
                 "B-201391183650-562149ECFA72": {
-                    "distance": 0.3566,
+                    "distance": 3.437,
                     "size": 28.673,
-                    "percentage": 0.0124
+                    "percentage": 0.1199
                 },
                 "B-201391184558-8A185D304843": {
                     "distance": 0.0,
@@ -1330,7 +1442,11 @@
                     "size": 22.1176,
                     "percentage": 0.0
                 },
-                "B-201391183856-5E4B22C6B0E2": null,
+                "B-201391183856-5E4B22C6B0E2": {
+                    "distance": 6.7194,
+                    "size": 27.2087,
+                    "percentage": 0.247
+                },
                 "B-20139118292-BCEA338E0A03": {
                     "distance": 0.0,
                     "size": 18.0148,
@@ -1357,11 +1473,11 @@
                     "percentage": 0.0
                 }
             },
-            "maxDifference": 823.6748,
-            "missingCount": 29,
-            "highestPercentage": 23.8831
+            "maxDifference": 167.2736,
+            "missingCount": 0,
+            "highestPercentage": 0.5639
         }
     },
-    "Maxdifferencewholefile": 823.6748,
-    "HighestPercentageWholeFile": 23.8831
+    "Maxdifferencewholefile": 167.2736,
+    "HighestPercentageWholeFile": 0.5639
 }

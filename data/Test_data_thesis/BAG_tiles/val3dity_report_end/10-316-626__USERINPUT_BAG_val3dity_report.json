@@ -1,8 +1,5 @@
 {
-  "all_errors": [
-    203,
-    601
-  ],
+  "all_errors": [],
   "dataset_errors": [],
   "features": [
     {
@@ -3120,18 +3117,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000041629-0|geom=1&&coid=NL.IMBAG.Pand.0546100000041629-0|geom=2",
-          "info": "geometries are lod=1.000000",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000041629",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -3158,53 +3147,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=0|shell=0|face=2",
-          "info": "distance to fitted plane: 0.025874 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=0|shell=0|face=6",
-          "info": "distance to fitted plane: 0.359005 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=0|shell=0|face=58",
-          "info": "distance to fitted plane: 0.0406109 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=1|shell=0|face=99",
-          "info": "distance to fitted plane: 0.025874 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=1|shell=0|face=139",
-          "info": "distance to fitted plane: 0.363182 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=1|shell=0|face=238",
-          "info": "distance to fitted plane: 0.0183855 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0546100000041634-0|geom=1|shell=0|face=251",
-          "info": "distance to fitted plane: 0.0100542 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000041634",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6241,22 +6187,22 @@
     {
       "total": 1030,
       "type": "Building",
-      "valid": 1028
+      "valid": 1030
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-316-626__USERINPUT_BAG__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/BAG_tiles/10-316-626__USERINPUT_BAG__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 3096,
+      "total": 3095,
       "type": "Solid",
-      "valid": 3094
+      "valid": 3095
     },
     {
       "total": 1030,
@@ -6264,8 +6210,8 @@
       "valid": 1030
     }
   ],
-  "time": "2024-09-17T12:39:01 (CEST)",
+  "time": "2024-10-23T14:47:53 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
-  "validity": false
+  "validity": true
 }

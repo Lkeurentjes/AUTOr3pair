@@ -1,6 +1,5 @@
 {
   "all_errors": [
-    102,
     204
   ],
   "dataset_errors": [],
@@ -36,17 +35,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018115_BP.ezoneXcyW5j6bA8MFkkI|geom=0|face=39",
-          "info": "deviation normals: 33.2823 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018115",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -97,17 +89,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018115_BP.ezoneXcyW5j6bA8MFkkI|geom=0|face=39",
-          "info": "deviation normals: 33.2823 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018115_BP.ezoneXcyW5j6bA8MFkkI",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -140,23 +125,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018128|geom=0|face=441",
-          "info": "deviation normals: 20.5927 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018128|geom=0|face=464",
-          "info": "deviation normals: 20.6323 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018128",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -267,17 +239,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018148|geom=0|face=111",
-          "info": "deviation normals: 20.7967 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018148",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -454,47 +419,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018153|geom=0|face=11",
-          "info": "deviation normals: 22.9559 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018153_BP.7tPN4siztbY6lyrvcUS8|geom=0|face=2",
-          "info": "deviation normals: 33.9249 (tolerance=20)"
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.eKcjjYSLfx1Mm4Y88EPd|geom=0|face=765",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.pGVIAnP4hoNDRMILsdEP|geom=0|face=765",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.V75OxFtpoKPjhbxDIULg|geom=0|face=765",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.nQaS07mJxKPnlgRzTbXs|geom=0|face=1126",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "4018153",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -503,17 +431,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018153_BP.7tPN4siztbY6lyrvcUS8|geom=0|face=2",
-          "info": "deviation normals: 33.9249 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018153_BP.7tPN4siztbY6lyrvcUS8",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -528,17 +449,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.V75OxFtpoKPjhbxDIULg|geom=0|face=765",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "4018153_BP.V75OxFtpoKPjhbxDIULg",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -559,17 +473,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.eKcjjYSLfx1Mm4Y88EPd|geom=0|face=765",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "4018153_BP.eKcjjYSLfx1Mm4Y88EPd",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -578,17 +485,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.nQaS07mJxKPnlgRzTbXs|geom=0|face=1126",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "4018153_BP.nQaS07mJxKPnlgRzTbXs",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -597,17 +497,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=4018153_BP.pGVIAnP4hoNDRMILsdEP|geom=0|face=765",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "4018153_BP.pGVIAnP4hoNDRMILsdEP",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -688,23 +581,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=15",
-          "info": "deviation normals: 31.2729 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=23",
-          "info": "deviation normals: 21.0831 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018156",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -731,23 +611,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=15",
-          "info": "deviation normals: 31.2729 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018156_BP.ryrctxX7SlNwv9gVsKKA|geom=0|face=23",
-          "info": "deviation normals: 21.0831 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018156_BP.ryrctxX7SlNwv9gVsKKA",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -792,30 +659,16 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018197_BP.2ExcsNwu9mK9xbvpRI8H|geom=0|face=203",
-          "info": "deviation normals: 74.3818 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018197",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018197_BP.2ExcsNwu9mK9xbvpRI8H|geom=0|face=203",
-          "info": "deviation normals: 74.3818 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018197_BP.2ExcsNwu9mK9xbvpRI8H",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -872,17 +725,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204b_BP.hPhuQ8NHmTFmoW8VoGtb|geom=0|face=24",
-          "info": "deviation normals: 35.8003 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204b",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -891,17 +737,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204b_BP.hPhuQ8NHmTFmoW8VoGtb|geom=0|face=24",
-          "info": "deviation normals: 35.8003 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204b_BP.hPhuQ8NHmTFmoW8VoGtb",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -914,68 +753,26 @@
         {
           "code": 204,
           "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c|geom=0|face=63",
-          "info": "deviation normals: 35.4166 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c|geom=0|face=65",
-          "info": "deviation normals: 46.2128 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c|geom=0|face=181",
-          "info": "deviation normals: 28.6675 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c|geom=0|face=219",
-          "info": "deviation normals: 28.2797 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
           "id": "coid=4018204c|geom=0|face=301",
-          "info": "deviation normals: 74.6635 (tolerance=20)"
+          "info": "deviation normals: 80.9964 (tolerance=20)"
         },
         {
           "code": 204,
           "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
           "id": "coid=4018204c|geom=0|face=302",
-          "info": "deviation normals: 76.9664 (tolerance=20)"
+          "info": "deviation normals: 79.238 (tolerance=20)"
         },
         {
           "code": 204,
           "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
           "id": "coid=4018204c|geom=0|face=311",
-          "info": "deviation normals: 76.9664 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c|geom=0|face=316",
-          "info": "deviation normals: 31.1105 (tolerance=20)"
+          "info": "deviation normals: 80.9837 (tolerance=20)"
         },
         {
           "code": 204,
           "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
           "id": "coid=4018204c|geom=0|face=317",
-          "info": "deviation normals: 77.7095 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c_BP.Zn0bjICbeBdXAzdOozoq|geom=0|face=2",
-          "info": "deviation normals: 34.0218 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c_BP.NvwHLWWjBmEklxZcaU7h|geom=0|face=2",
-          "info": "deviation normals: 34.1513 (tolerance=20)"
+          "info": "deviation normals: 79.552 (tolerance=20)"
         }
       ],
       "id": "4018204c",
@@ -1001,30 +798,16 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c_BP.NvwHLWWjBmEklxZcaU7h|geom=0|face=2",
-          "info": "deviation normals: 34.1513 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204c_BP.NvwHLWWjBmEklxZcaU7h",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204c_BP.Zn0bjICbeBdXAzdOozoq|geom=0|face=2",
-          "info": "deviation normals: 34.0218 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204c_BP.Zn0bjICbeBdXAzdOozoq",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1033,23 +816,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204d_BP.ljmIzOqucCNAMjbpKd5L|geom=0|face=47",
-          "info": "deviation normals: 34.325 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204d_BP.yz0GRrr3I7ebfCQgBvvw|geom=0|face=47",
-          "info": "deviation normals: 34.2743 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204d",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1064,17 +834,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204d_BP.ljmIzOqucCNAMjbpKd5L|geom=0|face=47",
-          "info": "deviation normals: 34.325 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204d_BP.ljmIzOqucCNAMjbpKd5L",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1083,17 +846,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018204d_BP.yz0GRrr3I7ebfCQgBvvw|geom=0|face=47",
-          "info": "deviation normals: 34.2743 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018204d_BP.yz0GRrr3I7ebfCQgBvvw",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1162,83 +918,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=130",
-          "info": "deviation normals: 22.4104 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=144",
-          "info": "deviation normals: 33.9179 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=186",
-          "info": "deviation normals: 22.4104 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=200",
-          "info": "deviation normals: 33.9179 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=259",
-          "info": "deviation normals: 22.4104 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=273",
-          "info": "deviation normals: 33.9179 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=315",
-          "info": "deviation normals: 24.6451 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=329",
-          "info": "deviation normals: 32.4194 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=372",
-          "info": "deviation normals: 24.6451 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=386",
-          "info": "deviation normals: 32.4194 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=577",
-          "info": "deviation normals: 24.6451 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018207|geom=0|face=591",
-          "info": "deviation normals: 32.4194 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018207",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1307,17 +990,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018210_BP.F7TC11jOLjVmdm8wJGfg|geom=0|face=40",
-          "info": "deviation normals: 22.2801 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018210",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1332,17 +1008,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018210_BP.F7TC11jOLjVmdm8wJGfg|geom=0|face=40",
-          "info": "deviation normals: 22.2801 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018210_BP.F7TC11jOLjVmdm8wJGfg",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1417,41 +1086,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018212|geom=0|face=63",
-          "info": "deviation normals: 24.6192 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018212|geom=0|face=119",
-          "info": "deviation normals: 28.5162 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018212|geom=0|face=292",
-          "info": "deviation normals: 28.6822 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018212|geom=0|face=348",
-          "info": "deviation normals: 24.6192 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018212|geom=0|face=404",
-          "info": "deviation normals: 28.6822 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018212",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1562,17 +1200,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018260|geom=0|face=16",
-          "info": "deviation normals: 28.7954 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018260",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1617,30 +1248,16 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018261b_BP.JFhHuDLELbyq52KySAQk|geom=0|face=24",
-          "info": "deviation normals: 28.4901 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018261b",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018261b_BP.JFhHuDLELbyq52KySAQk|geom=0|face=24",
-          "info": "deviation normals: 28.4901 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018261b_BP.JFhHuDLELbyq52KySAQk",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1667,17 +1284,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018262_BP.7cj5KpX8mOElJR5DT6xR|geom=0|face=30",
-          "info": "deviation normals: 20.1663 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018262",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1686,17 +1296,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018262_BP.7cj5KpX8mOElJR5DT6xR|geom=0|face=30",
-          "info": "deviation normals: 20.1663 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018262_BP.7cj5KpX8mOElJR5DT6xR",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2371,23 +1974,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018279_BP.UlkO1znH4By5Xfc6WCw9|geom=0|face=19",
-          "info": "deviation normals: 30.9344 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018279_BP.HFNhguF8ZeoneDK65EpT|geom=0|face=19",
-          "info": "deviation normals: 22.2086 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018279",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2432,17 +2022,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018279_BP.HFNhguF8ZeoneDK65EpT|geom=0|face=19",
-          "info": "deviation normals: 22.2086 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018279_BP.HFNhguF8ZeoneDK65EpT",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2469,17 +2052,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=4018279_BP.UlkO1znH4By5Xfc6WCw9|geom=0|face=19",
-          "info": "deviation normals: 30.9344 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "4018279_BP.UlkO1znH4By5Xfc6WCw9",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2692,23 +2268,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919|geom=0|face=3",
-          "info": "deviation normals: 26.6812 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.uDrjVwwooM3Zgf4Y6e6E|geom=0|face=43",
-          "info": "deviation normals: 72.6562 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2729,35 +2292,28 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.uDrjVwwooM3Zgf4Y6e6E|geom=0|face=43",
-          "info": "deviation normals: 72.6562 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "UUID_b98cb0ba-d4a2-4b08-8247-3a0ddfebf919_BP.uDrjVwwooM3Zgf4Y6e6E",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     }
   ],
   "features_overview": [
     {
       "total": 55,
       "type": "Building",
-      "valid": 38
+      "valid": 54
     },
     {
       "total": 323,
       "type": "BuildingInstallation",
-      "valid": 304
+      "valid": 323
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/03_Ingolstadt__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/03_Ingolstadt__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
@@ -2766,10 +2322,10 @@
     {
       "total": 702,
       "type": "MultiSurface",
-      "valid": 656
+      "valid": 701
     }
   ],
-  "time": "2024-09-18T08:11:35 (CEST)",
+  "time": "2024-10-24T12:56:07 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

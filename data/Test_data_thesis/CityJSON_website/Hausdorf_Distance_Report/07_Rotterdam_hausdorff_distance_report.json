@@ -1938,7 +1938,7 @@
                     "percentage": 0.0
                 },
                 "{EA541FCF-CC5D-4317-A6DA-D4BD6496A9A2}": {
-                    "distance": 0.0,
+                    "distance": 0.0004,
                     "size": 40.491,
                     "percentage": 0.0
                 },
@@ -4270,9 +4270,9 @@
             },
             "maxDifference": 14.5777,
             "missingCount": 0,
-            "highestPercentage": 0.2425
+            "highestPercentage": 0.1377
         }
     },
     "Maxdifferencewholefile": 14.5777,
-    "HighestPercentageWholeFile": 0.2425
+    "HighestPercentageWholeFile": 0.1377
 }

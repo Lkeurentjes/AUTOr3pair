@@ -1,11 +1,6 @@
 {
   "all_errors": [
-    102,
-    104,
-    201,
-    203,
-    204,
-    306
+    203
   ],
   "dataset_errors": [],
   "features": [
@@ -268,17 +263,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_1000847|geom=0|face=0",
-          "info": "distance to fitted plane: 0.0224385 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_1000847",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1019,17 +1007,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_5094993|geom=0|face=6",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "GML_5094993",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1056,17 +1037,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_5095032|geom=0|face=11",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_5095032",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1777,17 +1751,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_5096052|geom=0|face=12",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_5096052",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2048,17 +2015,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_6046096|geom=0|face=6",
-          "info": "distance to fitted plane: 0.0101449 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_6046096",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4359,17 +4319,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_7915659|geom=0|face=14",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915659",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4809,7 +4762,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7915813|geom=0|face=8",
-          "info": "distance to fitted plane: 0.0168869 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0168465 (tolerance=0.01)"
         }
       ],
       "id": "GML_7915813",
@@ -5440,7 +5393,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7916031|geom=0|face=15",
-          "info": "distance to fitted plane: 0.022425 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0224857 (tolerance=0.01)"
         }
       ],
       "id": "GML_7916031",
@@ -5508,17 +5461,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7916055|geom=0|face=2",
-          "info": "deviation normals: 40.491 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916055",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6792,7 +6738,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7916493|geom=0|face=8",
-          "info": "distance to fitted plane: 0.0122826 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0125837 (tolerance=0.01)"
         }
       ],
       "id": "GML_7916493",
@@ -7021,7 +6967,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7916567|geom=0|face=42",
-          "info": "distance to fitted plane: 0.0111281 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0112838 (tolerance=0.01)"
         }
       ],
       "id": "GML_7916567",
@@ -8001,17 +7947,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916897|geom=0|face=18",
-          "info": "distance to fitted plane: 0.0100716 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916897",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8806,17 +8745,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917173|geom=0|face=24",
-          "info": "distance to fitted plane: 0.0100701 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917173",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -10661,17 +10593,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7917837|geom=0|face=15",
-          "info": "deviation normals: 32.9211 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917837",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -10734,10 +10659,17 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 203,
+          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
+          "id": "coid=GML_7917859|geom=1|face=9",
+          "info": "distance to fitted plane: 0.0281067 (tolerance=0.01)"
+        }
+      ],
       "id": "GML_7917859",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -12204,17 +12136,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7918377|geom=0|face=22",
-          "info": "deviation normals: 34.1667 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918377",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -13501,29 +13426,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|face=",
-          "info": "Location close to: (149822, 169279, 80.0853)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|face=",
-          "info": "Location close to: (149820, 169284, 86.818)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|face=",
-          "info": "Location close to: (149825, 169281, 87.2577)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918831",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14437,7 +14343,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7919145|geom=0|face=6",
-          "info": "distance to fitted plane: 0.0156377 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0152392 (tolerance=0.01)"
         }
       ],
       "id": "GML_7919145",
@@ -14643,17 +14549,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7919215|geom=0|face=9",
-          "info": "deviation normals: 29.1405 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919215",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14662,17 +14561,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 201,
-          "description": "INTERSECTION_RINGS",
-          "id": "coid=GML_7919221|geom=0|face=2",
-          "info": "Self-intersection[-694.251388242879 88.1050095479254]"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919221",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -16533,25 +16425,25 @@
     {
       "total": 2729,
       "type": "Building",
-      "valid": 2710
+      "valid": 2723
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/Other/01_Brussels__USERINPUT_Brussel_Orientation__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/Other/01_Brussels__USERINPUT_Brussel_Orientation__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 2729,
+      "total": 4980,
       "type": "CompositeSurface",
-      "valid": 2710
+      "valid": 4974
     }
   ],
-  "time": "2024-09-17T12:58:29 (CEST)",
+  "time": "2024-10-24T11:05:29 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

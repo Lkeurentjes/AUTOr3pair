@@ -5,8 +5,6 @@
     204,
     303,
     307,
-    405,
-    601,
     906
   ],
   "dataset_errors": [],
@@ -86,14 +84,14 @@
           "info": ""
         },
         {
-          "code": 303,
-          "description": "NON_MANIFOLD_CASE",
+          "code": 307,
+          "description": "POLYGON_WRONG_ORIENTATION",
           "id": "coid=GMLID_0314272_32937_848|geom=0|shell=0|face=1609",
           "info": ""
         },
         {
-          "code": 303,
-          "description": "NON_MANIFOLD_CASE",
+          "code": 307,
+          "description": "POLYGON_WRONG_ORIENTATION",
           "id": "coid=GMLID_0314272_32937_848|geom=0|shell=0|face=1609",
           "info": ""
         },
@@ -63405,76 +63403,1012 @@
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_34d08703-26dd-4ae1-abb8-5b291fbcda56|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=3",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=5",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=6",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=7",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=8",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_f3bdd9e9-6394-4347-b232-50146cb76ee8|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=9",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_eb7c7f5d-5c89-4ce6-a742-491ceaf3e7ae|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=10",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=11",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=3",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_8eaba6cb-231c-4b2a-9e82-283fff695f4c|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=5",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_3f2a5070-f4b3-4948-b3dc-622159041598|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=6",
+          "info": ""
         },
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_aa821ebf-c870-4fa4-af90-9dec0647a25a|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=2",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=4",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=0",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=4",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=11",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "GMLID_BUI130363_1235_6047",
@@ -63496,221 +64430,148 @@
     {
       "errors": [
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=1",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=0|shell=0|face=0",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=2",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=0|shell=0|face=1",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=0|shell=0|face=4",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=0|shell=0|face=7",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=1&&coid=GMLID_BUI184698_512_898|geom=2",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=1|shell=0|face=0",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=1&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=1|shell=0|face=1",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=1&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=1|shell=0|face=2",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=2&&coid=GMLID_BUI184698_512_898|geom=6",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=1|shell=0|face=8",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=2&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=3|shell=0|face=3",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=2&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=3|shell=0|face=6",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=6&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=3|shell=0|face=8",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=7&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=3|shell=0|face=9",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=1",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=4|shell=0|face=1",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=2",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=4|shell=0|face=4",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=4|shell=0|face=6",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=0&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=4|shell=0|face=7",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=1&&coid=GMLID_BUI184698_512_898|geom=2",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=5|shell=0|face=0",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=1&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=5|shell=0|face=1",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=1&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=5|shell=0|face=3",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=2&&coid=GMLID_BUI184698_512_898|geom=6",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=5|shell=0|face=9",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=2&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=6|shell=0|face=3",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=2&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=6|shell=0|face=5",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=6&&coid=GMLID_BUI184698_512_898|geom=7",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=6|shell=0|face=7",
+          "info": ""
         },
         {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=7&&coid=GMLID_BUI184698_512_898|geom=8",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=3&&coid=GMLID_BUI184698_512_898|geom=10",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=5&&coid=GMLID_BUI184698_512_898|geom=13",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=9&&coid=GMLID_BUI184698_512_898|geom=10",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=9&&coid=GMLID_BUI184698_512_898|geom=12",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=9&&coid=GMLID_BUI184698_512_898|geom=13",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=10&&coid=GMLID_BUI184698_512_898|geom=12",
-          "info": "geometries are lod=3",
-          "type": "Error"
-        },
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=GMLID_BUI184698_512_898|geom=12&&coid=GMLID_BUI184698_512_898|geom=13",
-          "info": "geometries are lod=3",
-          "type": "Error"
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=GMLID_BUI184698_512_898|geom=6|shell=0|face=9",
+          "info": ""
         }
       ],
       "id": "GMLID_BUI184698_512_898",
@@ -63954,10 +64815,35 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=0",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=24",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=31",
+          "info": ""
+        }
+      ],
       "id": "GMLID_BUI46739_1739_10911",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -65137,18 +66023,109 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "UUID_0bd23c77-fe8f-4433-8257-d94d5ba7bdcb",
@@ -65174,16 +66151,114 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_1ab6c2c9-8d55-4fc8-b30b-be30307238ab",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -65192,10 +66267,59 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_224b5dc5-152d-4164-84e0-9187f9693b5c|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_224b5dc5-152d-4164-84e0-9187f9693b5c",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -66776,29 +67900,120 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_32ec33ab-c4f9-4661-ac6c-3e7a77cc875b",
+      "type": "BuildingInstallation",
+      "validity": false
+    },
+    {
+      "errors": [],
+      "id": "UUID_34d08703-26dd-4ae1-abb8-5b291fbcda56",
       "type": "BuildingInstallation",
       "validity": true
     },
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_34d08703-26dd-4ae1-abb8-5b291fbcda56|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_389a52f7-b97b-4162-bafd-3af49c30c328|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
-      "id": "UUID_34d08703-26dd-4ae1-abb8-5b291fbcda56",
-      "type": "BuildingInstallation",
-      "validity": false
-    },
-    {
-      "errors": [],
       "id": "UUID_389a52f7-b97b-4162-bafd-3af49c30c328",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
@@ -66838,29 +68053,120 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3c683328-d725-4d17-98dd-76b1f9add1a3|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_3c683328-d725-4d17-98dd-76b1f9add1a3",
       "type": "BuildingInstallation",
-      "validity": true
-    },
-    {
-      "errors": [],
-      "id": "UUID_3edf315d-799b-424a-8708-f99a2d2d5943",
-      "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_3f2a5070-f4b3-4948-b3dc-622159041598|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_3edf315d-799b-424a-8708-f99a2d2d5943|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
-      "id": "UUID_3f2a5070-f4b3-4948-b3dc-622159041598",
+      "id": "UUID_3edf315d-799b-424a-8708-f99a2d2d5943",
       "type": "BuildingInstallation",
       "validity": false
+    },
+    {
+      "errors": [],
+      "id": "UUID_3f2a5070-f4b3-4948-b3dc-622159041598",
+      "type": "BuildingInstallation",
+      "validity": true
     },
     {
       "errors": [],
@@ -66869,28 +68175,176 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5b4e50b3-9510-4672-95c6-197610d41543|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_5b4e50b3-9510-4672-95c6-197610d41543",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_5c4873cc-c590-4841-a9d5-176d9b66e434|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_5c4873cc-c590-4841-a9d5-176d9b66e434",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=2",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=4",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=1|shell=0|face=6",
+          "info": ""
+        }
+      ],
       "id": "UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=0",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=4",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3|geom=0|shell=0|face=10",
+          "info": ""
+        }
+      ],
       "id": "UUID_68137f34-512a-4de2-8a5c-d4e01b0568a3",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -66907,10 +68361,52 @@
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da",
@@ -69225,29 +70721,120 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_883ba233-07bf-4ecf-89c3-0d552d8575c2",
       "type": "BuildingInstallation",
-      "validity": true
-    },
-    {
-      "errors": [],
-      "id": "UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7",
-      "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_8eaba6cb-231c-4b2a-9e82-283fff695f4c|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
-      "id": "UUID_8eaba6cb-231c-4b2a-9e82-283fff695f4c",
+      "id": "UUID_8e5673a8-c1f2-406d-96df-12e75259bdf7",
       "type": "BuildingInstallation",
       "validity": false
+    },
+    {
+      "errors": [],
+      "id": "UUID_8eaba6cb-231c-4b2a-9e82-283fff695f4c",
+      "type": "BuildingInstallation",
+      "validity": true
     },
     {
       "errors": [],
@@ -69256,10 +70843,59 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_93e9b87b-80a8-4a95-a845-daeb7bc6caa4",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -69280,17 +70916,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_aa821ebf-c870-4fa4-af90-9dec0647a25a|geom=0",
-          "info": "Shell #0"
-        }
-      ],
+      "errors": [],
       "id": "UUID_aa821ebf-c870-4fa4-af90-9dec0647a25a",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -69305,10 +70934,35 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=0",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=24",
+          "info": ""
+        },
+        {
+          "code": 102,
+          "description": "CONSECUTIVE_POINTS_SAME",
+          "id": "coid=UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1|geom=0|shell=0|face=31",
+          "info": ""
+        }
+      ],
       "id": "UUID_bb85a20e-9a54-4744-bce2-7a0e564943c1",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -72456,6 +74110,12 @@
         {
           "code": 104,
           "description": "RING_SELF_INTERSECTION",
+          "id": "coid=UUID_d96effed-08fe-4f74-b134-05b194aa3cff|geom=0|shell=0|face=21159",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
           "id": "coid=UUID_d96effed-08fe-4f74-b134-05b194aa3cff|geom=0|shell=0|face=21296",
           "info": " outer ring (a triangle) is collapsed to a line"
         },
@@ -72743,10 +74403,52 @@
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "UUID_e2958d70-5ebd-4426-a77d-1bef0175e3b7",
@@ -72762,10 +74464,52 @@
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "UUID_e7a2aa1b-699a-40e1-9701-dc11295f6926",
@@ -72779,25 +74523,60 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_eb7c7f5d-5c89-4ce6-a742-491ceaf3e7ae|geom=0",
-          "info": "Shell #0"
-        }
-      ],
+      "errors": [],
       "id": "UUID_eb7c7f5d-5c89-4ce6-a742-491ceaf3e7ae",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "UUID_ee7d3a2f-b2fd-4f04-bf74-44f0c05f62b1",
@@ -73568,17 +75347,10 @@
       "validity": false
     },
     {
-      "errors": [
-        {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_f3bdd9e9-6394-4347-b232-50146cb76ee8|geom=0",
-          "info": "Shell #0"
-        }
-      ],
+      "errors": [],
       "id": "UUID_f3bdd9e9-6394-4347-b232-50146cb76ee8",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
@@ -73595,18 +75367,109 @@
       "validity": false
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f78662ba-0202-4620-bdce-24b286884f13|geom=0|shell=0|face=11",
+          "info": ""
+        }
+      ],
       "id": "UUID_f78662ba-0202-4620-bdce-24b286884f13",
       "type": "BuildingInstallation",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [
         {
-          "code": 405,
-          "description": "WRONG_ORIENTATION_SHELL",
-          "id": "Geometry (Solid) #coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0",
-          "info": "Shell #0"
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=3",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=5",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=6",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=7",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=8",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=9",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=10",
+          "info": ""
+        },
+        {
+          "code": 303,
+          "description": "NON_MANIFOLD_CASE",
+          "id": "coid=UUID_f86096c0-8f2c-480c-8735-912b9848bacc|geom=0|shell=0|face=11",
+          "info": ""
         }
       ],
       "id": "UUID_f86096c0-8f2c-480c-8735-912b9848bacc",
@@ -73651,12 +75514,12 @@
     {
       "total": 3,
       "type": "Building",
-      "valid": 1
+      "valid": 0
     },
     {
       "total": 56,
       "type": "BuildingInstallation",
-      "valid": 42
+      "valid": 31
     },
     {
       "total": 11,
@@ -73704,19 +75567,19 @@
       "valid": 0
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/06_Railway__CFD__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/06_Railway__CFD__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 178,
+      "total": 171,
       "type": "Solid",
-      "valid": 115
+      "valid": 80
     },
     {
       "total": 15,
@@ -73724,7 +75587,7 @@
       "valid": 15
     }
   ],
-  "time": "2024-09-18T08:11:41 (CEST)",
+  "time": "2024-10-24T12:58:37 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

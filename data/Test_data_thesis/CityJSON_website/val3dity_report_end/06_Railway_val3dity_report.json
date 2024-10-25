@@ -62827,17 +62827,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=0|face=6",
-          "info": "deviation normals: 31.9105 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GMLID_BUI130363_1235_6047",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -63009,53 +63002,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=3",
-          "info": "deviation normals: 24.8042 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=7",
-          "info": "deviation normals: 30.7835 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=12",
-          "info": "deviation normals: 25.1711 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=13",
-          "info": "deviation normals: 22.8621 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=15",
-          "info": "deviation normals: 22.7544 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=17",
-          "info": "deviation normals: 26.5302 (tolerance=20)"
-        },
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GMLID_BUI46739_1739_10911|geom=0|face=26",
-          "info": "deviation normals: 21.7621 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GMLID_BUI46739_1739_10911",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -63347,17 +63297,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d|geom=0|face=6",
-          "info": "deviation normals: 31.9105 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d",
       "type": "BuildingInstallation",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -65123,6 +65066,12 @@
         {
           "code": 104,
           "description": "RING_SELF_INTERSECTION",
+          "id": "coid=UUID_d96effed-08fe-4f74-b134-05b194aa3cff|geom=0|face=21159",
+          "info": " outer ring (a triangle) is collapsed to a line"
+        },
+        {
+          "code": 104,
+          "description": "RING_SELF_INTERSECTION",
           "id": "coid=UUID_d96effed-08fe-4f74-b134-05b194aa3cff|geom=0|face=21296",
           "info": " outer ring (a triangle) is collapsed to a line"
         },
@@ -65519,12 +65468,12 @@
     {
       "total": 3,
       "type": "Building",
-      "valid": 1
+      "valid": 3
     },
     {
       "total": 56,
       "type": "BuildingInstallation",
-      "valid": 55
+      "valid": 56
     },
     {
       "total": 11,
@@ -65572,10 +65521,10 @@
       "valid": 1
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/06_Railway__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/06_Railway__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
@@ -65589,7 +65538,7 @@
     {
       "total": 160,
       "type": "MultiSurface",
-      "valid": 131
+      "valid": 134
     },
     {
       "total": 15,
@@ -65597,7 +65546,7 @@
       "valid": 15
     }
   ],
-  "time": "2024-09-18T08:11:44 (CEST)",
+  "time": "2024-10-24T12:58:42 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

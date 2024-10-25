@@ -1,7 +1,5 @@
 {
-  "all_errors": [
-    601
-  ],
+  "all_errors": [],
   "dataset_errors": [],
   "features": [
     {
@@ -2849,18 +2847,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0546100000023667-0|geom=1&&coid=NL.IMBAG.Pand.0546100000023667-0|geom=2",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0546100000023667",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -10043,22 +10033,22 @@
     {
       "total": 1671,
       "type": "Building",
-      "valid": 1670
+      "valid": 1671
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/BAG_tiles/10-322-630__USERINPUT_BAG__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/BAG_tiles/10-322-630__USERINPUT_BAG__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 5012,
+      "total": 5013,
       "type": "Solid",
-      "valid": 5012
+      "valid": 5013
     },
     {
       "total": 1671,
@@ -10066,8 +10056,8 @@
       "valid": 1671
     }
   ],
-  "time": "2024-09-17T12:39:22 (CEST)",
+  "time": "2024-10-23T14:50:08 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
-  "validity": false
+  "validity": true
 }

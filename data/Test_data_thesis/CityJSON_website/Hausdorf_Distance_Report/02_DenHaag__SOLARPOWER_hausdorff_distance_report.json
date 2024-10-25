@@ -28,7 +28,7 @@
                     "percentage": 0.0
                 },
                 "GUID_13974D93-CB4F-4B5A-AB1E-577DD9928CF2_1": {
-                    "distance": 0.0314,
+                    "distance": 0.0313,
                     "size": 12.7015,
                     "percentage": 0.0025
                 },
@@ -48,7 +48,7 @@
                     "percentage": 0.0
                 },
                 "GUID_1280E44F-7EFD-4BEA-8E79-3124934BD6A0_2": {
-                    "distance": 0.0697,
+                    "distance": 0.0699,
                     "size": 10.2314,
                     "percentage": 0.0068
                 },
@@ -138,12 +138,12 @@
                     "percentage": 0.0
                 },
                 "GUID_14F45E44-AEB9-406B-ABFB-49B0F908C63A_2": {
-                    "distance": 0.0666,
+                    "distance": 0.0671,
                     "size": 9.7073,
                     "percentage": 0.0069
                 },
                 "GUID_14F45E44-AEB9-406B-ABFB-49B0F908C63A_3": {
-                    "distance": 0.0666,
+                    "distance": 0.0671,
                     "size": 12.1221,
                     "percentage": 0.0055
                 },
@@ -493,9 +493,9 @@
                     "percentage": 0.0
                 },
                 "GUID_6F5B18ED-F948-4A2E-B53B-5DE6264DEEFB_1": {
-                    "distance": 0.0422,
+                    "distance": 0.0425,
                     "size": 11.2648,
-                    "percentage": 0.0037
+                    "percentage": 0.0038
                 },
                 "GUID_211295DF-AFF9-4B83-BEB2-802912B54E18": {
                     "distance": 0.0,
@@ -563,22 +563,22 @@
                     "percentage": 0.0
                 },
                 "GUID_9461B0DE-08A0-42C0-9BD1-288B2A5E12E4_6": {
-                    "distance": 0.0324,
+                    "distance": 0.0319,
                     "size": 16.4511,
-                    "percentage": 0.002
+                    "percentage": 0.0019
                 },
                 "GUID_80FEEF89-D45A-4586-83C5-C95F3B2B5503_3": {
-                    "distance": 0.0653,
+                    "distance": 0.0652,
                     "size": 17.2708,
                     "percentage": 0.0038
                 },
                 "GUID_DAD1C1FE-7A0C-40BE-8EE5-3257C22BD37D_6": {
-                    "distance": 0.0366,
+                    "distance": 0.0365,
                     "size": 10.7405,
                     "percentage": 0.0034
                 },
                 "GUID_DAD1C1FE-7A0C-40BE-8EE5-3257C22BD37D_5": {
-                    "distance": 0.0366,
+                    "distance": 0.0365,
                     "size": 10.3159,
                     "percentage": 0.0035
                 },
@@ -618,7 +618,7 @@
                     "percentage": 0.0
                 },
                 "GUID_DAD1C1FE-7A0C-40BE-8EE5-3257C22BD37D_3": {
-                    "distance": 0.0366,
+                    "distance": 0.0365,
                     "size": 12.301,
                     "percentage": 0.003
                 },
@@ -638,9 +638,9 @@
                     "percentage": 0.0
                 },
                 "GUID_DE69DA23-52B8-4E82-9DD9-FD5B5C24C0A2": {
-                    "distance": 0.0312,
+                    "distance": 0.0307,
                     "size": 12.6979,
-                    "percentage": 0.0025
+                    "percentage": 0.0024
                 },
                 "GUID_14CFFED8-0AF8-4CAC-8FE7-51C90F1D4424_2": {
                     "distance": 0.0,
@@ -898,9 +898,9 @@
                     "percentage": 0.0
                 },
                 "GUID_C1CA9375-AF41-4ADB-B594-C0512849D3B5_2": {
-                    "distance": 0.0375,
+                    "distance": 0.0369,
                     "size": 9.4879,
-                    "percentage": 0.004
+                    "percentage": 0.0039
                 },
                 "GUID_BAB0C289-4518-4F0B-B729-799D02CDCB13_4": {
                     "distance": 0.0,
@@ -983,7 +983,7 @@
                     "percentage": 0.0
                 },
                 "GUID_E39C5AD2-F604-49DB-80E1-7183453CA03A_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0433,
                     "size": 12.3558,
                     "percentage": 0.0035
                 },
@@ -993,9 +993,9 @@
                     "percentage": 0.0
                 },
                 "GUID_B589E52F-10E4-45EC-A0CF-F91D31E0EC01_1": {
-                    "distance": 0.0408,
+                    "distance": 0.0406,
                     "size": 12.5269,
-                    "percentage": 0.0033
+                    "percentage": 0.0032
                 },
                 "GUID_3CAF79F6-B4E9-4DF4-9463-DEA231F0E6C7": {
                     "distance": 0.0,
@@ -1073,7 +1073,7 @@
                     "percentage": 0.0
                 },
                 "GUID_E6EB67E0-B55E-4533-999B-E3A9FAAB2C8A_1": {
-                    "distance": 0.0524,
+                    "distance": 0.0522,
                     "size": 16.5152,
                     "percentage": 0.0032
                 },
@@ -1318,7 +1318,7 @@
                     "percentage": 0.0
                 },
                 "GUID_233F8BDE-9657-4981-AE9F-85EEC9F0385C_6": {
-                    "distance": 0.0405,
+                    "distance": 0.0406,
                     "size": 22.3838,
                     "percentage": 0.0018
                 },
@@ -1373,9 +1373,9 @@
                     "percentage": 0.0
                 },
                 "GUID_6A5D61C3-4FE8-4425-A301-06208F6B6E99_5": {
-                    "distance": 0.0347,
+                    "distance": 0.035,
                     "size": 22.4823,
-                    "percentage": 0.0015
+                    "percentage": 0.0016
                 },
                 "GUID_6A5D61C3-4FE8-4425-A301-06208F6B6E99_4": {
                     "distance": 0.0,
@@ -1573,9 +1573,9 @@
                     "percentage": 0.0
                 },
                 "GUID_47D92E0B-47B6-4B6E-BBC7-341C05157899_8": {
-                    "distance": 0.0297,
+                    "distance": 0.0296,
                     "size": 9.116,
-                    "percentage": 0.0033
+                    "percentage": 0.0032
                 },
                 "GUID_5ACC3D0F-28A1-4E83-A0F1-930748BCB013_8": {
                     "distance": 0.0,
@@ -1583,7 +1583,7 @@
                     "percentage": 0.0
                 },
                 "GUID_47D92E0B-47B6-4B6E-BBC7-341C05157899_1": {
-                    "distance": 0.0382,
+                    "distance": 0.0385,
                     "size": 11.0604,
                     "percentage": 0.0035
                 },
@@ -1598,7 +1598,7 @@
                     "percentage": 0.0
                 },
                 "GUID_47D92E0B-47B6-4B6E-BBC7-341C05157899_2": {
-                    "distance": 0.0297,
+                    "distance": 0.0296,
                     "size": 9.5302,
                     "percentage": 0.0031
                 },
@@ -1693,7 +1693,7 @@
                     "percentage": 0.0
                 },
                 "GUID_66D06607-5A0A-4908-A86C-8FEE4CF70960_4": {
-                    "distance": 0.0532,
+                    "distance": 0.0533,
                     "size": 10.4682,
                     "percentage": 0.0051
                 },
@@ -1733,7 +1733,7 @@
                     "percentage": 0.0
                 },
                 "GUID_5397C11F-EA74-42B3-9742-0C490AACDA8C_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0436,
                     "size": 12.1842,
                     "percentage": 0.0036
                 },
@@ -1753,7 +1753,7 @@
                     "percentage": 0.0
                 },
                 "GUID_531BD565-328D-4E9E-8820-5B552BF3D87A_1": {
-                    "distance": 0.0526,
+                    "distance": 0.053,
                     "size": 18.9509,
                     "percentage": 0.0028
                 },
@@ -1823,7 +1823,7 @@
                     "percentage": 0.0
                 },
                 "GUID_88D03B4B-0F50-4B53-AB5D-B4D738B44768_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0436,
                     "size": 12.651,
                     "percentage": 0.0034
                 },
@@ -1848,7 +1848,7 @@
                     "percentage": 0.0
                 },
                 "GUID_0B927DFC-571C-4FC8-BC32-7C1DE49AA5E5_1": {
-                    "distance": 0.0397,
+                    "distance": 0.0399,
                     "size": 9.3931,
                     "percentage": 0.0042
                 },
@@ -1858,9 +1858,9 @@
                     "percentage": 0.0
                 },
                 "GUID_0B927DFC-571C-4FC8-BC32-7C1DE49AA5E5_3": {
-                    "distance": 0.0342,
+                    "distance": 0.0344,
                     "size": 9.1258,
-                    "percentage": 0.0037
+                    "percentage": 0.0038
                 },
                 "GUID_77BAB161-A020-4D45-82C9-F7392AB496DA_1": {
                     "distance": 0.0,
@@ -1938,7 +1938,7 @@
                     "percentage": 0.0
                 },
                 "GUID_E063E630-AC9A-4C38-B509-6AF5B5FB7CCF_2": {
-                    "distance": 0.0706,
+                    "distance": 0.0702,
                     "size": 18.0095,
                     "percentage": 0.0039
                 },
@@ -1973,7 +1973,7 @@
                     "percentage": 0.0
                 },
                 "GUID_5BCED8FB-5DF2-4C57-A82A-0CAA7430E8A5": {
-                    "distance": 0.0619,
+                    "distance": 0.0621,
                     "size": 13.1339,
                     "percentage": 0.0047
                 },
@@ -2058,9 +2058,9 @@
                     "percentage": 0.0
                 },
                 "GUID_A915112A-ACBC-4ACB-948D-ED2F7299B2FC_3": {
-                    "distance": 0.0503,
+                    "distance": 0.0508,
                     "size": 9.8254,
-                    "percentage": 0.0051
+                    "percentage": 0.0052
                 },
                 "GUID_C535D316-6299-4DC0-A0E0-B921CE8DD969_2": {
                     "distance": 0.028,
@@ -2078,9 +2078,9 @@
                     "percentage": 0.0
                 },
                 "GUID_A915112A-ACBC-4ACB-948D-ED2F7299B2FC_1": {
-                    "distance": 0.0296,
+                    "distance": 0.0294,
                     "size": 12.5909,
-                    "percentage": 0.0024
+                    "percentage": 0.0023
                 },
                 "GUID_31805820-5495-48C8-B9C5-6221BEBABED0": {
                     "distance": 0.0,
@@ -2098,9 +2098,9 @@
                     "percentage": 0.0
                 },
                 "GUID_C535D316-6299-4DC0-A0E0-B921CE8DD969_1": {
-                    "distance": 0.0312,
+                    "distance": 0.0307,
                     "size": 11.7728,
-                    "percentage": 0.0027
+                    "percentage": 0.0026
                 },
                 "GUID_80815C08-6932-4884-9D0F-B3A8C00E1BFA_1": {
                     "distance": 0.0,
@@ -2108,14 +2108,14 @@
                     "percentage": 0.0
                 },
                 "GUID_80815C08-6932-4884-9D0F-B3A8C00E1BFA_2": {
-                    "distance": 0.07,
+                    "distance": 0.0696,
                     "size": 11.6383,
                     "percentage": 0.006
                 },
                 "GUID_80815C08-6932-4884-9D0F-B3A8C00E1BFA_5": {
-                    "distance": 0.0702,
+                    "distance": 0.0704,
                     "size": 9.702,
-                    "percentage": 0.0072
+                    "percentage": 0.0073
                 },
                 "GUID_80815C08-6932-4884-9D0F-B3A8C00E1BFA_3": {
                     "distance": 0.0,
@@ -2123,7 +2123,7 @@
                     "percentage": 0.0
                 },
                 "GUID_80815C08-6932-4884-9D0F-B3A8C00E1BFA_4": {
-                    "distance": 0.0702,
+                    "distance": 0.0704,
                     "size": 8.8141,
                     "percentage": 0.008
                 },
@@ -2248,9 +2248,9 @@
                     "percentage": 0.0
                 },
                 "GUID_27A823E8-1BA1-4C2A-8951-4DC75B53A606_1": {
-                    "distance": 0.0513,
+                    "distance": 0.0512,
                     "size": 9.9597,
-                    "percentage": 0.0052
+                    "percentage": 0.0051
                 },
                 "GUID_3A3791C1-31D1-4428-83EF-A83C104CFD32_4": {
                     "distance": 0.0,
@@ -2258,7 +2258,7 @@
                     "percentage": 0.0
                 },
                 "GUID_27A823E8-1BA1-4C2A-8951-4DC75B53A606_2": {
-                    "distance": 0.0513,
+                    "distance": 0.0512,
                     "size": 9.0392,
                     "percentage": 0.0057
                 },
@@ -2358,7 +2358,7 @@
                     "percentage": 0.0002
                 },
                 "GUID_B4C65600-45CB-4FB7-87A3-432B594A1441_2": {
-                    "distance": 0.068,
+                    "distance": 0.0678,
                     "size": 16.4514,
                     "percentage": 0.0041
                 },
@@ -2373,7 +2373,7 @@
                     "percentage": 0.0
                 },
                 "GUID_B4C65600-45CB-4FB7-87A3-432B594A1441_4": {
-                    "distance": 0.0761,
+                    "distance": 0.0762,
                     "size": 12.5951,
                     "percentage": 0.006
                 },
@@ -2523,7 +2523,7 @@
                     "percentage": 0.0002
                 },
                 "GUID_E76DF5E6-3E4B-4AF6-8215-D1C719BD1B07_1": {
-                    "distance": 0.0476,
+                    "distance": 0.0473,
                     "size": 9.4836,
                     "percentage": 0.005
                 },
@@ -2568,7 +2568,7 @@
                     "percentage": 0.0
                 },
                 "GUID_00D36CED-764E-4631-B88C-EA98528BA782_3": {
-                    "distance": 0.0396,
+                    "distance": 0.0395,
                     "size": 14.6819,
                     "percentage": 0.0027
                 },
@@ -2588,7 +2588,7 @@
                     "percentage": 0.0
                 },
                 "GUID_00D36CED-764E-4631-B88C-EA98528BA782_1": {
-                    "distance": 0.0396,
+                    "distance": 0.0395,
                     "size": 16.9439,
                     "percentage": 0.0023
                 },
@@ -2693,7 +2693,7 @@
                     "percentage": 0.0
                 },
                 "GUID_62C125CB-451F-433B-A129-12C08010ECDC_3": {
-                    "distance": 0.0571,
+                    "distance": 0.057,
                     "size": 17.2828,
                     "percentage": 0.0033
                 },
@@ -2763,7 +2763,7 @@
                     "percentage": 0.0
                 },
                 "GUID_D498436D-CADB-4CB2-B57F-A7F3B3F637D4_3": {
-                    "distance": 0.0334,
+                    "distance": 0.0338,
                     "size": 22.9202,
                     "percentage": 0.0015
                 },
@@ -2778,7 +2778,7 @@
                     "percentage": 0.0
                 },
                 "GUID_A3FAE98E-6A46-4C39-BAB1-1D8CB5FB35D7_4": {
-                    "distance": 0.0395,
+                    "distance": 0.0396,
                     "size": 11.9646,
                     "percentage": 0.0033
                 },
@@ -2873,7 +2873,7 @@
                     "percentage": 0.0
                 },
                 "GUID_A9D153EF-EE03-4F11-909F-3CFCCF0174E6_1": {
-                    "distance": 0.003,
+                    "distance": 0.0027,
                     "size": 10.7144,
                     "percentage": 0.0003
                 },
@@ -2888,9 +2888,9 @@
                     "percentage": 0.0
                 },
                 "GUID_A9D153EF-EE03-4F11-909F-3CFCCF0174E6_7": {
-                    "distance": 0.003,
+                    "distance": 0.0027,
                     "size": 11.6582,
-                    "percentage": 0.0003
+                    "percentage": 0.0002
                 },
                 "GUID_8F89178C-221D-405E-A214-E099149432E3_2": {
                     "distance": 0.0,
@@ -3093,7 +3093,7 @@
                     "percentage": 0.0
                 },
                 "GUID_DCAE0ACB-5F38-4AEA-80D2-7242B193AE70_2": {
-                    "distance": 0.0461,
+                    "distance": 0.0466,
                     "size": 12.1569,
                     "percentage": 0.0038
                 },
@@ -3178,7 +3178,7 @@
                     "percentage": 0.0
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_10": {
-                    "distance": 0.0394,
+                    "distance": 0.0396,
                     "size": 9.8613,
                     "percentage": 0.004
                 },
@@ -3193,12 +3193,12 @@
                     "percentage": 0.0
                 },
                 "GUID_014F8E33-1B81-43C0-A34F-E6A7951FFBD8_1": {
-                    "distance": 0.0643,
+                    "distance": 0.0641,
                     "size": 11.8958,
                     "percentage": 0.0054
                 },
                 "GUID_014F8E33-1B81-43C0-A34F-E6A7951FFBD8_2": {
-                    "distance": 0.0488,
+                    "distance": 0.0486,
                     "size": 7.3622,
                     "percentage": 0.0066
                 },
@@ -3293,9 +3293,9 @@
                     "percentage": 0.0
                 },
                 "GUID_E4EC9B85-5541-444B-A4AE-D5F8B6897699_1": {
-                    "distance": 0.0702,
+                    "distance": 0.0705,
                     "size": 14.1995,
-                    "percentage": 0.0049
+                    "percentage": 0.005
                 },
                 "GUID_E4EC9B85-5541-444B-A4AE-D5F8B6897699_2": {
                     "distance": 0.0,
@@ -3303,12 +3303,12 @@
                     "percentage": 0.0
                 },
                 "GUID_1742F83C-2CCB-478F-AB04-2BE2A5556F16": {
-                    "distance": 0.0242,
+                    "distance": 0.024,
                     "size": 12.5845,
                     "percentage": 0.0019
                 },
                 "GUID_B8FF8F9F-295E-4726-AD98-E9CD552FBEAB_3": {
-                    "distance": 0.0684,
+                    "distance": 0.0685,
                     "size": 17.3063,
                     "percentage": 0.004
                 },
@@ -3513,7 +3513,7 @@
                     "percentage": 0.0
                 },
                 "GUID_19E26905-905A-49F7-8270-9AA615E13878_2": {
-                    "distance": 0.0481,
+                    "distance": 0.0478,
                     "size": 11.4588,
                     "percentage": 0.0042
                 },
@@ -3548,7 +3548,7 @@
                     "percentage": 0.0
                 },
                 "GUID_901431CD-9F28-4D01-9FB5-04624D49DCCC_2": {
-                    "distance": 0.0498,
+                    "distance": 0.0495,
                     "size": 9.0127,
                     "percentage": 0.0055
                 },
@@ -3923,7 +3923,7 @@
                     "percentage": 0.0
                 },
                 "GUID_E9311218-5795-48E5-962B-1CCD4DFC9157": {
-                    "distance": 0.001,
+                    "distance": 0.0007,
                     "size": 9.591,
                     "percentage": 0.0001
                 },
@@ -4018,9 +4018,9 @@
                     "percentage": 0.0
                 },
                 "GUID_DDBC7177-37EB-4FE8-8F86-4057B253FBBD_1": {
-                    "distance": 0.0724,
+                    "distance": 0.0727,
                     "size": 14.1079,
-                    "percentage": 0.0051
+                    "percentage": 0.0052
                 },
                 "GUID_DDBC7177-37EB-4FE8-8F86-4057B253FBBD_2": {
                     "distance": 0.0,
@@ -4033,7 +4033,7 @@
                     "percentage": 0.0
                 },
                 "GUID_1F8E7916-3261-4B91-A588-B8C4AE19DBBF_2": {
-                    "distance": 0.0425,
+                    "distance": 0.0423,
                     "size": 12.1551,
                     "percentage": 0.0035
                 },
@@ -4253,7 +4253,7 @@
                     "percentage": 0.0
                 },
                 "GUID_541441AB-4356-4DA8-8C8B-2607431D0BB2_3": {
-                    "distance": 0.1026,
+                    "distance": 0.1027,
                     "size": 16.0131,
                     "percentage": 0.0064
                 },
@@ -4263,7 +4263,7 @@
                     "percentage": 0.0
                 },
                 "GUID_541441AB-4356-4DA8-8C8B-2607431D0BB2_2": {
-                    "distance": 0.1026,
+                    "distance": 0.1027,
                     "size": 18.6376,
                     "percentage": 0.0055
                 },
@@ -4278,9 +4278,9 @@
                     "percentage": 0.0
                 },
                 "GUID_541441AB-4356-4DA8-8C8B-2607431D0BB2_6": {
-                    "distance": 0.0579,
+                    "distance": 0.0575,
                     "size": 13.3052,
-                    "percentage": 0.0044
+                    "percentage": 0.0043
                 },
                 "GUID_9E343077-3FDD-4478-B529-6A59D4918771": {
                     "distance": 0.0,
@@ -4373,7 +4373,7 @@
                     "percentage": 0.0
                 },
                 "GUID_1449A224-2BE5-4F00-9504-975878982A86_2": {
-                    "distance": 0.0349,
+                    "distance": 0.0351,
                     "size": 11.0755,
                     "percentage": 0.0032
                 },
@@ -4428,9 +4428,9 @@
                     "percentage": 0.0
                 },
                 "GUID_CCA0A4E0-22FF-4D52-9199-EE6055D03DBA_2": {
-                    "distance": 0.1499,
+                    "distance": 0.118,
                     "size": 12.3037,
-                    "percentage": 0.0122
+                    "percentage": 0.0096
                 },
                 "GUID_CCA0A4E0-22FF-4D52-9199-EE6055D03DBA_1": {
                     "distance": 0.0,
@@ -4503,7 +4503,7 @@
                     "percentage": 0.0
                 },
                 "GUID_BA4E3243-F9DE-4328-89FC-52DA9A7DD7D0_1": {
-                    "distance": 0.098,
+                    "distance": 0.0978,
                     "size": 12.4404,
                     "percentage": 0.0079
                 },
@@ -4578,7 +4578,7 @@
                     "percentage": 0.0
                 },
                 "GUID_8BE97AA7-62A1-4DB4-BF2D-674BDD76590B_2": {
-                    "distance": 0.0552,
+                    "distance": 0.0551,
                     "size": 11.9302,
                     "percentage": 0.0046
                 },
@@ -4618,7 +4618,7 @@
                     "percentage": 0.0
                 },
                 "GUID_0C208AED-A967-4A3B-8F57-EB2E7732176F_2": {
-                    "distance": 0.0578,
+                    "distance": 0.0574,
                     "size": 9.9086,
                     "percentage": 0.0058
                 },
@@ -4648,9 +4648,9 @@
                     "percentage": 0.0002
                 },
                 "GUID_A1DDC24E-8D33-4D9B-95DF-C6860542D030_1": {
-                    "distance": 0.0489,
+                    "distance": 0.0492,
                     "size": 11.8443,
-                    "percentage": 0.0041
+                    "percentage": 0.0042
                 },
                 "GUID_23A12602-FDF5-4772-859C-334BD30BB9A0_3": {
                     "distance": 0.0,
@@ -4673,12 +4673,12 @@
                     "percentage": 0.0
                 },
                 "GUID_33A887EA-8CCA-4A52-AEF3-09A6B6CD78CA_2": {
-                    "distance": 0.0255,
+                    "distance": 0.0258,
                     "size": 11.386,
-                    "percentage": 0.0022
+                    "percentage": 0.0023
                 },
                 "GUID_33A887EA-8CCA-4A52-AEF3-09A6B6CD78CA_1": {
-                    "distance": 0.0619,
+                    "distance": 0.0621,
                     "size": 13.0061,
                     "percentage": 0.0048
                 },
@@ -4688,7 +4688,7 @@
                     "percentage": 0.0
                 },
                 "GUID_F9D99067-12FC-4733-A7F4-04F2E366CA37_2": {
-                    "distance": 0.0608,
+                    "distance": 0.061,
                     "size": 12.1788,
                     "percentage": 0.005
                 },
@@ -4858,7 +4858,7 @@
                     "percentage": 0.0
                 },
                 "GUID_8D9B3806-6EC9-438A-BED3-C0352A1B00E8_5": {
-                    "distance": 0.0512,
+                    "distance": 0.0508,
                     "size": 14.6474,
                     "percentage": 0.0035
                 },
@@ -4868,7 +4868,7 @@
                     "percentage": 0.0
                 },
                 "GUID_8D9B3806-6EC9-438A-BED3-C0352A1B00E8_3": {
-                    "distance": 0.0512,
+                    "distance": 0.0508,
                     "size": 15.1061,
                     "percentage": 0.0034
                 },
@@ -4913,7 +4913,7 @@
                     "percentage": 0.0
                 },
                 "GUID_EA14705D-FBD1-4417-A483-FE08FC41743D_1": {
-                    "distance": 0.0795,
+                    "distance": 0.0796,
                     "size": 10.1754,
                     "percentage": 0.0078
                 },
@@ -4933,9 +4933,9 @@
                     "percentage": 0.0
                 },
                 "GUID_88474AB5-920B-42A2-B035-76D5C41DA8B4": {
-                    "distance": 0.0422,
+                    "distance": 0.0425,
                     "size": 11.9097,
-                    "percentage": 0.0035
+                    "percentage": 0.0036
                 },
                 "GUID_86698989-F828-43E8-B4E8-B46F12D7DCB8_1": {
                     "distance": 0.0,
@@ -4963,9 +4963,9 @@
                     "percentage": 0.0
                 },
                 "GUID_B9CEB6FE-0301-41E7-B299-99A01C37E6C6_1": {
-                    "distance": 0.048,
+                    "distance": 0.0475,
                     "size": 12.4014,
-                    "percentage": 0.0039
+                    "percentage": 0.0038
                 },
                 "GUID_B9CEB6FE-0301-41E7-B299-99A01C37E6C6_2": {
                     "distance": 0.0,
@@ -4998,7 +4998,7 @@
                     "percentage": 0.0
                 },
                 "GUID_F1A1C8B6-C7EA-4AF9-9792-77D91A19B5B5_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0438,
                     "size": 13.8086,
                     "percentage": 0.0032
                 },
@@ -5008,7 +5008,7 @@
                     "percentage": 0.0
                 },
                 "GUID_355E60F0-3001-40FE-BF1A-BC33E302D910_1": {
-                    "distance": 0.0513,
+                    "distance": 0.0512,
                     "size": 9.4202,
                     "percentage": 0.0054
                 },
@@ -5018,7 +5018,7 @@
                     "percentage": 0.0
                 },
                 "GUID_355E60F0-3001-40FE-BF1A-BC33E302D910_2": {
-                    "distance": 0.0513,
+                    "distance": 0.0512,
                     "size": 8.4324,
                     "percentage": 0.0061
                 },
@@ -5178,7 +5178,7 @@
                     "percentage": 0.0
                 },
                 "GUID_E99572FF-B25B-4755-BFEF-30BD4AC304B0_1": {
-                    "distance": 0.0528,
+                    "distance": 0.0527,
                     "size": 12.3545,
                     "percentage": 0.0043
                 },
@@ -5203,9 +5203,9 @@
                     "percentage": 0.0
                 },
                 "GUID_67C72EFC-7613-4F3B-871F-B4E2279CC0A8_2": {
-                    "distance": 0.1353,
+                    "distance": 0.0688,
                     "size": 11.5271,
-                    "percentage": 0.0117
+                    "percentage": 0.006
                 },
                 "GUID_C778DEF6-81AD-457A-BF2E-AADD22925194_3": {
                     "distance": 0.0,
@@ -5218,7 +5218,7 @@
                     "percentage": 0.0055
                 },
                 "GUID_ABCA7D7A-A74C-406D-92F9-9658845B4F47_2": {
-                    "distance": 0.0495,
+                    "distance": 0.0492,
                     "size": 8.4075,
                     "percentage": 0.0059
                 },
@@ -5303,7 +5303,7 @@
                     "percentage": 0.0
                 },
                 "GUID_957B7FE8-F71F-46B2-9956-DCAB6293A2AD_3": {
-                    "distance": 0.052,
+                    "distance": 0.0518,
                     "size": 10.594,
                     "percentage": 0.0049
                 },
@@ -5328,7 +5328,7 @@
                     "percentage": 0.0
                 },
                 "GUID_957B7FE8-F71F-46B2-9956-DCAB6293A2AD_1": {
-                    "distance": 0.0518,
+                    "distance": 0.0521,
                     "size": 23.7111,
                     "percentage": 0.0022
                 },
@@ -5358,12 +5358,12 @@
                     "percentage": 0.0
                 },
                 "GUID_DC51367C-C711-4937-96B9-3E4727086443_3": {
-                    "distance": 0.0342,
+                    "distance": 0.0344,
                     "size": 9.4486,
                     "percentage": 0.0036
                 },
                 "GUID_21E3B6BF-E0A7-4843-AE47-E56E355F0805": {
-                    "distance": 0.0693,
+                    "distance": 0.0692,
                     "size": 12.2065,
                     "percentage": 0.0057
                 },
@@ -5373,7 +5373,7 @@
                     "percentage": 0.0
                 },
                 "GUID_DC51367C-C711-4937-96B9-3E4727086443_1": {
-                    "distance": 0.0397,
+                    "distance": 0.0399,
                     "size": 9.3313,
                     "percentage": 0.0043
                 },
@@ -5393,9 +5393,9 @@
                     "percentage": 0.0
                 },
                 "GUID_A26446DA-7B59-4594-B396-ACF005AD6C9B_2": {
-                    "distance": 0.0395,
+                    "distance": 0.0393,
                     "size": 16.7662,
-                    "percentage": 0.0024
+                    "percentage": 0.0023
                 },
                 "GUID_19C82D3F-0386-4C83-8832-280C5596D4BF_6": {
                     "distance": 0.0,
@@ -5408,7 +5408,7 @@
                     "percentage": 0.0
                 },
                 "GUID_A26446DA-7B59-4594-B396-ACF005AD6C9B_3": {
-                    "distance": 0.0387,
+                    "distance": 0.0391,
                     "size": 13.3825,
                     "percentage": 0.0029
                 },
@@ -5428,9 +5428,9 @@
                     "percentage": 0.0
                 },
                 "GUID_A26446DA-7B59-4594-B396-ACF005AD6C9B_5": {
-                    "distance": 0.0387,
+                    "distance": 0.0391,
                     "size": 11.2828,
-                    "percentage": 0.0034
+                    "percentage": 0.0035
                 },
                 "GUID_19C82D3F-0386-4C83-8832-280C5596D4BF_9": {
                     "distance": 0.0,
@@ -5463,9 +5463,9 @@
                     "percentage": 0.0
                 },
                 "GUID_182872C4-9507-4203-8EC2-BDC6929FF072": {
-                    "distance": 0.0382,
+                    "distance": 0.0379,
                     "size": 17.7014,
-                    "percentage": 0.0022
+                    "percentage": 0.0021
                 },
                 "GUID_7C3B79B9-65A9-4CEB-B457-8593FF0770C9_2": {
                     "distance": 0.0,
@@ -5563,7 +5563,7 @@
                     "percentage": 0.0
                 },
                 "GUID_3D54BD19-B28C-4C01-A235-BA9B56938EA3_4": {
-                    "distance": 0.045,
+                    "distance": 0.0451,
                     "size": 3.716,
                     "percentage": 0.0121
                 },
@@ -5578,9 +5578,9 @@
                     "percentage": 0.0
                 },
                 "GUID_3D54BD19-B28C-4C01-A235-BA9B56938EA3_5": {
-                    "distance": 0.0444,
+                    "distance": 0.0441,
                     "size": 3.4731,
-                    "percentage": 0.0128
+                    "percentage": 0.0127
                 },
                 "GUID_7E0D37B7-3FBA-43A2-9561-420A4F5C8609_2": {
                     "distance": 0.0,
@@ -5638,9 +5638,9 @@
                     "percentage": 0.0
                 },
                 "GUID_82DC657D-A655-41EA-AE6D-85226084403C_1": {
-                    "distance": 0.0968,
+                    "distance": 0.0623,
                     "size": 11.8734,
-                    "percentage": 0.0082
+                    "percentage": 0.0052
                 },
                 "GUID_82DC657D-A655-41EA-AE6D-85226084403C_2": {
                     "distance": 0.0,
@@ -5648,9 +5648,9 @@
                     "percentage": 0.0
                 },
                 "GUID_BF660219-36D2-4CC3-856E-DE7139212F2C_3": {
-                    "distance": 0.0526,
+                    "distance": 0.0521,
                     "size": 12.8994,
-                    "percentage": 0.0041
+                    "percentage": 0.004
                 },
                 "GUID_BF660219-36D2-4CC3-856E-DE7139212F2C_2": {
                     "distance": 0.0,
@@ -5743,7 +5743,7 @@
                     "percentage": 0.0
                 },
                 "GUID_8A738CDA-93B1-4CB0-8F72-365C9FDDF659_1": {
-                    "distance": 0.0447,
+                    "distance": 0.0448,
                     "size": 11.4265,
                     "percentage": 0.0039
                 },
@@ -5823,7 +5823,7 @@
                     "percentage": 0.0
                 },
                 "GUID_0840FB0B-B8FE-427D-82A9-E4BD8558BDE8": {
-                    "distance": 0.0684,
+                    "distance": 0.0682,
                     "size": 12.513,
                     "percentage": 0.0055
                 },
@@ -5863,7 +5863,7 @@
                     "percentage": 0.0
                 },
                 "GUID_7DBD425B-4829-42B9-86ED-78538F307401_3": {
-                    "distance": 0.003,
+                    "distance": 0.0027,
                     "size": 10.5814,
                     "percentage": 0.0003
                 },
@@ -5973,7 +5973,7 @@
                     "percentage": 0.0
                 },
                 "GUID_764F4561-E9C0-485C-8195-DBB64A0A6629_1": {
-                    "distance": 0.0757,
+                    "distance": 0.0759,
                     "size": 12.1642,
                     "percentage": 0.0062
                 },
@@ -6063,7 +6063,7 @@
                     "percentage": 0.0
                 },
                 "GUID_BC37EA45-CDFC-42B2-96C9-3114909F35C3_1": {
-                    "distance": 0.0755,
+                    "distance": 0.0757,
                     "size": 12.1204,
                     "percentage": 0.0062
                 },
@@ -6088,7 +6088,7 @@
                     "percentage": 0.0
                 },
                 "GUID_428D2DD2-8B01-4A61-9CB7-596ABE0EAEA5_4": {
-                    "distance": 0.0437,
+                    "distance": 0.0434,
                     "size": 15.8948,
                     "percentage": 0.0027
                 },
@@ -6408,7 +6408,7 @@
                     "percentage": 0.0
                 },
                 "GUID_3637B120-DB48-43EF-82AD-D9E6175EDD8B_2": {
-                    "distance": 0.0392,
+                    "distance": 0.0391,
                     "size": 12.0073,
                     "percentage": 0.0033
                 },
@@ -6423,7 +6423,7 @@
                     "percentage": 0.0
                 },
                 "GUID_3637B120-DB48-43EF-82AD-D9E6175EDD8B_1": {
-                    "distance": 0.0392,
+                    "distance": 0.0391,
                     "size": 14.6446,
                     "percentage": 0.0027
                 },
@@ -6488,7 +6488,7 @@
                     "percentage": 0.0
                 },
                 "GUID_FD3FBBF2-3BC2-46F2-A3D2-F9967629731C_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0433,
                     "size": 12.286,
                     "percentage": 0.0035
                 },
@@ -6528,7 +6528,7 @@
                     "percentage": 0.0
                 },
                 "GUID_9EDF19C0-C801-4DD0-9EA3-9E2EE98CD7B6_1": {
-                    "distance": 0.043,
+                    "distance": 0.0434,
                     "size": 12.2961,
                     "percentage": 0.0035
                 },
@@ -6568,9 +6568,9 @@
                     "percentage": 0.0
                 },
                 "GUID_8B66DEE9-3722-4613-9865-247EFF878BF1_1": {
-                    "distance": 0.062,
+                    "distance": 0.0617,
                     "size": 10.2206,
-                    "percentage": 0.0061
+                    "percentage": 0.006
                 },
                 "GUID_8B66DEE9-3722-4613-9865-247EFF878BF1_2": {
                     "distance": 0.0,
@@ -6653,9 +6653,9 @@
                     "percentage": 0.0035
                 },
                 "GUID_37BD6F2D-35E0-4CE2-90D5-1881F83C4BBA_6": {
-                    "distance": 0.0504,
+                    "distance": 0.051,
                     "size": 19.7712,
-                    "percentage": 0.0025
+                    "percentage": 0.0026
                 },
                 "GUID_89BC1F00-514D-4627-85B3-D8DA48A642EB": {
                     "distance": 0.0,
@@ -6753,7 +6753,7 @@
                     "percentage": 0.0
                 },
                 "GUID_EE3E6ED3-4AB4-4084-B41B-103596AF361F_7": {
-                    "distance": 0.0331,
+                    "distance": 0.0336,
                     "size": 20.9248,
                     "percentage": 0.0016
                 },
@@ -6783,7 +6783,7 @@
                     "percentage": 0.0
                 },
                 "GUID_97CE009A-19B0-46EF-892E-D858657ADAC5_1": {
-                    "distance": 0.0773,
+                    "distance": 0.0772,
                     "size": 11.6957,
                     "percentage": 0.0066
                 },
@@ -6808,7 +6808,7 @@
                     "percentage": 0.0
                 },
                 "GUID_A4FBAF53-5695-4AC2-BDF2-976EDFBC070E_2": {
-                    "distance": 0.0408,
+                    "distance": 0.0406,
                     "size": 12.437,
                     "percentage": 0.0033
                 },
@@ -6858,7 +6858,7 @@
                     "percentage": 0.0
                 },
                 "GUID_9C875CCF-9747-41CF-A9FB-5E6BBEAABCD1_1": {
-                    "distance": 0.043,
+                    "distance": 0.0428,
                     "size": 17.314,
                     "percentage": 0.0025
                 },
@@ -6873,7 +6873,7 @@
                     "percentage": 0.0
                 },
                 "GUID_53526193-C7DF-4532-86F3-6073EDFCB3B4_2": {
-                    "distance": 0.0776,
+                    "distance": 0.0781,
                     "size": 10.3867,
                     "percentage": 0.0075
                 },
@@ -6963,7 +6963,7 @@
                     "percentage": 0.0
                 },
                 "GUID_574EFB0B-948F-4D75-8335-6F470EC86B3A": {
-                    "distance": 0.0396,
+                    "distance": 0.0395,
                     "size": 11.4414,
                     "percentage": 0.0035
                 },
@@ -7003,7 +7003,7 @@
                     "percentage": 0.0
                 },
                 "GUID_53CA8EED-D25D-4BF2-839D-C96D72507529": {
-                    "distance": 0.0481,
+                    "distance": 0.0482,
                     "size": 13.9385,
                     "percentage": 0.0035
                 },
@@ -7018,7 +7018,7 @@
                     "percentage": 0.0
                 },
                 "GUID_39830C08-1DEC-4230-A5C1-9B1503CF0869_1": {
-                    "distance": 0.0752,
+                    "distance": 0.075,
                     "size": 11.6809,
                     "percentage": 0.0064
                 },
@@ -7038,12 +7038,12 @@
                     "percentage": 0.0
                 },
                 "GUID_39830C08-1DEC-4230-A5C1-9B1503CF0869_3": {
-                    "distance": 0.0706,
+                    "distance": 0.0703,
                     "size": 10.2502,
                     "percentage": 0.0069
                 },
                 "GUID_7E5FA6F3-84E3-4985-A9D3-C6705A705732_4": {
-                    "distance": 0.0432,
+                    "distance": 0.0437,
                     "size": 10.6555,
                     "percentage": 0.0041
                 },
@@ -7063,7 +7063,7 @@
                     "percentage": 0.0
                 },
                 "GUID_8D885CAF-C489-46B0-8563-41ED831F27AF_2": {
-                    "distance": 0.0361,
+                    "distance": 0.0363,
                     "size": 14.2744,
                     "percentage": 0.0025
                 },
@@ -7108,7 +7108,7 @@
                     "percentage": 0.0
                 },
                 "GUID_EDE35BF8-AFFF-484F-B6F0-22FFDF88FF13_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0438,
                     "size": 13.7529,
                     "percentage": 0.0032
                 },
@@ -7183,7 +7183,7 @@
                     "percentage": 0.0
                 },
                 "GUID_CFECEFBA-C975-4C2B-B895-99DED7EE47F2_3": {
-                    "distance": 0.0253,
+                    "distance": 0.0254,
                     "size": 14.1655,
                     "percentage": 0.0018
                 },
@@ -7323,7 +7323,7 @@
                     "percentage": 0.0
                 },
                 "GUID_8CF403CA-4E65-4AA9-B3D2-C452EF40EDD0_1": {
-                    "distance": 0.0693,
+                    "distance": 0.0692,
                     "size": 10.1323,
                     "percentage": 0.0068
                 },
@@ -7333,14 +7333,14 @@
                     "percentage": 0.0
                 },
                 "GUID_A57BC44A-FA10-4A6F-89C9-7E83426EC985_7": {
-                    "distance": 0.042,
+                    "distance": 0.0417,
                     "size": 12.2319,
                     "percentage": 0.0034
                 },
                 "GUID_2F0037E8-4D15-42A0-8654-9438FDAF910A_4": {
-                    "distance": 0.1063,
+                    "distance": 0.1066,
                     "size": 12.6078,
-                    "percentage": 0.0084
+                    "percentage": 0.0085
                 },
                 "GUID_2F0037E8-4D15-42A0-8654-9438FDAF910A_3": {
                     "distance": 0.0,
@@ -7353,7 +7353,7 @@
                     "percentage": 0.0
                 },
                 "GUID_2F0037E8-4D15-42A0-8654-9438FDAF910A_1": {
-                    "distance": 0.0281,
+                    "distance": 0.0284,
                     "size": 12.4176,
                     "percentage": 0.0023
                 },
@@ -7403,7 +7403,7 @@
                     "percentage": 0.0
                 },
                 "GUID_C1B5BB51-922E-4BF5-9074-C55A6A294BAC_2": {
-                    "distance": 0.0498,
+                    "distance": 0.0503,
                     "size": 9.4847,
                     "percentage": 0.0053
                 },
@@ -7423,7 +7423,7 @@
                     "percentage": 0.0
                 },
                 "GUID_C1B5BB51-922E-4BF5-9074-C55A6A294BAC_1": {
-                    "distance": 0.0511,
+                    "distance": 0.0512,
                     "size": 10.3817,
                     "percentage": 0.0049
                 },
@@ -7533,12 +7533,12 @@
                     "percentage": 0.0
                 },
                 "GUID_CD203B70-05A3-4BE8-9B2B-C6D45B14B707_1": {
-                    "distance": 0.0646,
+                    "distance": 0.0647,
                     "size": 13.9427,
                     "percentage": 0.0046
                 },
                 "GUID_E7E2F20F-0BE1-4A51-AF4D-0E39DBEDB083_2": {
-                    "distance": 0.0504,
+                    "distance": 0.0499,
                     "size": 13.2889,
                     "percentage": 0.0038
                 },
@@ -7608,7 +7608,7 @@
                     "percentage": 0.0
                 },
                 "GUID_EE3E6ED3-4AB4-4084-B41B-103596AF361F_11": {
-                    "distance": 0.0282,
+                    "distance": 0.0284,
                     "size": 7.6037,
                     "percentage": 0.0037
                 },
@@ -7678,9 +7678,9 @@
                     "percentage": 0.0
                 },
                 "GUID_6E65DF28-50AD-4239-B5E8-0C7C992CC681_1": {
-                    "distance": 0.0693,
+                    "distance": 0.0687,
                     "size": 9.2245,
-                    "percentage": 0.0075
+                    "percentage": 0.0074
                 },
                 "GUID_8DDEC4AA-5CA2-41FF-A088-5285150E74C8_3": {
                     "distance": 0.0,
@@ -7733,7 +7733,7 @@
                     "percentage": 0.0
                 },
                 "GUID_420F8F13-32C5-411C-AA06-E78B60A9CE0F": {
-                    "distance": 0.0751,
+                    "distance": 0.0752,
                     "size": 10.4909,
                     "percentage": 0.0072
                 },
@@ -7753,7 +7753,7 @@
                     "percentage": 0.0
                 },
                 "GUID_66F54BDE-BE43-4CE0-B625-05AFC42DE97C_2": {
-                    "distance": 0.0683,
+                    "distance": 0.0681,
                     "size": 10.9817,
                     "percentage": 0.0062
                 },
@@ -7863,7 +7863,7 @@
                     "percentage": 0.0
                 },
                 "GUID_CFD19C97-1A76-4905-98E5-D170ED527EB1_1": {
-                    "distance": 0.035,
+                    "distance": 0.0348,
                     "size": 12.4233,
                     "percentage": 0.0028
                 },
@@ -7873,7 +7873,7 @@
                     "percentage": 0.0
                 },
                 "GUID_CFD19C97-1A76-4905-98E5-D170ED527EB1_3": {
-                    "distance": 0.035,
+                    "distance": 0.0348,
                     "size": 11.8804,
                     "percentage": 0.0029
                 },
@@ -7893,7 +7893,7 @@
                     "percentage": 0.0
                 },
                 "GUID_E761428D-FCDB-4EFB-96DA-DE4911490058_1": {
-                    "distance": 0.0691,
+                    "distance": 0.0692,
                     "size": 9.332,
                     "percentage": 0.0074
                 },
@@ -7958,9 +7958,9 @@
                     "percentage": 0.0
                 },
                 "GUID_0BADC108-BD62-44E3-AA95-7874D787AD47": {
-                    "distance": 0.133,
+                    "distance": 0.0719,
                     "size": 7.9177,
-                    "percentage": 0.0168
+                    "percentage": 0.0091
                 },
                 "GUID_4038E739-3C00-4438-ABA4-C0D6539460F1": {
                     "distance": 0.0,
@@ -8003,7 +8003,7 @@
                     "percentage": 0.0
                 },
                 "GUID_0B63005C-5442-48FC-83ED-5DAD62D08668_2": {
-                    "distance": 0.062,
+                    "distance": 0.0623,
                     "size": 12.1545,
                     "percentage": 0.0051
                 },
@@ -8253,7 +8253,7 @@
                     "percentage": 0.0
                 },
                 "GUID_A1473B00-2952-4171-80BA-D4E2D462D0BB_1": {
-                    "distance": 0.0582,
+                    "distance": 0.0585,
                     "size": 14.1085,
                     "percentage": 0.0041
                 },
@@ -8333,7 +8333,7 @@
                     "percentage": 0.0
                 },
                 "GUID_277A4660-13D0-41F8-A45C-39FB9AB615AA_1": {
-                    "distance": 0.0435,
+                    "distance": 0.0438,
                     "size": 12.3689,
                     "percentage": 0.0035
                 },
@@ -8368,7 +8368,7 @@
                     "percentage": 0.0
                 },
                 "GUID_C5A846FD-0B7E-4286-9C2E-3716A4589D5E_1": {
-                    "distance": 0.1106,
+                    "distance": 0.1111,
                     "size": 12.0344,
                     "percentage": 0.0092
                 },
@@ -8418,12 +8418,12 @@
                     "percentage": 0.0
                 },
                 "GUID_351BE36C-81E2-4C22-A7DD-642A0DE9D72D_3": {
-                    "distance": 0.0583,
+                    "distance": 0.058,
                     "size": 18.4129,
-                    "percentage": 0.0032
+                    "percentage": 0.0031
                 },
                 "GUID_351BE36C-81E2-4C22-A7DD-642A0DE9D72D_2": {
-                    "distance": 0.0405,
+                    "distance": 0.0406,
                     "size": 18.801,
                     "percentage": 0.0022
                 },
@@ -8433,9 +8433,9 @@
                     "percentage": 0.0
                 },
                 "GUID_521D51C7-870C-428E-82D3-FB65D2A177B2": {
-                    "distance": 0.063,
+                    "distance": 0.0628,
                     "size": 13.8104,
-                    "percentage": 0.0046
+                    "percentage": 0.0045
                 },
                 "GUID_75F6A8A9-3BA2-43AE-9279-3AA330514EE8_1": {
                     "distance": 0.0,
@@ -8763,7 +8763,7 @@
                     "percentage": 0.0
                 },
                 "GUID_CF4B0A19-0DDD-4C33-AD94-252A90746CD4_3": {
-                    "distance": 0.0419,
+                    "distance": 0.0416,
                     "size": 14.9475,
                     "percentage": 0.0028
                 },
@@ -8788,7 +8788,7 @@
                     "percentage": 0.0
                 },
                 "GUID_41F079A7-AD35-44D1-B2AB-6A03E0725A05": {
-                    "distance": 0.0496,
+                    "distance": 0.0495,
                     "size": 17.4603,
                     "percentage": 0.0028
                 },
@@ -8858,14 +8858,14 @@
                     "percentage": 0.0
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_3": {
-                    "distance": 0.0789,
+                    "distance": 0.0126,
                     "size": 10.0448,
-                    "percentage": 0.0079
+                    "percentage": 0.0013
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_2": {
-                    "distance": 0.0789,
+                    "distance": 0.0126,
                     "size": 11.3968,
-                    "percentage": 0.0069
+                    "percentage": 0.0011
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_5": {
                     "distance": 0.0,
@@ -8873,22 +8873,22 @@
                     "percentage": 0.0
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_4": {
-                    "distance": 0.0789,
+                    "distance": 0.0126,
                     "size": 10.0155,
-                    "percentage": 0.0079
+                    "percentage": 0.0013
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_7": {
-                    "distance": 0.0394,
+                    "distance": 0.0396,
                     "size": 10.8649,
                     "percentage": 0.0036
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_6": {
-                    "distance": 0.0394,
+                    "distance": 0.0396,
                     "size": 10.3163,
                     "percentage": 0.0038
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_9": {
-                    "distance": 0.0394,
+                    "distance": 0.0396,
                     "size": 10.981,
                     "percentage": 0.0036
                 },
@@ -8923,9 +8923,9 @@
                     "percentage": 0.0
                 },
                 "GUID_3B55CD0F-D6ED-4067-8380-6A819CDC823D_1": {
-                    "distance": 0.0789,
+                    "distance": 0.0639,
                     "size": 12.6779,
-                    "percentage": 0.0062
+                    "percentage": 0.005
                 },
                 "GUID_0C84AA1D-0190-41B9-B5BD-40751783DFDA_1": {
                     "distance": 0.0,
@@ -9013,14 +9013,14 @@
                     "percentage": 0.0
                 },
                 "GUID_C78A3205-27CC-4AD7-B240-8D2CFA89DB49_3": {
-                    "distance": 0.0412,
+                    "distance": 0.0415,
                     "size": 9.1044,
-                    "percentage": 0.0045
+                    "percentage": 0.0046
                 },
                 "GUID_C78A3205-27CC-4AD7-B240-8D2CFA89DB49_4": {
-                    "distance": 0.0412,
+                    "distance": 0.0415,
                     "size": 9.764,
-                    "percentage": 0.0042
+                    "percentage": 0.0043
                 },
                 "GUID_DE036BD2-6608-4D9F-9F2D-C5CDAFEC61F0_1": {
                     "distance": 0.0,
@@ -9028,9 +9028,9 @@
                     "percentage": 0.0
                 },
                 "GUID_C78A3205-27CC-4AD7-B240-8D2CFA89DB49_5": {
-                    "distance": 0.0412,
+                    "distance": 0.0415,
                     "size": 8.3523,
-                    "percentage": 0.0049
+                    "percentage": 0.005
                 },
                 "GUID_E8E134E6-9C6D-4FD4-B626-4A6E31925770_1": {
                     "distance": 0.0,
@@ -9038,12 +9038,12 @@
                     "percentage": 0.0
                 },
                 "GUID_DE036BD2-6608-4D9F-9F2D-C5CDAFEC61F0_2": {
-                    "distance": 0.122,
+                    "distance": 0.0866,
                     "size": 16.3187,
-                    "percentage": 0.0075
+                    "percentage": 0.0053
                 },
                 "GUID_C78A3205-27CC-4AD7-B240-8D2CFA89DB49_6": {
-                    "distance": 0.0412,
+                    "distance": 0.0415,
                     "size": 10.1555,
                     "percentage": 0.0041
                 },
@@ -9073,7 +9073,7 @@
                     "percentage": 0.0
                 },
                 "GUID_B3643A4C-DD3E-41CC-B8DC-141EBE6C6983_1": {
-                    "distance": 0.0296,
+                    "distance": 0.0294,
                     "size": 14.1067,
                     "percentage": 0.0021
                 },
@@ -9108,12 +9108,12 @@
                     "percentage": 0.0
                 },
                 "GUID_F145C344-8AA1-4684-A406-9B5B2666663E_4": {
-                    "distance": 0.0742,
+                    "distance": 0.0745,
                     "size": 12.8239,
                     "percentage": 0.0058
                 },
                 "GUID_F145C344-8AA1-4684-A406-9B5B2666663E_3": {
-                    "distance": 0.0742,
+                    "distance": 0.0745,
                     "size": 10.2023,
                     "percentage": 0.0073
                 },
@@ -9263,9 +9263,9 @@
                     "percentage": 0.0
                 },
                 "GUID_360F9CA4-28D3-4571-A35F-5E194151896B": {
-                    "distance": 0.0693,
+                    "distance": 0.0687,
                     "size": 9.7925,
-                    "percentage": 0.0071
+                    "percentage": 0.007
                 },
                 "GUID_5A8C6F5D-9F42-4C5E-BCFC-92EE6F978F4E": {
                     "distance": 0.0,
@@ -9283,7 +9283,7 @@
                     "percentage": 0.0
                 },
                 "GUID_AAE057D6-AF55-41A4-AFA7-792C4A73B0E9_1": {
-                    "distance": 0.1106,
+                    "distance": 0.1111,
                     "size": 12.0163,
                     "percentage": 0.0092
                 },
@@ -9538,7 +9538,7 @@
                     "percentage": 0.0
                 },
                 "GUID_DD84D45F-80CC-48CA-A9C9-C89F1E026962_1": {
-                    "distance": 0.067,
+                    "distance": 0.0669,
                     "size": 11.7519,
                     "percentage": 0.0057
                 },
@@ -9613,7 +9613,7 @@
                     "percentage": 0.0
                 },
                 "GUID_F030A3F1-37CB-428B-8085-4E030F84F0CC_3": {
-                    "distance": 0.0299,
+                    "distance": 0.03,
                     "size": 12.9802,
                     "percentage": 0.0023
                 },
@@ -9628,9 +9628,9 @@
                     "percentage": 0.0
                 },
                 "GUID_4D5B8994-2497-44B5-95F5-4A394CDB5DA3_2": {
-                    "distance": 0.0492,
+                    "distance": 0.049,
                     "size": 11.8386,
-                    "percentage": 0.0042
+                    "percentage": 0.0041
                 },
                 "GUID_4D5B8994-2497-44B5-95F5-4A394CDB5DA3_1": {
                     "distance": 0.0,
@@ -9663,7 +9663,7 @@
                     "percentage": 0.0
                 },
                 "GUID_26C35C3F-9573-4984-A253-148F2A2EDEE0_2": {
-                    "distance": 0.0496,
+                    "distance": 0.0495,
                     "size": 19.2483,
                     "percentage": 0.0026
                 },
@@ -9718,7 +9718,7 @@
                     "percentage": 0.0
                 },
                 "GUID_A01FDB43-8D0E-4F9A-8301-8053244FDF43_3": {
-                    "distance": 0.0499,
+                    "distance": 0.0496,
                     "size": 11.8521,
                     "percentage": 0.0042
                 },
@@ -9793,7 +9793,7 @@
                     "percentage": 0.0
                 },
                 "GUID_55DFA7F9-3020-45CB-BCA5-C801A62987BD_2": {
-                    "distance": 0.0684,
+                    "distance": 0.0682,
                     "size": 11.7963,
                     "percentage": 0.0058
                 },
@@ -9838,7 +9838,7 @@
                     "percentage": 0.0
                 },
                 "GUID_4E8417D8-F39D-4260-BE18-E7E128941483_1": {
-                    "distance": 0.001,
+                    "distance": 0.0007,
                     "size": 9.1182,
                     "percentage": 0.0001
                 },
@@ -9958,11 +9958,11 @@
                     "percentage": 0.0
                 }
             },
-            "maxDifference": 0.1499,
+            "maxDifference": 0.118,
             "missingCount": 0,
-            "highestPercentage": 0.0168
+            "highestPercentage": 0.0096
         }
     },
-    "Maxdifferencewholefile": 0.1499,
-    "HighestPercentageWholeFile": 0.0168
+    "Maxdifferencewholefile": 0.118,
+    "HighestPercentageWholeFile": 0.0096
 }

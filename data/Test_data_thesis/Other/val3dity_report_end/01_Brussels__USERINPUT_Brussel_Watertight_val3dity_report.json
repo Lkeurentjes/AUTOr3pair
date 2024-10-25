@@ -1,12 +1,8 @@
 {
   "all_errors": [
-    102,
-    104,
-    201,
     203,
-    204,
     302,
-    306,
+    601,
     906
   ],
   "dataset_errors": [],
@@ -62,10 +58,10 @@
     {
       "errors": [
         {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_1000040|geom=1&&coid=GML_1000040|geom=2",
+          "info": "geometries are lod=2",
           "type": "Error"
         }
       ],
@@ -206,17 +202,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_1000495|geom=0|shell=0|face=",
-          "info": "Location hole: (149621, 169104, 94.781)"
-        }
-      ],
+      "errors": [],
       "id": "GML_1000495",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -243,25 +232,18 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_1000503|geom=0|shell=0|face=46",
-          "info": "distance to fitted plane: 0.0392521 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_1000503",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_1000504|geom=1&&coid=GML_1000504|geom=2",
+          "info": "geometries are lod=2",
           "type": "Error"
         }
       ],
@@ -300,17 +282,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_1000847|geom=0|shell=0|face=0",
-          "info": "distance to fitted plane: 0.376607 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_1000847",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -319,23 +294,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_1000849|geom=0|shell=0|face=0",
-          "info": "distance to fitted plane: 0.0144414 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_1000849|geom=0|shell=0|face=3",
-          "info": "distance to fitted plane: 0.0103604 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_1000849",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -524,23 +486,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_5055371|geom=0|shell=0|face=",
-          "info": "Location hole: (149856, 169884, 103.89)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_5055371|geom=0|shell=0|face=",
-          "info": "Location hole: (149858, 169886, 103.89)"
-        }
-      ],
+      "errors": [],
       "id": "GML_5055371",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -591,17 +540,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_5066976|geom=0|shell=0|face=18",
-          "info": "distance to fitted plane: 0.0347955 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_5066976",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -640,18 +582,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "GML_5093403",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1038,29 +972,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_5094870|geom=0|shell=0|face=7",
-          "info": "ring self-intersects or is collapsed to a line"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_5094870|geom=0|shell=0|face=13",
-          "info": "distance to fitted plane: 0.0398493 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_5094870|geom=0|shell=0|face=24",
-          "info": "distance to fitted plane: 0.0201133 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_5094870",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1111,23 +1026,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_5094993|geom=0|shell=0|face=6",
-          "info": ""
-        },
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_5094993|geom=0|shell=0|face=14",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "GML_5094993",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1154,17 +1056,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_5095032|geom=0|shell=0|face=3",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "GML_5095032",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1185,17 +1080,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_5095125|geom=0|shell=0|face=14",
-          "info": "distance to fitted plane: 0.020064 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_5095125",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1798,17 +1686,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_5095956|geom=0|shell=0|face=0",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_5095956",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2027,17 +1908,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_5096343|geom=0|shell=0|face=0",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_5096343",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2160,35 +2034,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_6046096|geom=0|shell=0|face=",
-          "info": "Location close to: (149179, 169977, 65.6423)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_6046096|geom=0|shell=0|face=",
-          "info": "Location close to: (149180, 169976, 61.9417)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_6046096|geom=0|shell=0|face=",
-          "info": "Location close to: (149179, 169977, 61.9933)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_6046096|geom=0|shell=0|face=",
-          "info": "Location close to: (149180, 169976, 58.29)"
-        }
-      ],
+      "errors": [],
       "id": "GML_6046096",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2575,10 +2424,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7914993",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2899,10 +2756,17 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 302,
+          "description": "SHELL_NOT_CLOSED",
+          "id": "coid=GML_7915103|geom=0|shell=0|face=",
+          "info": "Location hole: (149129, 169102, 71.79)"
+        }
+      ],
       "id": "GML_7915103",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -3025,17 +2889,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915147|geom=0|shell=0|face=",
-          "info": "Location hole: (149842, 169552, 82.68)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915147",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -3266,23 +3123,24 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915229|geom=0|shell=0|face=",
-          "info": "Location hole: (149260, 169707, 84.124)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915229",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7915235",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -3477,17 +3335,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7915309|geom=0|shell=0|face=1",
-          "info": "deviation normals: 20.6525 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915309",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -3634,17 +3485,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915359|geom=0|shell=0|face=",
-          "info": "Location hole: (149390, 169365, 93.607)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915359",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4361,35 +4205,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915607|geom=0|shell=0|face=",
-          "info": "Location hole: (149433, 169837, 84.32)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915607|geom=0|shell=0|face=",
-          "info": "Location hole: (149429, 169834, 73.139)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915607|geom=0|shell=0|face=",
-          "info": "Location hole: (149434, 169833, 86.79)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915607|geom=0|shell=0|face=",
-          "info": "Location hole: (149435, 169834, 86.408)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915607",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4938,53 +4757,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149469, 169905, 92.13)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149453, 169912, 97.81)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149466, 169896, 92.1)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149463, 169899, 100.48)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149469, 169917, 100.465)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149465, 169895, 94.467)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7915797|geom=0|shell=0|face=",
-          "info": "Location hole: (149461, 169909, 97.8)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915797",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5017,23 +4793,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7915811|geom=0|shell=0|face=19",
-          "info": "distance to fitted plane: 0.0231372 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7915811|geom=0|shell=0|face=25",
-          "info": "distance to fitted plane: 0.033228 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915811",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
@@ -5041,7 +4804,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7915813|geom=0|shell=0|face=8",
-          "info": "distance to fitted plane: 0.0106105 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0105711 (tolerance=0.01)"
         }
       ],
       "id": "GML_7915813",
@@ -5079,17 +4842,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7915827|geom=0|shell=0|face=13",
-          "info": "deviation normals: 90 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7915827",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5679,7 +5435,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7916031|geom=0|shell=0|face=15",
-          "info": "distance to fitted plane: 0.0139528 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0139822 (tolerance=0.01)"
         }
       ],
       "id": "GML_7916031",
@@ -5747,17 +5503,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7916055|geom=0|shell=0|face=2",
-          "info": "deviation normals: 40.491 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916055",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5880,23 +5629,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916101|geom=0|shell=0|face=3",
-          "info": "distance to fitted plane: 0.0206547 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916101|geom=0|shell=0|face=17",
-          "info": "distance to fitted plane: 0.0222045 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916101",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6187,29 +5923,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916199|geom=0|shell=0|face=",
-          "info": "Location hole: (149587, 169094, 84.818)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916199|geom=0|shell=0|face=",
-          "info": "Location hole: (149594, 169091, 85.21)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916199|geom=0|shell=0|face=",
-          "info": "Location hole: (149589, 169093, 84.8)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916199",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6440,17 +6157,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916281|geom=0|shell=0|face=3",
-          "info": "distance to fitted plane: 0.0241575 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916281",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6513,17 +6223,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916303|geom=0|shell=0|face=",
-          "info": "Location hole: (149624, 169513, 82.292)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916303",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6574,23 +6277,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916321|geom=0|shell=0|face=",
-          "info": "Location hole: (149393, 169006, 87.349)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916321|geom=0|shell=0|face=",
-          "info": "Location hole: (149397, 169009, 87.49)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916321",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6605,23 +6295,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916327|geom=0|shell=0|face=",
-          "info": "Location hole: (149939, 169057, 101.3)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916327|geom=0|shell=0|face=",
-          "info": "Location hole: (149936, 169059, 99.79)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916327",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6714,17 +6391,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916365|geom=0|shell=0|face=12",
-          "info": "distance to fitted plane: 0.0300482 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916365",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7110,7 +6780,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7916493|geom=0|shell=0|face=8",
-          "info": "distance to fitted plane: 0.0122826 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0125837 (tolerance=0.01)"
         }
       ],
       "id": "GML_7916493",
@@ -7244,17 +6914,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_7916537|geom=0|shell=0|face=9",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916537",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7346,7 +7009,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7916567|geom=0|shell=0|face=42",
-          "info": "distance to fitted plane: 0.0116158 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0117079 (tolerance=0.01)"
         }
       ],
       "id": "GML_7916567",
@@ -7462,17 +7125,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916605|geom=0|shell=0|face=",
-          "info": "Location hole: (149865, 169291, 91.02)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916605",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7487,17 +7143,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916611|geom=0|shell=0|face=",
-          "info": "Location hole: (149101, 169161, 74.03)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916611",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7752,29 +7401,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916697|geom=0|shell=0|face=5",
-          "info": "distance to fitted plane: 0.0218784 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916697|geom=0|shell=0|face=7",
-          "info": "distance to fitted plane: 0.0480893 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916697|geom=0|shell=0|face=12",
-          "info": "distance to fitted plane: 0.034394 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916697",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7795,10 +7425,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7916705",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -7915,17 +7553,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916749|geom=0|shell=0|face=2",
-          "info": "distance to fitted plane: 0.0354687 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916749",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -7964,17 +7595,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_7916763|geom=0|shell=0|face=0",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "GML_7916763",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8265,41 +7889,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916861|geom=0|shell=0|face=",
-          "info": "Location hole: (149013, 169938, 52.103)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916861|geom=0|shell=0|face=",
-          "info": "Location hole: (149025, 169947, 62.45)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916861|geom=0|shell=0|face=",
-          "info": "Location hole: (149017, 169948, 67.889)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916861|geom=0|shell=0|face=",
-          "info": "Location hole: (149023, 169950, 62.88)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7916861|geom=0|shell=0|face=",
-          "info": "Location hole: (149012, 169945, 68.69)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916861",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8428,17 +8021,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7916905|geom=0|shell=0|face=12",
-          "info": "distance to fitted plane: 0.0100102 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916905",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8621,17 +8207,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_7916969|geom=0|shell=0|face=0",
-          "info": ""
-        }
-      ],
+      "errors": [],
       "id": "GML_7916969",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8652,35 +8231,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7916977|geom=0|shell=0|face=",
-          "info": "Location close to: (149063, 169417, 75.9203)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7916977|geom=0|shell=0|face=",
-          "info": "Location close to: (149067, 169416, 82.06)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7916977|geom=0|shell=0|face=",
-          "info": "Location close to: (149067, 169413, 82.37)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7916977|geom=0|shell=0|face=",
-          "info": "Location close to: (149067, 169416, 82.13)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7916977",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8695,10 +8249,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7916983",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -8743,23 +8305,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917003|geom=0|shell=0|face=0",
-          "info": "distance to fitted plane: 0.0290366 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917003|geom=0|shell=0|face=19",
-          "info": "distance to fitted plane: 0.0247743 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917003",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -8948,17 +8497,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7917067|geom=0|shell=0|face=5",
-          "info": "deviation normals: 28.0979 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917067",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -9405,23 +8947,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917223|geom=0|shell=0|face=9",
-          "info": "distance to fitted plane: 0.0199931 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917223|geom=0|shell=0|face=24",
-          "info": "distance to fitted plane: 0.0210261 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917223",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -9478,17 +9007,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917245|geom=0|shell=0|face=34",
-          "info": "distance to fitted plane: 0.0243253 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917245",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -9557,17 +9079,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7917277|geom=0|shell=0|face=",
-          "info": "Location hole: (149001, 169921, 59.7)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917277",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -10062,10 +9577,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7917449",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -10134,17 +9657,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917473|geom=0|shell=0|face=23",
-          "info": "distance to fitted plane: 0.0371015 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917473",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -10915,17 +10431,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917757|geom=0|shell=0|face=16",
-          "info": "distance to fitted plane: 0.0211734 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917757",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -11018,18 +10527,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917789",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -11140,35 +10641,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7917831|geom=0|shell=0|face=",
-          "info": "Location hole: (149884, 169740, 90.51)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7917831|geom=0|shell=0|face=",
-          "info": "Location hole: (149883, 169750, 92)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7917831|geom=0|shell=0|face=",
-          "info": "Location hole: (149886, 169737, 82.9)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7917831|geom=0|shell=0|face=",
-          "info": "Location hole: (149886, 169737, 80.62)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917831",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -11245,22 +10721,11 @@
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917857|geom=0|shell=0|face=17",
-          "info": "distance to fitted plane: 0.0352641 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917857|geom=0|shell=0|face=42",
-          "info": "distance to fitted plane: 0.0336627 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7917857|geom=0|shell=0|face=45",
-          "info": "distance to fitted plane: 0.0312359 (tolerance=0.01)"
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
         }
       ],
       "id": "GML_7917857",
@@ -11280,18 +10745,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "GML_7917863",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -11834,23 +11291,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918057|geom=0|shell=0|face=4",
-          "info": "distance to fitted plane: 0.0217897 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918057|geom=0|shell=0|face=6",
-          "info": "distance to fitted plane: 0.0304575 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918057",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -11877,35 +11321,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918067|geom=0|shell=0|face=",
-          "info": "Location close to: (149747, 169504, 84.93)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918067|geom=0|shell=0|face=",
-          "info": "Location close to: (149747, 169505, 88.0467)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918067|geom=0|shell=0|face=",
-          "info": "Location close to: (149747, 169504, 91.091)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918067|geom=0|shell=0|face=",
-          "info": "Location close to: (149746, 169503, 87.9887)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918067",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -12256,66 +11675,16 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=23",
-          "info": "ring self-intersects or is collapsed to a line"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=9",
-          "info": "distance to fitted plane: 0.0204986 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=17",
-          "info": "distance to fitted plane: 0.0381136 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=24",
-          "info": "distance to fitted plane: 0.0385128 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=92",
-          "info": "distance to fitted plane: 0.0221116 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=96",
-          "info": "distance to fitted plane: 0.0242556 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918189|geom=0|shell=0|face=97",
-          "info": "distance to fitted plane: 0.0261712 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918189",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918191|geom=0|shell=0|face=29",
-          "info": "distance to fitted plane: 0.0332098 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918191",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -12462,17 +11831,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_7918251|geom=0|shell=0|face=0",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918251",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -12541,23 +11903,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=GML_7918275|geom=0|shell=0|face=4",
-          "info": "ring self-intersects or is collapsed to a line"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918275|geom=0|shell=0|face=16",
-          "info": "distance to fitted plane: 0.0259911 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918275",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -12854,17 +12203,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7918377|geom=0|shell=0|face=22",
-          "info": "deviation normals: 34.1575 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918377",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -12999,47 +12341,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918425|geom=0|shell=0|face=",
-          "info": "Location hole: (149328, 169136, 73.44)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918425|geom=0|shell=0|face=",
-          "info": "Location hole: (149326, 169138, 73.81)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918425|geom=0|shell=0|face=",
-          "info": "Location hole: (149338, 169142, 75.01)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918425|geom=0|shell=0|face=",
-          "info": "Location hole: (149332, 169141, 73.32)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918425|geom=0|shell=0|face=",
-          "info": "Location hole: (149330, 169143, 73.95)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918425|geom=0|shell=0|face=",
-          "info": "Location hole: (149335, 169146, 82.36)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918425",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -13216,18 +12521,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 906,
-          "description": "PRIMITIVE_NO_GEOMETRY",
-          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
-          "info": "",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918487",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -13236,23 +12533,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918493|geom=0|shell=0|face=",
-          "info": "Location hole: (149162, 169373, 65.078)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918493|geom=0|shell=0|face=",
-          "info": "Location hole: (149164, 169375, 70.59)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918493",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -13699,17 +12983,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918651|geom=0|shell=0|face=18",
-          "info": "distance to fitted plane: 0.0259562 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918651",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14006,17 +13283,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918755|geom=0|shell=0|face=1",
-          "info": "distance to fitted plane: 0.0386571 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918755",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14073,17 +13343,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 204,
-          "description": "NON_PLANAR_POLYGON_NORMALS_DEVIATION",
-          "id": "coid=GML_7918775|geom=0|shell=0|face=26",
-          "info": "deviation normals: 27.5568 (tolerance=20)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918775",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14104,23 +13367,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918787|geom=0|shell=0|face=",
-          "info": "Location hole: (149349, 169279, 78.51)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918787|geom=0|shell=0|face=",
-          "info": "Location hole: (149348, 169274, 90.52)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918787",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14177,23 +13427,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918809|geom=0|shell=0|face=",
-          "info": "Location hole: (149493, 169701, 96.5)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918809|geom=0|shell=0|face=",
-          "info": "Location hole: (149506, 169710, 96.76)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918809",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14220,23 +13457,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918819|geom=0|shell=0|face=",
-          "info": "Location hole: (149361, 169961, 87.39)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7918819|geom=0|shell=0|face=",
-          "info": "Location hole: (149361, 169961, 90.299)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918819",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14251,10 +13475,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7918825",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -14269,41 +13501,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|shell=0|face=",
-          "info": "Location close to: (149822, 169279, 80.0853)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|shell=0|face=",
-          "info": "Location close to: (149825, 169281, 87.2577)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|shell=0|face=",
-          "info": "Location close to: (149820, 169284, 86.818)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|shell=0|face=",
-          "info": "Location close to: (149816, 169288, 86.3973)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7918831|geom=0|shell=0|face=",
-          "info": "Location close to: (149821, 169285, 86.837)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918831",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14672,17 +13873,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7918959|geom=0|shell=0|face=20",
-          "info": "distance to fitted plane: 0.0100121 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7918959",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -14919,41 +14113,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919039|geom=0|shell=0|face=",
-          "info": "Location hole: (149057, 169094, 60.74)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919039|geom=0|shell=0|face=",
-          "info": "Location hole: (149058, 169098, 60.74)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919039|geom=0|shell=0|face=",
-          "info": "Location hole: (149057, 169094, 60.74)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919039|geom=0|shell=0|face=",
-          "info": "Location hole: (149050, 169099, 80.429)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919039|geom=0|shell=0|face=",
-          "info": "Location hole: (149049, 169098, 81.361)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919039",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -15124,29 +14287,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919101|geom=0|shell=0|face=",
-          "info": "Location hole: (149412, 169190, 73.888)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919101|geom=0|shell=0|face=",
-          "info": "Location hole: (149423, 169190, 82.59)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919101|geom=0|shell=0|face=",
-          "info": "Location hole: (149413, 169194, 81.019)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919101",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -15274,7 +14418,7 @@
           "code": 203,
           "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
           "id": "coid=GML_7919145|geom=0|shell=0|face=6",
-          "info": "distance to fitted plane: 0.0156377 (tolerance=0.01)"
+          "info": "distance to fitted plane: 0.0152392 (tolerance=0.01)"
         }
       ],
       "id": "GML_7919145",
@@ -15492,17 +14636,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 201,
-          "description": "INTERSECTION_RINGS",
-          "id": "coid=GML_7919221|geom=0|shell=0|face=2",
-          "info": "Ring Self-intersection[-694.251388242879 88.1050095479254]"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919221",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -15577,47 +14714,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919247|geom=0|shell=0|face=",
-          "info": "Location hole: (149994, 169237, 80.774)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919247|geom=0|shell=0|face=",
-          "info": "Location hole: (150000, 169243, 80.774)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919247|geom=0|shell=0|face=",
-          "info": "Location hole: (149995, 169247, 80.774)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919247|geom=0|shell=0|face=",
-          "info": "Location hole: (149986, 169237, 80.774)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919247|geom=0|shell=0|face=",
-          "info": "Location hole: (149993, 169237, 80.774)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919247|geom=0|shell=0|face=",
-          "info": "Location hole: (149997, 169240, 97.33)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919247",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -15656,29 +14756,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7919261|geom=0|shell=0|face=",
-          "info": "Location close to: (149936, 169012, 95.748)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7919261|geom=0|shell=0|face=",
-          "info": "Location close to: (149935, 169013, 99.7247)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid=GML_7919261|geom=0|shell=0|face=",
-          "info": "Location close to: (149935, 169013, 95.566)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919261",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -16167,85 +15248,61 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149345, 169640, 68.324)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149450, 169633, 68.324)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149372, 169598, 68.324)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149353, 169627, 99.449)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149356, 169623, 97.086)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149345, 169640, 97.086)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149395, 169673, 97.086)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919429|geom=0|shell=0|face=",
-          "info": "Location hole: (149401, 169625, 84.711)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919429",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7919431|geom=0|shell=0|face=0",
-          "info": "distance to fitted plane: 0.0349465 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7919431|geom=0|shell=0|face=5",
-          "info": "distance to fitted plane: 0.010074 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=3",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7919431|geom=0|shell=0|face=26",
-          "info": "distance to fitted plane: 0.037854 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=4",
+          "info": "geometries are lod=2",
+          "type": "Error"
         },
         {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7919431|geom=0|shell=0|face=48",
-          "info": "distance to fitted plane: 0.0424214 (tolerance=0.01)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919431|geom=0&&coid=GML_7919431|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
         }
       ],
       "id": "GML_7919431",
@@ -16655,17 +15712,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7919571|geom=0|shell=0|face=3",
-          "info": "distance to fitted plane: 0.010017 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919571",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -16758,23 +15808,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 102,
-          "description": "CONSECUTIVE_POINTS_SAME",
-          "id": "coid=GML_7919603|geom=0|shell=0|face=2",
-          "info": ""
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_7919603|geom=0|shell=0|face=1",
-          "info": "distance to fitted plane: 0.0418191 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919603",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -16981,17 +16018,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919673|geom=0|shell=0|face=",
-          "info": "Location hole: (149090, 169446, 84.66)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919673",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -17132,17 +16162,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=GML_7919721|geom=0|shell=0|face=",
-          "info": "Location hole: (149142, 169596, 67.654)"
-        }
-      ],
+      "errors": [],
       "id": "GML_7919721",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -17151,10 +16174,2111 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=1",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=2",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=3",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=4",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=0&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=2",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=3",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=4",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=1&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=3",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=4",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=2&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=4",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=3&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=5",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=4&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=6",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=5&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=7",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=6&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=8",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=7&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=9",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=8&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=10",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=9&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=11",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=10&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=12",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=11&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=13",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=12&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=14",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=13&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=15",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=14&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=16",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=15&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=17",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=16&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=18",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=17&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=18&&coid=GML_7919725|geom=19",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=18&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=18&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=18&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=18&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=18&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=19&&coid=GML_7919725|geom=20",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=19&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=19&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=19&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=19&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=20&&coid=GML_7919725|geom=21",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=20&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=20&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=20&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=21&&coid=GML_7919725|geom=22",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=21&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=21&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=22&&coid=GML_7919725|geom=23",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=22&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        },
+        {
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=GML_7919725|geom=23&&coid=GML_7919725|geom=24",
+          "info": "geometries are lod=2",
+          "type": "Error"
+        }
+      ],
       "id": "GML_7919725",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -17379,23 +18503,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_8545162|geom=0|shell=0|face=28",
-          "info": "distance to fitted plane: 0.0418657 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=GML_8545162|geom=0|shell=0|face=34",
-          "info": "distance to fitted plane: 0.0233172 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "GML_8545162",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -17540,25 +18651,25 @@
     {
       "total": 2729,
       "type": "Building",
-      "valid": 2641
+      "valid": 2712
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/Other/01_Brussels__USERINPUT_Brussel_Watertight__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/Other/01_Brussels__USERINPUT_Brussel_Watertight__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 2725,
+      "total": 2760,
       "type": "Solid",
-      "valid": 2643
+      "valid": 2754
     }
   ],
-  "time": "2024-09-17T12:58:30 (CEST)",
+  "time": "2024-10-24T11:05:44 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

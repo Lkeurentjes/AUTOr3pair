@@ -78,9 +78,9 @@
                     "percentage": 0.0001
                 },
                 "GMLID_BUI46739_1739_10911": {
-                    "distance": 4.2698,
+                    "distance": 0.2502,
                     "size": 0.9266,
-                    "percentage": 4.608
+                    "percentage": 0.27
                 },
                 "GMLID_2108434_31807_876": {
                     "distance": 0.001,
@@ -143,14 +143,14 @@
                     "percentage": 0.0
                 },
                 "GMLID_BUI184698_512_898": {
-                    "distance": 8.8556,
+                    "distance": 7.7769,
                     "size": 0.9502,
-                    "percentage": 9.3197
+                    "percentage": 8.1845
                 },
                 "UUID_5c9d78e9-1243-4b47-8959-3a180ad0295d": {
-                    "distance": 4.5971,
+                    "distance": 0.3814,
                     "size": 0.4246,
-                    "percentage": 10.8269
+                    "percentage": 0.8983
                 },
                 "UUID_04c7ddba-f27e-4ebf-9536-eab328fa46ad": {
                     "distance": 0.0,
@@ -399,9 +399,9 @@
                     "percentage": 0.0021
                 },
                 "GMLID_BUI130363_1235_6047": {
-                    "distance": 0.4114,
+                    "distance": 0.4341,
                     "size": 0.5086,
-                    "percentage": 0.8089
+                    "percentage": 0.8535
                 },
                 "UUID_78c5fbf8-dded-4681-80c9-b4e3ba9396da": {
                     "distance": 0.0,
@@ -520,11 +520,11 @@
                     "percentage": 0.0
                 }
             },
-            "maxDifference": 8.8556,
+            "maxDifference": 7.7769,
             "missingCount": 2,
-            "highestPercentage": 10.8269
+            "highestPercentage": 8.1845
         }
     },
-    "Maxdifferencewholefile": 8.8556,
-    "HighestPercentageWholeFile": 10.8269
+    "Maxdifferencewholefile": 7.7769,
+    "HighestPercentageWholeFile": 8.1845
 }
