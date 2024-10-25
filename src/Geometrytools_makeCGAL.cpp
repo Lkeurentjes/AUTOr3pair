@@ -128,7 +128,6 @@ namespace AUTOr3pair {
     }
 
     bool make_2D_polySMT(vector<int> &face, Nef_polyhedron &Poly) {
-      return false;
       // check based on points
       set<int> seen;
       vector<int> uniqueFace;
@@ -200,7 +199,6 @@ namespace AUTOr3pair {
       if (CGAL::Polygon_mesh_processing::does_self_intersect(p)) {
         return false;
       }
-      std::cout << p << endl;
 
       const Nef_polyhedron P(p);
       Poly += P;
