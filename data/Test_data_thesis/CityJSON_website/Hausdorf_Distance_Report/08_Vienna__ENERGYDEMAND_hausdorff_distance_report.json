@@ -2,7 +2,11 @@
     "per LOD": {
         "2": {
             "per object": {
-                "UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2": null,
+                "UUID_LOD2_210138-f86f7351-7cad-4e8f-826f_2": {
+                    "distance": 9.3644,
+                    "size": 41.9418,
+                    "percentage": 0.2233
+                },
                 "UUID_LOD2_011990-4bc0adba-884e-42e7-b28b_1": {
                     "distance": 0.0,
                     "size": 28.2735,
@@ -128,16 +132,20 @@
                     "size": 9.497,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_012092-314dbb09-4cfb-41f1-b664": null,
+                "UUID_LOD2_012092-314dbb09-4cfb-41f1-b664": {
+                    "distance": 6.8542,
+                    "size": 31.9135,
+                    "percentage": 0.2148
+                },
                 "UUID_LOD2_011564-f5e8ab64-baf0-4ed1-a2f7": {
                     "distance": 0.0,
                     "size": 37.8951,
                     "percentage": 0.0
                 },
                 "UUID_LOD2_012922-af266efe-f2ed-4a12-b8dc": {
-                    "distance": 0.0,
+                    "distance": 8.2197,
                     "size": 37.7684,
-                    "percentage": 0.0
+                    "percentage": 0.2176
                 },
                 "UUID_LOD2_011636-51e3ade4-718a-4dbc-9ad4_2": {
                     "distance": 0.0,
@@ -400,9 +408,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_013154-1b9f1b23-af2e-4ec3-98e2": {
-                    "distance": 509.392,
+                    "distance": 9.655,
                     "size": 37.2708,
-                    "percentage": 13.6673
+                    "percentage": 0.259
                 },
                 "UUID_LOD2_011545-c8e5ffed-a6a0-4634-82bc_2": {
                     "distance": 0.0,
@@ -499,7 +507,11 @@
                     "size": 17.4228,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2": null,
+                "UUID_LOD2_011630-201d335f-8ee9-4ffc-adca_2": {
+                    "distance": 13.6985,
+                    "size": 39.6744,
+                    "percentage": 0.3453
+                },
                 "UUID_LOD2_011572-6db1a6f4-ef03-4635-afe3_3": {
                     "distance": 0.0,
                     "size": 29.5183,
@@ -540,7 +552,11 @@
                     "size": 28.9212,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011523-c567aff9-c2cb-455d-842b": null,
+                "UUID_LOD2_011523-c567aff9-c2cb-455d-842b": {
+                    "distance": 6.0256,
+                    "size": 38.0973,
+                    "percentage": 0.1582
+                },
                 "UUID_LOD2_012105-d8b2ab91-e66b-4ce1-b665_1": {
                     "distance": 0.0,
                     "size": 22.6245,
@@ -692,9 +708,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011620-fbf5620e-7d52-457c-b712_2": {
-                    "distance": 0.0,
+                    "distance": 8.0798,
                     "size": 61.7114,
-                    "percentage": 0.0
+                    "percentage": 0.1309
                 },
                 "UUID_LOD2_012923-e4940885-e352-4203-987f_2": {
                     "distance": 0.0,
@@ -786,7 +802,11 @@
                     "size": 26.0884,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2": null,
+                "UUID_LOD2_011980-58fbc1cb-e78b-4ceb-ad3a_2": {
+                    "distance": 15.0886,
+                    "size": 55.8397,
+                    "percentage": 0.2702
+                },
                 "UUID_LOD2_012099-d969f4c7-1d4a-4805-891b_5": {
                     "distance": 0.0,
                     "size": 23.9437,
@@ -937,7 +957,11 @@
                     "size": 32.2799,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_012741-70d85124-e385-48fc-ad59": null,
+                "UUID_LOD2_012741-70d85124-e385-48fc-ad59": {
+                    "distance": 0.0,
+                    "size": 34.8931,
+                    "percentage": 0.0
+                },
                 "UUID_LOD2_011543-29abb486-3512-4739-922f_4": {
                     "distance": 0.0,
                     "size": 33.3229,
@@ -1174,9 +1198,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011486-7ec8beb5-3798-47e3-8ab6_2": {
-                    "distance": 0.0,
+                    "distance": 6.3438,
                     "size": 27.0882,
-                    "percentage": 0.0
+                    "percentage": 0.2342
                 },
                 "UUID_LOD2_102930-ed840c0b-008e-4f7f-b3f4_5": {
                     "distance": 0.0,
@@ -1223,7 +1247,11 @@
                     "size": 31.987,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1": null,
+                "UUID_LOD2_011533-ebe601ad-25b9-4955-907b_1": {
+                    "distance": 5.8346,
+                    "size": 31.0253,
+                    "percentage": 0.1881
+                },
                 "UUID_LOD2_012748-bc0769ac-68e2-4c5e-a1db_2": {
                     "distance": 0.0,
                     "size": 16.74,
@@ -1360,9 +1388,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011509-b9d193d1-21d3-4586-ab08_2": {
-                    "distance": 0.0,
+                    "distance": 5.2112,
                     "size": 33.4871,
-                    "percentage": 0.0
+                    "percentage": 0.1556
                 },
                 "UUID_LOD2_011513-244f5306-662e-4788-8140_3": {
                     "distance": 0.0,
@@ -1874,7 +1902,11 @@
                     "size": 25.4951,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_210140-965129c8-6b37-46df-b46c_1": null,
+                "UUID_LOD2_210140-965129c8-6b37-46df-b46c_1": {
+                    "distance": 5.4787,
+                    "size": 32.0066,
+                    "percentage": 0.1712
+                },
                 "UUID_LOD2_210140-965129c8-6b37-46df-b46c_2": {
                     "distance": 0.0,
                     "size": 45.8363,
@@ -2016,9 +2048,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_012138-ec9fd71b-7aab-40b3-8396_5": {
-                    "distance": 282.9029,
+                    "distance": 10.5372,
                     "size": 30.0268,
-                    "percentage": 9.4217
+                    "percentage": 0.3509
                 },
                 "UUID_LOD2_012949-02481646-553f-42ce-8bb4_3": {
                     "distance": 0.0,
@@ -2246,9 +2278,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_012746-a16ce0ef-323f-4449-9595_5": {
-                    "distance": 441.8828,
+                    "distance": 0.0,
                     "size": 28.7583,
-                    "percentage": 15.3654
+                    "percentage": 0.0
                 },
                 "UUID_LOD2_011562-31031c8f-fdd8-422a-85d5_1": {
                     "distance": 0.0,
@@ -2310,7 +2342,11 @@
                     "size": 22.2105,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011984-19096613-52ca-44ae-87c6_4": null,
+                "UUID_LOD2_011984-19096613-52ca-44ae-87c6_4": {
+                    "distance": 14.5816,
+                    "size": 40.5928,
+                    "percentage": 0.3592
+                },
                 "UUID_LOD2_209222-fbdfaac4-9a14-4532-a731_5": {
                     "distance": 0.0,
                     "size": 30.4087,
@@ -2942,9 +2978,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_012081-3d1714c6-9981-4b15-b3b6_4": {
-                    "distance": 3.7413,
+                    "distance": 8.4172,
                     "size": 33.1169,
-                    "percentage": 0.113
+                    "percentage": 0.2542
                 },
                 "UUID_LOD2_011632-7908e457-f911-495e-9124_1": {
                     "distance": 0.0,
@@ -2996,7 +3032,11 @@
                     "size": 32.1334,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011988-558d6051-2ac2-4822-bb8b": null,
+                "UUID_LOD2_011988-558d6051-2ac2-4822-bb8b": {
+                    "distance": 6.9256,
+                    "size": 42.7574,
+                    "percentage": 0.162
+                },
                 "UUID_LOD2_011547-2abdcf19-e694-4d91-801d_2": {
                     "distance": 0.0,
                     "size": 28.6003,
@@ -3047,7 +3087,11 @@
                     "size": 24.8871,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5": null,
+                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_5": {
+                    "distance": 12.2648,
+                    "size": 38.4135,
+                    "percentage": 0.3193
+                },
                 "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_8": {
                     "distance": 0.0,
                     "size": 21.6128,
@@ -3118,7 +3162,11 @@
                     "size": 25.9372,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3": null,
+                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_3": {
+                    "distance": 7.3654,
+                    "size": 34.9086,
+                    "percentage": 0.211
+                },
                 "UUID_LOD2_210194-cf1aa81c-bb4f-4e01-bc12_1": {
                     "distance": 0.0,
                     "size": 24.955,
@@ -3135,9 +3183,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_5": {
-                    "distance": 70.8158,
+                    "distance": 1.2502,
                     "size": 16.8258,
-                    "percentage": 4.2088
+                    "percentage": 0.0743
                 },
                 "UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_8": {
                     "distance": 0.0,
@@ -3165,9 +3213,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011563-38f537c5-e59b-4ebc-ad72_3": {
-                    "distance": 199.3828,
+                    "distance": 2.3665,
                     "size": 33.0276,
-                    "percentage": 6.0369
+                    "percentage": 0.0717
                 },
                 "UUID_LOD2_011625-76cbeea6-ce42-422e-b9d0_4": {
                     "distance": 0.0,
@@ -3419,8 +3467,16 @@
                     "size": 33.6634,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18": null,
-                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15": null,
+                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_18": {
+                    "distance": 4.816,
+                    "size": 31.3658,
+                    "percentage": 0.1535
+                },
+                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_15": {
+                    "distance": 7.7681,
+                    "size": 35.6948,
+                    "percentage": 0.2176
+                },
                 "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_16": {
                     "distance": 0.0,
                     "size": 34.153,
@@ -3457,9 +3513,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_012742-c7a56d8d-9363-4197-9467_22": {
-                    "distance": 1.0061,
+                    "distance": 0.0,
                     "size": 27.0548,
-                    "percentage": 0.0372
+                    "percentage": 0.0
                 },
                 "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_11": {
                     "distance": 0.0,
@@ -3481,7 +3537,11 @@
                     "size": 29.5473,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10": null,
+                "UUID_LOD2_212131-7bf99deb-e564-4f6b-9e76_10": {
+                    "distance": 9.3133,
+                    "size": 35.2602,
+                    "percentage": 0.2641
+                },
                 "UUID_LOD2_011510-30c48adf-62d8-431c-a9d1_2": {
                     "distance": 0.0,
                     "size": 30.8819,
@@ -3583,9 +3643,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011511-2737a4b3-eded-43ea-beab_5": {
-                    "distance": 307.6618,
+                    "distance": 3.3409,
                     "size": 44.2796,
-                    "percentage": 6.9482
+                    "percentage": 0.0755
                 },
                 "UUID_LOD2_011511-2737a4b3-eded-43ea-beab_4": {
                     "distance": 0.0,
@@ -3612,7 +3672,11 @@
                     "size": 45.0165,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_011590-1102f5a7-5436-4969-a23b": null,
+                "UUID_LOD2_011590-1102f5a7-5436-4969-a23b": {
+                    "distance": 0.0,
+                    "size": 35.2604,
+                    "percentage": 0.0
+                },
                 "UUID_LOD2_011616-70bf87d6-decd-483d-8fb6": {
                     "distance": 0.0,
                     "size": 40.3228,
@@ -3764,9 +3828,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011506-7c0a78fb-3358-4e73-bb45_2": {
-                    "distance": 0.0,
+                    "distance": 7.1257,
                     "size": 50.2912,
-                    "percentage": 0.0
+                    "percentage": 0.1417
                 },
                 "UUID_LOD2_011498-3894fd63-d0b2-4940-bbe1_4": {
                     "distance": 0.0,
@@ -3924,9 +3988,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_012093-2f235d3c-7022-4046-bf66_1": {
-                    "distance": 0.0,
+                    "distance": 6.1851,
                     "size": 37.615,
-                    "percentage": 0.0
+                    "percentage": 0.1644
                 },
                 "UUID_LOD2_012093-2f235d3c-7022-4046-bf66_2": {
                     "distance": 0.0,
@@ -4374,9 +4438,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_099692-7f734849-7f18-43ee-932c_11": {
-                    "distance": 3.7705,
+                    "distance": 0.0,
                     "size": 25.1231,
-                    "percentage": 0.1501
+                    "percentage": 0.0
                 },
                 "UUID_LOD2_012927-88252888-333f-4a05-8fb1_5": {
                     "distance": 0.0,
@@ -4808,7 +4872,11 @@
                     "size": 38.0505,
                     "percentage": 0.0
                 },
-                "UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9": null,
+                "UUID_LOD2_012107-3fdb7329-6a42-4764-af09_9": {
+                    "distance": 6.039,
+                    "size": 36.179,
+                    "percentage": 0.1669
+                },
                 "UUID_LOD2_012107-3fdb7329-6a42-4764-af09_8": {
                     "distance": 0.0,
                     "size": 29.4941,
@@ -5390,9 +5458,9 @@
                     "percentage": 0.0
                 },
                 "UUID_LOD2_011536-9f21182b-5919-453e-bcdf_2": {
-                    "distance": 0.1497,
+                    "distance": 0.0,
                     "size": 30.6492,
-                    "percentage": 0.0049
+                    "percentage": 0.0
                 },
                 "UUID_LOD2_011536-9f21182b-5919-453e-bcdf_1": {
                     "distance": 0.0,
@@ -5445,11 +5513,11 @@
                     "percentage": 0.0
                 }
             },
-            "maxDifference": 509.392,
-            "missingCount": 17,
-            "highestPercentage": 15.3654
+            "maxDifference": 15.0886,
+            "missingCount": 0,
+            "highestPercentage": 0.2702
         }
     },
-    "Maxdifferencewholefile": 509.392,
-    "HighestPercentageWholeFile": 15.3654
+    "Maxdifferencewholefile": 15.0886,
+    "HighestPercentageWholeFile": 0.2702
 }

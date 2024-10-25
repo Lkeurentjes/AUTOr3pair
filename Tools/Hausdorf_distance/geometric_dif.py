@@ -164,104 +164,107 @@ if __name__ == '__main__':
     # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
 
     ###### BAG
-    filestocheck =[
-        "9-324-628.city.json",
-        "10-316-624.city.json",
-        "10-316-626.city.json",
-        "10-316-628.city.json",
-        "10-316-630.city.json",
-        "10-318-624.city.json",
-        "10-318-626.city.json",
-        "10-318-628.city.json",
-        "10-318-630.city.json",
-        "10-320-624.city.json",
-        "10-320-626.city.json",
-        "10-320-628.city.json",
-        "10-320-630.city.json",
-        "10-322-624.city.json",
-        "10-322-626.city.json",
-        "10-322-628.city.json",
-        "10-322-630.city.json",
-        "10-324-624.city.json",
-        "10-324-626.city.json",
-        "10-326-624.city.json",
-        "10-326-626.city.json"]
+    # filestocheck =[
+    #     "9-324-628.city.json",
+    #     "10-316-624.city.json",
+    #     "10-316-626.city.json",
+    #     "10-316-628.city.json",
+    #     "10-316-630.city.json",
+    #     "10-318-624.city.json",
+    #     "10-318-626.city.json",
+    #     "10-318-628.city.json",
+    #     "10-318-630.city.json",
+    #     "10-320-624.city.json",
+    #     "10-320-626.city.json",
+    #     "10-320-628.city.json",
+    #     "10-320-630.city.json",
+    #     "10-322-624.city.json",
+    #     "10-322-626.city.json",
+    #     "10-322-628.city.json",
+    #     "10-322-630.city.json",
+    #     "10-324-624.city.json",
+    #     "10-324-626.city.json",
+    #     "10-326-624.city.json",
+    #     "10-326-626.city.json"]
+    #
+    # for file in filestocheck:
+    #     cityjson_file1 = "../../data/Test_data_thesis/BAG_tiles/" + file
+    #     outfile = file.replace(".city.json", "__USERINPUT_BAG__REPAIRED.json")
+    #     cityjson_file2 = "../../data/Test_data_thesis/BAG_tiles/" + outfile
+    #
+    #     output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    #     output_file = output_file.replace('BAG_tiles/', 'BAG_tiles/Hausdorf_Distance_Report/')
+    #
+    #     lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(
+    #         cityjson_file1,
+    #         cityjson_file2)
+    #     write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
 
-    for file in filestocheck:
-        cityjson_file1 = "../../data/Test_data_thesis/BAG_tiles/" + file
-        outfile = file.replace(".city.json", "__USERINPUT_BAG__REPAIRED.json")
-        cityjson_file2 = "../../data/Test_data_thesis/BAG_tiles/" + outfile
 
-        output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-        output_file = output_file.replace('BAG_tiles/', 'BAG_tiles/Hausdorf_Distance_Report/')
-
-        lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(
-            cityjson_file1,
-            cityjson_file2)
-        write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
-
-
-    ## Brussels
+    # # Brussels
     # cityjson_file1 = '../../data/Test_data_thesis/Other/01_Brussels.json'
+    # cityjson_file2 = '../../data/Test_data_thesis/Other/01_Brussels__REPAIRED.json'
+    # cityjson_file2 = '../../data/Test_data_thesis/Other/01_Brussels__USERINPUT_Brussel_Orientation__REPAIRED.json'
     # cityjson_file2 = '../../data/Test_data_thesis/Other/01_Brussels__USERINPUT_Brussel_Watertight__REPAIRED.json'
     #
     # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    # if output_file == cityjson_file2:
-    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
+    # output_file = output_file.replace('Other/', 'Other/Hausdorf_Distance_Report/')
     #
     # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
     #                                                                                                      cityjson_file2)
     # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
 
-    ##random thesis data
+    #random thesis data
+    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/01_BAG.city.json'
+    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/02_DenHaag.city.json'
+    # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/03_Ingolstadt.city.json'
+    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/04_Montreal.city.json'
+    cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/06_Railway.city.json'
+    # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/07_Rotterdam.city.json'
     # cityjson_file1 = '../../data/Test_data_thesis/CityJSON_website/08_Vienna.city.json'
-    # cityjson_file2 = cityjson_file1.replace(".city.json", "__REPAIRED.json")
-    #
-    # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    # if output_file == cityjson_file2:
-    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-    #
-    # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
-    #                                                                                                      cityjson_file2)
-    # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+    cityjson_file2 = cityjson_file1.replace(".city.json", "__REPAIRED.json")
+
+    output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    output_file = output_file.replace('CityJSON_website/', 'CityJSON_website/Hausdorf_Distance_Report/')
 
 
-    # cityjson_file2 = cityjson_file1.replace(".city.json", "__CFD__REPAIRED.json")
-    #
-    # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    # if output_file == cityjson_file2:
-    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-    #
-    # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
-    #                                                                                                      cityjson_file2)
-    # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+    lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
+                                                                                                         cityjson_file2)
+    write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
 
-    # cityjson_file2 = cityjson_file1.replace(".city.json", "__ENERGYDEMAND__REPAIRED.json")
-    #
-    # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    # if output_file == cityjson_file2:
-    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-    #
-    # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
-    #                                                                                                      cityjson_file2)
-    # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
 
-    # cityjson_file2 = cityjson_file1.replace(".city.json", "__SOLARPOWER__REPAIRED.json")
-    #
-    # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    # if output_file == cityjson_file2:
-    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-    #
-    # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
-    #                                                                                                      cityjson_file2)
-    # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
-    #
-    # cityjson_file2 = cityjson_file1.replace(".city.json", "__VISUALIZATION__REPAIRED.json")
-    #
-    # output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
-    # if output_file == cityjson_file2:
-    #     output_file = cityjson_file2.replace('.json', '_hausdorff_distance_report.json')
-    #
-    # lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
-    #                                                                                                      cityjson_file2)
-    # write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+    cityjson_file2 = cityjson_file1.replace(".city.json", "__CFD__REPAIRED.json")
+
+    output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    output_file = output_file.replace('CityJSON_website/', 'CityJSON_website/Hausdorf_Distance_Report/')
+
+    lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
+                                                                                                         cityjson_file2)
+    write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+
+    cityjson_file2 = cityjson_file1.replace(".city.json", "__ENERGYDEMAND__REPAIRED.json")
+
+    output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    output_file = output_file.replace('CityJSON_website/', 'CityJSON_website/Hausdorf_Distance_Report/')
+
+    lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
+                                                                                                         cityjson_file2)
+    write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+
+    cityjson_file2 = cityjson_file1.replace(".city.json", "__SOLARPOWER__REPAIRED.json")
+
+    output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    output_file = output_file.replace('CityJSON_website/', 'CityJSON_website/Hausdorf_Distance_Report/')
+
+    lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
+                                                                                                         cityjson_file2)
+    write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)
+
+    cityjson_file2 = cityjson_file1.replace(".city.json", "__VISUALIZATION__REPAIRED.json")
+
+    output_file = cityjson_file2.replace('__REPAIRED.json', '_hausdorff_distance_report.json')
+    output_file = output_file.replace('CityJSON_website/', 'CityJSON_website/Hausdorf_Distance_Report/')
+
+    lod_distances, max_difference_whole_file, highest_percentage_whole_file = hausdorff_distance_per_lod(cityjson_file1,
+                                                                                                         cityjson_file2)
+    write_report(lod_distances, max_difference_whole_file, highest_percentage_whole_file, output_file)

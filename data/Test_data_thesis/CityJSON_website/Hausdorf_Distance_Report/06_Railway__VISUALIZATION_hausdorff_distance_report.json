@@ -238,9 +238,9 @@
                     "percentage": 0.0001
                 },
                 "UUID_11334c5a-e455-4fbb-80d4-bd8af9164a27": {
-                    "distance": 0.0,
+                    "distance": 0.0007,
                     "size": 0.0506,
-                    "percentage": 0.0
+                    "percentage": 0.0138
                 },
                 "UUID_21663c37-b7c5-4a60-8e4f-213f2e4dc066": {
                     "distance": 0.0,
@@ -530,9 +530,9 @@
             },
             "maxDifference": 0.6922,
             "missingCount": 0,
-            "highestPercentage": 0.7965
+            "highestPercentage": 0.7285
         }
     },
     "Maxdifferencewholefile": 0.6922,
-    "HighestPercentageWholeFile": 0.7965
+    "HighestPercentageWholeFile": 0.7285
 }

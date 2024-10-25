@@ -903,9 +903,9 @@
                     "percentage": 0.0
                 },
                 "B-20139118273-A4A5469505DC": {
-                    "distance": 167.2736,
+                    "distance": 22.5703,
                     "size": 296.616,
-                    "percentage": 0.5639
+                    "percentage": 0.0761
                 },
                 "B-201391182639-BA8A278ECC36": {
                     "distance": 0.0,
@@ -928,9 +928,9 @@
                     "percentage": 0.0
                 },
                 "B-201391183433-2198331460F1": {
-                    "distance": 72.9489,
+                    "distance": 71.7327,
                     "size": 79.0065,
-                    "percentage": 0.9233
+                    "percentage": 0.9079
                 },
                 "B-20139118366-08F14B12E2A3": {
                     "distance": 0.0,
@@ -1213,9 +1213,9 @@
                     "percentage": 0.1275
                 },
                 "B-201391183929-A24AD1C2C5E9": {
-                    "distance": 76.4901,
+                    "distance": 63.252,
                     "size": 98.3586,
-                    "percentage": 0.7777
+                    "percentage": 0.6431
                 },
                 "B-201391184242-4158F7B23F07": {
                     "distance": 0.0,
@@ -1258,9 +1258,9 @@
                     "percentage": 0.0
                 },
                 "B-201391184640-79B8A95C2001": {
-                    "distance": 54.362,
+                    "distance": 6.5405,
                     "size": 90.6658,
-                    "percentage": 0.5996
+                    "percentage": 0.0721
                 },
                 "B-20139118371-0B7D633627FE": {
                     "distance": 0.0,
@@ -1473,11 +1473,11 @@
                     "percentage": 0.0
                 }
             },
-            "maxDifference": 167.2736,
+            "maxDifference": 71.7327,
             "missingCount": 0,
-            "highestPercentage": 0.5639
+            "highestPercentage": 0.9079
         }
     },
-    "Maxdifferencewholefile": 167.2736,
-    "HighestPercentageWholeFile": 0.5639
+    "Maxdifferencewholefile": 71.7327,
+    "HighestPercentageWholeFile": 0.9079
 }

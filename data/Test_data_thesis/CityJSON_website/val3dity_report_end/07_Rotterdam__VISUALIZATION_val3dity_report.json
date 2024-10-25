@@ -1,15 +1,22 @@
 {
   "all_errors": [
-    203,
-    306
+    906
   ],
   "dataset_errors": [],
   "features": [
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{00138BE2-F4EB-4B9E-A6F0-77EECB4E9D56}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -270,41 +277,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={0C3309A9-671F-4F25-8321-5EDF03882E91}|geom=22|face=0",
-          "info": "distance to fitted plane: 0.0110646 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={0C3309A9-671F-4F25-8321-5EDF03882E91}|geom=33|face=1",
-          "info": "distance to fitted plane: 0.0117301 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={0C3309A9-671F-4F25-8321-5EDF03882E91}|geom=35|face=3",
-          "info": "distance to fitted plane: 0.0137648 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={0C3309A9-671F-4F25-8321-5EDF03882E91}|geom=46|face=0",
-          "info": "distance to fitted plane: 0.0113721 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={0C3309A9-671F-4F25-8321-5EDF03882E91}|geom=50|face=0",
-          "info": "distance to fitted plane: 0.143579 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{0C3309A9-671F-4F25-8321-5EDF03882E91}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -325,10 +301,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{0D6F0F6D-F2B9-4039-B579-A46334C77B88}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -673,10 +657,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{1D35C497-2485-4FF5-86AD-F22EE1675317}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -793,10 +785,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{230881DB-0B1A-4EB3-A954-F0164ECF25D5}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1045,10 +1045,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{3395636E-6950-4165-B994-16528EEAD2BF}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1105,17 +1113,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={3626CDAF-F68D-4E31-8BF5-FAACD5423934}|geom=0|face=0",
-          "info": "distance to fitted plane: 0.0115888 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{3626CDAF-F68D-4E31-8BF5-FAACD5423934}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1316,17 +1317,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={3FD95D93-2CCB-4F53-95A5-A9BDB6354C99}|geom=0|face=0",
-          "info": "distance to fitted plane: 0.012363 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{3FD95D93-2CCB-4F53-95A5-A9BDB6354C99}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -1569,10 +1563,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{4CC685FD-D34A-4036-8FFA-A3EA38228D30}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1713,10 +1715,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{56D6CA78-021B-41FE-95AE-BEF035D511AC}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1785,10 +1795,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{5A0989C1-6AED-4A6F-8C6D-8D6AB8026DA6}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1821,10 +1839,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{5B174F8A-9450-4949-B593-F4511C502A09}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -1899,10 +1925,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{5EF3C5E2-A146-400E-9CCF-6EF211AF4698}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2013,10 +2047,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{634C6F1E-1753-4FFA-AC4A-371387EBB2AF}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2025,17 +2067,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={649D29FB-D244-48DA-98B7-AE3BB09D8B3D}|geom=0|face=3",
-          "info": "distance to fitted plane: 0.0122551 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{649D29FB-D244-48DA-98B7-AE3BB09D8B3D}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2086,10 +2121,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{664D490D-80AB-4193-9600-0AE1299357A7}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2422,10 +2465,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{72AC0295-FABE-4D23-AA76-EA6388889938}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2608,10 +2659,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{7ABC14E1-F103-4FF3-BEC3-70FB8EF56315}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2884,10 +2943,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{8B73A3F0-A83D-4CD1-B6AF-6A6CE753789A}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -2980,10 +3047,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{900FCE02-579A-4925-B504-5BD5A47EA47D}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -3094,10 +3169,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{96ECDD7F-2223-482D-B8F1-176FC1732D6A}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -3184,10 +3267,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{9CF56A95-B096-4252-94E3-CFFFADF91CD6}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -3520,10 +3611,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{AEC92DD4-62CB-42F8-BAEF-9CA072E65AAD}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -3922,29 +4021,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid={C64AFB44-6941-47AC-9A1A-7BDF2B902F7F}|geom=2|face=",
-          "info": "Location close to: (90745.3, 435503, 10.584)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid={C64AFB44-6941-47AC-9A1A-7BDF2B902F7F}|geom=2|face=",
-          "info": "Location close to: (90744.7, 435503, 10.584)"
-        },
-        {
-          "code": 306,
-          "description": "SHELL_SELF_INTERSECTION",
-          "id": "coid={C64AFB44-6941-47AC-9A1A-7BDF2B902F7F}|geom=2|face=",
-          "info": "Location close to: (90733.2, 435502, 7.98333)"
-        }
-      ],
+      "errors": [],
       "id": "{C64AFB44-6941-47AC-9A1A-7BDF2B902F7F}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -3977,10 +4057,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{C7A3643C-AE09-4A1A-AEDC-B29C73D87EB2}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4055,10 +4143,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{CABA2AB9-58F2-4FD2-AF49-915CCFAFD275}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4109,10 +4205,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{CCF7B5DE-ADF6-4754-B670-8187225E0758}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4157,17 +4261,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={CE491C51-2E97-4464-85D1-799109999BBB}|geom=4|face=0",
-          "info": "distance to fitted plane: 0.0107081 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{CE491C51-2E97-4464-85D1-799109999BBB}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4176,10 +4273,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{CEF64635-F0E6-4C62-96B0-48A6F3802F8C}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4194,10 +4299,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{CFC46B8E-08A5-46F6-9BE6-CFB00883D9CD}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4326,17 +4439,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={D36DAD34-FAA4-4925-9493-8A5E143DB817}|geom=1|face=1",
-          "info": "distance to fitted plane: 0.0127775 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{D36DAD34-FAA4-4925-9493-8A5E143DB817}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4465,10 +4571,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{D9F0C0A9-B291-46A6-9324-3A905CCDD90C}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4525,10 +4639,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{DDCDD410-09D9-4A02-97F2-085588DBDB1C}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4549,10 +4671,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{DE55F1BF-3ED0-4051-B8F4-6CC4EBF76A9B}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4615,10 +4745,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{E18F755D-E79F-49F4-B8C5-7B15E5E5F289}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -4723,17 +4861,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid={E8692227-CF77-4706-BC96-1AD1A5E45FCA}|geom=1|face=0",
-          "info": "distance to fitted plane: 0.012159 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "{E8692227-CF77-4706-BC96-1AD1A5E45FCA}",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5066,10 +5197,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{F8C0A0C6-2798-4EED-B7F3-3BA3612E8268}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -5084,10 +5223,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{F9194FFF-7A4A-4DF8-8AF8-7A312425AEEC}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -5198,10 +5345,18 @@
       "validity": true
     },
     {
-      "errors": [],
+      "errors": [
+        {
+          "code": 906,
+          "description": "PRIMITIVE_NO_GEOMETRY",
+          "id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+          "info": "",
+          "type": "Error"
+        }
+      ],
       "id": "{FF1D789D-F0C9-41F7-8A8D-1F20C735F995}",
       "type": "Building",
-      "validity": true
+      "validity": false
     },
     {
       "errors": [],
@@ -5220,25 +5375,25 @@
     {
       "total": 853,
       "type": "Building",
-      "valid": 845
+      "valid": 822
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/07_Rotterdam__VISUALIZATION__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/07_Rotterdam__VISUALIZATION__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 1759,
+      "total": 1515,
       "type": "CompositeSurface",
-      "valid": 1747
+      "valid": 1515
     }
   ],
-  "time": "2024-09-18T08:11:48 (CEST)",
+  "time": "2024-10-24T13:04:19 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false

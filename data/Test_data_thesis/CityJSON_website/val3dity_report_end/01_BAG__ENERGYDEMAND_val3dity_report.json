@@ -1,8 +1,5 @@
 {
   "all_errors": [
-    104,
-    203,
-    302,
     601
   ],
   "dataset_errors": [],
@@ -68,17 +65,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0503100000004396-0|geom=1|shell=0|face=15",
-          "info": "distance to fitted plane: 0.0561299 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000004396",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -2691,18 +2681,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0503100000019275-0|geom=1&&coid=NL.IMBAG.Pand.0503100000019275-0|geom=2",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000019275",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4067,29 +4049,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0503100000019997-0|geom=1|shell=0|face=3",
-          "info": "distance to fitted plane: 0.0119377 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0503100000019997-0|geom=1|shell=0|face=96",
-          "info": "distance to fitted plane: 0.0161334 (tolerance=0.01)"
-        },
-        {
-          "code": 203,
-          "description": "NON_PLANAR_POLYGON_DISTANCE_PLANE",
-          "id": "coid=NL.IMBAG.Pand.0503100000019997-0|geom=1|shell=0|face=97",
-          "info": "distance to fitted plane: 0.0129218 (tolerance=0.01)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000019997",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -4926,17 +4889,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 104,
-          "description": "RING_SELF_INTERSECTION",
-          "id": "coid=NL.IMBAG.Pand.0503100000025168-0|geom=3|shell=0|face=13",
-          "info": "ring self-intersects or is collapsed to a line"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000025168",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5047,18 +5003,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 601,
-          "description": "BUILDINGPARTS_OVERLAP",
-          "id": "coid=NL.IMBAG.Pand.0503100000025517-0|geom=1&&coid=NL.IMBAG.Pand.0503100000025517-0|geom=2",
-          "info": "geometries are lod=1.0",
-          "type": "Error"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000025517",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -5649,185 +5597,10 @@
       "validity": true
     },
     {
-      "errors": [
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84740.3, 445951, 6.831)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84719.2, 445945, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84647.1, 445998, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84690.5, 446035, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84817.3, 446062, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84647.1, 445998, 16.218)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84683.8, 446010, 16.218)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84841, 445999, 8.189)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84697.1, 445878, 5.769)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84864.8, 445995, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84639.1, 445862, 5.769)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84817.7, 446063, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84603.4, 445922, 14.428)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84823.6, 446056, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84825.6, 446050, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84711.5, 445934, 12.49)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84635, 445812, 12.49)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84842.9, 446016, 12.49)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84689.1, 446042, 11.001)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84852.4, 446019, 12.49)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84636.3, 445828, -0.045998)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84845.1, 446018, -0.408998)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84857.1, 446004, -0.408998)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84837.6, 446014, 12.149)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84663.8, 445840, 5.769)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84731.5, 445887, 12.164)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84657.8, 445867, 5.769)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84657.8, 445867, 5.769)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000030264-0|geom=1|shell=0|face=",
-          "info": "Location hole: (84797.6, 446001, 16.207)"
-        }
-      ],
+      "errors": [],
       "id": "NL.IMBAG.Pand.0503100000030264",
       "type": "Building",
-      "validity": false
+      "validity": true
     },
     {
       "errors": [],
@@ -6240,16 +6013,11 @@
     {
       "errors": [
         {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000031902-0|geom=2|shell=0|face=",
-          "info": "Location hole: (85558.3, 446111, 10.922)"
-        },
-        {
-          "code": 302,
-          "description": "SHELL_NOT_CLOSED",
-          "id": "coid=NL.IMBAG.Pand.0503100000031902-0|geom=2|shell=0|face=",
-          "info": "Location hole: (85556.7, 446094, 10.812)"
+          "code": 601,
+          "description": "BUILDINGPARTS_OVERLAP",
+          "id": "coid=NL.IMBAG.Pand.0503100000031902-0|geom=2&&coid=NL.IMBAG.Pand.0503100000031902-0|geom=3",
+          "info": "geometries are lod=2.2",
+          "type": "Error"
         }
       ],
       "id": "NL.IMBAG.Pand.0503100000031902",
@@ -6909,25 +6677,25 @@
     {
       "total": 1110,
       "type": "Building",
-      "valid": 1103
+      "valid": 1109
     }
   ],
-  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair_dev/data/Test_data_thesis/CityJSON_website/01_BAG__ENERGYDEMAND__REPAIRED.json",
+  "input_file": "/home/lisa/Documents/GitHub/AUTOr3pair/data/Test_data_thesis/CityJSON_website/01_BAG__ENERGYDEMAND__REPAIRED.json",
   "input_file_type": "CityJSON",
   "parameters": {
-    "overlap_tol": -1.0,
+    "overlap_tol": 0.001,
     "planarity_d2p_tol": 0.01,
     "planarity_n_tol": 20.0,
     "snap_tol": 0.001
   },
   "primitives_overview": [
     {
-      "total": 3332,
+      "total": 3339,
       "type": "Solid",
-      "valid": 3327
+      "valid": 3339
     }
   ],
-  "time": "2024-09-18T08:11:08 (CEST)",
+  "time": "2024-10-24T12:44:26 (CEST)",
   "type": "val3dity_report",
   "val3dity_version": "2.5.0b2",
   "validity": false
