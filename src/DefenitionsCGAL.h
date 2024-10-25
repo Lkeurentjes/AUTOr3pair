@@ -76,17 +76,6 @@
 #include <CGAL/Orthogonal_k_neighbor_search.h>
 #include <CGAL/optimal_bounding_box.h>
 
-// Draws for CGAL --> use with debugging
-#include <CGAL/draw_nef_3.h>
-#include <CGAL/draw_polyhedron.h>
-#include <CGAL/draw_polygon_with_holes_2.h>
-#include <CGAL/draw_polygon_2.h>
-#include <CGAL/draw_polygon_set_2.h>
-#include <CGAL/draw_triangulation_2.h>
-#include <CGAL/draw_polyhedron.h>
-#include <CGAL/draw_triangulation_3.h>
-#include <CGAL/draw_surface_mesh.h>
-
 #include <iostream>
 #include <string>
 #include "nlohmann-json/json.hpp"

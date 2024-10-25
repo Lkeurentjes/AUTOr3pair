@@ -34,12 +34,8 @@ namespace AUTOr3pair{
 
 	vector<Point3> make_boundary(CgalPolyhedron& poly) {
 		vector<Point3> ring;
-		CGAL::draw(poly);
-
-		//        map<Point3E, vector<Point3E>> HEdges;
 		Point3 source;
 		Point3 target;
-		std::cout << "print test " << poly.size_of_vertices() << endl;
 		for (auto he = poly.vertices_begin(); he != poly.vertices_end(); ++he) {
 			source = he->point();
 			std::cout << source << endl;
@@ -49,34 +45,6 @@ namespace AUTOr3pair{
 			std::cout << source << endl;
 		}
 
-		//        for (auto he = poly.halfedges_begin(); he != poly.halfedges_end() ; ++he) {
-		//            source = he->source()->point();
-		//            target = he->target()->point();
-		////            std::cout << "  halfedge from " << source << " to " << target << std::endl;
-		//            if (HEdges.contains(source)){
-		//                HEdges[source].push_back(target);
-		//            } else{
-		//                HEdges[source] = {target};
-		//            }
-		//        }
-		//        ring.push_back(source);
-		//        ring.push_back(target);
-		//        int i = 0;
-		//        while (true){
-		//
-		//            source = target;
-		//            if (HEdges[source][0] != ring[i]){
-		//                target = HEdges[source][0];
-		//            } else{
-		//                target = HEdges[source][1];
-		//            }
-		//
-		//            if (target == ring[0]){
-		//                break;
-		//            }
-		//            ring.push_back(target);
-		//            i++;
-		//        }
 		return ring;
 	}
 
