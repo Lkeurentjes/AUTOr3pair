@@ -1,6 +1,8 @@
 # Automatic repair of 3D (city) models: AUTOr3pair
 
-_Version 0.0 of proof of concept for thesis Lisa Keurentjes: 1 November release of 1.0_
+_Version 1.0 of proof of concept for my
+finished [thesis ""An automatic geometry repair framework for semantic 3D city models"](https://repository.tudelft.nl/record/uuid:b5de420d-e0a2-4265-8bac-e7ae12f75e8c),
+from now on it will be more of a hobby project_
 
 <p align="center">
   <img src="docs/_images/logo_black.png" alt="logo AUTOr3pair"/>
@@ -57,8 +59,12 @@ interface or within an Integrated Development Environment (IDE).
 Before running AUTOr3pair, the program must be built using CMake (use `-DLIBRARY=true` as cmake parameter to link
 val3dity correctly). AUTOr3pair depends on CGAL, val3dity, and Nlohmann-json:
 
-- **CGAL** needs to be installed. AUTOr3pair works with version 5.5 (the version where Alpha wrap packages are introduced) and higher, with testing done using version 6.0. Using 6.0 is recommended, as it gives fewer segmentation errors when using Nef polyhedrons and surface meshes.
-- **Val3dity** can be downloaded from their GitHub. AUTOr3pair depends on the "new" report structure, which has been implemented since version 2.3.1, but the experiments (see [Results](#results)) have been done with version 2.5.1. Val3dity depends on CGAL, Eigen (version used 3.4.0-4), and GEOS (version used 3.11.2).
+- **CGAL** needs to be installed. AUTOr3pair works with version 5.5 (the version where Alpha wrap packages are
+  introduced) and higher, with testing done using version 6.0. Using 6.0 is recommended, as it gives fewer segmentation
+  errors when using Nef polyhedrons and surface meshes.
+- **Val3dity** can be downloaded from their GitHub. AUTOr3pair depends on the "new" report structure, which has been
+  implemented since version 2.3.1, but the experiments (see [Results](#results)) have been done with version 2.5.1.
+  Val3dity depends on CGAL, Eigen (version used 3.4.0-4), and GEOS (version used 3.11.2).
 - **Nlohmann-json** is included in the third-party directory and is on version 3.11.2.
 
 The CMake build system manages the building process across different platforms,
